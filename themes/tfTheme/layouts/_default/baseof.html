@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+{{- partial "head.html" . -}}
+<body class="nk-body body-wider theme-dark mode-onepage">
+<div class="nk-wrap">
+    {{- partial "header.html" . -}}
+    <main class="nk-pages">
+        {{- block "main" . }}{{- end }}
+    </main>
+    <!-- Preloader -->
+    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand"
+                                                                                         src="/images/logo-white.png"
+                                                                                         alt=""></span></div>
+    <!-- JavaScript -->
+    {{- partial "javascript.html" . -}}
+    {{- partial "footer.html" . -}}
+</div>
+</body>
+</html>

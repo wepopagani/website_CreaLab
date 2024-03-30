@@ -1,0 +1,10 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Stay safer online'
+theme = "tfTheme"
+
+[[header.text]]
+text = 'a new ground breaking project'
+
+[minify.tdewolff.css]
+keepComments = false
