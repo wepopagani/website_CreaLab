@@ -1,8 +1,8 @@
 {{ $version := "?ver=210"}}
-{{ $js1 := resources.Get "js/jquery.bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-{{ $js2 := resources.Get "js/scripts.js" | resources.Minify | resources.Fingerprint "sha512" }}
-{{ $js3 := resources.Get "js/charts.js" | resources.Minify | resources.Fingerprint "sha512" }}
-{{ $js4 := resources.Get "js/toastr.examples.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $js1 := resources.Get "/js/jquery.bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $js2 := resources.Get "/js/scripts.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $js3 := resources.Get "/js/charts.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $js4 := resources.Get "/js/toastr.examples.js" | resources.Minify | resources.Fingerprint "sha512" }}
 
 <script defer  src='{{ printf "%s" $version |printf "%s%s" $js1.RelPermalink | printf "%s"  }}'></script>
 <script defer  src='{{ printf "%s" $version |printf "%s%s" $js2.RelPermalink | printf "%s"  }}'></script>

@@ -8,3 +8,9 @@ text = 'a new ground breaking project'
 
 [minify.tdewolff.css]
 keepComments = false
+
+[sitemap]
+  changeFreq = ''
+  filename = 'sitemap.xml'
+  priority = -1
+
