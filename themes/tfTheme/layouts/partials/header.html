@@ -10,7 +10,7 @@
                         <div class="row align-items-center justify-content-center">
                             <div class="col-lg-10 text-center">
                                 <div class="banner-gfx banner-gfx-auto animated" data-animate="fadeInUp" data-delay="1.25">
-                                    <img src="/images/banner-header.png" alt="gfx">
+                                    <img id="animation-img" src="/images/banner/1.png" alt="gfx">
                                 </div>
                                 <div class="banner-caption wide-auto">
                                     <div class="cpn-head mt-0">
@@ -36,5 +36,21 @@
 
         <!-- Place Particle Js -->
     </div>
+    <script>
+        const animationImg = document.getElementById('animation-img');
+        let frame = 1;
+        const totalFrames = 11;
+        const frameInterval = 1000; // Adjust the interval between frames (milliseconds)
+
+        function animateFrames() {
+            frame++;
+            if (frame > totalFrames) {
+                return
+            }
+            animationImg.src = '/images/banner/' + frame + '.png';
+        }
+
+        setInterval(animateFrames, frameInterval);
+    </script>
     <!-- .header-banner @e -->
 </header>
