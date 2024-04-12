@@ -1,0 +1,11 @@
+blockquote {
+    font-style: italic;
+    padding: 20px;
+    margin: 0 0 20px;
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+}
+
+pre{
+    padding: 5px;
+}

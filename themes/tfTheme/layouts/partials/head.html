@@ -12,8 +12,10 @@
     {{ $css1 := resources.Get "/css/vendor.bundle.css" | minify }}
     {{ $css2 := resources.Get "/css/style-lungwort.css" | minify }}
     {{ $css3 := resources.Get "/css/theme.css" | minify }}
+    {{ $css4 := resources.Get "/css/custom.css" | minify }}
     <link rel="stylesheet" href='{{ printf "%s" $version |printf "%s%s" $css1.RelPermalink | printf "%s"  }}'>
     <link rel="stylesheet" href='{{ printf "%s" $version |printf "%s%s" $css2.RelPermalink | printf "%s"  }}'>
     <!-- Extra CSS -->
     <link rel="stylesheet" href='{{ printf "%s" $version |printf "%s%s" $css3.RelPermalink | printf "%s"  }}'>
+    <link rel="stylesheet" href='{{ printf "%s" $version |printf "%s%s" $css4.RelPermalink | printf "%s"  }}'>
 </head>

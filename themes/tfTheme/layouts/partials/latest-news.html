@@ -12,7 +12,7 @@
           <a href="{{ .Permalink }}">
           <div class="news-item animated" data-animate="fadeInUp" data-delay=".6">
             <div class="news-thumb">
-              <img class="w-100" src="/blog/magic/static/cover.png" alt="">
+              <img class="w-100" src="{{ .Params.Image }}" alt="">
             </div>
             <div class="news-excerpt" style="background-color: #3d2ac4">
               <h5>{{ .Title}}</h5>
@@ -28,7 +28,7 @@
       </div>
       <ul class="pt-4 d-flex gaps g-3 justify-content-center  animated" data-animate="fadeInUp" data-delay=".9">
         <li>
-          <a href="/blog" class="btn btn-md btn-grad">Read All Articles</a>
+          <a href="/posts/" class="btn btn-md btn-grad">Read All Articles</a>
         </li>
       </ul>
     </div>
