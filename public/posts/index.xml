@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Stay safer online</title>
-    <link>https://teamfence.io/posts/</link>
+    <link>https://landing-page-5hv.pages.dev/posts/</link>
     <description>Recent content in Posts on Stay safer online</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Apr 2024 17:04:31 +0200</lastBuildDate>
-    <atom:link href="https://teamfence.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://landing-page-5hv.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Ads</title>
-      <link>https://teamfence.io/posts/google-ads/</link>
+      <link>https://landing-page-5hv.pages.dev/posts/google-ads/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
-      <guid>https://teamfence.io/posts/google-ads/</guid>
+      <guid>https://landing-page-5hv.pages.dev/posts/google-ads/</guid>
       <description></description>
     </item>
     <item>
       <title>Icmp Exf</title>
-      <link>https://teamfence.io/posts/icmp-exf/</link>
+      <link>https://landing-page-5hv.pages.dev/posts/icmp-exf/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:20 +0200</pubDate>
-      <guid>https://teamfence.io/posts/icmp-exf/</guid>
+      <guid>https://landing-page-5hv.pages.dev/posts/icmp-exf/</guid>
       <description>Icmp Exf osquery extension to exfiltrate data using ICMP protocol. original idea from [</description>
     </item>
     <item>
       <title>Lsass Extractor</title>
-      <link>https://teamfence.io/posts/lsass-extractor/</link>
+      <link>https://landing-page-5hv.pages.dev/posts/lsass-extractor/</link>
       <pubDate>Thu, 11 Apr 2024 16:39:49 +0200</pubDate>
-      <guid>https://teamfence.io/posts/lsass-extractor/</guid>
+      <guid>https://landing-page-5hv.pages.dev/posts/lsass-extractor/</guid>
       <description>Introduction In TeamFence, we strongly believe that nowadays it&amp;rsquo;s increasingly important for an offensive operator to understand the details behind the techniques and tools.&#xA;For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us to then re-implement the logic into a tool tailored to our future needs.&#xA;Note: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation workstation.</description>
     </item>
   </channel>
