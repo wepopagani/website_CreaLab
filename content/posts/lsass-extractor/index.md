@@ -175,3 +175,54 @@ Now it is possible to extract the username and the domain of the user by followi
 memory the exact number of bytes that are stored in the max length field.
 
 <img src="/posts/lsass-extractor/static/logon-structure.png" alt="schema to extract the IV" style="display: block; margin-left: auto; margin-right: auto; width: 650px; height: auto;">
+
+#### Credential List
+
+For the final part of the extraction, we need to focus on the credential lists. Starting from the pointerToDomain saw in
+the previous section, by advancing an offset of 96 bytes, the memory address
+where the first
+'Credential List' is located can be found. Once the value at the pointed address is read as an uint64_t and subsequently
+interpreted as a memory address, it will provide the memory address where the second 'Credential List' is situated, and
+this process continues iteratively. Since it is a circular linked list, when the value matches the memory address of the
+first struct, it indicates that the entire list has been traversed.
+
+Every entry in the linked list of 'Credential List' contains its own associated linked list known as the 'Primary
+Credential List'. To retrieve the address of the first entry in this linked list, it is necessary to advance by an
+offset of 16 bytes and read this memory area as a char pointer.
+
+The following schema illustrates the structure of the lists:
+<img src="/posts/lsass-extractor/static/credlist-struct.png" alt="schema to extract the IV" style="display: block; margin-left: auto; margin-right: auto; width: 650px; height: auto;">
+
+Within this final structure, the encrypted NTLM hash can be found. Much like the linked list of 'Credential List',
+interpreting the number at the address of the first entry of the Primary Credential as an address leads to the discovery
+of the subsequent struct, following a circular list. By following the structure, it is possible to retrieve
+the size of the encrypted NTLM and the memory address where this NTLM is located, allowing for its subsequent reading
+and
+extraction.
+
+## NTLM decryption
+
+The encryption algorithm used to encrypt the hash cannot be determined in advance. To identify the algorithm, the
+encrypted NTLM is divided by 8, and its remainder is checked to see if the NTLM length is divisible by 8. If the NTLM
+length is evenly divisible by 8, AES encryption is employed. Conversely, if the NTLM length is not divisible by 8,
+indicating an irregular length, 3DES encryption is utilized.
+
+The following pseudocode represents the algorithm selection logic:
+
+```c
+if ( encryptedNTLMLength % 8 != 0) {
+ // Encrypted cred was empty ?
+} else {
+ // Prepare algorithm functions and IV
+ if ( encryptedNTLMLength % 8) {
+    // Perform AES decryption using the provided key
+ } else {
+    // Perform 3 DES decryption using the provided key
+ }
+}
+```
+
+Once the algorithm used has been identified, the remaining task is to apply the acquired information using the bcrypt.h
+library, following the same approach as MSV. By configuring the required variables to utilize the correct algorithm and
+subsequently invoking the BCrypt- Decrypt function with the encrypted key and the recovered IV, it becomes possible to
+retrieve the plaintext NTLM hash.
