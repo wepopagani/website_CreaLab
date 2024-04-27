@@ -3,74 +3,80 @@
 {{- partial "head.html" . -}}
 <body class="nk-body body-wider theme-dark mode-onepage">
 <div class="nk-wrap">
-  <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
-    <!-- Header @s -->
-    {{- partial "navbar.html" . -}}
-    <!-- Banner @s -->
-    <div class="header-banner bg-theme-grad">
-      <div class="nk-banner">
-        <div class="banner banner-page">
+    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+        <!-- Header @s -->
+        {{- partial "navbar.html" . -}}
+        <!-- Banner @s -->
+        <div class="header-banner bg-theme-grad">
+            <div class="nk-banner">
+                <div class="banner banner-page">
+                </div>
+            </div><!-- .nk-banner -->
+            <div class="nk-ovm shape-a-sm"></div>
         </div>
-      </div><!-- .nk-banner -->
-      <div class="nk-ovm shape-a-sm"></div>
-    </div>
-    <!-- .header-banner @e -->
-  </header>
-  <main class="nk-pages">
-    <section class="section bg-theme-dark-alt tc-light" id="services">
-      <div class="container">
-        <div class="nk-block nk-block-blog">
-          <div class="row">
-            {{ range .Pages }}
-            <div class="col-lg-4 col-sm-6">
-              <div class="blog">
-                <div class="blog-photo">
-                  <img src="{{ .Params.image }}" alt="blog-thumb">
-                </div>
-                <div class="blog-text">
-                  <ul class="blog-meta">
-                    <li><a href="#">{{ .Params.date.Format "January 2, 2006" }}</a></li>
-                    {{ $taxo := "tags" }}
-                    {{ with .Param $taxo }}
-                    <ul class="tags__list">
-                      {{ range $index, $tag := . }}
-                      {{ with $.Site.GetPage (printf "/%s/%s" $taxo $tag) -}}
-                      <li class="tag__item">
-                        <a class="tag__link" href="{{ .Permalink }}">{{ $tag }}</a>
-                      </li>
-                      {{- end -}}
-                      {{- end -}}
-                    </ul>
-                    {{ end }}
-                  </ul>
-                  <h4 class="title title-sm"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                  {{ if gt (len .Summary) 100 }}
-                  <p>{{slicestr .Summary 0 100}}...</p>
-                    {{ else }}
-                  <p>{{slicestr .Summary}}...</p>
-                  {{ end }}
-                </div>
-              </div><!-- .blog -->
-            </div><!-- .col -->
-            {{ end }}
-          </div><!-- .row -->
-          <nav class="w-100 d-flex">
-            <ul class="pagination">
-              <li><a class="active" href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#"><em class="icon ti ti-angle-right"></em></a></li>
-            </ul>
-          </nav>
-        </div><!-- .nk-block -->
-      </div><!-- .container -->
-    </section><!-- .section -->
-  </main><!-- .nk-pages -->
-  <!-- Preloader -->
-  <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="/images/logo-white.png" alt=""></span></div>
-  <!-- JavaScript -->
-  {{- partial "javascript.html" . -}}
-  {{- partial "footer.html" . -}}
+        <!-- .header-banner @e -->
+    </header>
+    <main class="nk-pages">
+        <section class="section bg-theme-dark-alt tc-light" id="services">
+            <div class="container">
+                <div class="nk-block nk-block-blog">
+                    <div class="row">
+                        {{ range .Pages }}
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="blog">
+                                <div class="blog-photo">
+                                    <div class="img-wrapper-home">
+                                        <div class="box box1">
+                                            <img src="{{ .Params.image }}" alt="blog-thumb">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-text">
+                                    <ul class="blog-meta">
+                                        <li><a href="#">{{ .Params.date.Format "January 2, 2006" }}</a></li>
+                                        {{ $taxo := "tags" }}
+                                        {{ with .Param $taxo }}
+                                        <ul class="tags__list">
+                                            {{ range $index, $tag := . }}
+                                            {{ with $.Site.GetPage (printf "/%s/%s" $taxo $tag) -}}
+                                            <li class="tag__item">
+                                                <a class="tag__link" href="{{ .Permalink }}">{{ $tag }}</a>
+                                            </li>
+                                            {{- end -}}
+                                            {{- end -}}
+                                        </ul>
+                                        {{ end }}
+                                    </ul>
+                                    <h4 class="title title-sm"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                                    {{ if gt (len .Summary) 100 }}
+                                    <p>{{slicestr .Summary 0 100}}...</p>
+                                    {{ else }}
+                                    <p>{{slicestr .Summary}}...</p>
+                                    {{ end }}
+                                </div>
+                            </div><!-- .blog -->
+                        </div><!-- .col -->
+                        {{ end }}
+                    </div><!-- .row -->
+                    <nav class="w-100 d-flex">
+                        <ul class="pagination">
+                            <li><a class="active" href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#"><em class="icon ti ti-angle-right"></em></a></li>
+                        </ul>
+                    </nav>
+                </div><!-- .nk-block -->
+            </div><!-- .container -->
+        </section><!-- .section -->
+    </main><!-- .nk-pages -->
+    <!-- Preloader -->
+    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand"
+                                                                                         src="/images/logo-white.png"
+                                                                                         alt=""></span></div>
+    <!-- JavaScript -->
+    {{- partial "javascript.html" . -}}
+    {{- partial "footer.html" . -}}
 </div>
 </body>
 </html>

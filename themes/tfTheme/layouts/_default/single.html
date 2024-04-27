@@ -40,7 +40,9 @@
                             <div class="row justify-content-center">
                                 <div class="col-xl-10 col-lg-12">
                                     <div class="blog-featured">
-                                        <img class="round "src="{{ .Params.Image }}" alt="featured">
+                                        <div class="img-wrapper-single">
+                                            <img class="round " src="{{ .Params.Image }}" alt="featured">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-10">
@@ -59,10 +61,10 @@
                                     </div>
                                     <ul class="blog-tags">
                                         {{ with .Params.tags }}
-                                            {{ i18n "Tag" }}
-                                            {{ range . }}
+                                        {{ i18n "Tag" }}
+                                        {{ range . }}
                                         <li><a href="#">{{.}}</a></li>
-                                            {{ end }}
+                                        {{ end }}
                                         {{ end }}
                                     </ul>
                                 </div>

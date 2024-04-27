@@ -30,7 +30,12 @@
                                             <h2 class="title"><a href="#">{{ .Title }}</a></h2>
                                             <div class="col-xl-10 col-lg-12">
                                                 <div class="blog-featured">
-                                                    <img class="round" src="{{ .Params.image }}" alt="featured">
+                                                    <div class="img-wrapper-single">
+                                                        <div class="box box1">
+                                                            <img class="round " src="{{ .Params.Image }}"
+                                                                 alt="featured">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             {{ .Content }}
