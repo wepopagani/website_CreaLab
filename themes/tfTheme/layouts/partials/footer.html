@@ -33,7 +33,7 @@
                 </div>
                 <!-- .block @e -->
             </div>
-            <div class="nk-ovm ovm-top ovm-h-50 bg-theme-alt"></div><!-- .nk-ovm -->
+            <div id="space-to-color" class="nk-ovm ovm-top ovm-h-50 bg-theme-alt"></div><!-- .nk-ovm -->
         </div>
         <div class="section section-footer section-m tc-light bg-transparent ov-h">
             <div class="container">
@@ -64,4 +64,20 @@
             <div class="nk-ovm shape-s"></div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the current URL path
+            var currentPath = window.location.pathname;
+
+            // Check if the current path starts with '/posts'
+            if (currentPath.startsWith('/posts')) {
+                // Select the div with id 'space-to-color'
+                var divElement = document.getElementById('space-to-color');
+
+                // Remove the class 'bg-theme-alt' from the div
+                divElement.style.backgroundColor = 'white';
+                divElement.classList.remove('bg-theme-alt');
+            }
+        });
+    </script>
 </section>
