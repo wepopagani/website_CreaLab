@@ -1,6 +1,6 @@
 +++
 title = 'Lsass Extractor'
-date = 2024-04-11T16:39:49+02:00
+date = 2023-09-16T16:39:49+02:00
 draft = false
 image = '/posts/lsass-extractor/static/cover.png'
 +++
