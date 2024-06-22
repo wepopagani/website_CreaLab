@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Stay safer online</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Apr 2024 17:04:31 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 17:04:20 +0200</lastBuildDate>
     <atom:link href="https://landing-page-5hv.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML Smuggling Detection</title>
+      <link>https://landing-page-5hv.pages.dev/posts/html-smuggling/</link>
+      <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
+      <guid>https://landing-page-5hv.pages.dev/posts/html-smuggling/</guid>
+      <description>Introduction HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals, and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML smuggling to target government and diplomatic organizations worldwide.</description>
+    </item>
     <item>
       <title>Malicious Ads</title>
       <link>https://landing-page-5hv.pages.dev/posts/google-ads/</link>
@@ -16,16 +23,9 @@
       <description>Introduction In today&amp;rsquo;s world of computers, it&amp;rsquo;s super easy to find stuff online. We often use search engines like Google, Bing, or DuckDuckGo to help us find what we&amp;rsquo;re looking for. Whether we want to visit a website we know or find something new, search engines are a big part of how we use the internet.&#xA;But what happens when we trust these search engines too much? Picture this: you type the name of a famous company into Google, and you click on a link that looks legit, but it&amp;rsquo;s actually a trick.</description>
     </item>
     <item>
-      <title>test</title>
-      <link>https://landing-page-5hv.pages.dev/posts/test/</link>
-      <pubDate>Thu, 11 Apr 2024 17:04:20 +0200</pubDate>
-      <guid>https://landing-page-5hv.pages.dev/posts/test/</guid>
-      <description>Icmp Exf osquery extension to exfiltrate data using ICMP protocol. original idea from [</description>
-    </item>
-    <item>
       <title>Lsass Extractor</title>
       <link>https://landing-page-5hv.pages.dev/posts/lsass-extractor/</link>
-      <pubDate>Thu, 11 Apr 2024 16:39:49 +0200</pubDate>
+      <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
       <guid>https://landing-page-5hv.pages.dev/posts/lsass-extractor/</guid>
       <description>Introduction In TeamFence, we strongly believe that nowadays it&amp;rsquo;s increasingly important for an offensive operator to understand the details behind the techniques and tools.&#xA;For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us to then re-implement the logic into a tool tailored to our future needs.&#xA;Note: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation workstation.</description>
     </item>

@@ -1,6 +1,6 @@
 +++
 title = 'HTML Smuggling Detection'
-date = 2024-06-22T17:04:20+02:00
+date = 2024-06-21T17:04:20+02:00
 draft = false
 image = '/posts/html-smuggling/static/html-smuggling.png'
 +++

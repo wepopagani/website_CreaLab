@@ -217,7 +217,7 @@
                 </div>
                 
             </div>
-            <div class="nk-ovm ovm-top ovm-h-50 bg-theme-alt"></div>
+            <div id="space-to-color" class="nk-ovm ovm-top ovm-h-50 bg-theme-alt"></div>
         </div>
         <div class="section section-footer section-m tc-light bg-transparent ov-h">
             <div class="container">
@@ -237,9 +237,6 @@
                                 <a href="./" class="footer-logo">
                                     <img src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo" style="width: 25%">
                                 </a>
-                                <div class="copyright-text copyright-text-s3 pdt-m">
-                                    <p><span class="d-sm-block">Copyright &copy; 2022, ICO Crypto. Template Made By <a href="./">Softnio</a> &amp; Handcrafted by iO. </span>All trademarks and copyrights belong to their respective owners.</p>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -248,6 +245,22 @@
             <div class="nk-ovm shape-s"></div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            var currentPath = window.location.pathname;
+
+            
+            if (currentPath.startsWith('/posts')) {
+                
+                var divElement = document.getElementById('space-to-color');
+
+                
+                divElement.style.backgroundColor = 'white';
+                divElement.classList.remove('bg-theme-alt');
+            }
+        });
+    </script>
 </section></div>
 </body>
 </html>
