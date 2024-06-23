@@ -31,3 +31,7 @@ pre{
 .box1 img {
     object-fit: cover;
 }
+
+body {
+    font-family: 'NBA', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
