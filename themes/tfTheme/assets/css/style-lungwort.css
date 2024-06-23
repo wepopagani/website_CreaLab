@@ -4811,6 +4811,13 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .feature:hover .link-feature-s1 { bottom: -25px; opacity: 1; }
 
+@media (max-width: 768px) {  /* Adjust the max-width value to your needs */
+  .link-feature-s1 {
+    bottom: -25px;
+    opacity: 1;
+  }
+}
+
 @media (min-width: 768px) { .feature-s10 { padding: 40px 45px 50px 35px; }
   .feature-s10-left { margin-right: -22.5px; margin-top: 60px; padding-bottom: 50px; }
   .feature-s10-right { margin-left: -22.5px; margin-bottom: 60px; margin-top: 0; }

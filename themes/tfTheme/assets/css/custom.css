@@ -32,6 +32,12 @@ pre{
     object-fit: cover;
 }
 
-body {
-    font-family: 'NBA', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif;
+@media (max-width: 768px) {  /* Adjust the max-width value to your needs */
+    #contact-image{
+        width: 50%; /* Set width to 50% on mobile */
+    }
+    #img-container img {
+        width: 100vw;
+        height: auto;
+    }
 }
