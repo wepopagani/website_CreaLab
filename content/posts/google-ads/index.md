@@ -122,7 +122,7 @@ We hope you found this blog post helpful. If you have any questions, please feel
 
 <ul class="pt-4 d-flex gaps g-3 justify-content-center  animated" data-animate="fadeInUp" data-delay=".9">
     <li>
-        <a href="https://google.com" class="btn btn-md btn-grad" data-overlay="bg-theme-grad-alternet"
+        <a href="#" class="btn btn-md btn-grad" data-overlay="bg-theme-grad-alternet"
            style="position: relative; top: 50px;">Install BrowserFence</a>
     </li>
 </ul>

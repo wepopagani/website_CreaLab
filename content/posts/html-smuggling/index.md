@@ -158,12 +158,12 @@ behaviors associated with HTML smuggling, such as the creation and manipulation 
 malicious payloads in memory.
 
 Protect your organization today with BrowserFence and stay ahead in the ever-evolving landscape of cybersecurity threats.
-Contact us to learn more about how BrowserCiao can defend your digital assets against HTML smuggling and ensure a secure
+Contact us to learn more about how BrowserFence can defend your digital assets against HTML smuggling and ensure a secure
 computing environment for your business.
 
 <ul class="pt-4 d-flex gaps g-3 justify-content-center  animated" data-animate="fadeInUp" data-delay=".9">
     <li>
-        <a href="https://google.com" class="btn btn-md btn-grad" data-overlay="bg-theme-grad-alternet"
+        <a href="#" class="btn btn-md btn-grad" data-overlay="bg-theme-grad-alternet"
            style="position: relative; top: 50px;">Install BrowserFence</a>
     </li>
 </ul>
