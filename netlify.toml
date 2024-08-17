@@ -1,8 +1,6 @@
 [build]
 publish = "public"
-command = "yarn project-setup && yarn build"
+command = "hugo"
 
 [build.environment]
-HUGO_VERSION = "0.128.0"
-GO_VERSION = "1.22.4"
-HUGO_BASEURL = "/"
+HUGO_VERSION = "0.128.2"
