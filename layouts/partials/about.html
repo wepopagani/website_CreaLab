@@ -1,0 +1,25 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+<section class="section bg-theme-alt tc-light" id="about">
+    <div class="container">
+        <!-- Block @s -->
+        <div class="nk-block nk-block-features-s2">
+            <div class="row align-items-center flex-row-reverse gutter-vr-30px">
+                <div class="col-lg-5">
+                    <div class="gfx py-4 mx-auto mx-lg-0 animated" data-animate="fadeInUp" data-delay=".1">
+                        <img src="/images/fencing-team.png" alt="gfx">
+                    </div>
+                </div><!-- .col -->
+                <div class="col-lg-7">
+                    <!-- Section Head @s -->
+                    <div class="nk-block-text pdb-r">
+                        <h6 class="title title-xs title-s1 tc-primary">{{i18n "about_title"}}</h6>
+                        <h2 class="title title-semibold">{{i18n "about_subtitle"}}</h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">{{i18n "about_descr1"}}</p>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".3">{{i18n "about_descr2"}}</p>
+                    </div><!-- .section-head @e -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .block @e -->
+    </div>
+</section>

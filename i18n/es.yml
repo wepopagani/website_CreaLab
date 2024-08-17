@@ -1,0 +1,129 @@
+## navbar
+- id: contact
+  translation: Contáctanos
+## about
+- id: about_title
+  translation: Nuestro propósito
+- id: about_subtitle
+  translation: TeamFence
+- id: about_descr1
+  translation: En TeamFence nos consideramos expertos en esgrima, listos para enfrentarnos al implacable asalto de malware y amenazas cibernéticas. Nuestro enfoque no se trata solo de construir defensas estáticas; se trata de participar en un duelo dinámico y estratégico, donde anticipamos y neutralizamos cada movimiento del adversario. Nuestro objetivo es perfeccionar nuestras habilidades y técnicas a través de la investigación continua en seguridad, asegurando que permanezcamos ágiles y efectivos en la protección de las fortalezas digitales de nuestros clientes contra los ataques cibernéticos más sofisticados.
+- id: about_descr2
+  translation: Al continuar expandiendo los límites de la investigación en seguridad, fortalecemos las defensas de las organizaciones de nuestros clientes, protegiendo sus valiosos datos y activos de amenazas maliciosas. Con nuestra experiencia y compromiso inquebrantable, nos posicionamos como los guardianes de los dominios digitales de nuestros clientes, asegurando que sus estrategias cibernéticas permanezcan ágiles e impenetrables frente a las amenazas en evolución.
+##browserfence
+- id: brows_title
+  translation: Presentando BrowserFence
+- id: brows_description
+  translation: Mejora la seguridad de tu equipo con BrowserFence, tu solución integral para mejorar la seguridad de la navegación, proporcionando tranquilidad y protección contra las amenazas en línea.
+- id: brows_l1
+  translation: Integra sin esfuerzo nuestra extensión de seguridad en tus sistemas existentes para una mayor protección.
+- id: brows_l2
+  translation: Desde malware hasta ataques de phishing, nuestra extensión ofrece una defensa robusta contra una amplia gama de amenazas.
+- id: brows_l3
+  translation: Protege tus sistemas sin comprometer el rendimiento o la velocidad.
+- id: brows_l4
+  translation: Mantente un paso adelante con actualizaciones y parches automáticos, asegurando que tus medidas de seguridad siempre estén actualizadas.
+- id: brows_btn
+  translation: Saber más
+- id: brows_l5
+  translation: A través de años de experiencia, hemos llegado a reconocer que el navegador es a menudo un eslabón débil en la seguridad individual. Está constantemente implicado en varias etapas de la "cadena de ataque", la progresión de un ataque cibernético. Esto se debe a su papel como puerta de entrada principal para los atacantes, facilitando la entrega de software malicioso y el robo de datos sensibles o credenciales. En esencia, el navegador sigue siendo la vulnerabilidad principal y más accesible para los posibles agresores.
+- id: brows_l6
+  translation: Monitorear este vector de manera efectiva nos permite frustrar la gran mayoría de los compromisos de los usuarios. La vigilancia activa de las actividades del navegador permite la detección y neutralización rápida de amenazas, reduciendo significativamente el riesgo de violaciones de ciberseguridad.
+- id: brows_l7
+  translation: Todavía estamos en las primeras etapas de desarrollo.
+- id: brows_l8
+  translation: Suscríbete al boletín informativo y mantente informado.
+##contact
+- id: contact_title
+  translation: Ponerse en contacto
+- id: contact_l1
+  translation: ¿Tienes alguna pregunta? Contáctanos y te responderemos en breve.
+- id: name
+  translation: Nombre completo
+- id: company
+  translation: Nombre de la empresa
+- id: phone
+  translation: Número de teléfono
+- id: email
+  translation: Tu correo electrónico
+- id: message
+  translation: Tu mensaje
+- id: contact_btn
+  translation: Enviar
+##faqs
+- id: faqs_subtitle
+  translation: Preguntas frecuentes
+- id: faqs_description
+  translation: A continuación, hemos proporcionado un poco de información sobre TeamFence. Si tienes alguna otra pregunta, por favor ponte en contacto con nosotros utilizando el formulario de contacto a continuación.
+- id: general_tab
+  translation: General
+- id: browserfence_tab
+  translation: BrowserFence
+- id: question_ctem
+  translation: ¿Qué es la Gestión Continua de Exposición a Amenazas (CTEM)?
+- id: answer_ctem
+  translation: La Gestión Continua de Exposición a Amenazas (CTEM) es un marco de ciberseguridad proactivo diseñado para evaluar, priorizar y mitigar continuamente las amenazas cibernéticas. A diferencia de las pruebas de penetración tradicionales, que proporcionan una instantánea de tu postura de seguridad en un momento dado, el CTEM ofrece un enfoque continuo y en tiempo real para identificar vulnerabilidades, gestionar exposiciones y fortalecer tus defensas de seguridad.
+- id: question_ctem_vs_pen_testing
+  translation: ¿Por qué debería elegir CTEM en lugar de pruebas de penetración estándar?
+- id: answer_ctem_vs_pen_testing
+  translation: CTEM ofrece varias ventajas sobre las pruebas de penetración estándar, incluyendo
+- id: txt1
+  translation: La vigilancia continua te permite adelantarte a las amenazas emergentes y adaptarte rápidamente a nuevas vulnerabilidades.
+- id: txt2
+  translation: CTEM te ayuda a enfocarte en las amenazas más críticas primero, optimizando tus recursos y minimizando el riesgo.
+- id: txt3
+  translation: A diferencia de las pruebas puntuales, CTEM cubre todo tu panorama de seguridad, asegurando que no queden brechas sin abordar.
+- id: question_ctem_integration
+  translation: ¿Cómo se integra CTEM con mi infraestructura de seguridad existente?
+- id: answer_ctem_integration
+  translation: CTEM está diseñado para integrarse perfectamente con tus herramientas y procesos de seguridad existentes. Mejora tus defensas actuales al proporcionar visibilidad continua de posibles amenazas y exposiciones. El marco es flexible y puede personalizarse para alinearse con las necesidades específicas de tu organización, asegurando que complemente en lugar de interrumpir tus esfuerzos de seguridad existentes.
+- id: question_employee_awareness
+  translation: ¿Qué es la capacitación en concienciación para empleados y por qué es crucial para mi organización?
+- id: answer_employee_awareness
+  translation: La capacitación en concienciación para empleados es un programa educativo diseñado para informar y educar a los empleados sobre las mejores prácticas, políticas y procedimientos de ciberseguridad. Es crucial para tu organización porque el error humano y la negligencia son contribuyentes significativos a las violaciones de ciberseguridad. Al educar a tus empleados sobre amenazas potenciales, ataques de phishing, higiene de contraseñas y prácticas de navegación segura, los capacitas para reconocer y mitigar riesgos de seguridad, fortaleciendo así la postura de seguridad general de tu organización.
+- id: question_browserfence_vs_edr
+  translation: ¿Por qué debería considerar BrowserFence si ya tengo una solución EDR?
+- id: answer_browserfence_vs_edr
+  translation: Una solución de Defensa y Respuesta para Navegadores (BDR) complementa un sistema de Detección y Respuesta de Endpoints (EDR) al enfocarse específicamente en proteger y monitorear los navegadores web. Mejora la seguridad al proporcionar una defensa especializada contra amenazas basadas en navegadores, como sitios web maliciosos, ataques de phishing y contrabando de HTML, que pueden no ser adecuadamente abordados por las soluciones EDR tradicionales enfocadas en actividades de endpoints más allá de los navegadores.
+- id: question_browserfence_vs_network_devices
+  translation: ¿Qué ventajas me ofrece en comparación con las protecciones proporcionadas por dispositivos de red?
+- id: answer_browserfence_vs_network_devices
+  translation: Los dispositivos de red, aunque proporcionan ciertas protecciones como el filtrado DNS, se limitan a analizar datos macro como el dominio y su reputación. BrowserFence analiza en tiempo real el contenido de las páginas, los recursos compartidos y las modificaciones del DOM, minimizando la complejidad de la instalación en comparación con los dispositivos.
+- id: question_browserfence_suitability
+  translation: ¿Es BrowserFence adecuado para pequeñas o grandes empresas?
+- id: answer_browserfence_suitability
+  translation: BrowserFence es adecuado tanto para pequeñas como para grandes empresas. Para las pequeñas empresas, ofrece facilidad de implementación sin una configuración de red compleja, al tiempo que proporciona acceso al soporte de IA para mejorar las medidas de seguridad. Las grandes empresas pueden beneficiarse del plan Enterprise de BrowserFence, que ofrece características escalables y soluciones de seguridad robustas adaptadas a las necesidades de las empresas.
+- id: question_browserfence_compliance
+  translation: ¿BrowserFence me ayuda a cumplir con las nuevas leyes?
+- id: answer_browserfence_compliance
+  translation: BrowserFence ayuda a cumplir con las leyes de protección de datos como la Ley Federal de Protección de Datos de Suiza (LPD) y el Reglamento General de Protección de Datos (GDPR) en Europa al proporcionar medidas de seguridad robustas adaptadas a la protección de los datos y la privacidad del usuario. Además, BrowserFence apoya los esfuerzos de cumplimiento a través de iniciativas de capacitación para empleados, asegurando que el personal esté informado y preparado para manejar los riesgos de ciberseguridad.
+##footer
+- id: footer1
+  translation: No te pierdas nada, mantente actualizado
+- id: footer2
+  translation: Suscríbete para recibir actualizaciones y noticias del mercado. Suscríbete a nuestro boletín y recibe actualizaciones sobre TeamFence.
+- id: Subscribe
+  translation: Suscribirse
+##header
+- id: header_descr
+  translation: Defiende tu empresa contra las amenazas cibernéticas con nuestro enfoque proactivo y experiencia en hacking ético.
+- id: header_btn1
+  translation: Ver nuestros servicios
+- id: header_btn2
+  translation: Contáctanos
+##blog
+- id: blog_title
+  translation: Ver nuestras últimas publicaciones
+- id: blog_btn
+  translation: Leer todos los artículos
+##services
+- id: services_title
+  translation: Nuestros servicios
+- id: services_subtitle
+  translation: Confía en nosotros, juntos podemos proteger tus amenazas.
+- id: ctem_service_description
+  translation: CTEM es un marco continuo y proactivo que identifica y aborda vulnerabilidades de ciberseguridad para mejorar la protección general.
+- id: web_security_service_description
+  translation: Nuestro servicio de seguridad web identifica vulnerabilidades utilizando enfoques de caja negra y caja blanca, garantizando una protección integral para tus aplicaciones.
+- id: security_awareness_service_description
+  translation: Nuestro servicio de concienciación en seguridad eleva la experiencia de tu equipo al proporcionar las herramientas y conocimientos necesarios para identificar y prevenir proactivamente las amenazas cibernéticas.

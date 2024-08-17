@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    
+    <link rel="shortcut icon" href="/images/favicon.png">
+    
+    <title>TeamFence</title>
+    
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href='/css/vendor.bundle.min.css?ver=210'>
+    <link rel="stylesheet" href='/css/style-lungwort.min.css?ver=210'>
+    
+    <link rel="stylesheet" href='/css/theme.min.css?ver=210'>
+    <link rel="stylesheet" href='/css/custom.min.css?ver=210'>
+</head>
+<body class="nk-body body-wider theme-dark mode-onepage">
+<div class="nk-wrap">
+    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+        <div class="header-main">
+    <div class="header-container container">
+        <div class="header-wrap">
+            
+            <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+                <a href="/" class="logo-link">
+                    <img class="logo-dark" src="/images/logo.png" srcset="/images/logo.png" alt="logo">
+                    <img class="logo-light" src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo">
+                </a>
+            </div>
+            
+            <div class="header-nav-toggle">
+                <a href="/" class="navbar-toggle" data-menu-toggle="example-menu-04">
+                    <div class="toggle-line">
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="header-navbar header-navbar-s1">
+                <nav class="header-menu" id="example-menu-04">
+                    <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
+                        <li class="menu-item"><a class="menu-link nav-link" href="/">Home</a></li>
+                        <li class="menu-item"><a class="menu-link nav-link" href="/#services">Services</a></li>
+                        <li class="menu-item"><a class="menu-link nav-link" href="/#about">Company</a></li>
+                        <li class="menu-item"><a class="menu-link nav-link" href="/posts/">Blog</a></li>
+                        <li class="menu-item"><a class="menu-link nav-link" href="/about/">About Us</a></li>
+                        
+                    </ul>
+                    <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
+                        <li><a href="#contact" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round"><span>Contact Us</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="header-banner bg-theme-grad">
+            <div class="nk-banner">
+                <div class="banner banner-page">
+                    <div class="banner-wrap">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-6 col-lg-9">
+                                    <div class="banner-caption cpn tc-light text-center">
+                                        <div class="cpn-head">
+                                            <h2 class="title ttu">TeamFence Blog</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-ovm shape-a-sm"></div>
+        </div>
+        
+    </header>
+</div>
+<main class="nk-pages">
+    <section class="section bg-white">
+        <div class="container">
+            <div class="nk-block nk-block-blog">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="blog-details">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-10 col-lg-12">
+                                    <div class="blog-featured">
+                                        <div class="img-wrapper-single">
+                                            <img class="round post-image" src="/posts/lsass-extractor/static/cover.png" alt="post-image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8 col-lg-10">
+                                    <ul class="blog-meta">
+                                        <li><a href="#">September 16, 2023</a></li>
+                                        
+                                    </ul>
+                                    <div class="blog-content">
+                                        <h2 class="title"><a href="#">Lsass Extractor</a></h2>
+                                        <h2 id="introduction">Introduction</h2>
+<p>In TeamFence, we strongly believe that nowadays it&rsquo;s increasingly important for an offensive operator to understand the
+details behind the techniques and tools.</p>
+<p>For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us
+to then re-implement the logic into a tool tailored to our future needs.</p>
+<p><strong>Note</strong>: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation
+workstation.</p>
+<h2 id="why-lsass">Why LSASS?</h2>
+<p>Before diving into the technical details, it&rsquo;s important to ask: Why are we doing this?</p>
+<p>When a hacker gains access to a target machine running Windows, one of the crucial initial steps involves obtaining
+credentials. Windows offers multiple potential targets, but two primary repositories stand out: the local security
+database (Security Account Manager) and the LSASS (Local Security Authority Subsystem Service) process.</p>
+<p>In this post we are going to work on LSASS, which serves as a pivotal component within Windows, overseeing
+authentication. As the central hub for
+authentication requests from various services, it plays a pivotal role in streamlining the authentication flow. This
+process implements various authentication
+packages such as NTLM, Kerberos, WDigest, among others. Consequently, it presents an intricate, valuable, and
+information-rich target
+for hackers.</p>
+<h2 id="ntlm-hashes">NTLM Hashes</h2>
+<p>As we saw in the previous section, LSASS handles several authentication packages, including NTLM. NTLM is a
+challenge-response authentication protocol that is widely used in Windows environments. When a user logs into a Windows
+machine, the system stores the user&rsquo;s credentials in memory. This information includes the user&rsquo;s password in the form
+of an NTLM hash.</p>
+<p>In this post, we will focus on extracting these NTLM hashes from the LSASS process, which will allow us to understand
+the underlying logic in a easier way.</p>
+<p>In the following image we can see the internal LSASS structure, highlighting where the NTLM hashes are stored.</p>
+<p><img alt="lsass" src="/posts/lsass-extractor/static/lsass-structure.png"></p>
+<h2 id="where-are-all-the-pieces">Where are all the pieces?</h2>
+<p>To start, it&rsquo;s crucial to understand where the information is stored and in what format. The LSASS process is a critical
+component, and not all the information is stored in plain text. In this case, the NTLM hashes are encrypted. So, to
+extract them, we need to locate the keys for decryption. The following diagram illustrates which modules are involved in
+the handling of the keys and the credentials.</p>
+<!-- raw HTML omitted -->
+<p>It&rsquo;s important to remember that the cryptographic material of the LSASS process is runtime data, meaning it changes
+after every reboot. Consequently, we must extract them each time to ensure up-to-date information.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>&#34;It is interesting to note that the encryption management is carried out through LsaProtectMemory, which is a wrapper
+</span></span><span style="display:flex;"><span>for LsaEncryptMemory, which in turn is a wrapper for BCryptEncrypt, which is a common encryption function present in
+</span></span><span style="display:flex;"><span>bcrypt.h&#34;
+</span></span></code></pre></div><h2 id="modules-templates">Modules templates</h2>
+<p>At this point we have a clear understanding in which area of the memory all the pieces are stored. Now we need to find a
+way to extract them.
+By analyzing the code of PyPyKatz, a Python version of Mimikatz, we can understand the approach used to extract the keys
+and the credentials.</p>
+<p>First of all we need to extract some information about the system: ProcessorArchitecture, BuildNumber, and from the &quot;
+ModuleListStream&quot; the TimeDateStamp of &ldquo;lsasrv.dll&rdquo;.</p>
+<p>Once we have this information, we can use it to identify the correct template to use for the extraction. The templates
+are classes that contain the signature and offsets that allow us to know how to move within the memory to extract the
+keys and the credentials.</p>
+<p>In our case, which is a Windows 11 Enterprise Evaluation, the template for the lsasrv.dll part is the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LSA_x64_6</span>(LsaTemplate_NT6):
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">def</span> __init__(self):
+</span></span><span style="display:flex;"><span>		LsaTemplate_NT6<span style="color:#f92672">.</span>__init__(self)
+</span></span><span style="display:flex;"><span>		self<span style="color:#f92672">.</span>key_pattern <span style="color:#f92672">=</span> LSADecyptorKeyPattern()
+</span></span><span style="display:flex;"><span>		self<span style="color:#f92672">.</span>key_pattern<span style="color:#f92672">.</span>signature <span style="color:#f92672">=</span> <span style="color:#e6db74">b</span><span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\x83\x64\x24\x30\x00\x48\x8d\x45\xe0\x44\x8b\x4d\xd8\x48\x8d\x15</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>		self<span style="color:#f92672">.</span>key_pattern<span style="color:#f92672">.</span>IV_length <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>
+</span></span><span style="display:flex;"><span>		self<span style="color:#f92672">.</span>key_pattern<span style="color:#f92672">.</span>offset_to_IV_ptr <span style="color:#f92672">=</span> <span style="color:#ae81ff">67</span>
+</span></span><span style="display:flex;"><span>		self<span style="color:#f92672">.</span>key_pattern<span style="color:#f92672">.</span>offset_to_DES_key_ptr <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">89</span>
+</span></span><span style="display:flex;"><span>		self<span style="color:#f92672">.</span>key_pattern<span style="color:#f92672">.</span>offset_to_AES_key_ptr <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>
+</span></span><span style="display:flex;"><span>				
+</span></span><span style="display:flex;"><span>		self<span style="color:#f92672">.</span>key_struct <span style="color:#f92672">=</span> KIWI_BCRYPT_KEY81
+</span></span><span style="display:flex;"><span>		self<span style="color:#f92672">.</span>key_handle_struct <span style="color:#f92672">=</span> KIWI_BCRYPT_HANDLE_KEY
+</span></span></code></pre></div><p>Take a look at
+the <a href="https://github.com/skelsec/pypykatz/blob/c91dcdc09289ad2e93c475e7c640d0f90906a7c0/pypykatz/lsadecryptor/lsa_template_nt6.py#L301">source code</a>
+of PyPyKatz to see all the templates.</p>
+<h2 id="initialization-vector-extraction">Initialization vector extraction</h2>
+<p>In order to extract the keys, we need to extract the Initialization Vector (IV) first. The IV is a random number used to
+ensure that the same plaintext message does not result in the same ciphertext. The IV is stored in the memory, and we
+can extract it by looking in the memory of the lsasrv.dll module for the pattern present in the template.</p>
+<p>Once we have the location of the pattern, we can use the offsets to move within the memory and extract the IV.</p>
+<!-- raw HTML omitted -->
+<p>As we can see from the schema, once we have the location of the pattern, we have to jump of a prefixed offset (present
+in the template) of 67 bytes to find another value, which is another offset. This offset is the location of the IV.</p>
+<h2 id="keys-extraction">Keys extraction</h2>
+<p>Now is the time to extract the keys. The approach is similar to the one used to extract the IV. We need to find the same
+pattern in the memory and then use the offsets to extract the keys.</p>
+<!-- raw HTML omitted -->
+<p>This time, using the pointer doesn’t directly lead to the desired value, but rather to a BCRYPT_KEY_HANDLE struct,
+which, in bcrypt.h, is a data type that enables referencing and manipulating cryptographic keys within the CNG
+framework. In pypykatz, the class KIWI_BCRYPT_HANDLE_KEY replicates this type.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">KIWI_BCRYPT_HANDLE_KEY</span> :
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__ ( self , reader ) :
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>size <span style="color:#f92672">=</span> ULONG( reader )<span style="color:#f92672">.</span>value
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>tag <span style="color:#f92672">=</span> reader<span style="color:#f92672">.</span>read(<span style="color:#ae81ff">4</span>) <span style="color:#75715e">#&#39;UUUR&#39;</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>hAlgorithm <span style="color:#f92672">=</span> PVOID(reader)<span style="color:#f92672">.</span>value
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>ptr_key <span style="color:#f92672">=</span> PKIWI_BCRYPT_KEY(reader)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>unk0 <span style="color:#f92672">=</span> PVOID (reader)<span style="color:#f92672">.</span>value
+</span></span><span style="display:flex;"><span>[<span style="color:#f92672">...</span>]
+</span></span></code></pre></div><p>At this point, we have all the necessary information to decrypt the NTLM hashes. We have the IV and the keys. We can now
+start the research of the LogonSessions.</p>
+<h2 id="logonsessions">LogonSessions</h2>
+<p>The LogonSessions are the structures that contain the information about the users that are logged into the system. The
+LogonSessions are stored in the memory of the Msv1_0.dll module, and we can extract them by looking for the pattern
+present in the specific template, which in our case is the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">elif</span> WindowsBuild<span style="color:#f92672">.</span>WIN_11_2022<span style="color:#f92672">.</span>value <span style="color:#f92672">&lt;=</span> sysinfo<span style="color:#f92672">.</span>buildnumber <span style="color:#f92672">&lt;</span> WindowsBuild<span style="color:#f92672">.</span>WIN_11_2023<span style="color:#f92672">.</span>value: <span style="color:#75715e">#20348</span>
+</span></span><span style="display:flex;"><span>    template<span style="color:#f92672">.</span>signature <span style="color:#f92672">=</span> <span style="color:#e6db74">b</span><span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\x45\x89\x34\x24\x4c\x8b\xff\x8b\xf3\x45\x85\xc0\x74</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    template<span style="color:#f92672">.</span>first_entry_offset <span style="color:#f92672">=</span> <span style="color:#ae81ff">24</span>
+</span></span><span style="display:flex;"><span>    template<span style="color:#f92672">.</span>offset2 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">4</span>
+</span></span></code></pre></div><p>Is not possible to know the exact number of LogonSessions that are present in the memory, so we need to retrieve the
+counter first.</p>
+<h4 id="logonsessions-counter-and-addresses">LogonSessions counter and addresses</h4>
+<p>With a similar approach to the one used to extract the IV and the keys, we need to find the pattern in the memory and
+then use the offsets to extract the counter.</p>
+<p>This counter allow us to iterate over all the LogonSessions address, where every entry is 16 bytes next to the previous.</p>
+<!-- raw HTML omitted -->
+<p>By casting those addresses to a char*, they become a pointer that points to the memory location where the LogonSessions
+entry are stored. This grants the ability to access the data associated with the LogonSession, enabling retrieval of
+relevant information.</p>
+<h4 id="username-and-domain">Username and Domain</h4>
+<p>Now that we have the addresses of the LogonSessions, we can start to extract the information. Jumping to the offset of
+144 bytes from the address, several fields are present, including the username length, the max length, and a pointer to
+the actual username.
+The same logic applies to the domain, which is stored in the memory after the pointer to the username.</p>
+<p>Now it is possible to extract the username and the domain of the user by following the pointers and reading from the
+memory the exact number of bytes that are stored in the max length field.</p>
+<!-- raw HTML omitted -->
+<h4 id="credential-list">Credential List</h4>
+<p>For the final part of the extraction, we need to focus on the credential lists. Starting from the pointerToDomain saw in
+the previous section, by advancing an offset of 96 bytes, the memory address
+where the first
+&lsquo;Credential List&rsquo; is located can be found. Once the value at the pointed address is read as an uint64_t and subsequently
+interpreted as a memory address, it will provide the memory address where the second &lsquo;Credential List&rsquo; is situated, and
+this process continues iteratively. Since it is a circular linked list, when the value matches the memory address of the
+first struct, it indicates that the entire list has been traversed.</p>
+<p>Every entry in the linked list of &lsquo;Credential List&rsquo; contains its own associated linked list known as the &lsquo;Primary
+Credential List&rsquo;. To retrieve the address of the first entry in this linked list, it is necessary to advance by an
+offset of 16 bytes and read this memory area as a char pointer.</p>
+<p>The following schema illustrates the structure of the lists:
+<!-- raw HTML omitted --></p>
+<p>Within this final structure, the encrypted NTLM hash can be found. Much like the linked list of &lsquo;Credential List&rsquo;,
+interpreting the number at the address of the first entry of the Primary Credential as an address leads to the discovery
+of the subsequent struct, following a circular list. By following the structure, it is possible to retrieve
+the size of the encrypted NTLM and the memory address where this NTLM is located, allowing for its subsequent reading
+and
+extraction.</p>
+<h2 id="ntlm-decryption">NTLM decryption</h2>
+<p>The encryption algorithm used to encrypt the hash cannot be determined in advance. To identify the algorithm, the
+encrypted NTLM is divided by 8, and its remainder is checked to see if the NTLM length is divisible by 8. If the NTLM
+length is evenly divisible by 8, AES encryption is employed. Conversely, if the NTLM length is not divisible by 8,
+indicating an irregular length, 3DES encryption is utilized.</p>
+<p>The following pseudocode represents the algorithm selection logic:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ( encryptedNTLMLength <span style="color:#f92672">%</span> <span style="color:#ae81ff">8</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span> <span style="color:#75715e">// Encrypted cred was empty ?
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span> <span style="color:#75715e">// Prepare algorithm functions and IV
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> <span style="color:#66d9ef">if</span> ( encryptedNTLMLength <span style="color:#f92672">%</span> <span style="color:#ae81ff">8</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Perform AES decryption using the provided key
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Perform 3 DES decryption using the provided key
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Once the algorithm used has been identified, the remaining task is to apply the acquired information using the bcrypt.h
+library, following the same approach as MSV. By configuring the required variables to utilize the correct algorithm and
+subsequently invoking the BCrypt- Decrypt function with the encrypted key and the recovered IV, it becomes possible to
+retrieve the plaintext NTLM hash.</p>
+
+                                    </div>
+                                    <ul class="blog-tags">
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+<script defer  src='/js/jquery.bundle.min.5982afc908c46b2144b576a651c29adc72bf2dfa9685a00c7dd16b77aba777a4d1c66ba9fe480a81bc42cc40879d8d16d3660e1ff7e0b6e9ca1f4b78d11ebbab.js?ver=210'></script>
+<script defer  src='/js/scripts.min.810c4e3229f07102e6da786e19bada1559816724bfcb53aaffc206384b0935134d42df8a0048ea62bbe01e23993b85f12897baf4e45862d5e767c65a878cbd61.js?ver=210'></script>
+<script defer  src='/js/charts.min.233bec70385379d36087ce327911a0880e9f24394a47f3ac96262f2ab5ec6e6abcd23516c1250b6b9686a39298686089a91247237a53dfcdc082554f810b8cad.js?ver=210'></script>
+<script defer  src='/js/toastr.examples.min.8db0f69b90e47bd433705b43acc2ffcc16aeaa78f06edd02fdc97e67abad460d09fe0135f2e92bc5b30ad986d87467ca3e33d470592d4c1d181554fdd8791fc6.js?ver=210'></script>
+<section id="footer">
+    <footer class="nk-footer bg-theme-dark">
+        <div class="tc-light">
+            <div class="container">
+                <div class="nk-block">
+                    <div class="bg-theme-accent-alt round subscribe-wrap animated" data-animate="fadeInUp" data-delay=".1">
+                        <div class="row text-center text-md-start justify-content-center align-items-center gutter-vr-25px">
+                            <div class="col-lg-6">
+                                <div class="wide-auto-sm">
+                                    <h4 class="title-sm">Don't miss out, Stay updated</h4>
+                                    <p>Sign up for updates and market news. Subscribe to our newsletter and receive updates about TeamFence.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="gap-3x d-none d-lg-block"></div>
+                                <form action="https://formspree.io/f/meojgrqj" class="nk-form-submit" method="post">
+                                    <div class="field-inline field-inline-s2 field-inline-s2-sm bg-white shadow-soft">
+                                        <div class="field-wrap">
+                                            <input class="input-solid input-solid-md required email" type="email" name="email" placeholder="Your email" required>
+                                            <input type="text" class="d-none" name="_gotcha" style="display:none">
+                                        </div>
+                                        <div class="submit-wrap">
+                                            <button type="submit" class="btn btn-md btn-grad">Subscribe</button>
+                                        </div>
+                                    </div>
+                                    <div class="form-results" id="form-results" style="display: none;"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="space-to-color" class="nk-ovm ovm-top ovm-h-50 bg-theme-alt"></div>
+        </div>
+        <div class="section section-footer section-m tc-light bg-transparent ov-h">
+            <div class="container">
+                <div class="nk-block block-footer">
+                    <div class="row">
+                        <div class="col">
+                            <div class="wgs wgs-text text-center mb-3">
+                                <ul class="social pdb-l justify-content-center">
+                                    <li><a href="#"><em class="social-icon fab fa-facebook-f"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-youtube"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-github"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-bitcoin"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-medium-m"></em></a></li>
+                                </ul>
+                                <a href="./" class="footer-logo">
+                                    <img src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo" style="width: 25%">
+                                </a>
+                                <div class="copyright-text copyright-text-s3 pdt-m">
+                                    <p><span class="d-sm-block">Copyright © 2024, TeamFence sagl CHE-197.469.909<br>Viale Castagnola 27, 6900 Lugano</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-ovm shape-s"></div>
+        </div>
+    </footer>
+</section>
+</body>
+</html>

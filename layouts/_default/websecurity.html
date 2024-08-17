@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+{{- partial "head.html" . -}}
+<header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+    {{- partial "navbar.html" . -}}
+    <!-- Banner @s -->
+    <div class="header-banner">
+        <div class="nk-banner">
+            <div class="banner banner-page">
+            </div>
+        </div><!-- .nk-banner -->
+        <div class="nk-ovm shape-a-sm"></div>
+    </div>
+    <!-- .header-banner @e -->
+</header>
+<body class="nk-body body-wider theme-dark mode-onepage">
+<div class="nk-wrap">
+    <main class="nk-pages">
+
+        <section class="section section-about">
+            <div class="container">
+                <!-- Block @s -->
+                <div class="nk-block">
+                    <div class="row gutter-vr-30px align-items-center">
+                        <div class="col-lg-6">
+                            <div class="nk-block-text">
+                                <h2 class="text-white title">Web Security</h2>
+                                <p class="text-white">Web application security testing involves simulating cyber-attacks on a system to evaluate its security. This process can be conducted with access to the application's source code (white box approach) or without it (black box approach). </p>
+                                <p class="text-white">The goal is to uncover vulnerabilities, identify potential exploits, and assess the overall security posture. By thoroughly examining the target system, these tests reveal whether further remediation or security enhancements are needed,q serving as a crucial check-up to ensure the system's integrity and safety.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="nk-block-video">
+                                <img src="/images/security.png" alt="icon" style="width: 85%">
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .nk-block @e -->
+                <div class="hr"></div>
+                <!-- Block @s -->
+                <div class="nk-block nk-block-about">
+                    <div class="row gutter-vr-30px align-items-center justify-content-between">
+                        <div class="col-md-4 col-lg-3">
+                            <div class="nk-block-text">
+                                <h2 class="title text-white title-lg">White Box</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-lg-8">
+                            <div class="nk-block-text">
+                                <p class = "text-white">Web application security testing with a white box approach involves examining the system with full access to its source code. This method allows for a comprehensive assessment of the application's architecture, identifying vulnerabilities and potential exploits from an insider's perspective to ensure robust security measures are in place.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .nk-block @e -->
+                <!-- Block @s -->
+                <div class="nk-block nk-block-about">
+                    <div class="row gutter-vr-30px align-items-center justify-content-between">
+                        <div class="col-md-4 col-lg-3">
+                            <div class="nk-block-text">
+                                <h2 class="title text-white">Black Box</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-lg-8">
+                            <div class="nk-block-text">
+                                <p class = "text-white">Web application security testing with a black box approach involves evaluating the system without access to its source code. This method simulates an external attack, focusing on identifying vulnerabilities and potential exploits from an outsider's perspective to ensure the application's defenses are robust against real-world threats.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .nk-block @e -->
+            </div>
+        </section>
+        <!-- // -->
+    </main>
+    <!-- Preloader -->
+    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand"
+                                                                                         src="/images/logo-white.png"
+                                                                                         alt=""></span></div>
+    <!-- JavaScript -->
+    {{- partial "javascript.html" . -}}
+    {{- partial "footer.html" . -}}
+</div>
+</body>
+</html>

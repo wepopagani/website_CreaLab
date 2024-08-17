@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on My New Hugo Site</title>
+    <link>http://localhost:1313/es/services/</link>
+    <description>Recent content in Services on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 11 Apr 2022 17:04:31 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awareness</title>
+      <link>http://localhost:1313/es/services/awareness/</link>
+      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
+      <guid>http://localhost:1313/es/services/awareness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CTEM Security</title>
+      <link>http://localhost:1313/es/services/ctemsecurity/</link>
+      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
+      <guid>http://localhost:1313/es/services/ctemsecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Security</title>
+      <link>http://localhost:1313/es/services/websecurity/</link>
+      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
+      <guid>http://localhost:1313/es/services/websecurity/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

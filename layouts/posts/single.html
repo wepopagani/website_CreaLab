@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+{{- partial "head.html" . -}}
+<body class="nk-body body-wider theme-dark mode-onepage">
+<div class="nk-wrap">
+    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+        <!-- Header @s -->
+        {{- partial "navbar.html" . -}}
+        <!-- Banner @s -->
+        <div class="header-banner bg-purple">
+            <div class="nk-ovm shape-a-sm"></div>
+        </div>
+        <!-- .header-banner @e -->
+    </header>
+    <main class="nk-pages">
+        <section class="section bg-purple">
+            <div class="container" style="margin-top: -50px">
+                <div class="nk-block nk-block-blog">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="blog-details">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8 col-lg-10">
+                                        <ul class="blog-meta text-white"> <!-- Added text-white class -->
+                                            <li><a class="text-white" href="#">{{ .PublishDate.Format "January 2, 2006" }}</a></li> <!-- Added text-white class -->
+                                            <li><a class="text-white" href="#">{{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }} read</a></li> <!-- Added text-white class -->
+                                        </ul>
+                                        <div class="blog-content">
+                                            <h2 class="title text-white"><a href="#">{{ .Title }}</a></h2>
+                                            <div class="col-xl-10 col-lg-12">
+                                                <div class="blog-featured">
+                                                    <div class="img-wrapper-single">
+                                                        <div class="box box1" id="img-container">
+                                                            <img class="round post-image" src="{{ .Params.Image }}" alt="featured">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="text-white"> <!-- Ensures the main content text is white -->
+                                                {{ .Content }}
+                                            </div>
+                                        </div>
+                                        <ul class="blog-tags text-white"> <!-- Added text-white class -->
+                                            {{ $taxo := "tags" }}
+                                            {{ with .Param $taxo }}
+                                            <ul class="tags__list">
+                                                {{ range $index, $tag := . }}
+                                                {{ with $.Site.GetPage (printf "/%s/%s" $taxo $tag) -}}
+                                                <li class="tag__item">
+                                                    <a class="tag__link text-white" href="javascript:void(0)">{{ $tag }}</a> <!-- Added text-white class -->
+                                                </li>
+                                                {{- end -}}
+                                                {{- end -}}
+                                            </ul>
+                                            {{ end }}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .nk-block -->
+            </div><!-- .container -->
+        </section><!-- .section -->
+    </main>
+    <!-- Preloader -->
+    <div class="preloader preloader-alt no-split">
+        <span class="spinner spinner-alt">
+            <img class="spinner-brand" src="/images/logo-white.png" alt="">
+        </span>
+    </div>
+    <!-- JavaScript -->
+    {{- partial "javascript.html" . -}}
+    {{- partial "footer.html" . -}}
+</div>
+</body>
+</html>

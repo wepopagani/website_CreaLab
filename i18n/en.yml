@@ -1,0 +1,129 @@
+## navbar
+- id: contact
+  translation: Contact Us
+## about
+- id: about_title
+  translation: Our Purpose
+- id: about_subtitle
+  translation: TeamFence
+- id: about_descr1
+  translation: At TeamFence, we see ourselves as expert fencers, ready to duel against the relentless onslaught of malware and cyber threats. Our approach isn't just about building static defenses; it's about engaging in a dynamic, strategic bout, where we anticipate and parry every move of the adversary. Our goal is to sharpen our skills and techniques through continuous security research, ensuring that we remain agile and effective in protecting our clients' digital fortresses against the most sophisticated cyberattacks.
+- id: about_descr2
+  translation: By continually pushing the limits of security research, we bolster the defenses of our clients' organizations, protecting their valuable data and assets from malicious threats. With our expertise and unwavering commitment, we stand as the guardians of our clients' digital domains, ensuring that their cyber strategies remain agile and impenetrable in the face of evolving threats.
+##browserfence
+- id: brows_title
+  translation: Introducing BrowserFence
+- id: brows_description
+  translation: Empower your team with BrowserFence, your comprehensive solution for enhancing browsing security, providing peace of mind and protection against online threats.
+- id: brows_l1
+  translation: Effortlessly incorporate our security extension into your existing systems for enhanced protection.
+- id: brows_l2
+  translation: From malware to phishing attacks, our extension provides robust defense against a wide range of threats.
+- id: brows_l3
+  translation: Protect your systems without compromising on performance or speed.
+- id: brows_l4
+  translation: Stay ahead of the curve with automatic updates and patches, ensuring your security measures are always up-to-date.
+- id: brows_btn
+  translation: Know More
+- id: brows_l5
+  translation: Through years of experience, we've come to recognize the browser as a frequent weak link inan individual's security. It's consistently implicated in various stages of the 'killchain,' the progression of a cyber attack. This is due to its role as a primary gateway forattackers, facilitating the delivery of malicious software and the theft of sensitive dataor credentials. In essence, the browser stands as the primary and most accessiblevulnerability for potential aggressors.
+- id: brows_l6
+  translation: Monitoring this vector effectively enables us to thwart the vast majority of user compromises. Actively surveilling browser activities allows for prompt detection and neutralization of threats, significantly reducing the risk of cybersecurity breaches.
+- id: brows_l7
+  translation: We are still in the early stages of development.
+- id: brows_l8
+  translation: Sign up for the newsletter and stay updated.
+##contact
+- id: contact_title
+  translation: Get In Touch
+- id: contact_l1
+  translation: Any questions? Reach out to us and we’ll get back to you shortly.
+- id: name
+  translation: Full Name
+- id: company
+  translation: Company Name
+- id: phone
+  translation: Phone Number
+- id: email
+  translation: Your Email
+- id: message
+  translation: Your Message
+- id: contact_btn
+  translation: Submit
+##faqs
+- id: faqs_subtitle
+  translation: Frequently asked questions
+- id: faqs_description
+  translation: Below we’ve provided a bit of TeamFence. If you have any other questions, please get in touch using the contact form below.
+- id: general_tab
+  translation: General
+- id: browserfence_tab
+  translation: BrowserFence
+- id: question_ctem
+  translation: What is Continuous Threat Exposure Management (CTEM)?
+- id: answer_ctem
+  translation: Continuous Threat Exposure Management (CTEM) is a proactive cybersecurity framework designed to continuously assess, prioritize, and mitigate cyber threats. Unlike traditional penetration testing, which provides a snapshot of your security posture at a single point in time, CTEM offers an ongoing, real-time approach to identifying vulnerabilities, managing exposures, and strengthening your security defenses.
+- id: question_ctem_vs_pen_testing
+  translation: Why should I choose CTEM over standard penetration testing?
+- id: answer_ctem_vs_pen_testing
+  translation: CTEM provides several advantages over standard penetration testing, including
+- id: txt1
+  translation: Continuous monitoring allows you to stay ahead of emerging threats and adapt quickly to new vulnerabilities.
+- id: txt2
+  translation: Prioritized Remediation CTEM helps you focus on the most critical threats first, optimizing your resources and minimizing risk.
+- id: txt3
+  translation: Unlike point-in-time tests, CTEM covers your entire security landscape, ensuring no gaps are left unaddressed.
+- id: question_ctem_integration
+  translation: How does CTEM integrate with my existing security infrastructure?
+- id: answer_ctem_integration
+  translation: CTEM is designed to seamlessly integrate with your existing security tools and processes. It enhances your current defenses by providing continuous visibility into potential threats and exposures. The framework is flexible and can be customized to align with your organization's specific needs, ensuring that it complements rather than disrupts your existing security efforts.
+- id: question_employee_awareness
+  translation: What is employee awareness training, and why is it crucial for my organization?
+- id: answer_employee_awareness
+  translation: Employee awareness training is an educational program designed to inform and educate employees about cybersecurity best practices, policies, and procedures. It is crucial for your organization because human error and negligence are significant contributors to cybersecurity breaches. By educating your employees about potential threats, phishing attacks, password hygiene, and safe browsing practices, you empower them to recognize and mitigate security risks, ultimately strengthening your organization's overall security posture.
+- id: question_browserfence_vs_edr
+  translation: Why should I also consider BrowserFence if I already have an EDR solution?
+- id: answer_browserfence_vs_edr
+  translation: A Browser Defense and Response (BDR) solution complements an Endpoint Detection and Response (EDR) system by focusing specifically on protecting and monitoring web browsers. It enhances security by providing specialized defense against browser-based threats, such as malicious websites, phishing attacks, and HTML smuggling, which may not be adequately addressed by traditional EDR solutions focused on endpoint activities beyond browsers.
+- id: question_browserfence_vs_network_devices
+  translation: What advantages does it give me compared to the protections provided by network devices?
+- id: answer_browserfence_vs_network_devices
+  translation: Network devices, while providing certain protections like DNS filtering, limit themselves to analyzing macro data such as domain and its reputation. BrowserFence analyzes page content, shared resources, and DOM modifications in real time, minimizing installation complexity compared to devices.
+- id: question_browserfence_suitability
+  translation: Is BrowserFence suitable for small or large businesses?
+- id: answer_browserfence_suitability
+  translation: BrowserFence is suitable for both small and large businesses. For small businesses, it offers ease of deployment with no complex installation or network configuration required, while still providing access to AI support for enhanced security measures. Larger businesses can benefit from BrowserFence's Enterprise plan, which provides scalable features and robust security solutions tailored to meet enterprise-level needs.
+- id: question_browserfence_compliance
+  translation: Does BrowserFence help me comply with new laws?
+- id: answer_browserfence_compliance
+  translation: BrowserFence helps compliance with data protection laws such as the Swiss Federal Data Protection Act (LDPA) in Switzerland and the General Data Protection Regulation (GDPR) in Europe by providing robust security measures tailored to safeguarding user data and privacy. Additionally, BrowserFence supports compliance efforts through employee training initiatives, ensuring that personnel are informed and prepared to handle cybersecurity risks.
+##footer
+- id: footer1
+  translation: Don't miss out, Stay updated
+- id: footer2
+  translation: Sign up for updates and market news. Subscribe to our newsletter and receive updates about TeamFence.
+- id: Subscribe
+  translation: Subscribe
+##header
+- id: header_descr
+  translation: Defend your company against cyber threats with our proactive approach and ethical hacking expertise.
+- id: header_btn1
+  translation: See Our Services
+- id: header_btn2
+  translation: Contact US
+##blog
+- id: blog_title
+  translation: See Our Latest Posts
+- id: blog_btn
+  translation: Read All Articles
+##services
+- id: services_title
+  translation: Our services
+- id: services_subtitle
+  translation: Trust us, together we can fence your threats.
+- id: ctem_service_description
+  translation: CTEM is a continuous, proactive framework that identifies and addresses cybersecurity vulnerabilities to enhance overall protection.
+- id: web_security_service_description
+  translation: Our web security service identifies vulnerabilities using both black box and white box approaches, ensuring comprehensive protection for your applications.
+- id: security_awareness_service_description
+  translation: Our security awareness service elevates your team's expertise by providing the tools and knowledge needed to proactively identify and prevent cyber threats.

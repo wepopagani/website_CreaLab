@@ -1,18 +1,171 @@
-baseURL = 'https://landing-page-5hv.pages.dev/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Stay safer online'
-theme = "tfTheme"
+title = 'My New Hugo Site'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
-[[header.text]]
-text = 'a new ground breaking project'
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
 
-[minify.tdewolff.css]
-keepComments = false
+################################ English Language ########################
+[Languages.en]
+languageName = "English"
+languageCode = "en"
+contentDir = "content/english"
+dataDir = "data/en"
+weight = 1
 
-[sitemap]
-  changeFreq = ''
-  filename = 'sitemap.xml'
-  priority = -1
+[[Languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-[markup.goldmark.renderer]
-  unsafe = true
+[[Languages.en.menu.main]]
+name = "Services"
+url = "/#services"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Company"
+url = "/#about"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "About Us"
+url = "/about/"
+weight = 5
+
+################################ Deutsche Sprache ########################
+[Languages.de]
+languageName = "Deutsch"
+languageCode = "de-de"
+contentDir = "content/german"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "Startseite"
+url = "/"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "Dienstleistungen"
+url = "/#services"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "Unternehmen"
+url = "/#about"
+weight = 3
+
+[[Languages.de.menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+[[Languages.de.menu.main]]
+name = "Über uns"
+url = "/about/"
+weight = 5
+
+################################ Lingua Italiana ########################
+[Languages.it]
+languageName = "Italiano"
+languageCode = "it-it"
+contentDir = "content/italian"
+weight = 3
+
+[[Languages.it.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[Languages.it.menu.main]]
+name = "Servizi"
+url = "/#services"
+weight = 2
+
+[[Languages.it.menu.main]]
+name = "Azienda"
+url = "/#about"
+weight = 3
+
+[[Languages.it.menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+[[Languages.it.menu.main]]
+name = "Chi Siamo"
+url = "/about/"
+weight = 5
+
+################################ Langue Française ########################
+[Languages.fr]
+languageName = "Français"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 4
+
+[[Languages.fr.menu.main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[Languages.fr.menu.main]]
+name = "Services"
+url = "/#services"
+weight = 2
+
+[[Languages.fr.menu.main]]
+name = "Entreprise"
+url = "/#about"
+weight = 3
+
+[[Languages.fr.menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+[[Languages.fr.menu.main]]
+name = "À propos"
+url = "/about/"
+weight = 5
+
+################################ Español ########################
+[Languages.es]
+languageName = "Español"
+languageCode = "es-es"
+contentDir = "content/spanish"
+weight = 5
+
+[[Languages.es.menu.main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[Languages.es.menu.main]]
+name = "Servicios"
+url = "/#services"
+weight = 2
+
+[[Languages.es.menu.main]]
+name = "Empresa"
+url = "/#about"
+weight = 3
+
+[[Languages.es.menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+[[Languages.es.menu.main]]
+name = "Sobre Nosotros"
+url = "/about/"
+weight = 5

@@ -1,0 +1,102 @@
+blockquote {
+    font-style: italic;
+    padding: 20px;
+    margin: 0 0 20px;
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+}
+
+pre{
+    padding: 5px;
+}
+
+.img-wrapper-home {
+    height: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.img-wrapper-single {
+    width: 560px;
+    height: 314px;
+    display: flex;
+    gap: 20px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+.box1 img {
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {  /* Adjust the max-width value to your needs */
+    #contact-image{
+        width: 50%; /* Set width to 50% on mobile */
+    }
+    #img-container img {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+#about {
+    background-color: #3022A6 !important; 
+    color: #fff; 
+}
+#contact {
+    background-color: #3022A6 !important; 
+    color: #fff; 
+}
+#services {
+    background-color: #3022A6 !important; 
+    color: #fff; 
+}
+
+#space-to-color {
+    background-color: #3022A6 !important; 
+    color: #fff; 
+}
+
+.bg-purple {
+    background-color: #3022A5;
+}
+
+.text-white {
+    color: #EFF6FF;
+}
+
+.about-content p, .about-content h1, .about-content h2, .about-content h3, .about-content h4, .about-content h5, .about-content h6 {
+    color: #ffffff;
+}
+
+.section-head h2.title {
+    color: #ffffff; 
+}
+
+.section-head p {
+    color: #ffffff; 
+}
+
+.form-control.input-bordered {
+    background-color: #fff;
+    color: #000;
+}
+
+.about-content {
+    font-size: 1.5em; 
+    line-height: 1em; 
+}
+/* Global Text White Styling */
+.text-white, .text-white * {
+    color: #EFF6FF !important;
+}
+
+/* Example for Other Specific Containers */
+body.bg-purple, 
+body .nk-wrap .text-white, 
+body .nk-wrap .text-white * {
+    color: #EFF6FF !important;
+}

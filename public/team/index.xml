@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teams on My New Hugo Site</title>
+    <link>http://localhost:1313/team/</link>
+    <description>Recent content in Teams on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Riccardo Brigatti</title>
+      <link>http://localhost:1313/team/riccardo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/riccardo/</guid>
+      <description>Certified ethical hacker and Software engineer graduated from SUPSI. He has accumulated 6 years of experience in the offensive security sector as a penetration tester and Red Teamer for private companies, working from SMEs to the offensive security team of Novartis.&#xA;His advancement in the Swiss army as a non-commissioned officer in the Cyber battalion has improved his technical skills, working with critical infrastructures, and team management. Since January 2024, he has been part of the RED42 sub-detachment, which handles critical offensive operations and advanced training.</description>
+    </item>
+    <item>
+      <title>Matteo Denicolo</title>
+      <link>http://localhost:1313/team/matteo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/matteo/</guid>
+      <description>Matteo Denicolo has successfully raised over 5 million euros by launching three startups and winning an accelerator. His strategic acumen has led to the increase in value of two companies by 2.5x and 6.5x respectively.&#xA;With 3 years of experience as an executive board member across Switzerland, Italy, and the US, Matteo has demonstrated remarkable leadership and growth capabilities. He doubled the number of employees for a company and tripled its client base.</description>
+    </item>
+    <item>
+      <title>Alessio Branca</title>
+      <link>http://localhost:1313/team/alessio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/alessio/</guid>
+      <description>Alessio Branca is a seasoned entrepreneur and investor with extensive experience in the healthcare sector, particularly in operations related to the Swiss territory.&#xA;At the age of 21, Alessio spearheaded a startup in the Medical Devices sector, scaling it from 0 to 3 million in revenue within 2.5 years by efficiently managing operations and structuring the entire Swiss market.&#xA;He has founded and structured two companies in the Health Care sector, achieving a remarkable growth trajectory from 0 to 2 million in revenue in just 2 years.</description>
+    </item>
+    <item>
+      <title>Marco Pagani</title>
+      <link>http://localhost:1313/team/marco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/marco/</guid>
+      <description>This young entrepreneur is currently graduating with a B.A. in Science of Economics, majoring in Finance. With a keen interest in the internet business, he is actively developing his own enterprise in this dynamic field.&#xA;His passion for cybersecurity has led him to study IT and digital solutions during his free time. Recently, he showcased his skills by building an entire internet infrastructure, handling everything from hardware setup to device connectivity.</description>
+    </item>
+    <item>
+      <title>Diego Omini</title>
+      <link>http://localhost:1313/team/diego/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/diego/</guid>
+      <description>Diego Omini is a DevOps engineer and software developer from Switzerland, who has been passionate about programming since 2010. He earned a bachelor’s degree in computer science from the BFH of Bienne. Since February 2023, he has been employed at Swisscom AG as a DevOps engineer.&#xA;Diego specializes in developing RESTful backends using Spring Boot and Java, implementing CI/CD pipelines with Jenkins and GitLab, and deploying applications on Kubernetes. His previous experience includes developing a VR application for his bachelor thesis, automating PST mail archive migrations, and managing a network of 800 workstations and servers during his apprenticeship.</description>
+    </item>
+  </channel>
+</rss>

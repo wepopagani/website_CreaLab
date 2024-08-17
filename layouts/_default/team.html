@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+{{- partial "head.html" . -}}
+
+<body class="nk-body body-wider theme-dark mode-onepage">
+    <div class="nk-wrap">
+        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+            <!-- Header @s -->
+            {{- partial "navbar.html" . -}}
+            <!-- Banner -->
+            <div class="header-banner bg-purple shape-o shape-contain shape-center-top text-white">
+                <div class="nk-banner">
+                    <div class="banner banner-page">
+                        <div class="banner-wrap">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-6 col-lg-9">
+                                        <div class="banner-caption cpn tc-light text-center">
+                                            <div class="cpn-head">
+                                                <h1 class="title title-xl-2 title-semibold text-white animated" data-animate="fadeInUp" data-delay="1.35">Meet the Team</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-ovm bg-blend before-bottom before-h70 shape-o shape-contain shape-center-top"></div>
+            </div>
+            <!-- .header-banner -->
+        </header>
+    </div>
+
+    <main class="nk-pages">
+        <section class="section bg-purple text-white">
+            <div class="container">
+                <div class="nk-block nk-block-blog">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="blog-details text-white">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-10 col-lg-12">
+                                        <div class="blog-featured">
+                                            <div class="img-wrapper-single">
+                                                <img class="round post-image" src="{{ .Params.Image }}" alt="post-image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-8 col-lg-10">
+                                        <div class="blog-content text-white">
+                                            <h2 class="title text-white"><a href="#" class="text-white">{{ .Title}}</a></h2>
+                                            <div class="text-white">{{ .Content }}</div>
+                                        </div>
+                                        <ul class="blog-tags text-white">
+                                            {{ with .Params.tags }}
+                                            <span class="text-white">{{ i18n "Tag" }}</span>
+                                            {{ range . }}
+                                            <li><a href="#" class="text-white">{{.}}</a></li>
+                                            {{ end }}
+                                            {{ end }}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .nk-block -->
+            </div><!-- .container -->
+        </section><!-- .section -->
+    </main>
+    <!-- Footer -->
+    {{- partial "javascript.html" . -}}
+    {{- partial "footer.html" . -}}
+</body>
+
+</html>
