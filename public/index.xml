@@ -100,11 +100,11 @@
       <description></description>
     </item>
     <item>
-      <title>CTEM Details</title>
+      <title>CTEM Details ciao</title>
       <link>http://localhost:1313/ctem-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ctem-details/</guid>
-      <description>This page explains the CTEM framework in detail.</description>
+      <description>Introduction In the ever-evolving landscape of cybersecurity, organizations are constantly seeking the best strategies to protect their digital assets. Two prominent approaches are Continuous Threat Exposure Management (CTEM) and Penetration Testing. While both aim to enhance security, they do so in distinct ways.&#xA;What is Continuous Threat Exposure Management (CTEM)? Continuous Threat Exposure Management (CTEM) is a proactive and adaptive framework designed to continuously manage and reduce an organization&amp;rsquo;s attack surface.</description>
     </item>
   </channel>
 </rss>
