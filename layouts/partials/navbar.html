@@ -1,3 +1,5 @@
+
+
 <div class="header-main">
     <div class="header-container container">
         <div class="header-wrap">
@@ -32,7 +34,7 @@
                             <span>{{ i18n "contact" }}</span></a>
                         </li>
                         <!-- Language Selector Dropdown -->
-                        <li class="menu-item btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round">
+                        <li class="menu-item">
                             {{- if site.IsMultiLingual }}
                             <select id="select-language" onchange="location = this.value;">
                                 {{ $siteLanguages := site.Languages}}
