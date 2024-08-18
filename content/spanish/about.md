@@ -1,6 +1,5 @@
 ---
 title: "Sobre Nosotros"
-date: 2024-08-01
 draft: false
 layout: "about"
 ---
