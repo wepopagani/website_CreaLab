@@ -114,8 +114,7 @@
 ##blog
 - id: blog_title
   translation: Sehen Sie sich unsere neuesten Beiträge an
-- id: blog_b- id: ctem_btn
-  translation: Mehr Erfahren
+- id: blog_btn
   translation: Alle Artikel lesen
 ##services
 - id: services_title
