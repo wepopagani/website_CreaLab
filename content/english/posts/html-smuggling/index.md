@@ -85,6 +85,7 @@ inheriting blob functionality and expanding it to support files on the user's sy
 
 <img src="/posts/html-smuggling/static/blob-struct.png" alt="where are the pieces" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;">
 <br>
+
 Therefore, instead of relying on the web server to deliver a file, a Blob can be created locally using JavaScript. For
 instance, an "evil.exe" file that would typically be downloaded from a server can instead be assembled and
 downloaded directly on the target system using an HTML anchor tag with the download attribute.

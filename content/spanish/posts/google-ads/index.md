@@ -1,104 +1,73 @@
 +++
-title = 'Malicious Ads'
+title = 'Anuncios Maliciosos'
 date = 2024-04-11T17:04:31+02:00
 draft = false
 image = '/posts/google-ads/static/cover.png'
 +++
 
-# Introduction
+# Introducción
 
-In today's world of computers, it's super easy to find stuff online. We often use search engines like Google, Bing, or
-DuckDuckGo to help us find what we're looking for. Whether we want to visit a website we know or find something new,
-search engines are a big part of how we use the internet.
+En el mundo actual de las computadoras, es muy fácil encontrar cosas en línea. A menudo utilizamos motores de búsqueda como Google, Bing o DuckDuckGo para ayudarnos a encontrar lo que estamos buscando. Ya sea que queramos visitar un sitio web que conocemos o encontrar algo nuevo, los motores de búsqueda son una parte importante de cómo usamos Internet.
 
-But what happens when we trust these search engines too much? Picture this: you type the name of a famous company into
-Google, and you click on a link that looks legit, but it's actually a trick. This happens more than you might think in
-the world of online scams, where bad guys use ads on search engines to trick people into giving away their personal
-info.
+Pero, ¿qué pasa cuando confiamos demasiado en estos motores de búsqueda? Imagina esto: escribes el nombre de una empresa famosa en Google y haces clic en un enlace que parece legítimo, pero en realidad es un truco. Esto sucede más de lo que podrías pensar en el mundo de las estafas en línea, donde los malos utilizan anuncios en los motores de búsqueda para engañar a las personas y hacer que den su información personal.
 
-In this blog post, we're going to talk about how bad guys use Google Ads (used to be called AdWords) to trick people
-into giving away their personal information. We'll explain how they do it and why it's a problem. Even though people
-have been trying to stop these scams for more than ten years, they're still a big danger for people who aren't careful
-online.
+En esta publicación de blog, vamos a hablar sobre cómo los malos utilizan Google Ads (antes conocido como AdWords) para engañar a las personas y hacer que entreguen su información personal. Explicaremos cómo lo hacen y por qué es un problema. Aunque la gente ha intentado detener estas estafas durante más de diez años, siguen siendo un gran peligro para quienes no son cuidadosos en línea.
 
-We'll also look at what might happen if you fall for one of these scams. And finally, we'll give you some tips on how to
-protect yourself using our **BrowserFence** solution.
+También analizaremos qué podría suceder si caes en una de estas estafas. Y finalmente, te daremos algunos consejos sobre cómo protegerte usando nuestra solución **BrowserFence**.
 
-## How Google Ads Work
+## Cómo funcionan los anuncios de Google
 
-Google Ads is a service that lets people pay to have their website show up at the top of Google search results. When you
-search for something on Google, you'll see a list of websites that match your search terms. The normal behavior of a
-user is to click on the first link that appears in the search results. Normally the first link is the most relevant to
-the search query, meaning it's the most likely to have the information you're looking for or the platform you want to
-access.
+Google Ads es un servicio que permite a las personas pagar para que su sitio web aparezca en la parte superior de los resultados de búsqueda de Google. Cuando buscas algo en Google, verás una lista de sitios web que coinciden con tus términos de búsqueda. El comportamiento normal de un usuario es hacer clic en el primer enlace que aparece en los resultados de búsqueda. Normalmente, el primer enlace es el más relevante para la consulta de búsqueda, lo que significa que es el más probable que tenga la información que estás buscando o la plataforma que quieres acceder.
 
-Normal search looks like this:
+La búsqueda normal se ve así:
 
-<img src="/posts/google-ads/static/normal-search.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 700px; height: auto; border: black; border-style: solid; border-width: 0.5px">
+![Normal Google Search](static/normal-search.png)
+
 <br>
-Now let's see what happens when we search for something that has ads:
+Ahora veamos qué pasa cuando buscamos algo que tiene anuncios:
 
-<img src="/posts/google-ads/static/ads-search.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 700px; height: auto; border: black; border-style: solid; border-width: 0.5px">
+![Normal Google Search](static/ads-search.png)
 
-As we can see from the image above, the first results are ads. This means that they are not organic results, but rather
-paid results.
-In the red box (that we added for highlighting purposes), we can see the word "Sponsored" which indicates that the
-result is an ad,
-but it's not always easy to spot, especially if you're in a hurry or not paying attention.
+Como podemos ver en la imagen de arriba, los primeros resultados son anuncios. Esto significa que no son resultados orgánicos, sino más bien resultados pagados.
+En el cuadro rojo (que agregamos con fines de resaltado), podemos ver la palabra "Patrocinado", que indica que el
+resultado es un anuncio,
+pero no siempre es fácil de notar, especialmente si estás apurado o no prestas atención.
 
-## The Phishing Scenario
+## El escenario de phishing
 
-Now imagine you're searching for your e-banking website, you type the name of your bank into Google, and you click on
-the first link that appears. Thanks to the fact that the "Promoted" label is not so visible, you don't notice that the
-link is an ad. You enter your
-username, password, other security codes, and click "Login".
+Ahora imagina que estás buscando el sitio web de tu banco, escribes el nombre de tu banco en Google y haces clic en el primer enlace que aparece. Debido a que la etiqueta "Patrocinado" no es tan visible, no te das cuenta de que el enlace es un anuncio. Ingresas tu
+nombre de usuario, contraseña, otros códigos de seguridad y haces clic en "Iniciar sesión".
 
-What you don't know is that the website you just entered your information into is a fake website created by bad guys to
-steal your information. So even ***without compromising the bank's security***, the bad guys have your credentials and
-can now
-use your information to steal your money, your identity, or even your reputation.
+Lo que no sabes es que el sitio web en el que acabas de ingresar tu información es un sitio falso creado por delincuentes para robar tu información. Entonces, incluso ***sin comprometer la seguridad del banco***, los malos tienen tus credenciales y ahora pueden
+usar tu información para robar tu dinero, tu identidad o incluso tu reputación.
 
-A similar scenario can happen with any website, not just for logins. For example, you might be looking for a new
-software, and you click on the first link that appears in the search results. The website you land on might look like
-the official website of the software, but it's actually a fake website that will install malware on your computer and,
-potentially, ***compromise all your company's data***.
+Un escenario similar puede suceder con cualquier sitio web, no solo con los inicios de sesión. Por ejemplo, podrías estar buscando un nuevo software y haces clic en el primer enlace que aparece en los resultados de búsqueda. El sitio web en el que aterrizas podría parecer el sitio oficial del software, pero en realidad es un sitio falso que instalará malware en tu computadora y, potencialmente, ***comprometerá todos los datos de tu empresa***.
 
-## How Bad Guys Use Google Ads
+## Cómo los malos utilizan Google Ads
 
-The question ad this point is: how do bad guys manage to get their ads to show up at the top of Google search results?
-The answer is simple: they pay for appearing at the top of specific search queries. This means that they can pay to have
-their fake website show up at the top of the search results when you search for something like "my-bank login" or "
-new-software
-download".
+La pregunta en este punto es: ¿cómo logran los malos que sus anuncios aparezcan en la parte superior de los resultados de búsqueda de Google? La respuesta es simple: pagan para aparecer en la parte superior de consultas de búsqueda específicas. Esto significa que pueden pagar para que su sitio web falso aparezca en la parte superior de los resultados de búsqueda cuando buscas algo como "login mi banco" o "descargar nuevo software".
 
-So Google doesn't have any checks in place to verify the legitimacy of the ads that are being displays? Of course they
-do, but the bad guys are always one step ahead. They use specific techniques, for example "cloaking", to trick Google's
-checks and get
-their ads to pass through the verification process. Especially when the ads are targeting regional markets, it's hard
-for Google to verify the legitimacy of the ads.
+¿Entonces Google no tiene controles para verificar la legitimidad de los anuncios que se muestran? Claro que sí, pero los malos siempre están un paso adelante. Utilizan técnicas específicas, como "cloaking", para engañar los controles de Google y lograr que sus anuncios pasen por el proceso de verificación. Especialmente cuando los anuncios están dirigidos a mercados regionales, es difícil para Google verificar la legitimidad de los anuncios.
 
-## What Happens If You Fall For A Scam
+## Qué pasa si caes en una estafa
 
-In this blog post we are not going to talk about the technical details of the post-scam scenario, but we can see from
-the following schema what happens when you fall for a scam:
+En esta publicación de blog no vamos a hablar sobre los detalles técnicos del escenario post-estafa, pero podemos ver en el siguiente esquema lo que sucede cuando caes en una estafa:
 
-<img src="/posts/google-ads/static/chain.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 700px; height: auto; border: black; border-style: solid; border-width: 0.5px">
+![Normal Google Search](static/chain.png)
 
-This schema resulted from
-an [analysis](https://www.zscaler.com/blogs/security-research/malvertising-campaign-targeting-it-teams-madmxshell) of a
-real case conducted by Zscaler ThreatLabz researchers Roy Tay and Sudeep Singh.
+Este esquema resultó de
+un [análisis](https://www.zscaler.com/blogs/security-research/malvertising-campaign-targeting-it-teams-madmxshell) de un caso real realizado por los investigadores de Zscaler ThreatLabz, Roy Tay y Sudeep Singh.
 
-Even if we are not going to talk about the technical details, it's clear that the user's browser becomes the exploited
-gateway for attackers through Google ads. This manipulation can serve as the initial step in a chain of attacks,
-potentially compromising both the user's computer and the company's infrastructure.
+Aunque no vamos a hablar sobre los detalles técnicos, está claro que el navegador del usuario se convierte en la puerta de entrada explotada para los atacantes a través de los anuncios de Google. Esta manipulación puede servir como el paso inicial en una cadena de ataques,
+que potencialmente comprometen tanto la computadora del usuario como la infraestructura de la empresa.
 
-## Protect Yourself With BrowserFence
+## Protégete con BrowserFence
 
-The best way to protect yourself from these scams is to use our **BrowserFence** solution. Our solution is able to
-detect the ads in the search results and highlight them with a purple border. This way, you can easily spot the ads and
-avoid clicking on them, or at least be aware that the result is an ad.
+La mejor manera de protegerte de estas estafas es utilizar nuestra solución **BrowserFence**. Nuestra solución es capaz de
+detectar los anuncios en los resultados de búsqueda y resaltarlos con un borde morado. De esta manera, puedes detectar fácilmente los anuncios y
+evitar hacer clic en ellos, o al menos ser consciente de que el resultado es un anuncio.
 
-Take a look to the following animation to see how BrowserFence in action:
+Mira la siguiente animación para ver BrowserFence en acción:
 
 <div class="row justify-content-center">
     <div class="col-lg-9">
@@ -111,18 +80,15 @@ Take a look to the following animation to see how BrowserFence in action:
 
 <br>
 
-## Conclusion
+## Conclusión
 
-In this blog post, we've talked about how bad guys use Google Ads to trick people into giving away their personal info
-or installing malware on their computers. We've explained how they do it and why it's a problem. We've also looked at
-what might happen if you fall for one of these scams. And finally, we've given you some tips on how to protect yourself
-using our **BrowserFence** solution.
+En esta publicación de blog, hemos hablado sobre cómo los malos utilizan Google Ads para engañar a las personas y hacer que entreguen su información personal o instalen malware en sus computadoras. Hemos explicado cómo lo hacen y por qué es un problema. También hemos analizado qué podría suceder si caes en una de estas estafas. Y finalmente, te hemos dado algunos consejos sobre cómo protegerte usando nuestra solución **BrowserFence**.
 
-We hope you found this blog post helpful. If you have any questions, please feel free to contact us. We're always happy to help.
+Esperamos que hayas encontrado útil esta publicación de blog. Si tienes alguna pregunta, no dudes en contactarnos. Siempre estamos felices de ayudar.
 
 <ul class="pt-4 d-flex gaps g-3 justify-content-center  animated" data-animate="fadeInUp" data-delay=".9">
     <li>
         <a href="#" class="btn btn-md btn-grad" data-overlay="bg-theme-grad-alternet"
-           style="position: relative; top: 50px;">Install BrowserFence</a>
+           style="position: relative; top: 50px;">Instalar BrowserFence</a>
     </li>
 </ul>

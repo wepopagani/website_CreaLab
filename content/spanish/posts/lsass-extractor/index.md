@@ -1,84 +1,57 @@
 +++
-title = 'Lsass Extractor'
+title = 'Extractor de Lsass'
 date = 2023-09-16T16:39:49+02:00
 draft = false
 image = '/posts/lsass-extractor/static/cover.png'
 +++
 
-## Introduction
+## Introducción
 
-In TeamFence, we strongly believe that nowadays it's increasingly important for an offensive operator to understand the
-details behind the techniques and tools.
+En TeamFence, creemos firmemente que hoy en día es cada vez más importante para un operador ofensivo comprender los detalles detrás de las técnicas y herramientas.
 
-For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us
-to then re-implement the logic into a tool tailored to our future needs.
+Por esta razón, en esta publicación del blog, profundizaremos en cómo Mimikatz extrae credenciales de los dumps de lsass, lo que nos permitirá reimplementar la lógica en una herramienta adaptada a nuestras necesidades futuras.
 
-**Note**: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation
-workstation.
+**Nota**: todos los análisis realizados en este proyecto se han llevado a cabo en una estación de trabajo Windows 11 Enterprise Evaluation.
 
-## Why LSASS?
+## ¿Por qué LSASS?
 
-Before diving into the technical details, it's important to ask: Why are we doing this?
+Antes de profundizar en los detalles técnicos, es importante preguntarse: ¿por qué estamos haciendo esto?
 
-When a hacker gains access to a target machine running Windows, one of the crucial initial steps involves obtaining
-credentials. Windows offers multiple potential targets, but two primary repositories stand out: the local security
-database (Security Account Manager) and the LSASS (Local Security Authority Subsystem Service) process.
+Cuando un hacker obtiene acceso a una máquina objetivo que ejecuta Windows, uno de los pasos iniciales cruciales implica obtener credenciales. Windows ofrece múltiples posibles objetivos, pero dos repositorios principales se destacan: la base de datos de seguridad local (Security Account Manager) y el proceso LSASS (Local Security Authority Subsystem Service).
 
-In this post we are going to work on LSASS, which serves as a pivotal component within Windows, overseeing
-authentication. As the central hub for
-authentication requests from various services, it plays a pivotal role in streamlining the authentication flow. This
-process implements various authentication
-packages such as NTLM, Kerberos, WDigest, among others. Consequently, it presents an intricate, valuable, and
-information-rich target
-for hackers.
+En esta publicación, trabajaremos con LSASS, que actúa como un componente clave en Windows, supervisando la autenticación. Como el centro de las solicitudes de autenticación de varios servicios, desempeña un papel crucial en la optimización del flujo de autenticación. Este proceso implementa varios paquetes de autenticación como NTLM, Kerberos, WDigest, entre otros. Por lo tanto, es un objetivo valioso y rico en información para los hackers.
 
-## NTLM Hashes
+## Hashes NTLM
 
-As we saw in the previous section, LSASS handles several authentication packages, including NTLM. NTLM is a
-challenge-response authentication protocol that is widely used in Windows environments. When a user logs into a Windows
-machine, the system stores the user's credentials in memory. This information includes the user's password in the form
-of an NTLM hash.
+Como vimos en la sección anterior, LSASS maneja varios paquetes de autenticación, incluido NTLM. NTLM es un protocolo de autenticación de desafío-respuesta ampliamente utilizado en entornos Windows. Cuando un usuario inicia sesión en una máquina Windows, el sistema almacena las credenciales del usuario en la memoria. Esta información incluye la contraseña del usuario en forma de un hash NTLM.
 
-In this post, we will focus on extracting these NTLM hashes from the LSASS process, which will allow us to understand
-the underlying logic in a easier way.
+En esta publicación, nos centraremos en extraer estos hashes NTLM del proceso LSASS, lo que nos permitirá comprender más fácilmente la lógica subyacente.
 
-In the following image we can see the internal LSASS structure, highlighting where the NTLM hashes are stored.
+En la siguiente imagen, podemos ver la estructura interna de LSASS, destacando dónde se almacenan los hashes NTLM.
 
 ![lsass](/posts/lsass-extractor/static/lsass-structure.png)
 
-## Where are all the pieces?
+## ¿Dónde están todas las piezas?
 
-To start, it's crucial to understand where the information is stored and in what format. The LSASS process is a critical
-component, and not all the information is stored in plain text. In this case, the NTLM hashes are encrypted. So, to
-extract them, we need to locate the keys for decryption. The following diagram illustrates which modules are involved in
-the handling of the keys and the credentials.
+Para comenzar, es crucial entender dónde se almacena la información y en qué formato. El proceso LSASS es un componente crítico, y no toda la información se almacena en texto plano. En este caso, los hashes NTLM están encriptados. Por lo tanto, para extraerlos, necesitamos localizar las claves para su desencriptación. El siguiente diagrama ilustra qué módulos están involucrados en la gestión de las claves y las credenciales.
 
-<img src="/posts/lsass-extractor/static/information-schema.png" alt="where are the pieces" style="display: block; margin-left: auto; margin-right: auto; width: 500px; height: auto;">
+<img src="/posts/lsass-extractor/static/information-schema.png" alt="dónde están las piezas" style="display: block; margin-left: auto; margin-right: auto; width: 500px; height: auto;">
 
-It's important to remember that the cryptographic material of the LSASS process is runtime data, meaning it changes
-after every reboot. Consequently, we must extract them each time to ensure up-to-date information.
+Es importante recordar que el material criptográfico del proceso LSASS es información de tiempo de ejecución, lo que significa que cambia después de cada reinicio. Por lo tanto, debemos extraerlo cada vez para asegurar información actualizada.
 
 ```text
-"It is interesting to note that the encryption management is carried out through LsaProtectMemory, which is a wrapper
-for LsaEncryptMemory, which in turn is a wrapper for BCryptEncrypt, which is a common encryption function present in
-bcrypt.h"
+"Es interesante notar que la gestión del cifrado se realiza a través de LsaProtectMemory, que es un wrapper para LsaEncryptMemory, que a su vez es un wrapper para BCryptEncrypt, una función de cifrado común presente en bcrypt.h"
 ```
 
-## Modules templates
+## Plantillas de módulos
 
-At this point we have a clear understanding in which area of the memory all the pieces are stored. Now we need to find a
-way to extract them.
-By analyzing the code of PyPyKatz, a Python version of Mimikatz, we can understand the approach used to extract the keys
-and the credentials.
+En este punto, tenemos una comprensión clara de qué área de la memoria contiene todas las piezas. Ahora necesitamos encontrar una manera de extraerlas. Analizando el código de PyPyKatz, una versión de Mimikatz en Python, podemos entender el enfoque utilizado para extraer las claves y las credenciales.
 
-First of all we need to extract some information about the system: ProcessorArchitecture, BuildNumber, and from the "
-ModuleListStream" the TimeDateStamp of "lsasrv.dll".
+Primero, necesitamos extraer alguna información sobre el sistema: ProcessorArchitecture, BuildNumber, y del "ModuleListStream" el TimeDateStamp de "lsasrv.dll".
 
-Once we have this information, we can use it to identify the correct template to use for the extraction. The templates
-are classes that contain the signature and offsets that allow us to know how to move within the memory to extract the
-keys and the credentials.
+Una vez que tenemos esta información, podemos usarla para identificar la plantilla correcta para la extracción. Las plantillas son clases que contienen la firma y los offsets que nos permiten saber cómo movernos dentro de la memoria para extraer las claves y las credenciales.
 
-In our case, which is a Windows 11 Enterprise Evaluation, the template for the lsasrv.dll part is the following:
+En nuestro caso, que es una Windows 11 Enterprise Evaluation, la plantilla para la parte de lsasrv.dll es la siguiente:
 
 ```python
 class LSA_x64_6(LsaTemplate_NT6):
@@ -95,33 +68,25 @@ class LSA_x64_6(LsaTemplate_NT6):
 		self.key_handle_struct = KIWI_BCRYPT_HANDLE_KEY
 ```
 
-Take a look at
-the [source code](https://github.com/skelsec/pypykatz/blob/c91dcdc09289ad2e93c475e7c640d0f90906a7c0/pypykatz/lsadecryptor/lsa_template_nt6.py#L301)
-of PyPyKatz to see all the templates.
+Echa un vistazo al [código fuente](https://github.com/skelsec/pypykatz/blob/c91dcdc09289ad2e93c475e7c640d0f90906a7c0/pypykatz/lsadecryptor/lsa_template_nt6.py#L301) de PyPyKatz para ver todas las plantillas.
 
-## Initialization vector extraction
+## Extracción del vector de inicialización
 
-In order to extract the keys, we need to extract the Initialization Vector (IV) first. The IV is a random number used to
-ensure that the same plaintext message does not result in the same ciphertext. The IV is stored in the memory, and we
-can extract it by looking in the memory of the lsasrv.dll module for the pattern present in the template.
+Para extraer las claves, primero necesitamos extraer el vector de inicialización (IV). El IV es un número aleatorio utilizado para garantizar que el mismo mensaje en texto claro no dé como resultado el mismo texto cifrado. El IV se almacena en la memoria, y podemos extraerlo buscando en la memoria del módulo lsasrv.dll el patrón presente en la plantilla.
 
-Once we have the location of the pattern, we can use the offsets to move within the memory and extract the IV.
+Una vez que tenemos la ubicación del patrón, podemos usar los offsets para movernos dentro de la memoria y extraer el IV.
 
-<img src="/posts/lsass-extractor/static/iv-schema.png" alt="schema to extract the IV" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: auto;">
+<img src="/posts/lsass-extractor/static/iv-schema.png" alt="esquema para extraer el IV" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: auto;">
 
-As we can see from the schema, once we have the location of the pattern, we have to jump of a prefixed offset (present
-in the template) of 67 bytes to find another value, which is another offset. This offset is the location of the IV.
+Como podemos ver en el esquema, una vez que tenemos la ubicación del patrón, debemos saltar un offset prefijado (presente en la plantilla) de 67 bytes para encontrar otro valor, que es otro offset. Este offset es la ubicación del IV.
 
-## Keys extraction
+## Extracción de claves
 
-Now is the time to extract the keys. The approach is similar to the one used to extract the IV. We need to find the same
-pattern in the memory and then use the offsets to extract the keys.
+Ahora es el momento de extraer las claves. El enfoque es similar al utilizado para extraer el IV. Necesitamos encontrar el mismo patrón en la memoria y luego usar los offsets para extraer las claves.
 
-<img src="/posts/lsass-extractor/static/des-schema.png" alt="schema to extract the IV" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: auto;">
+<img src="/posts/lsass-extractor/static/des-schema.png" alt="esquema para extraer el IV" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: auto;">
 
-This time, using the pointer doesn’t directly lead to the desired value, but rather to a BCRYPT_KEY_HANDLE struct,
-which, in bcrypt.h, is a data type that enables referencing and manipulating cryptographic keys within the CNG
-framework. In pypykatz, the class KIWI_BCRYPT_HANDLE_KEY replicates this type.
+Esta vez, usar el puntero no nos lleva directamente al valor deseado, sino a una estructura BCRYPT_KEY_HANDLE, que, en bcrypt.h, es un tipo de datos que permite referenciar y manipular claves criptográficas dentro del marco CNG. En pypykatz, la clase KIWI_BCRYPT_HANDLE_KEY replica este tipo.
 
 ```python
 class KIWI_BCRYPT_HANDLE_KEY :
@@ -134,14 +99,11 @@ class KIWI_BCRYPT_HANDLE_KEY :
 [...]
 ```
 
-At this point, we have all the necessary information to decrypt the NTLM hashes. We have the IV and the keys. We can now
-start the research of the LogonSessions.
+En este punto, tenemos toda la información necesaria para desencriptar los hashes NTLM. Tenemos el IV y las claves. Ahora podemos comenzar la búsqueda de las LogonSessions.
 
 ## LogonSessions
 
-The LogonSessions are the structures that contain the information about the users that are logged into the system. The
-LogonSessions are stored in the memory of the Msv1_0.dll module, and we can extract them by looking for the pattern
-present in the specific template, which in our case is the following:
+Las LogonSessions son las estructuras que contienen la información sobre los usuarios que están conectados al sistema. Las LogonSessions se almacenan en la memoria del módulo Msv1_0.dll, y podemos extraerlas buscando el patrón presente en la plantilla específica, que en nuestro caso es el siguiente:
 
 ```python
 elif WindowsBuild.WIN_11_2022.value <= sysinfo.buildnumber < WindowsBuild.WIN_11_2023.value: #20348
@@ -150,81 +112,57 @@ elif WindowsBuild.WIN_11_2022.value <= sysinfo.buildnumber < WindowsBuild.WIN_11
     template.offset2 = -4
 ```
 
-Is not possible to know the exact number of LogonSessions that are present in the memory, so we need to retrieve the
-counter first.
+No es posible saber el número exacto de LogonSessions que están presentes en la memoria, por lo que primero debemos recuperar el contador.
 
-#### LogonSessions counter and addresses
+#### Contador de LogonSessions y direcciones
 
-With a similar approach to the one used to extract the IV and the keys, we need to find the pattern in the memory and
-then use the offsets to extract the counter.
+Con un enfoque similar al utilizado para extraer el IV y las claves, necesitamos encontrar el patrón en la memoria y luego usar los offsets para extraer el contador.
 
-This counter allow us to iterate over all the LogonSessions address, where every entry is 16 bytes next to the previous.
+Este contador nos permite iterar sobre todas las direcciones de LogonSessions, donde cada entrada está a 16 bytes de la anterior.
 
-<img src="/posts/lsass-extractor/static/counter-addresses.png" alt="schema to extract the IV" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: auto;">
+<img src="/posts/lsass-extractor/static/counter-addresses.png" alt="esquema para extraer el IV" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: auto;">
 
-By casting those addresses to a char*, they become a pointer that points to the memory location where the LogonSessions
-entry are stored. This grants the ability to access the data associated with the LogonSession, enabling retrieval of
-relevant information.
+Al convertir esas direcciones en un char*, se convierten en un puntero que apunta a
 
-#### Username and Domain
+ la ubicación de la memoria donde se almacenan las entradas de LogonSessions. Esto otorga la capacidad de acceder a los datos asociados con la LogonSession, lo que permite recuperar información relevante.
 
-Now that we have the addresses of the LogonSessions, we can start to extract the information. Jumping to the offset of
-144 bytes from the address, several fields are present, including the username length, the max length, and a pointer to
-the actual username.
-The same logic applies to the domain, which is stored in the memory after the pointer to the username.
+#### Nombre de usuario y dominio
 
-Now it is possible to extract the username and the domain of the user by following the pointers and reading from the
-memory the exact number of bytes that are stored in the max length field.
+Ahora que tenemos las direcciones de las LogonSessions, podemos comenzar a extraer la información. Saltando al offset de 144 bytes desde la dirección, se encuentran varios campos, incluidos la longitud del nombre de usuario, la longitud máxima y un puntero al nombre de usuario real.
+La misma lógica se aplica al dominio, que se almacena en la memoria después del puntero al nombre de usuario.
 
-<img src="/posts/lsass-extractor/static/logon-structure.png" alt="schema to extract the IV" style="display: block; margin-left: auto; margin-right: auto; width: 650px; height: auto;">
+Ahora es posible extraer el nombre de usuario y el dominio del usuario siguiendo los punteros y leyendo de la memoria el número exacto de bytes que se almacenan en el campo de longitud máxima.
 
-#### Credential List
+<img src="/posts/lsass-extractor/static/logon-structure.png" alt="esquema para extraer el IV" style="display: block; margin-left: auto; margin-right: auto; width: 650px; height: auto;">
 
-For the final part of the extraction, we need to focus on the credential lists. Starting from the pointerToDomain saw in
-the previous section, by advancing an offset of 96 bytes, the memory address
-where the first
-'Credential List' is located can be found. Once the value at the pointed address is read as an uint64_t and subsequently
-interpreted as a memory address, it will provide the memory address where the second 'Credential List' is situated, and
-this process continues iteratively. Since it is a circular linked list, when the value matches the memory address of the
-first struct, it indicates that the entire list has been traversed.
+#### Lista de credenciales
 
-Every entry in the linked list of 'Credential List' contains its own associated linked list known as the 'Primary
-Credential List'. To retrieve the address of the first entry in this linked list, it is necessary to advance by an
-offset of 16 bytes and read this memory area as a char pointer.
+Para la última parte de la extracción, debemos centrarnos en las listas de credenciales. A partir del pointerToDomain visto en la sección anterior, al avanzar un offset de 96 bytes, se puede encontrar la dirección de memoria donde se encuentra la primera 'Lista de credenciales'. Una vez que se lee el valor en la dirección apuntada como uint64_t y posteriormente se interpreta como una dirección de memoria, proporcionará la dirección de memoria donde se encuentra la segunda 'Lista de credenciales', y este proceso continúa de manera iterativa. Dado que se trata de una lista enlazada circular, cuando el valor coincide con la dirección de memoria de la primera estructura, indica que se ha recorrido toda la lista.
 
-The following schema illustrates the structure of the lists:
-<img src="/posts/lsass-extractor/static/credlist-struct.png" alt="schema to extract the IV" style="display: block; margin-left: auto; margin-right: auto; width: 650px; height: auto;">
+Cada entrada en la lista enlazada de 'Lista de credenciales' contiene su propia lista enlazada asociada, conocida como 'Lista de credenciales primaria'. Para recuperar la dirección de la primera entrada en esta lista enlazada, es necesario avanzar un offset de 16 bytes y leer esta área de memoria como un puntero char.
 
-Within this final structure, the encrypted NTLM hash can be found. Much like the linked list of 'Credential List',
-interpreting the number at the address of the first entry of the Primary Credential as an address leads to the discovery
-of the subsequent struct, following a circular list. By following the structure, it is possible to retrieve
-the size of the encrypted NTLM and the memory address where this NTLM is located, allowing for its subsequent reading
-and
-extraction.
+El siguiente esquema ilustra la estructura de las listas:
+<img src="/posts/lsass-extractor/static/credlist-struct.png" alt="esquema para extraer el IV" style="display: block; margin-left: auto; margin-right: auto; width: 650px; height: auto;">
 
-## NTLM decryption
+Dentro de esta estructura final, se puede encontrar el hash NTLM encriptado. Al igual que en la lista enlazada de 'Lista de credenciales', interpretar el número en la dirección de la primera entrada de la Lista primaria como una dirección lleva al descubrimiento de la estructura siguiente, siguiendo una lista circular. Siguiendo la estructura, es posible recuperar el tamaño del NTLM encriptado y la dirección de memoria donde se encuentra este NTLM, lo que permite su lectura y extracción posterior.
 
-The encryption algorithm used to encrypt the hash cannot be determined in advance. To identify the algorithm, the
-encrypted NTLM is divided by 8, and its remainder is checked to see if the NTLM length is divisible by 8. If the NTLM
-length is evenly divisible by 8, AES encryption is employed. Conversely, if the NTLM length is not divisible by 8,
-indicating an irregular length, 3DES encryption is utilized.
+## Desencriptación NTLM
 
-The following pseudocode represents the algorithm selection logic:
+El algoritmo de cifrado utilizado para encriptar el hash no puede determinarse de antemano. Para identificar el algoritmo, el NTLM encriptado se divide entre 8 y su resto se verifica para ver si la longitud del NTLM es divisible por 8. Si la longitud del NTLM es divisible por 8, se emplea cifrado AES. Por otro lado, si la longitud del NTLM no es divisible por 8, lo que indica una longitud irregular, se utiliza cifrado 3DES.
+
+El siguiente pseudocódigo representa la lógica de selección del algoritmo:
 
 ```c
 if ( encryptedNTLMLength % 8 != 0) {
- // Encrypted cred was empty ?
+ // ¿La credencial encriptada estaba vacía?
 } else {
- // Prepare algorithm functions and IV
+ // Preparar funciones del algoritmo y IV
  if ( encryptedNTLMLength % 8) {
-    // Perform AES decryption using the provided key
+    // Realizar desencriptación AES utilizando la clave proporcionada
  } else {
-    // Perform 3 DES decryption using the provided key
+    // Realizar desencriptación 3DES utilizando la clave proporcionada
  }
 }
 ```
 
-Once the algorithm used has been identified, the remaining task is to apply the acquired information using the bcrypt.h
-library, following the same approach as MSV. By configuring the required variables to utilize the correct algorithm and
-subsequently invoking the BCrypt- Decrypt function with the encrypted key and the recovered IV, it becomes possible to
-retrieve the plaintext NTLM hash.
+Una vez identificado el algoritmo utilizado, la tarea restante es aplicar la información adquirida utilizando la biblioteca bcrypt.h, siguiendo el mismo enfoque que MSV. Configurando las variables necesarias para utilizar el algoritmo correcto y posteriormente invocando la función BCrypt-Decrypt con la clave encriptada y el IV recuperado, es posible recuperar el hash NTLM en texto claro.

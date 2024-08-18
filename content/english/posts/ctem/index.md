@@ -34,7 +34,7 @@ continuously safeguarding their critical assets and maintaining robust protectio
 
 ## The five steps of the CTEM framework
 
-<img src="/posts/ctem/static/steps.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 500px; height: auto;">
+![CTEM](static/steps.png)
 
 #### Stage 1 – Scoping
 
@@ -83,7 +83,9 @@ critical systems. This process involves a team of ethical hackers who use an opp
 and exploit them, focusing solely on achieving their objective without considering other issues or alternative paths.
 
 The following image could represent a common red teaming iteration:
-<img src="/posts/ctem/static/red-gantt.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: auto;">
+
+![CTEM](static/red-gantt.png)
+
 <br>
 While red teaming provides valuable insights into potential security gaps, it has some notable limitations.
 

@@ -6,7 +6,7 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Riccardo Brigatti</title>
@@ -44,32 +44,25 @@
       <description>Diego Omini is a DevOps engineer and software developer from Switzerland, who has been passionate about programming since 2010. He earned a bachelor’s degree in computer science from the BFH of Bienne. Since February 2023, he has been employed at Swisscom AG as a DevOps engineer.&#xA;Diego specializes in developing RESTful backends using Spring Boot and Java, implementing CI/CD pipelines with Jenkins and GitLab, and deploying applications on Kubernetes. His previous experience includes developing a VR application for his bachelor thesis, automating PST mail archive migrations, and managing a network of 800 workstations and servers during his apprenticeship.</description>
     </item>
     <item>
-      <title>About Us</title>
-      <link>http://localhost:1313/de/about/about/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/de/about/about/</guid>
-      <description>Welcome to TeamFence </description>
-    </item>
-    <item>
-      <title>CTEM over Red Teaming</title>
+      <title>CTEM über Red Teaming</title>
       <link>http://localhost:1313/de/posts/ctem/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/de/posts/ctem/</guid>
-      <description>Introduction At TeamFence we are always looking for new ways to improve the security posture of our clients. In this blog post, we will discuss the Continuous Threat Exposure Management (CTEM) framework and how it can help organizations minimize exposure to cyber attacks. We will also compare CTEM with Red Teaming and simulated attacks to understand the benefits of adopting a proactive approach to security.&#xA;What is CTEM? Continuous Threat Exposure Management (CTEM) is a dynamic and ongoing five-stage framework designed to minimize exposure to cyber attacks.</description>
+      <description>Einführung Bei TeamFence sind wir stets auf der Suche nach neuen Möglichkeiten, die Sicherheitslage unserer Kunden zu verbessern. In diesem Blogbeitrag werden wir das Continuous Threat Exposure Management (CTEM) Framework diskutieren und aufzeigen, wie es Organisationen dabei helfen kann, die Gefährdung durch Cyberangriffe zu minimieren. Wir werden CTEM auch mit Red Teaming und simulierten Angriffen vergleichen, um die Vorteile eines proaktiven Sicherheitsansatzes zu verstehen.&#xA;Was ist CTEM? Das Continuous Threat Exposure Management (CTEM) ist ein dynamisches und kontinuierliches Fünf-Stufen-Framework, das entwickelt wurde, um die Gefährdung durch Cyberangriffe zu minimieren.</description>
     </item>
     <item>
-      <title>HTML Smuggling Detection</title>
+      <title>HTML-Schmuggel-Erkennung</title>
       <link>http://localhost:1313/de/posts/html-smuggling/</link>
       <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
       <guid>http://localhost:1313/de/posts/html-smuggling/</guid>
-      <description>Introduction HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals, and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML smuggling to target government and diplomatic organizations worldwide.</description>
+      <description>Einführung HTML-Schmuggel ist eine fortschrittliche und heimliche Taktik, die Standard-HTML5- und JavaScript-Funktionen nutzt, um eine Erkennung zu vermeiden und Remote-Access-Trojaner (RATs), Bank-Malware und andere schädliche Software zu verbreiten. Diese Methode wird zunehmend von staatlich unterstützten Hackergruppen und Cyberkriminellen eingesetzt, um Regierungen, Einzelpersonen und Unternehmen zu infiltrieren. Ein bemerkenswertes Beispiel ist die Gruppe NOBELIUM, die angeblich Verbindungen zu Russland hat und HTML-Schmuggel verwendet hat, um weltweit Regierungs- und diplomatische Organisationen anzugreifen. Microsoft-Forscher haben beobachtet, dass die Gruppe NOBELIUM bösartige HTML-Anhänge in einer Kampagne namens EnvyScout verwendet hat.</description>
     </item>
     <item>
-      <title>Malicious Ads</title>
+      <title>Bösartige Anzeigen</title>
       <link>http://localhost:1313/de/posts/google-ads/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/de/posts/google-ads/</guid>
-      <description>Introduction In today&amp;rsquo;s world of computers, it&amp;rsquo;s super easy to find stuff online. We often use search engines like Google, Bing, or DuckDuckGo to help us find what we&amp;rsquo;re looking for. Whether we want to visit a website we know or find something new, search engines are a big part of how we use the internet.&#xA;But what happens when we trust these search engines too much? Picture this: you type the name of a famous company into Google, and you click on a link that looks legit, but it&amp;rsquo;s actually a trick.</description>
+      <description>Einführung In der heutigen Computerwelt ist es super einfach, online Dinge zu finden. Wir nutzen oft Suchmaschinen wie Google, Bing oder DuckDuckGo, um uns bei der Suche nach Informationen zu helfen. Egal, ob wir eine bekannte Website besuchen oder etwas Neues entdecken möchten, Suchmaschinen spielen eine große Rolle in unserem Internetgebrauch.&#xA;Aber was passiert, wenn wir diesen Suchmaschinen zu sehr vertrauen? Stellen Sie sich vor, Sie geben den Namen eines berühmten Unternehmens bei Google ein und klicken auf einen Link, der seriös aussieht, aber tatsächlich eine Falle ist.</description>
     </item>
     <item>
       <title>Lsass Extractor</title>
@@ -105,6 +98,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ctem-details/</guid>
       <description>Einführung Im sich ständig wandelnden Bereich der Cybersicherheit suchen Organisationen kontinuierlich nach den besten Strategien, um ihre digitalen Vermögenswerte zu schützen. Zwei prominente Ansätze sind das Continuous Threat Exposure Management (CTEM) und das Penetration Testing. Während beide darauf abzielen, die Sicherheit zu erhöhen, tun sie dies auf unterschiedliche Weise.&#xA;Was ist Continuous Threat Exposure Management (CTEM)? Continuous Threat Exposure Management (CTEM) ist ein proaktives und anpassungsfähiges Framework, das entwickelt wurde, um die Angriffsfläche einer Organisation kontinuierlich zu verwalten und zu reduzieren.</description>
+    </item>
+    <item>
+      <title>Über Uns</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Unsere Vision Unsere Vision ist es, eine Welt zu schaffen, in der das Bewusstsein für Cybersicherheit ein universeller Standard ist, der Einzelpersonen und Organisationen befähigt, ihre digitalen Vermögenswerte mit Vertrauen zu schützen. Mit dem technologischen Fortschritt und der zunehmenden Raffinesse der Cyberbedrohungen setzen wir uns dafür ein, an der Spitze der Innovation zu bleiben, indem wir fortschrittliche Lösungen anbieten, die Risiken antizipieren und mindern. Wir streben danach, einen proaktiven Ansatz für Cybersicherheit zu fördern, bei dem Bildung und Bewusstsein integraler Bestandteil unseres digitalen Lebens werden.</description>
     </item>
   </channel>
 </rss>

@@ -1,143 +1,83 @@
 +++
-title = 'CTEM over Red Teaming'
+title = 'CTEM sobre Red Teaming'
 date = 2024-07-29T17:04:31+02:00
 draft = false
 image = '/posts/ctem/static/cover.jpg'
 +++
 
-## Introduction
+## Introducción
 
-At TeamFence we are always looking for new ways to improve the security posture of our clients. In this blog post, we
-will discuss the Continuous Threat Exposure Management (CTEM) framework and how it can help organizations minimize
-exposure to cyber attacks. We will also compare CTEM with Red Teaming and simulated attacks to understand the benefits
-of adopting a proactive
-approach to security.
+En TeamFence, siempre estamos buscando nuevas formas de mejorar la postura de seguridad de nuestros clientes. En esta publicación de blog, discutiremos el marco de Gestión Continua de la Exposición a Amenazas (CTEM) y cómo puede ayudar a las organizaciones a minimizar la exposición a ciberataques. También compararemos el CTEM con el Red Teaming y los ataques simulados para comprender los beneficios de adoptar un enfoque proactivo de la seguridad.
 
-## What is CTEM?
+## ¿Qué es CTEM?
 
-Continuous Threat Exposure Management (CTEM) is a dynamic and ongoing five-stage framework designed to minimize exposure
-to cyber attacks. This proactive approach aids organizations in identifying vulnerabilities, mapping them to potential
-attack paths, prioritizing based on the risk to critical assets, and tracking the progress of remediation efforts.
-Companies around the world are adopting CTEM to effectively manage exposures and bolster their security posture.
+La Gestión Continua de la Exposición a Amenazas (CTEM) es un marco dinámico y continuo de cinco etapas diseñado para minimizar la exposición a ciberataques. Este enfoque proactivo ayuda a las organizaciones a identificar vulnerabilidades, mapearlas a posibles rutas de ataque, priorizar según el riesgo para activos críticos y realizar un seguimiento del progreso de los esfuerzos de remediación. Las empresas de todo el mundo están adoptando CTEM para gestionar eficazmente las exposiciones y fortalecer su postura de seguridad.
 
-CTEM involves a thorough evaluation of an organization’s entire ecosystem, encompassing networks, systems, assets, and
-more, to detect exposures and weaknesses. The primary goal is to reduce the likelihood that these vulnerabilities will
-be exploited by attackers. Implementing a CTEM program ensures continuous improvement of security measures by
-identifying and addressing potentially problematic areas before they can be exploited.
+CTEM implica una evaluación exhaustiva de todo el ecosistema de una organización, incluidos redes, sistemas, activos y más, para detectar exposiciones y debilidades. El objetivo principal es reducir la probabilidad de que los atacantes exploten estas vulnerabilidades. Implementar un programa CTEM asegura una mejora continua de las medidas de seguridad al identificar y abordar áreas potencialmente problemáticas antes de que puedan ser explotadas.
 
-The “continuous” aspect of CTEM emphasizes the iterative relationship between the CTEM program and risk remediation
-efforts. Data generated from both elements inform each other, facilitating increasingly optimal decisions on managing
-exposure risks.
+El aspecto "continuo" de CTEM enfatiza la relación iterativa entre el programa CTEM y los esfuerzos de remediación de riesgos. Los datos generados por ambos elementos se informan mutuamente, lo que facilita decisiones cada vez más óptimas sobre la gestión de los riesgos de exposición.
 
-By leveraging CTEM, organizations can ensure a resilient security framework that adapts to evolving threats,
-continuously safeguarding their critical assets and maintaining robust protection against cyber attacks.
+Al aprovechar CTEM, las organizaciones pueden garantizar un marco de seguridad resiliente que se adapta a las amenazas en evolución, protegiendo continuamente sus activos críticos contra ciberataques.
 
-## The five steps of the CTEM framework
+## Los cinco pasos del marco CTEM
 
-<img src="/posts/ctem/static/steps.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 500px; height: auto;">
+![CTEM](static/steps.png)
 
-#### Stage 1 – Scoping
+#### Etapa 1 – Definición del alcance
 
-The initial stage involves understanding your attack surfaces and determining the business importance of each asset,
-recognizing that these factors will evolve over time. This includes identifying key attack surfaces with input from
-various decision-makers, such as leaders from IT, Legal, GRC, Dev, R&D, Product, and Business Ops teams.
+La etapa inicial implica comprender sus superficies de ataque y determinar la importancia comercial de cada activo, reconociendo que estos factores evolucionarán con el tiempo. Esto incluye identificar superficies de ataque clave con aportes de varios responsables de toma de decisiones, como líderes de TI, Legal, GRC, Desarrollo, I+D, Producto y Operaciones Comerciales.
 
-#### Stage 2 – Discovery
+#### Etapa 2 – Descubrimiento
 
-During the discovery stage, each asset is assessed for potential exposures and the associated risks are analyzed. This
-goes beyond identifying standalone vulnerabilities to include other types of exposures, such as Active Directory,
-identity, and configuration risks, and considers how these exposures might be chained together to create attack paths to
-assets.
+Durante la etapa de descubrimiento, se evalúa cada activo para detectar posibles exposiciones y se analizan los riesgos asociados. Esto va más allá de la identificación de vulnerabilidades aisladas para incluir otros tipos de exposiciones, como los riesgos de Active Directory, identidad y configuración, y considera cómo estas exposiciones podrían encadenarse para crear rutas de ataque hacia los activos.
 
-#### Stage 3 – Prioritization
+#### Etapa 3 – Priorización
 
-In the prioritization stage, exposures are analyzed to determine their threat level based on known real-world incidents
-and the importance of the impacted assets. This step is crucial because organizations often face more exposures
-than they can address due to the sheer volume and constantly changing environments. CTEM helps prioritize remediations
-that most effectively reduce risk to critical assets, considering all types of exposures, including identities and
-misconfigurations.
+En la etapa de priorización, se analizan las exposiciones para determinar su nivel de amenaza en función de incidentes reales conocidos y la importancia de los activos afectados. Este paso es crucial porque las organizaciones a menudo enfrentan más exposiciones de las que pueden abordar debido al gran volumen y los entornos en constante cambio. CTEM ayuda a priorizar las remediaciones que reducen de manera más efectiva el riesgo para los activos críticos, considerando todos los tipos de exposiciones, incluidas identidades y configuraciones incorrectas.
 
-#### Stage 4 – Validation
+#### Etapa 4 – Validación
 
-The validation stage examines how attacks can occur and their likelihood, using various tools for different purposes.
-Sometimes, validation aids in prioritization as in Stage 3, while other times it is used to continually test security
-controls or automate periodic penetration testing.
+La etapa de validación examina cómo pueden ocurrir los ataques y su probabilidad, utilizando varias herramientas para diferentes propósitos. A veces, la validación ayuda en la priorización como en la Etapa 3, mientras que en otras ocasiones se utiliza para probar continuamente los controles de seguridad o automatizar las pruebas de penetración periódicas.
 
-#### Stage 5 – Mobilization
+#### Etapa 5 – Movilización
 
-The mobilization stage ensures that everyone understands their roles and responsibilities within the context of the
-program. Effective mobilization requires that both the security and IT teams involved in remediation efforts have
-clarity on the risk reduction value of their actions and can report on the overall trend of improvements in the security
-posture over time.
+La etapa de movilización asegura que todos comprendan sus roles y responsabilidades en el contexto del programa. Una movilización efectiva requiere que tanto los equipos de seguridad como los de TI involucrados en los esfuerzos de remediación tengan claridad sobre el valor de reducción de riesgos de sus acciones y puedan informar sobre la tendencia general de las mejoras en la postura de seguridad con el tiempo.
 
-## Is CTEM better than Red Teaming?
+## ¿Es CTEM mejor que Red Teaming?
 
-CTEM and Red Teaming are both valuable tools for enhancing an organization’s security posture, but they serve different
-purposes.
-If our main goal is to enhance the security posture of an organization, CTEM is the way to go. Let's see why:
+CTEM y Red Teaming son herramientas valiosas para mejorar la postura de seguridad de una organización, pero cumplen diferentes propósitos. Si nuestro objetivo principal es mejorar la postura de seguridad de una organización, CTEM es el camino a seguir. Veamos por qué:
 
 #### Red Teaming
 
-A red teaming activity aims to identify vulnerabilities in a company's assets by simulating an attack to gain control of
-critical systems. This process involves a team of ethical hackers who use an opportunistic approach to find weaknesses
-and exploit them, focusing solely on achieving their objective without considering other issues or alternative paths.
+Una actividad de Red Teaming tiene como objetivo identificar vulnerabilidades en los activos de una empresa simulando un ataque para tomar el control de sistemas críticos. Este proceso involucra a un equipo de hackers éticos que utilizan un enfoque oportunista para encontrar debilidades y explotarlas, centrándose únicamente en lograr su objetivo sin considerar otros problemas o caminos alternativos.
 
-The following image could represent a common red teaming iteration:
-<img src="/posts/ctem/static/red-gantt.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: auto;">
+La siguiente imagen podría representar una iteración común de Red Teaming:
+![CTEM](static/red-gantt.png)
 <br>
-While red teaming provides valuable insights into potential security gaps, it has some notable limitations.
+Si bien el Red Teaming proporciona información valiosa sobre posibles brechas de seguridad, tiene algunas limitaciones notables.
 
-***Firstly***, it offers a snapshot in time rather than a continuous assessment. The vulnerabilities identified during a
-red
-teaming exercise may become outdated quickly as new threats emerge and the company’s environment evolves.
+***Primero***, ofrece una instantánea en el tiempo en lugar de una evaluación continua. Las vulnerabilidades identificadas durante un ejercicio de Red Teaming pueden quedar obsoletas rápidamente a medida que surgen nuevas amenazas y evoluciona el entorno de la empresa.
 
-***Secondly***, red teaming does not provide a comprehensive view of all possible vulnerabilities. It focuses on
-specific
-attack vectors and paths, potentially overlooking other critical areas of exposure. This narrow scope can leave some
-vulnerabilities undetected, especially those that do not align with the specific tactics used by the red team.
+***Segundo***, el Red Teaming no proporciona una visión completa de todas las posibles vulnerabilidades. Se centra en vectores de ataque específicos y rutas, lo que puede dejar sin detectar algunas áreas críticas de exposición. Este enfoque limitado puede resultar en que algunas vulnerabilidades no se detecten, especialmente aquellas que no se alinean con las tácticas específicas utilizadas por el equipo rojo.
 
-***Finally***, as we can see from the image above, red teaming is a time-consuming and resource-intensive process that
-may not be feasible for organizations with limited budgets or operational constraints. The high cost and effort required
-to
-conduct red teaming exercises can limit their frequency and effectiveness in identifying and addressing vulnerabilities.
-Additionally, the output of a red teaming exercise is a list of vulnerabilities rather than a prioritized list of
-exposures, often forcing clients to figure out on their own how to implement the necessary mitigations.
+***Finalmente***, como podemos ver en la imagen de arriba, el Red Teaming es un proceso que consume mucho tiempo y recursos, lo que puede no ser factible para organizaciones con presupuestos limitados o restricciones operativas. El alto costo y el esfuerzo necesarios para realizar ejercicios de Red Teaming pueden limitar su frecuencia y efectividad en la identificación y resolución de vulnerabilidades. Además, el resultado de un ejercicio de Red Teaming es una lista de vulnerabilidades en lugar de una lista priorizada de exposiciones, lo que a menudo obliga a los clientes a averiguar por sí mismos cómo implementar las medidas necesarias.
 
 ### CTEM
 
-CTEM, on the other hand, resolves many of the problems an organization might face when trying to improve its security
-posture:
+Por otro lado, CTEM resuelve muchos de los problemas que una organización podría enfrentar al tratar de mejorar su postura de seguridad:
 
-***Output absorbing***: many organizations struggle to absorb the output of red teaming or other attack simulation
-exercises, finding the results
-overwhelming and challenging to understand and prioritize. CTEM includes a mobilization stage that ensures internal
-teams fully understand the risks, allowing them to prioritize and implement remediation measures effectively.
+***Absorción de resultados***: muchas organizaciones luchan para absorber los resultados del Red Teaming u otros ejercicios de simulación de ataques, encontrando los resultados abrumadores y desafiantes de entender y priorizar. CTEM incluye una etapa de movilización que asegura que los equipos internos comprendan completamente los riesgos, lo que les permite priorizar y implementar medidas de remediación de manera efectiva.
 
-***Time & Money consuming***: we have to consider that this kind of activities are B2B services, and they are expensive.
-CTEM is a more cost-effective approach to security, since the enumeration phase of the simulated attacks is replaced by
-a collaborative effort between the security and IT teams to identify all the assets and exposures in the organization.
+***Tiempo y dinero***: debemos tener en cuenta que este tipo de actividades son servicios B2B, y son costosos. CTEM es un enfoque más rentable para la seguridad, ya que la fase de enumeración de los ataques simulados se reemplaza por un esfuerzo colaborativo entre los equipos de seguridad y TI para identificar todos los activos y exposiciones en la organización.
 
-***Assets coverage***: CTEM allows to have a 100% coverage of the assets, since the discovery phase is not limited to
-the assets that the red team can find, but it is a collaborative effort between the security and IT teams. This means
-that all the assets are taken into consideration, and the risk is calculated based on the importance of the asset.
+***Cobertura de activos***: CTEM permite una cobertura del 100 % de los activos, ya que la fase de descubrimiento no se limita a los activos que el equipo rojo puede encontrar, sino que es un esfuerzo colaborativo entre los equipos de seguridad y TI. Esto significa que se tienen en cuenta todos los activos y el riesgo se calcula en función de la importancia del activo.
 
-***Continuous***: CTEM is a continuous process, which means that the organization is always aware of the risks and can
-act accordingly.
-The security team is than able to track the infrastructure changes, follow the new threats and vulnerabilities emerging
-and keep the security posture up to date. This remove the majority of the responsibility of the security from the IT
-team,
-and the client can focus on the business.
+***Continuo***: CTEM es un proceso continuo, lo que significa que la organización siempre está al tanto de los riesgos y puede actuar en consecuencia. El equipo de seguridad puede realizar un seguimiento de los cambios en la infraestructura, seguir las nuevas amenazas y vulnerabilidades emergentes y mantener la postura de seguridad actualizada. Esto elimina gran parte de la responsabilidad de la seguridad del equipo de TI, y el cliente puede centrarse en el negocio.
 
-## Conclusion
+## Conclusión
 
-In conclusion, while red teaming is useful for uncovering certain vulnerabilities and testing the effectiveness of a
-company’s defenses against specific attack scenarios, its limitations highlight the need for more continuous,
-comprehensive, and context-aware security assessments.
+En conclusión, si bien el Red Teaming es útil para descubrir ciertas vulnerabilidades y probar la efectividad de las defensas de una empresa contra escenarios de ataque específicos, sus limitaciones destacan la necesidad de evaluaciones de seguridad más continuas, completas y conscientes del contexto.
 
-At TeamFence, we believe that CTEM offers a more effective and sustainable approach to security by providing the security
-as a service that continuously monitors and manages an organization’s exposure to cyber threats. By adopting CTEM,
-companies can proactively identify and address vulnerabilities, prioritize remediation efforts, and maintain a resilient
-security posture that adapts to evolving threats. 
+En TeamFence, creemos que CTEM ofrece un enfoque más efectivo y sostenible para la seguridad al proporcionar la seguridad como un servicio que monitorea y gestiona continuamente la exposición de una organización a las amenazas cibernéticas. Al adoptar CTEM, las empresas pueden identificar y abordar proactivamente las vulnerabilidades, priorizar los esfuerzos de remediación y mantener una postura de seguridad resiliente que se adapte a las amenazas en evolución.
 
-Contact us to learn more about how CTEM can help your organization
-stay ahead of cyber threats and protect your critical assets.
+Contáctenos para obtener más información sobre cómo CTEM puede ayudar a su organización a adelantarse a las amenazas cibernéticas y proteger sus activos críticos.

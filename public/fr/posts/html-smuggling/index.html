@@ -20,12 +20,10 @@
     <link rel="stylesheet" href='/css/theme.min.css?ver=210'>
     <link rel="stylesheet" href='/css/custom.min.css?ver=210'>
 </head>
-<body class="nk-body body-wider theme-dark mode-onepage">
+<body class="nk-body body-wider theme-light mode-onepage"> 
 <div class="nk-wrap">
-    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
-        
-
-<div class="header-main">
+    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header"> 
+        <div class="header-main">
     <div class="header-container container">
         <div class="header-wrap">
             
@@ -61,7 +59,7 @@
                         </li>
                         
                         <li class="menu-item">
-                            <a class="menu-link nav-link" href="/fr/blog/">Blog</a>
+                            <a class="menu-link nav-link" href="/fr/posts/">Blog</a>
                         </li>
                         
                         <li class="menu-item">
@@ -181,13 +179,13 @@
     </div>
 </div>
 
-        <div class="header-banner bg-purple">
+        <div class="header-banner bg-purple"> 
             <div class="nk-ovm shape-a-sm"></div>
         </div>
         
     </header>
     <main class="nk-pages">
-        <section class="section bg-purple">
+        <section class="section bg-light">
             <div class="container" style="margin-top: -50px">
                 <div class="nk-block nk-block-blog">
                     <div class="row">
@@ -195,12 +193,12 @@
                             <div class="blog-details">
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8 col-lg-10">
-                                        <ul class="blog-meta text-white"> 
-                                            <li><a class="text-white" href="#">June 21, 2024</a></li> 
-                                            <li><a class="text-white" href="#">5  minutes  read</a></li> 
+                                        <ul class="blog-meta">
+                                            <li><a href="#">June 21, 2024</a></li>
+                                            <li><a href="#">6  minutes  read</a></li>
                                         </ul>
                                         <div class="blog-content">
-                                            <h2 class="title text-white"><a href="#">HTML Smuggling Detection</a></h2>
+                                            <h2 class="title"><a href="#">Détection du HTML Smuggling</a></h2>
                                             <div class="col-xl-10 col-lg-12">
                                                 <div class="blog-featured">
                                                     <div class="img-wrapper-single">
@@ -210,31 +208,17 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="text-white"> 
+                                            <div> 
                                                 <h2 id="introduction">Introduction</h2>
-<p>HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid
-detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is
-increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals,
-and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML
-smuggling to target government and diplomatic organizations worldwide. Microsoft researchers have observed that the
-NOBELIUM group employed malicious HTML attachments in a campaign dubbed EnvyScout. These attachments act as droppers,
-capable of de-obfuscating and writing malicious ISO files to the victim&rsquo;s system.</p>
-<h2 id="how-html-smuggling-works">How HTML Smuggling Works</h2>
-<p>This malware is essentially used to gain control of victim machines, effectively deliver payloads, and execute
-ransomware attacks.</p>
-<p>In HTML smuggling, the attacker uses a specially crafted HTML attachment that carries an encoded malicious script. When
-the victim opens this malicious HTML file in their web browser, the browser decodes this embedded malicious script which
-on execution further assembles the payload on the victim machine. The main advantage to threat actors is that instead of
-passing the payload over the network, the malicious payload assembles on the victim’s machine. This makes the technique
-highly evasive because it could bypass standard security controls like web proxies, firewalls, and email gateways. As
-the payload is only created when the malicious HTML file is loaded on the victim’s machine through the web browser, the
-security solutions only see HTML or JavaScript traffic which can be further obfuscated to evade detection.</p>
+<p>Le HTML smuggling est une technique avancée et furtive qui exploite les fonctionnalités standard de HTML5 et de JavaScript pour éviter la détection et distribuer des chevaux de Troie d&rsquo;accès à distance (RAT), des malwares bancaires et d&rsquo;autres logiciels malveillants. Cette méthode est de plus en plus adoptée par des groupes de hackers soutenus par des États et des cybercriminels pour infiltrer les gouvernements, les individus et les entreprises. Un exemple notable est le groupe NOBELIUM, que l&rsquo;on pense être lié à la Russie, et qui a utilisé le HTML smuggling pour cibler des organisations gouvernementales et diplomatiques à travers le monde. Les chercheurs de Microsoft ont observé que le groupe NOBELIUM a utilisé des pièces jointes HTML malveillantes dans une campagne appelée EnvyScout. Ces pièces jointes agissent comme des dropper, capables de déchiffrer et d&rsquo;écrire des fichiers ISO malveillants sur le système de la victime.</p>
+<h2 id="comment-fonctionne-le-html-smuggling">Comment fonctionne le HTML Smuggling</h2>
+<p>Ce malware est essentiellement utilisé pour prendre le contrôle des machines des victimes, distribuer efficacement des charges utiles et exécuter des attaques de ransomware.</p>
+<p>Dans le HTML smuggling, l&rsquo;attaquant utilise une pièce jointe HTML spécialement conçue qui contient un script malveillant encodé. Lorsque la victime ouvre ce fichier HTML malveillant dans son navigateur, le navigateur décode ce script malveillant intégré qui, lors de l&rsquo;exécution, assemble ensuite la charge utile sur la machine de la victime. L&rsquo;avantage principal pour les acteurs malveillants est que, au lieu de transmettre la charge utile sur le réseau, celle-ci s&rsquo;assemble directement sur la machine de la victime. Cela rend la technique hautement évasive car elle peut contourner les contrôles de sécurité standard tels que les proxies web, les pare-feu et les passerelles de messagerie. Comme la charge utile n&rsquo;est créée que lorsque le fichier HTML malveillant est chargé sur la machine de la victime via le navigateur, les solutions de sécurité ne voient que du trafic HTML ou JavaScript, qui peut être encore plus obfusqué pour échapper à la détection.</p>
 <!-- raw HTML omitted -->
-<h2 id="code-analysis">Code analysis</h2>
-<p>In this chapter we are going to analise a basic version of a html smuggling
-payload. <a href="https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/offensive-security/defense-evasion/file-smuggling-with-html-and-javascript.md">see the full code</a></p>
-<h4 id="base64-encoded-data">Base64 encoded data</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">//convert function
+<h2 id="analyse-du-code">Analyse du code</h2>
+<p>Dans ce chapitre, nous allons analyser une version de base d&rsquo;une charge utile de HTML smuggling. <a href="https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/offensive-security/defense-evasion/file-smuggling-with-html-and-javascript.md">voir le code complet</a></p>
+<h4 id="données-encodées-en-base64">Données encodées en Base64</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">//fonction de conversion
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">base64ToArrayBuffer</span>(<span style="color:#a6e22e">base64</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">binary_string</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">atob</span>(<span style="color:#a6e22e">base64</span>);
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">len</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">binary_string</span>.<span style="color:#a6e22e">length</span>;
@@ -246,28 +230,20 @@ payload. <a href="https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/o
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">bytes</span>.<span style="color:#a6e22e">buffer</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">//malware.exe encoded in Base64
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//malware.exe encodé en Base64
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">file</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;TVqQAAMAAAAEAAAA//8AALgAA[...]nBkYgA=&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">base64ToArrayBuffer</span>(<span style="color:#a6e22e">file</span>);
-</span></span></code></pre></div><p>As we observed, the malicious HTML file can deliver malware to the victim&rsquo;s machine through various methods. In this
-scenario, the entire malware payload is encoded in base64 and embedded directly within the HTML file itself.
-We can see the variable <code>file</code> containing the payload.</p>
-<p>The function <code>base64ToArrayBuffer</code> converts the encoded payload into the actual bytes that make up the malicious file.</p>
-<p>It is important to note that attackers can devise even more complex methods to deliver malware. For instance, they might
-split the payload into several pieces, retrieve parts of it remotely, or use different encoding standards and encryption
-techniques. These strategies significantly increase the likelihood of evading security measures such as web proxies,
-firewalls, and email gateways.</p>
-<h4 id="javascript-blob">JavaScript Blob</h4>
+</span></span></code></pre></div><p>Comme nous l&rsquo;avons observé, le fichier HTML malveillant peut distribuer des malwares sur la machine de la victime via diverses méthodes. Dans ce scénario, la charge utile entière est encodée en base64 et intégrée directement dans le fichier HTML lui-même. On peut voir la variable <code>file</code> contenant la charge utile.</p>
+<p>La fonction <code>base64ToArrayBuffer</code> convertit la charge utile encodée en les octets réels qui composent le fichier malveillant.</p>
+<p>Il est important de noter que les attaquants peuvent élaborer des méthodes encore plus complexes pour distribuer des malwares. Par exemple, ils peuvent diviser la charge utile en plusieurs morceaux, récupérer des parties de celle-ci à distance, ou utiliser différents standards de codage et techniques de chiffrement. Ces stratégies augmentent considérablement la probabilité d&rsquo;échapper aux mesures de sécurité telles que les proxies web, les pare-feu et les passerelles de messagerie.</p>
+<h4 id="blob-javascript">Blob JavaScript</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">blob</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Blob</span>([<span style="color:#a6e22e">data</span>], {<span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;octet/stream&#39;</span>});
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">fileName</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;evil.exe&#39;</span>;
-</span></span></code></pre></div><p>This is the core of the attack. The Blob object enables the creation of a file within the browser using JavaScript code.
-Here is how Mozilla describes it:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>&#34;The Blob interface represents a blob, which is a file-like object of immutable, raw data; they can be read as text or
-</span></span><span style="display:flex;"><span>binary data, or converted into a ReadableStream so its methods can be used for processing the data.
-</span></span><span style="display:flex;"><span>Blobs can represent data that isn&#39;t necessarily in a JavaScript-native format. The File interface is based on Blob,
-</span></span><span style="display:flex;"><span>inheriting blob functionality and expanding it to support files on the user&#39;s system.&#34;
+</span></span></code></pre></div><p>C&rsquo;est le cœur de l&rsquo;attaque. L&rsquo;objet Blob permet de créer un fichier dans le navigateur en utilisant du code JavaScript. Voici comment Mozilla le décrit :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>&#34;L&#39;interface Blob représente un blob, qui est un objet similaire à un fichier contenant des données brutes immuables; elles peuvent être lues sous forme de texte ou de données binaires, ou converties en un ReadableStream pour que ses méthodes puissent être utilisées pour traiter les données.
+</span></span><span style="display:flex;"><span>Les blobs peuvent représenter des données qui ne sont pas nécessairement dans un format natif à JavaScript. L&#39;interface File est basée sur Blob, héritant des fonctionnalités de blob et les étendant pour prendre en charge les fichiers sur le système de l&#39;utilisateur.&#34;
 </span></span></code></pre></div><!-- raw HTML omitted -->
-<h4 id="html-anchor-download">HTML anchor download</h4>
+<h4 id="téléchargement-via-balise-html-anchor">Téléchargement via balise HTML anchor</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (window.<span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">msSaveOrOpenBlob</span>) {
 </span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">msSaveOrOpenBlob</span>(<span style="color:#a6e22e">blob</span>, <span style="color:#a6e22e">fileName</span>);
 </span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
@@ -281,47 +257,26 @@ Here is how Mozilla describes it:</p>
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">click</span>();
 </span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">URL</span>.<span style="color:#a6e22e">revokeObjectURL</span>(<span style="color:#a6e22e">url</span>);
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>This code snippet checks if the browser supports <code>msSaveOrOpenBlob</code>. If supported (for older versions of Internet
-Explorer
-and Microsoft Edge), it uses it to save or open a Blob object (blob) with a specified file name (fileName). If not
-supported, it creates a hidden <!-- raw HTML omitted --> element in the document, sets up a Blob URL (url) for the Blob object (blob), assigns
-the URL to the <!-- raw HTML omitted --> element&rsquo;s href attribute, sets the download attribute to specify the file name (fileName), simulates
-a click on the <!-- raw HTML omitted --> element to trigger the download, and cleans up by revoking the Blob URL (url).</p>
-<p>At this point the malicious file is stored on the victim&rsquo;s machine.</p>
-<h3 id="behaviour-on-browser">Behaviour on browser</h3>
-<p>Now it is easy to imagine the numerous ways an attacker can devise to pull a malicious file and reconstruct it directly
-on the victim&rsquo;s machine. We can view this stage as a high-level operation where the attacker manipulates encoding,
-strings, and various remote and embedded resources. However, at a certain point, they must utilize specific browser
-APIs (low-level operation)
-to execute the attack. This is where we can intervene and take action!</p>
-<h4 id="browser-level-iocs">Browser level IOCs</h4>
-<p>Every technique leaves traces, and in this case, our Indicators of Compromise (IOCs) are provided by the event of Blob
-creation.
-This event has several parameters and options, the most interesting of which are the ArrayBuffer, containing the
-malware, and the type, which must be set to octet/stream.</p>
+</span></span></code></pre></div><p>Ce fragment de code vérifie si le navigateur prend en charge <code>msSaveOrOpenBlob</code>. Si pris en charge (pour les anciennes versions d&rsquo;Internet Explorer et Microsoft Edge), il l&rsquo;utilise pour sauvegarder ou ouvrir un objet Blob (blob) avec un nom de fichier spécifié (fileName). Si non pris en charge, il crée un élément <code>&lt;a&gt;</code> caché dans le document, configure une URL Blob (url) pour l&rsquo;objet Blob (blob), assigne l&rsquo;URL à l&rsquo;attribut href de l&rsquo;élément <code>&lt;a&gt;</code>, configure l&rsquo;attribut download pour spécifier le nom du fichier (fileName), simule un clic sur l&rsquo;élément <code>&lt;a&gt;</code> pour déclencher le téléchargement et nettoie en révoquant l&rsquo;URL Blob (url).</p>
+<p>À ce stade, le fichier malveillant est stocké sur la machine de la victime.</p>
+<h3 id="comportement-dans-le-navigateur">Comportement dans le navigateur</h3>
+<p>Il est maintenant facile d&rsquo;imaginer les nombreuses façons dont un attaquant peut concevoir pour récupérer un fichier malveillant et le reconstruire directement sur la machine de la victime. Nous pouvons voir cette étape comme une opération de haut niveau où l&rsquo;attaquant manipule les encodages, les chaînes de caractères et diverses ressources distantes et intégrées. Cependant, à un moment donné, ils doivent utiliser des API spécifiques du navigateur (opération de bas niveau) pour exécuter l&rsquo;attaque. C&rsquo;est là que nous pouvons intervenir et agir!</p>
+<h4 id="indicateurs-de-compromission-ioc-au-niveau-du-navigateur">Indicateurs de Compromission (IOC) au niveau du navigateur</h4>
+<p>Chaque technique laisse des traces, et dans ce cas, nos Indicateurs de Compromission (IOC) sont fournis par l&rsquo;événement de création du Blob. Cet événement a plusieurs paramètres et options, les plus intéressants étant l&rsquo;ArrayBuffer, qui contient le malware, et le type, qui doit être défini sur octet/stream.</p>
 <!-- raw HTML omitted -->
-<p>After this, an anchor element is created that points to a Blob URL with a download parameter and probably with
-a <code>display:none</code> style, followed by a programmatic click on it. This
-sequence of actions represents another specific behavior that can be identified and monitored for malicious activity.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;blob:null/5f2c2f2a-0349-43d2-a6ec-276bd4efb082&#34;</span> <span style="color:#a6e22e">download</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;evil.exe&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display: none;&#34;</span>&gt;&lt;/<span style="color:#f92672">a</span>&gt;
+<p>Ensuite, un élément anchor est créé qui pointe vers une URL Blob avec un paramètre de téléchargement et probablement avec un style <code>display:none</code>, suivi d&rsquo;un clic programmatique dessus. Cette séquence d&rsquo;actions représente un autre comportement spécifique qui peut être identifié et surveillé pour détecter une activité malveillante.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;blob:null/5f2c2f2a-0349-43d2-a6ec-276bd4efb082&#34;</span> <span style="color:#a6e22e">download</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;evil.exe&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display: none
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">;&#34;</span>&gt;&lt;/<span style="color:#f92672">a</span>&gt;
 </span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
-<p>In conclusion, HTML smuggling represents a sophisticated method utilized by cyber adversaries to circumvent traditional
-security measures and deliver malicious payloads directly to unsuspecting users. By embedding encoded scripts within
-innocuous-looking HTML files, attackers can evade detection and execute harmful actions on victim machines. This
-technique poses significant risks to individuals, businesses, and governments worldwide.</p>
-<p>At TeamFence, we have conducted extensive analysis of HTML smuggling techniques and understand the critical importance
-of proactive defense measures. Our solution is designed to detect and mitigate these stealthy attacks effectively. By
-leveraging advanced detection algorithms and real-time monitoring capabilities, BrowserFence identifies suspicious
-behaviors associated with HTML smuggling, such as the creation and manipulation of Blob URLs and the assembly of
-malicious payloads in memory.</p>
-<p>Protect your organization today with BrowserFence and stay ahead in the ever-evolving landscape of cybersecurity threats.
-Contact us to learn more about how BrowserFence can defend your digital assets against HTML smuggling and ensure a secure
-computing environment for your business.</p>
+<p>En conclusion, le HTML smuggling représente une méthode sophistiquée utilisée par les adversaires cybernétiques pour contourner les mesures de sécurité traditionnelles et livrer des charges malveillantes directement aux utilisateurs sans méfiance. En intégrant des scripts encodés dans des fichiers HTML apparemment inoffensifs, les attaquants peuvent échapper à la détection et exécuter des actions malveillantes sur les machines des victimes. Cette technique pose des risques importants pour les individus, les entreprises et les gouvernements à travers le monde.</p>
+<p>Chez TeamFence, nous avons mené une analyse approfondie des techniques de HTML smuggling et comprenons l&rsquo;importance cruciale des mesures de défense proactives. Notre solution est conçue pour détecter et atténuer efficacement ces attaques furtives. En exploitant des algorithmes de détection avancés et des capacités de surveillance en temps réel, BrowserFence identifie les comportements suspects associés au HTML smuggling, tels que la création et la manipulation d&rsquo;URL Blob et l&rsquo;assemblage de charges malveillantes en mémoire.</p>
+<p>Protégez votre organisation dès aujourd&rsquo;hui avec BrowserFence et restez en avance dans le paysage en constante évolution des menaces cybernétiques. Contactez-nous pour en savoir plus sur la façon dont BrowserFence peut protéger vos actifs numériques contre le HTML smuggling et garantir un environnement informatique sécurisé pour votre entreprise.</p>
 <!-- raw HTML omitted -->
 
                                             </div>
                                         </div>
-                                        <ul class="blog-tags text-white"> 
+                                        <ul class="blog-tags"> 
                                             
                                             
                                         </ul>
@@ -337,7 +292,7 @@ computing environment for your business.</p>
     
     <div class="preloader preloader-alt no-split">
         <span class="spinner spinner-alt">
-            <img class="spinner-brand" src="/images/logo-white.png" alt="">
+            <img class="spinner-brand" src="/images/logo-white.png" alt=""> 
         </span>
     </div>
     

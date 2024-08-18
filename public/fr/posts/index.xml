@@ -9,32 +9,32 @@
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/fr/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CTEM over Red Teaming</title>
+      <title>CTEM par rapport au Red Teaming</title>
       <link>http://localhost:1313/fr/posts/ctem/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/fr/posts/ctem/</guid>
-      <description>Introduction At TeamFence we are always looking for new ways to improve the security posture of our clients. In this blog post, we will discuss the Continuous Threat Exposure Management (CTEM) framework and how it can help organizations minimize exposure to cyber attacks. We will also compare CTEM with Red Teaming and simulated attacks to understand the benefits of adopting a proactive approach to security.&#xA;What is CTEM? Continuous Threat Exposure Management (CTEM) is a dynamic and ongoing five-stage framework designed to minimize exposure to cyber attacks.</description>
+      <description>Introduction Chez TeamFence, nous cherchons toujours de nouvelles façons d&amp;rsquo;améliorer la posture de sécurité de nos clients. Dans cet article de blog, nous discuterons du cadre de gestion continue de l&amp;rsquo;exposition aux menaces (CTEM) et de la manière dont il peut aider les organisations à minimiser l&amp;rsquo;exposition aux cyberattaques. Nous comparerons également le CTEM avec le Red Teaming et les attaques simulées pour comprendre les avantages d&amp;rsquo;une approche proactive de la sécurité.</description>
     </item>
     <item>
-      <title>HTML Smuggling Detection</title>
+      <title>Détection du HTML Smuggling</title>
       <link>http://localhost:1313/fr/posts/html-smuggling/</link>
       <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
       <guid>http://localhost:1313/fr/posts/html-smuggling/</guid>
-      <description>Introduction HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals, and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML smuggling to target government and diplomatic organizations worldwide.</description>
+      <description>Introduction Le HTML smuggling est une technique avancée et furtive qui exploite les fonctionnalités standard de HTML5 et de JavaScript pour éviter la détection et distribuer des chevaux de Troie d&amp;rsquo;accès à distance (RAT), des malwares bancaires et d&amp;rsquo;autres logiciels malveillants. Cette méthode est de plus en plus adoptée par des groupes de hackers soutenus par des États et des cybercriminels pour infiltrer les gouvernements, les individus et les entreprises. Un exemple notable est le groupe NOBELIUM, que l&amp;rsquo;on pense être lié à la Russie, et qui a utilisé le HTML smuggling pour cibler des organisations gouvernementales et diplomatiques à travers le monde.</description>
     </item>
     <item>
-      <title>Malicious Ads</title>
+      <title>Annonces Malveillantes</title>
       <link>http://localhost:1313/fr/posts/google-ads/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/fr/posts/google-ads/</guid>
-      <description>Introduction In today&amp;rsquo;s world of computers, it&amp;rsquo;s super easy to find stuff online. We often use search engines like Google, Bing, or DuckDuckGo to help us find what we&amp;rsquo;re looking for. Whether we want to visit a website we know or find something new, search engines are a big part of how we use the internet.&#xA;But what happens when we trust these search engines too much? Picture this: you type the name of a famous company into Google, and you click on a link that looks legit, but it&amp;rsquo;s actually a trick.</description>
+      <description>Introduction Dans le monde informatique d&amp;rsquo;aujourd&amp;rsquo;hui, il est très facile de trouver des informations en ligne. Nous utilisons souvent des moteurs de recherche tels que Google, Bing ou DuckDuckGo pour nous aider à trouver ce que nous recherchons. Que nous souhaitions visiter un site Web que nous connaissons ou découvrir quelque chose de nouveau, les moteurs de recherche jouent un rôle important dans notre utilisation d&amp;rsquo;Internet.&#xA;Mais que se passe-t-il lorsque nous faisons trop confiance à ces moteurs de recherche ?</description>
     </item>
     <item>
-      <title>Lsass Extractor</title>
+      <title>Extracteur de Lsass</title>
       <link>http://localhost:1313/fr/posts/lsass-extractor/</link>
       <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
       <guid>http://localhost:1313/fr/posts/lsass-extractor/</guid>
-      <description>Introduction In TeamFence, we strongly believe that nowadays it&amp;rsquo;s increasingly important for an offensive operator to understand the details behind the techniques and tools.&#xA;For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us to then re-implement the logic into a tool tailored to our future needs.&#xA;Note: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation workstation.</description>
+      <description>Introduction Chez TeamFence, nous croyons fermement qu&amp;rsquo;il est de plus en plus important pour un opérateur offensif de comprendre les détails derrière les techniques et les outils.&#xA;Pour cette raison, dans cet article de blog, nous allons examiner comment Mimikatz extrait les identifiants à partir de dumps de lsass, ce qui nous permettra de réimplémenter la logique dans un outil adapté à nos besoins futurs.&#xA;Remarque : toutes les analyses effectuées au cours de ce projet ont été réalisées sur une station de travail Windows 11 Enterprise Evaluation.</description>
     </item>
   </channel>
 </rss>

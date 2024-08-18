@@ -51,25 +51,25 @@
       <description>Welcome to TeamFence </description>
     </item>
     <item>
-      <title>CTEM over Red Teaming</title>
+      <title>CTEM su Red Teaming</title>
       <link>http://localhost:1313/it/posts/ctem/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/it/posts/ctem/</guid>
-      <description>Introduction At TeamFence we are always looking for new ways to improve the security posture of our clients. In this blog post, we will discuss the Continuous Threat Exposure Management (CTEM) framework and how it can help organizations minimize exposure to cyber attacks. We will also compare CTEM with Red Teaming and simulated attacks to understand the benefits of adopting a proactive approach to security.&#xA;What is CTEM? Continuous Threat Exposure Management (CTEM) is a dynamic and ongoing five-stage framework designed to minimize exposure to cyber attacks.</description>
+      <description>Introduzione In TeamFence cerchiamo sempre nuovi modi per migliorare la postura di sicurezza dei nostri clienti. In questo post del blog, discuteremo del framework di Gestione Continua dell&amp;rsquo;Esposizione alle Minacce (CTEM) e di come possa aiutare le organizzazioni a minimizzare l&amp;rsquo;esposizione agli attacchi informatici. Confronteremo anche il CTEM con il Red Teaming e gli attacchi simulati per comprendere i vantaggi di adottare un approccio proattivo alla sicurezza.&#xA;Cos&amp;rsquo;è CTEM? La Gestione Continua dell&amp;rsquo;Esposizione alle Minacce (CTEM) è un framework dinamico e continuo in cinque fasi progettato per minimizzare l&amp;rsquo;esposizione agli attacchi informatici.</description>
     </item>
     <item>
-      <title>HTML Smuggling Detection</title>
+      <title>Rilevamento di HTML Smuggling</title>
       <link>http://localhost:1313/it/posts/html-smuggling/</link>
       <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
       <guid>http://localhost:1313/it/posts/html-smuggling/</guid>
-      <description>Introduction HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals, and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML smuggling to target government and diplomatic organizations worldwide.</description>
+      <description>Introduzione L&amp;rsquo;HTML smuggling è una tecnica avanzata e furtiva che sfrutta le funzionalità standard di HTML5 e JavaScript per evitare il rilevamento e distribuire Remote Access Trojans (RAT), malware bancari e altri software dannosi. Questo metodo viene sempre più adottato da gruppi di hacker sponsorizzati dallo stato e criminali informatici per infiltrarsi in governi, individui e aziende. Un esempio notevole è il gruppo NOBELIUM, ritenuto legato alla Russia, che ha utilizzato l&amp;rsquo;HTML smuggling per colpire organizzazioni governative e diplomatiche in tutto il mondo.</description>
     </item>
     <item>
-      <title>Malicious Ads</title>
+      <title>Annunci dannosi</title>
       <link>http://localhost:1313/it/posts/google-ads/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/it/posts/google-ads/</guid>
-      <description>Introduction In today&amp;rsquo;s world of computers, it&amp;rsquo;s super easy to find stuff online. We often use search engines like Google, Bing, or DuckDuckGo to help us find what we&amp;rsquo;re looking for. Whether we want to visit a website we know or find something new, search engines are a big part of how we use the internet.&#xA;But what happens when we trust these search engines too much? Picture this: you type the name of a famous company into Google, and you click on a link that looks legit, but it&amp;rsquo;s actually a trick.</description>
+      <description>Introduzione Nel mondo digitale di oggi, è estremamente facile trovare informazioni online. Spesso utilizziamo motori di ricerca come Google, Bing o DuckDuckGo per aiutarci a trovare ciò che stiamo cercando. Che si tratti di visitare un sito web noto o di scoprire qualcosa di nuovo, i motori di ricerca giocano un ruolo fondamentale nel nostro utilizzo di internet.&#xA;Ma cosa succede quando ci fidiamo troppo di questi motori di ricerca? Immagina di digitare il nome di una famosa azienda su Google e di cliccare su un link che sembra legittimo, ma che in realtà è una truffa.</description>
     </item>
     <item>
       <title>Lsass Extractor</title>

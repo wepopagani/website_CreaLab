@@ -51,25 +51,25 @@
       <description>Welcome to TeamFence </description>
     </item>
     <item>
-      <title>CTEM over Red Teaming</title>
+      <title>CTEM sobre Red Teaming</title>
       <link>http://localhost:1313/es/posts/ctem/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/es/posts/ctem/</guid>
-      <description>Introduction At TeamFence we are always looking for new ways to improve the security posture of our clients. In this blog post, we will discuss the Continuous Threat Exposure Management (CTEM) framework and how it can help organizations minimize exposure to cyber attacks. We will also compare CTEM with Red Teaming and simulated attacks to understand the benefits of adopting a proactive approach to security.&#xA;What is CTEM? Continuous Threat Exposure Management (CTEM) is a dynamic and ongoing five-stage framework designed to minimize exposure to cyber attacks.</description>
+      <description>Introducción En TeamFence, siempre estamos buscando nuevas formas de mejorar la postura de seguridad de nuestros clientes. En esta publicación de blog, discutiremos el marco de Gestión Continua de la Exposición a Amenazas (CTEM) y cómo puede ayudar a las organizaciones a minimizar la exposición a ciberataques. También compararemos el CTEM con el Red Teaming y los ataques simulados para comprender los beneficios de adoptar un enfoque proactivo de la seguridad.</description>
     </item>
     <item>
-      <title>HTML Smuggling Detection</title>
+      <title>Detección de HTML Smuggling</title>
       <link>http://localhost:1313/es/posts/html-smuggling/</link>
       <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
       <guid>http://localhost:1313/es/posts/html-smuggling/</guid>
-      <description>Introduction HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals, and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML smuggling to target government and diplomatic organizations worldwide.</description>
+      <description>Introducción El HTML smuggling es una táctica avanzada y sigilosa que aprovecha las características estándar de HTML5 y JavaScript para evitar la detección y distribuir troyanos de acceso remoto (RAT), malware bancario y otro software dañino. Este método está siendo cada vez más adoptado por grupos de hackers patrocinados por el estado y ciberdelincuentes para infiltrarse en gobiernos, individuos y empresas. Un ejemplo notable es el grupo NOBELIUM, que se cree que tiene vínculos con Rusia, y que ha utilizado HTML smuggling para atacar organizaciones gubernamentales y diplomáticas en todo el mundo.</description>
     </item>
     <item>
-      <title>Malicious Ads</title>
+      <title>Anuncios Maliciosos</title>
       <link>http://localhost:1313/es/posts/google-ads/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/es/posts/google-ads/</guid>
-      <description>Introduction In today&amp;rsquo;s world of computers, it&amp;rsquo;s super easy to find stuff online. We often use search engines like Google, Bing, or DuckDuckGo to help us find what we&amp;rsquo;re looking for. Whether we want to visit a website we know or find something new, search engines are a big part of how we use the internet.&#xA;But what happens when we trust these search engines too much? Picture this: you type the name of a famous company into Google, and you click on a link that looks legit, but it&amp;rsquo;s actually a trick.</description>
+      <description>Introducción En el mundo actual de las computadoras, es muy fácil encontrar cosas en línea. A menudo utilizamos motores de búsqueda como Google, Bing o DuckDuckGo para ayudarnos a encontrar lo que estamos buscando. Ya sea que queramos visitar un sitio web que conocemos o encontrar algo nuevo, los motores de búsqueda son una parte importante de cómo usamos Internet.&#xA;Pero, ¿qué pasa cuando confiamos demasiado en estos motores de búsqueda?</description>
     </item>
     <item>
       <title>Lsass Extractor</title>

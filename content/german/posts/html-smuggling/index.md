@@ -1,44 +1,30 @@
 +++
-title = 'HTML Smuggling Detection'
+title = 'HTML-Schmuggel-Erkennung'
 date = 2024-06-21T17:04:20+02:00
 draft = false
 image = '/posts/html-smuggling/static/html-smuggling.png'
 +++
 
-## Introduction
+## Einführung
 
-HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid
-detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is
-increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals,
-and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML
-smuggling to target government and diplomatic organizations worldwide. Microsoft researchers have observed that the
-NOBELIUM group employed malicious HTML attachments in a campaign dubbed EnvyScout. These attachments act as droppers,
-capable of de-obfuscating and writing malicious ISO files to the victim's system.
+HTML-Schmuggel ist eine fortschrittliche und heimliche Taktik, die Standard-HTML5- und JavaScript-Funktionen nutzt, um eine Erkennung zu vermeiden und Remote-Access-Trojaner (RATs), Bank-Malware und andere schädliche Software zu verbreiten. Diese Methode wird zunehmend von staatlich unterstützten Hackergruppen und Cyberkriminellen eingesetzt, um Regierungen, Einzelpersonen und Unternehmen zu infiltrieren. Ein bemerkenswertes Beispiel ist die Gruppe NOBELIUM, die angeblich Verbindungen zu Russland hat und HTML-Schmuggel verwendet hat, um weltweit Regierungs- und diplomatische Organisationen anzugreifen. Microsoft-Forscher haben beobachtet, dass die Gruppe NOBELIUM bösartige HTML-Anhänge in einer Kampagne namens EnvyScout verwendet hat. Diese Anhänge fungieren als Dropper, die in der Lage sind, verschleierte und bösartige ISO-Dateien auf dem System des Opfers zu schreiben.
 
-## How HTML Smuggling Works
+## Wie HTML-Schmuggel funktioniert
 
-This malware is essentially used to gain control of victim machines, effectively deliver payloads, and execute
-ransomware attacks.
+Diese Malware wird im Wesentlichen verwendet, um Kontrolle über die Maschinen der Opfer zu erlangen, effektiv Payloads zu liefern und Ransomware-Angriffe auszuführen.
 
-In HTML smuggling, the attacker uses a specially crafted HTML attachment that carries an encoded malicious script. When
-the victim opens this malicious HTML file in their web browser, the browser decodes this embedded malicious script which
-on execution further assembles the payload on the victim machine. The main advantage to threat actors is that instead of
-passing the payload over the network, the malicious payload assembles on the victim’s machine. This makes the technique
-highly evasive because it could bypass standard security controls like web proxies, firewalls, and email gateways. As
-the payload is only created when the malicious HTML file is loaded on the victim’s machine through the web browser, the
-security solutions only see HTML or JavaScript traffic which can be further obfuscated to evade detection.
+Beim HTML-Schmuggel verwendet der Angreifer einen speziell gestalteten HTML-Anhang, der ein codiertes bösartiges Skript enthält. Wenn das Opfer diese bösartige HTML-Datei in seinem Webbrowser öffnet, dekodiert der Browser dieses eingebettete bösartige Skript, das bei Ausführung die Payload weiter auf der Maschine des Opfers zusammenstellt. Der Hauptvorteil für die Angreifer besteht darin, dass anstatt die Payload über das Netzwerk zu übertragen, die bösartige Payload auf der Maschine des Opfers zusammengebaut wird. Dies macht die Technik hochgradig ausweichend, da sie Standard-Sicherheitskontrollen wie Web-Proxies, Firewalls und E-Mail-Gateways umgehen kann. Da die Payload erst erstellt wird, wenn die bösartige HTML-Datei auf der Maschine des Opfers über den Webbrowser geladen wird, sehen die Sicherheitslösungen nur HTML- oder JavaScript-Verkehr, der weiter verschleiert werden kann, um der Erkennung zu entgehen.
 
-<img src="/posts/html-smuggling/static/HTMLsmuggling-1.jpg" alt="where are the pieces" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;">
+<img src="/posts/html-smuggling/static/HTMLsmuggling-1.jpg" alt="wo sind die Teile" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;">
 
-## Code analysis
+## Codeanalyse
 
-In this chapter we are going to analise a basic version of a html smuggling
-payload. [see the full code](https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/offensive-security/defense-evasion/file-smuggling-with-html-and-javascript.md)
+In diesem Kapitel analysieren wir eine einfache Version einer HTML-Schmuggel-Payload. [den vollständigen Code ansehen](https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/offensive-security/defense-evasion/file-smuggling-with-html-and-javascript.md)
 
-#### Base64 encoded data
+#### Base64-codierte Daten
 
 ```javascript
-//convert function
+//Konvertierungsfunktion
 function base64ToArrayBuffer(base64) {
     var binary_string = window.atob(base64);
     var len = binary_string.length;
@@ -50,21 +36,16 @@ function base64ToArrayBuffer(base64) {
     return bytes.buffer;
 }
 
-//malware.exe encoded in Base64
+//malware.exe in Base64 codiert
 var file = 'TVqQAAMAAAAEAAAA//8AALgAA[...]nBkYgA=';
 var data = base64ToArrayBuffer(file);
 ```
 
-As we observed, the malicious HTML file can deliver malware to the victim's machine through various methods. In this
-scenario, the entire malware payload is encoded in base64 and embedded directly within the HTML file itself.
-We can see the variable `file` containing the payload.
+Wie wir gesehen haben, kann die bösartige HTML-Datei Malware auf das System des Opfers auf verschiedene Weise übertragen. In diesem Szenario ist die gesamte Malware-Payload in Base64 codiert und direkt in die HTML-Datei eingebettet. Wir sehen die Variable `file`, die die Payload enthält.
 
-The function `base64ToArrayBuffer` converts the encoded payload into the actual bytes that make up the malicious file.
+Die Funktion `base64ToArrayBuffer` konvertiert die codierte Payload in die eigentlichen Bytes, aus denen die bösartige Datei besteht.
 
-It is important to note that attackers can devise even more complex methods to deliver malware. For instance, they might
-split the payload into several pieces, retrieve parts of it remotely, or use different encoding standards and encryption
-techniques. These strategies significantly increase the likelihood of evading security measures such as web proxies,
-firewalls, and email gateways.
+Es ist wichtig zu beachten, dass Angreifer noch komplexere Methoden entwickeln können, um Malware zu verbreiten. Zum Beispiel könnten sie die Payload in mehrere Teile aufteilen, Teile davon remote abrufen oder verschiedene Codierungsstandards und Verschlüsselungstechniken verwenden. Diese Strategien erhöhen die Wahrscheinlichkeit, Sicherheitsmaßnahmen wie Web-Proxies, Firewalls und E-Mail-Gateways zu umgehen, erheblich.
 
 #### JavaScript Blob
 
@@ -73,23 +54,18 @@ var blob = new Blob([data], {type: 'octet/stream'});
 var fileName = 'evil.exe';
 ```
 
-This is the core of the attack. The Blob object enables the creation of a file within the browser using JavaScript code.
-Here is how Mozilla describes it:
+Dies ist der Kern des Angriffs. Das Blob-Objekt ermöglicht die Erstellung einer Datei im Browser mithilfe von JavaScript-Code. So beschreibt es Mozilla:
 
 ```text
-"The Blob interface represents a blob, which is a file-like object of immutable, raw data; they can be read as text or
-binary data, or converted into a ReadableStream so its methods can be used for processing the data.
-Blobs can represent data that isn't necessarily in a JavaScript-native format. The File interface is based on Blob,
-inheriting blob functionality and expanding it to support files on the user's system."
+"Die Blob-Schnittstelle repräsentiert ein Blob, das ein dateiähnliches Objekt mit unveränderlichen, rohen Daten ist; sie können als Text oder Binärdaten gelesen oder in einen ReadableStream konvertiert werden, damit ihre Methoden zum Verarbeiten der Daten verwendet werden können.
+Blobs können Daten darstellen, die nicht unbedingt in einem JavaScript-eigenen Format vorliegen. Die File-Schnittstelle basiert auf Blob, erbt die Blob-Funktionalität und erweitert sie, um Dateien auf dem System des Benutzers zu unterstützen."
 ```
 
-<img src="/posts/html-smuggling/static/blob-struct.png" alt="where are the pieces" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;">
+<img src="/posts/html-smuggling/static/blob-struct.png" alt="wo sind die Teile" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;">
 <br>
-Therefore, instead of relying on the web server to deliver a file, a Blob can be created locally using JavaScript. For
-instance, an "evil.exe" file that would typically be downloaded from a server can instead be assembled and
-downloaded directly on the target system using an HTML anchor tag with the download attribute.
+Anstatt also auf den Webserver zu setzen, um eine Datei zu liefern, kann ein Blob lokal mithilfe von JavaScript erstellt werden. Zum Beispiel kann eine "evil.exe"-Datei, die normalerweise von einem Server heruntergeladen wird, stattdessen direkt auf dem Zielsystem zusammengestellt und heruntergeladen werden, indem ein HTML-Anker-Tag mit dem Attribut download verwendet wird.
 
-#### HTML anchor download
+#### HTML-Anker-Download
 
 ```javascript 
 if (window.navigator.msSaveOrOpenBlob) {
@@ -107,66 +83,43 @@ if (window.navigator.msSaveOrOpenBlob) {
 }
 ```
 
-This code snippet checks if the browser supports `msSaveOrOpenBlob`. If supported (for older versions of Internet
-Explorer
-and Microsoft Edge), it uses it to save or open a Blob object (blob) with a specified file name (fileName). If not
-supported, it creates a hidden <a> element in the document, sets up a Blob URL (url) for the Blob object (blob), assigns
-the URL to the <a> element's href attribute, sets the download attribute to specify the file name (fileName), simulates
-a click on the <a> element to trigger the download, and cleans up by revoking the Blob URL (url).
+Dieses Code-Snippet überprüft, ob der Browser `msSaveOrOpenBlob` unterstützt. Wenn unterstützt (für ältere Versionen von Internet Explorer und Microsoft Edge), verwendet es dies, um ein Blob-Objekt (blob) mit einem angegebenen Dateinamen (fileName) zu speichern oder zu öffnen. Wenn nicht unterstützt, erstellt es ein verstecktes `<a>`-Element im Dokument, richtet eine Blob-URL (url) für das Blob-Objekt (blob) ein, weist die URL dem href-Attribut des `<a>`-Elements zu, setzt das download-Attribut, um den Dateinamen (fileName) anzugeben, simuliert einen Klick auf das `<a>`-Element, um den Download auszulösen, und bereinigt durch das Zurückziehen der Blob-URL (url).
 
-At this point the malicious file is stored on the victim's machine.
+Zu diesem Zeitpunkt ist die bösartige Datei auf dem System des Opfers gespeichert.
 
-### Behaviour on browser
+### Verhalten im Browser
 
-Now it is easy to imagine the numerous ways an attacker can devise to pull a malicious file and reconstruct it directly
-on the victim's machine. We can view this stage as a high-level operation where the attacker manipulates encoding,
-strings, and various remote and embedded resources. However, at a certain point, they must utilize specific browser
-APIs (low-level operation)
-to execute the attack. This is where we can intervene and take action!
+Es ist nun leicht vorstellbar, wie ein Angreifer zahlreiche Wege finden kann, eine bösartige Datei zu ziehen und sie direkt auf dem System des Opfers zusammenzusetzen. Wir können diese Phase als hochrangige Operation betrachten, bei der der Angreifer Kodierungen, Zeichenfolgen und verschiedene Remote- und eingebettete Ressourcen manipuliert. Doch irgendwann müssen sie spezifische Browser-APIs verwenden (niedrigstufige Operationen), um den Angriff durchzuführen. Hier können wir eingreifen und handeln!
 
-#### Browser level IOCs
+#### Indikatoren für Kompromittierung auf Browser-Ebene
 
-Every technique leaves traces, and in this case, our Indicators of Compromise (IOCs) are provided by the event of Blob
-creation.
-This event has several parameters and options, the most interesting of which are the ArrayBuffer, containing the
-malware, and the type, which must be set to octet/stream.
+Jede Technik hinterlässt Spuren, und in diesem Fall werden unsere Indikatoren für Kompromittierung (IOCs) durch das Ereignis der Blob-Erstellung geliefert. Dieses Ereignis hat mehrere Parameter und Optionen, von denen die interessantesten der ArrayBuffer sind, der die Malware enthält, und der Typ, der auf octet/stream gesetzt sein muss.
 
-<img src="/posts/html-smuggling/static/blob-event.png" alt="where are the pieces" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;">
+<img src="/posts/html-smuggling/static/blob-event.png" alt="wo sind die Teile" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;">
 <br>
-<img src="/posts/html-smuggling/static/buffer-array.png" alt="where are the pieces" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;">
+<img src="/posts/html-smuggling/static/buffer-array.png" alt="wo sind die Teile" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;">
 <br>
-At this stage, the malicious file can no longer be obfuscated, split, or altered in any other way. It must be fully
-loaded into memory, ready to be downloaded. Therefore, it is possible to monitor memory allocation and identify this
-type of malicious file.
+An dieser Stelle kann die bösartige Datei nicht mehr verschleiert, geteilt oder auf andere Weise verändert werden. Sie muss vollständig in den Speicher geladen werden, bereit zum Herunterladen. Daher ist es möglich, die Speicherzuweisung zu überwachen und diese Art von bösartiger Datei zu identifizieren.
 
-After this, an anchor element is created that points to a Blob URL with a download parameter and probably with
-a `display:none` style, followed by a programmatic click on it. This
-sequence of actions represents another specific behavior that can be identified and monitored for malicious activity.
+Danach wird ein Anker-Element erstellt, das auf eine Blob-URL mit einem Download-Parameter verweist, wahrscheinlich mit einem `display:none`-Stil, gefolgt von einem programmgesteuerten Klick darauf. Diese Abfolge von Aktionen stellt ein weiteres spezifisches Verhalten dar, das identifiziert und überwacht werden kann, um bösartige Aktivitäten zu erkennen.
 
 ```html
-<a href="blob:null/5f2c2f2a-0349-43d2-a6ec-276bd4efb082" download="evil.exe" style="display: none;"></a>
+<a href="blob:null/5f2c2f2a-0349-43d2-a6ec-276bd4efb082" download="evil.exe" style="display: none;"></
+
+a>
 ```
 
-## Conclusion
+## Fazit
 
-In conclusion, HTML smuggling represents a sophisticated method utilized by cyber adversaries to circumvent traditional
-security measures and deliver malicious payloads directly to unsuspecting users. By embedding encoded scripts within
-innocuous-looking HTML files, attackers can evade detection and execute harmful actions on victim machines. This
-technique poses significant risks to individuals, businesses, and governments worldwide.
+Zusammenfassend stellt HTML-Schmuggel eine ausgeklügelte Methode dar, die von Cybergegnern genutzt wird, um traditionelle Sicherheitsmaßnahmen zu umgehen und bösartige Payloads direkt an ahnungslose Benutzer zu liefern. Durch das Einbetten von codierten Skripten in harmlos aussehende HTML-Dateien können Angreifer der Erkennung entgehen und schädliche Aktionen auf den Maschinen der Opfer ausführen. Diese Technik birgt erhebliche Risiken für Einzelpersonen, Unternehmen und Regierungen weltweit.
 
-At TeamFence, we have conducted extensive analysis of HTML smuggling techniques and understand the critical importance
-of proactive defense measures. Our solution is designed to detect and mitigate these stealthy attacks effectively. By
-leveraging advanced detection algorithms and real-time monitoring capabilities, BrowserFence identifies suspicious
-behaviors associated with HTML smuggling, such as the creation and manipulation of Blob URLs and the assembly of
-malicious payloads in memory.
+Bei TeamFence haben wir eine umfassende Analyse der HTML-Schmuggel-Techniken durchgeführt und verstehen die kritische Bedeutung proaktiver Verteidigungsmaßnahmen. Unsere Lösung ist darauf ausgelegt, diese heimtückischen Angriffe effektiv zu erkennen und zu mindern. Durch den Einsatz fortschrittlicher Erkennungsalgorithmen und Echtzeitüberwachungsfunktionen identifiziert BrowserFence verdächtige Verhaltensweisen im Zusammenhang mit HTML-Schmuggel, wie die Erstellung und Manipulation von Blob-URLs und die Zusammenstellung von bösartigen Payloads im Speicher.
 
-Protect your organization today with BrowserFence and stay ahead in the ever-evolving landscape of cybersecurity threats.
-Contact us to learn more about how BrowserFence can defend your digital assets against HTML smuggling and ensure a secure
-computing environment for your business.
+Schützen Sie Ihre Organisation noch heute mit BrowserFence und bleiben Sie der sich ständig weiterentwickelnden Bedrohungslandschaft in der Cybersicherheit einen Schritt voraus. Kontaktieren Sie uns, um mehr darüber zu erfahren, wie BrowserFence Ihre digitalen Assets vor HTML-Schmuggel schützen und eine sichere Computerumgebung für Ihr Unternehmen gewährleisten kann.
 
 <ul class="pt-4 d-flex gaps g-3 justify-content-center  animated" data-animate="fadeInUp" data-delay=".9">
     <li>
         <a href="#" class="btn btn-md btn-grad" data-overlay="bg-theme-grad-alternet"
-           style="position: relative; top: 50px;">Install BrowserFence</a>
+           style="position: relative; top: 50px;">BrowserFence installieren</a>
     </li>
 </ul>

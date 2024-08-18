@@ -34,11 +34,11 @@ access.
 
 Normal search looks like this:
 
-<img src="/posts/google-ads/static/normal-search.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 700px; height: auto; border: black; border-style: solid; border-width: 0.5px">
-<br>
+![Normal Google Search](static/normal-search.png)
+
 Now let's see what happens when we search for something that has ads:
 
-<img src="/posts/google-ads/static/ads-search.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 700px; height: auto; border: black; border-style: solid; border-width: 0.5px">
+![Normal Google Search](static/ads-search.png)
 
 As we can see from the image above, the first results are ads. This means that they are not organic results, but rather
 paid results.
@@ -82,7 +82,7 @@ for Google to verify the legitimacy of the ads.
 In this blog post we are not going to talk about the technical details of the post-scam scenario, but we can see from
 the following schema what happens when you fall for a scam:
 
-<img src="/posts/google-ads/static/chain.png" alt="normal google search" style="display: block; margin-left: auto; margin-right: auto; width: 700px; height: auto; border: black; border-style: solid; border-width: 0.5px">
+![Normal Google Search](static/chain.png)
 
 This schema resulted from
 an [analysis](https://www.zscaler.com/blogs/security-research/malvertising-campaign-targeting-it-teams-madmxshell) of a
@@ -103,8 +103,10 @@ Take a look to the following animation to see how BrowserFence in action:
 <div class="row justify-content-center">
     <div class="col-lg-9">
         <div class="nk-block-video nk-block-video-overlay">
-            <img src="/posts/google-ads/static/cover.png" alt="video">
-            <a href="/posts/google-ads/static/bf.mp4" class="nk-block-video-play video-popup btn-play btn-play-sm btn-play-s2"><em class="btn-play-icon"></em></a>
+            <img src="static/cover.png" alt="video">
+            <a href="static/bf.mp4" class="nk-block-video-play video-popup btn-play btn-play-sm btn-play-s2">
+                <em class="btn-play-icon"></em>
+            </a>
         </div>
     </div>
 </div>

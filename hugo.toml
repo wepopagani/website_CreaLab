@@ -34,7 +34,7 @@ weight = 3
 
 [[Languages.en.menu.main]]
 name = "Blog"
-url = "/blog/"
+url = "/posts/"
 weight = 4
 
 [[Languages.en.menu.main]]
@@ -66,7 +66,7 @@ weight = 3
 
 [[Languages.de.menu.main]]
 name = "Blog"
-url = "/blog/"
+url = "/posts/"
 weight = 4
 
 [[Languages.de.menu.main]]
@@ -98,7 +98,7 @@ weight = 3
 
 [[Languages.it.menu.main]]
 name = "Blog"
-url = "/blog/"
+url = "/posts/"
 weight = 4
 
 [[Languages.it.menu.main]]
@@ -130,7 +130,7 @@ weight = 3
 
 [[Languages.fr.menu.main]]
 name = "Blog"
-url = "/blog/"
+url = "/posts/"
 weight = 4
 
 [[Languages.fr.menu.main]]
@@ -162,7 +162,7 @@ weight = 3
 
 [[Languages.es.menu.main]]
 name = "Blog"
-url = "/blog/"
+url = "/posts/"
 weight = 4
 
 [[Languages.es.menu.main]]

@@ -9,32 +9,32 @@
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/de/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CTEM over Red Teaming</title>
+      <title>CTEM über Red Teaming</title>
       <link>http://localhost:1313/de/posts/ctem/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/de/posts/ctem/</guid>
-      <description>Introduction At TeamFence we are always looking for new ways to improve the security posture of our clients. In this blog post, we will discuss the Continuous Threat Exposure Management (CTEM) framework and how it can help organizations minimize exposure to cyber attacks. We will also compare CTEM with Red Teaming and simulated attacks to understand the benefits of adopting a proactive approach to security.&#xA;What is CTEM? Continuous Threat Exposure Management (CTEM) is a dynamic and ongoing five-stage framework designed to minimize exposure to cyber attacks.</description>
+      <description>Einführung Bei TeamFence sind wir stets auf der Suche nach neuen Möglichkeiten, die Sicherheitslage unserer Kunden zu verbessern. In diesem Blogbeitrag werden wir das Continuous Threat Exposure Management (CTEM) Framework diskutieren und aufzeigen, wie es Organisationen dabei helfen kann, die Gefährdung durch Cyberangriffe zu minimieren. Wir werden CTEM auch mit Red Teaming und simulierten Angriffen vergleichen, um die Vorteile eines proaktiven Sicherheitsansatzes zu verstehen.&#xA;Was ist CTEM? Das Continuous Threat Exposure Management (CTEM) ist ein dynamisches und kontinuierliches Fünf-Stufen-Framework, das entwickelt wurde, um die Gefährdung durch Cyberangriffe zu minimieren.</description>
     </item>
     <item>
-      <title>HTML Smuggling Detection</title>
+      <title>HTML-Schmuggel-Erkennung</title>
       <link>http://localhost:1313/de/posts/html-smuggling/</link>
       <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
       <guid>http://localhost:1313/de/posts/html-smuggling/</guid>
-      <description>Introduction HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals, and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML smuggling to target government and diplomatic organizations worldwide.</description>
+      <description>Einführung HTML-Schmuggel ist eine fortschrittliche und heimliche Taktik, die Standard-HTML5- und JavaScript-Funktionen nutzt, um eine Erkennung zu vermeiden und Remote-Access-Trojaner (RATs), Bank-Malware und andere schädliche Software zu verbreiten. Diese Methode wird zunehmend von staatlich unterstützten Hackergruppen und Cyberkriminellen eingesetzt, um Regierungen, Einzelpersonen und Unternehmen zu infiltrieren. Ein bemerkenswertes Beispiel ist die Gruppe NOBELIUM, die angeblich Verbindungen zu Russland hat und HTML-Schmuggel verwendet hat, um weltweit Regierungs- und diplomatische Organisationen anzugreifen. Microsoft-Forscher haben beobachtet, dass die Gruppe NOBELIUM bösartige HTML-Anhänge in einer Kampagne namens EnvyScout verwendet hat.</description>
     </item>
     <item>
-      <title>Malicious Ads</title>
+      <title>Bösartige Anzeigen</title>
       <link>http://localhost:1313/de/posts/google-ads/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/de/posts/google-ads/</guid>
-      <description>Introduction In today&amp;rsquo;s world of computers, it&amp;rsquo;s super easy to find stuff online. We often use search engines like Google, Bing, or DuckDuckGo to help us find what we&amp;rsquo;re looking for. Whether we want to visit a website we know or find something new, search engines are a big part of how we use the internet.&#xA;But what happens when we trust these search engines too much? Picture this: you type the name of a famous company into Google, and you click on a link that looks legit, but it&amp;rsquo;s actually a trick.</description>
+      <description>Einführung In der heutigen Computerwelt ist es super einfach, online Dinge zu finden. Wir nutzen oft Suchmaschinen wie Google, Bing oder DuckDuckGo, um uns bei der Suche nach Informationen zu helfen. Egal, ob wir eine bekannte Website besuchen oder etwas Neues entdecken möchten, Suchmaschinen spielen eine große Rolle in unserem Internetgebrauch.&#xA;Aber was passiert, wenn wir diesen Suchmaschinen zu sehr vertrauen? Stellen Sie sich vor, Sie geben den Namen eines berühmten Unternehmens bei Google ein und klicken auf einen Link, der seriös aussieht, aber tatsächlich eine Falle ist.</description>
     </item>
     <item>
-      <title>Lsass Extractor</title>
+      <title>Lsass-Extraktor</title>
       <link>http://localhost:1313/de/posts/lsass-extractor/</link>
       <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
       <guid>http://localhost:1313/de/posts/lsass-extractor/</guid>
-      <description>Introduction In TeamFence, we strongly believe that nowadays it&amp;rsquo;s increasingly important for an offensive operator to understand the details behind the techniques and tools.&#xA;For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us to then re-implement the logic into a tool tailored to our future needs.&#xA;Note: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation workstation.</description>
+      <description>Einführung Bei TeamFence sind wir fest davon überzeugt, dass es für einen Offensiv-Operator heutzutage immer wichtiger ist, die Details hinter den Techniken und Werkzeugen zu verstehen.&#xA;Aus diesem Grund werden wir in diesem Blogbeitrag untersuchen, wie Mimikatz Anmeldeinformationen aus LSASS-Dumps extrahiert und wie wir diese Logik in ein Tool integrieren können, das auf unsere zukünftigen Bedürfnisse zugeschnitten ist.&#xA;Hinweis: Alle Analysen, die im Rahmen dieses Projekts durchgeführt wurden, basieren auf einer Windows 11 Enterprise Evaluation-Workstation.</description>
     </item>
   </channel>
 </rss>

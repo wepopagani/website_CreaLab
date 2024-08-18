@@ -20,12 +20,10 @@
     <link rel="stylesheet" href='/css/theme.min.css?ver=210'>
     <link rel="stylesheet" href='/css/custom.min.css?ver=210'>
 </head>
-<body class="nk-body body-wider theme-dark mode-onepage">
+<body class="nk-body body-wider theme-light mode-onepage"> 
 <div class="nk-wrap">
-    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
-        
-
-<div class="header-main">
+    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header"> 
+        <div class="header-main">
     <div class="header-container container">
         <div class="header-wrap">
             
@@ -61,7 +59,7 @@
                         </li>
                         
                         <li class="menu-item">
-                            <a class="menu-link nav-link" href="/blog/">Blog</a>
+                            <a class="menu-link nav-link" href="/posts/">Blog</a>
                         </li>
                         
                         <li class="menu-item">
@@ -181,13 +179,13 @@
     </div>
 </div>
 
-        <div class="header-banner bg-purple">
+        <div class="header-banner bg-purple"> 
             <div class="nk-ovm shape-a-sm"></div>
         </div>
         
     </header>
     <main class="nk-pages">
-        <section class="section bg-purple">
+        <section class="section bg-light">
             <div class="container" style="margin-top: -50px">
                 <div class="nk-block nk-block-blog">
                     <div class="row">
@@ -195,12 +193,12 @@
                             <div class="blog-details">
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8 col-lg-10">
-                                        <ul class="blog-meta text-white"> 
-                                            <li><a class="text-white" href="#">June 21, 2024</a></li> 
-                                            <li><a class="text-white" href="#">5  minutes  read</a></li> 
+                                        <ul class="blog-meta">
+                                            <li><a href="#">June 21, 2024</a></li>
+                                            <li><a href="#">6  minutes  read</a></li>
                                         </ul>
                                         <div class="blog-content">
-                                            <h2 class="title text-white"><a href="#">HTML Smuggling Detection</a></h2>
+                                            <h2 class="title"><a href="#">HTML Smuggling Detection</a></h2>
                                             <div class="col-xl-10 col-lg-12">
                                                 <div class="blog-featured">
                                                     <div class="img-wrapper-single">
@@ -210,7 +208,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="text-white"> 
+                                            <div> 
                                                 <h2 id="introduction">Introduction</h2>
 <p>HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid
 detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is
@@ -267,6 +265,9 @@ Here is how Mozilla describes it:</p>
 </span></span><span style="display:flex;"><span>Blobs can represent data that isn&#39;t necessarily in a JavaScript-native format. The File interface is based on Blob,
 </span></span><span style="display:flex;"><span>inheriting blob functionality and expanding it to support files on the user&#39;s system.&#34;
 </span></span></code></pre></div><!-- raw HTML omitted -->
+<p>Therefore, instead of relying on the web server to deliver a file, a Blob can be created locally using JavaScript. For
+instance, an &ldquo;evil.exe&rdquo; file that would typically be downloaded from a server can instead be assembled and
+downloaded directly on the target system using an HTML anchor tag with the download attribute.</p>
 <h4 id="html-anchor-download">HTML anchor download</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (window.<span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">msSaveOrOpenBlob</span>) {
 </span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">navigator</span>.<span style="color:#a6e22e">msSaveOrOpenBlob</span>(<span style="color:#a6e22e">blob</span>, <span style="color:#a6e22e">fileName</span>);
@@ -321,7 +322,7 @@ computing environment for your business.</p>
 
                                             </div>
                                         </div>
-                                        <ul class="blog-tags text-white"> 
+                                        <ul class="blog-tags"> 
                                             
                                             
                                         </ul>
@@ -337,7 +338,7 @@ computing environment for your business.</p>
     
     <div class="preloader preloader-alt no-split">
         <span class="spinner spinner-alt">
-            <img class="spinner-brand" src="/images/logo-white.png" alt="">
+            <img class="spinner-brand" src="/images/logo-white.png" alt=""> 
         </span>
     </div>
     

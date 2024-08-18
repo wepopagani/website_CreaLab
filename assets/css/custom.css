@@ -16,6 +16,12 @@ pre{
     gap: 20px;
 }
 
+
+section.section {
+    padding-top: 20px;
+}
+
+
 .img-wrapper-single {
     width: 560px;
     height: 314px;
@@ -40,24 +46,6 @@ pre{
         width: 100vw;
         height: auto;
     }
-}
-
-#about {
-    background-color: #3022A6 !important; 
-    color: #fff; 
-}
-#contact {
-    background-color: #3022A6 !important; 
-    color: #fff; 
-}
-#services {
-    background-color: #3022A6 !important; 
-    color: #fff; 
-}
-
-#space-to-color {
-    background-color: #3022A6 !important; 
-    color: #fff; 
 }
 
 .bg-purple {
