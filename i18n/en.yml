@@ -127,3 +127,15 @@
   translation: Our web security service identifies vulnerabilities using both black box and white box approaches, ensuring comprehensive protection for your applications.
 - id: security_awareness_service_description
   translation: Our security awareness service elevates your team's expertise by providing the tools and knowledge needed to proactively identify and prevent cyber threats.
+- id: ctem_title
+  translation: CTEM Security
+- id: ctem1
+  translation: Continuous Threat Exposure Management (CTEM) is a proactive, five-stage framework designed to minimize exposure to cyber attacks. It helps organizations identify and assess vulnerabilities, map potential attack paths, prioritize risks, and track remediation efforts.
+- id: ctem2
+  translation: We start by understanding your current security measures and identifying potential vulnerabilities. This approach combines offensive and defensive strategies (Purple teaming), enabling us to identify and mitigate threats more effectively. By integrating our expertise with your team’s insights, we create a comprehensive defense strategy that is both proactive and adaptive.
+- id: cyber_diagnosis
+  translation: Our Cyber Diagnosis service is designed to provide a comprehensive understanding of your current cybersecurity infrastructure. By thoroughly analyzing your existing technologies, evaluating the scope of your operations, and assessing the risks you face, we deliver actionable insights to enhance your security posture.
+- id: proactive_risk
+  translation: The final stages involve analyzing and prioritizing exposures based on threat levels and asset importance, validating potential attack methods and security controls, and ensuring all teams understand their roles and track progress to improve overall security posture.
+- id: ctem_btn
+  translation: Read More

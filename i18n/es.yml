@@ -127,3 +127,13 @@
   translation: Nuestro servicio de seguridad web identifica vulnerabilidades utilizando enfoques de caja negra y caja blanca, garantizando una protección integral para tus aplicaciones.
 - id: security_awareness_service_description
   translation: Nuestro servicio de concienciación en seguridad eleva la experiencia de tu equipo al proporcionar las herramientas y conocimientos necesarios para identificar y prevenir proactivamente las amenazas cibernéticas.
+- id: cyber_diagnosis
+  translation: Nuestro servicio de Diagnóstico Cibernético está diseñado para proporcionar una comprensión completa de su infraestructura de ciberseguridad actual. Al analizar minuciosamente sus tecnologías existentes, evaluar el alcance de sus operaciones y evaluar los riesgos que enfrenta, brindamos información práctica para mejorar su postura de seguridad.
+- id: proactive_risk
+  translation: Las etapas finales implican analizar y priorizar las exposiciones en función de los niveles de amenaza y la importancia de los activos, validar los posibles métodos de ataque y los controles de seguridad, y asegurarse de que todos los equipos comprendan sus roles y sigan el progreso para mejorar la postura general de seguridad.
+- id: ctem1
+  translation: La Gestión Continua de Exposición a Amenazas (CTEM) es un marco proactivo de cinco etapas diseñado para minimizar la exposición a ataques cibernéticos. Ayuda a las organizaciones a identificar y evaluar vulnerabilidades, mapear posibles caminos de ataque, priorizar riesgos y rastrear los esfuerzos de remediación.
+- id: ctem2
+  translation: Comenzamos entendiendo sus medidas de seguridad actuales e identificando posibles vulnerabilidades. Este enfoque combina estrategias ofensivas y defensivas (Purple Teaming), lo que nos permite identificar y mitigar amenazas de manera más efectiva. Al integrar nuestra experiencia con los conocimientos de su equipo, creamos una estrategia de defensa integral que es tanto proactiva como adaptable.
+- id: ctem_btn
+  translation: Leer Más

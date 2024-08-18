@@ -114,7 +114,8 @@
 ##blog
 - id: blog_title
   translation: Sehen Sie sich unsere neuesten Beiträge an
-- id: blog_btn
+- id: blog_b- id: ctem_btn
+  translation: Mehr Erfahren
   translation: Alle Artikel lesen
 ##services
 - id: services_title
@@ -127,3 +128,13 @@
   translation: Unser Web-Sicherheitsdienst identifiziert Schwachstellen mithilfe von Black-Box- und White-Box-Ansätzen und gewährleistet so einen umfassenden Schutz Ihrer Anwendungen.
 - id: security_awareness_service_description
   translation: Unser Sicherheitsbewusstseinsdienst erhöht das Fachwissen Ihres Teams, indem er die Werkzeuge und das Wissen bereitstellt, die erforderlich sind, um Cyber-Bedrohungen proaktiv zu identifizieren und zu verhindern.
+- id: cyber_diagnosis
+  translation: Unser Cyber-Diagnose-Dienst ist darauf ausgelegt, ein umfassendes Verständnis Ihrer aktuellen Cybersicherheitsinfrastruktur zu bieten. Durch eine gründliche Analyse Ihrer bestehenden Technologien, die Bewertung des Umfangs Ihrer Operationen und die Einschätzung der Risiken, denen Sie ausgesetzt sind, liefern wir umsetzbare Einblicke, um Ihre Sicherheitslage zu verbessern.
+- id: proactive_risk
+  translation: Die letzten Phasen umfassen die Analyse und Priorisierung von Schwachstellen basierend auf Bedrohungsstufen und der Wichtigkeit von Vermögenswerten, die Validierung potenzieller Angriffsmethoden und Sicherheitskontrollen sowie die Sicherstellung, dass alle Teams ihre Rollen verstehen und den Fortschritt verfolgen, um die allgemeine Sicherheitslage zu verbessern.
+- id: ctem1
+  translation: Continuous Threat Exposure Management (CTEM) ist ein proaktives, fünfstufiges Framework, das darauf ausgelegt ist, die Exposition gegenüber Cyberangriffen zu minimieren. Es hilft Organisationen, Schwachstellen zu identifizieren und zu bewerten, potenzielle Angriffswege zu kartieren, Risiken zu priorisieren und Sanierungsmaßnahmen zu verfolgen.
+- id: ctem2
+  translation: Wir beginnen damit, Ihre aktuellen Sicherheitsmaßnahmen zu verstehen und potenzielle Schwachstellen zu identifizieren. Dieser Ansatz kombiniert offensive und defensive Strategien (Purple Teaming), wodurch wir Bedrohungen effektiver identifizieren und mindern können. Durch die Integration unserer Expertise mit den Erkenntnissen Ihres Teams schaffen wir eine umfassende Verteidigungsstrategie, die sowohl proaktiv als auch anpassungsfähig ist.
+- id: ctem_btn
+  translation: Mehr Erfahren

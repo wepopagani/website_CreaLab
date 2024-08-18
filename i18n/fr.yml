@@ -127,3 +127,13 @@
   translation: Notre service de sécurité Web identifie les vulnérabilités en utilisant à la fois des approches de boîte noire et de boîte blanche, garantissant une protection complète pour vos applications.
 - id: security_awareness_service_description
   translation: Notre service de sensibilisation à la sécurité renforce l'expertise de votre équipe en fournissant les outils et les connaissances nécessaires pour identifier et prévenir de manière proactive les cybermenaces.
+- id: cyber_diagnosis
+  translation: Notre service de diagnostic cyber est conçu pour fournir une compréhension complète de votre infrastructure de cybersécurité actuelle. En analysant minutieusement vos technologies existantes, en évaluant l'étendue de vos opérations et en évaluant les risques auxquels vous êtes confronté, nous fournissons des informations exploitables pour améliorer votre posture de sécurité.
+- id: proactive_risk
+  translation: Les étapes finales consistent à analyser et prioriser les expositions en fonction des niveaux de menace et de l'importance des actifs, à valider les méthodes d'attaque potentielles et les contrôles de sécurité, et à s'assurer que toutes les équipes comprennent leurs rôles et suivent les progrès pour améliorer la posture de sécurité globale.
+- id: ctem1
+  translation: Le Continuous Threat Exposure Management (CTEM) est un cadre proactif en cinq étapes conçu pour minimiser l'exposition aux cyberattaques. Il aide les organisations à identifier et évaluer les vulnérabilités, cartographier les chemins d'attaque potentiels, prioriser les risques et suivre les efforts de remédiation.
+- id: ctem2
+  translation: Nous commençons par comprendre vos mesures de sécurité actuelles et identifier les vulnérabilités potentielles. Cette approche combine des stratégies offensives et défensives (Purple Teaming), ce qui nous permet d'identifier et de réduire les menaces de manière plus efficace. En intégrant notre expertise avec les connaissances de votre équipe, nous créons une stratégie de défense complète, à la fois proactive et adaptative.
+- id: ctem_btn
+  translation: En Savoir Plus

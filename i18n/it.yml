@@ -127,3 +127,13 @@
   translation: Il nostro servizio di sicurezza web identifica le vulnerabilità utilizzando approcci sia black box che white box, garantendo una protezione completa per le tue applicazioni.
 - id: security_awareness_service_description
   translation: Il nostro servizio di sensibilizzazione alla sicurezza migliora l'esperienza del tuo team fornendo gli strumenti e le conoscenze necessarie per identificare e prevenire proattivamente le minacce informatiche.
+- id: cyber_diagnosis
+  translation: Il nostro servizio di Diagnosi Cyber è progettato per fornire una comprensione completa della tua attuale infrastruttura di cybersicurezza. Analizzando accuratamente le tecnologie esistenti, valutando l'estensione delle tue operazioni e i rischi a cui sei esposto, forniamo informazioni utili per migliorare la tua postura di sicurezza.
+- id: proactive_risk
+  translation: Le fasi finali comprendono l'analisi e la priorità delle esposizioni in base ai livelli di minaccia e all'importanza degli asset, la validazione dei metodi di attacco potenziali e dei controlli di sicurezza, e garantire che tutti i team comprendano i loro ruoli e seguano i progressi per migliorare la postura di sicurezza complessiva.
+- id: ctem1
+  translation: Il Continuous Threat Exposure Management (CTEM) è un framework proattivo a cinque fasi progettato per minimizzare l'esposizione agli attacchi informatici. Aiuta le organizzazioni a identificare e valutare le vulnerabilità, mappare i potenziali percorsi di attacco, dare priorità ai rischi e monitorare gli sforzi di rimedio.
+- id: ctem2
+  translation: Iniziamo comprendendo le tue attuali misure di sicurezza e identificando le potenziali vulnerabilità. Questo approccio combina strategie offensive e difensive (Purple Teaming), permettendoci di identificare e mitigare le minacce in modo più efficace. Integrando la nostra esperienza con le intuizioni del tuo team, creiamo una strategia di difesa completa che sia sia proattiva che adattiva.
+- id: ctem_btn
+  translation: Leggi di Più
