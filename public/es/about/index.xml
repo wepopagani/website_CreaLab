@@ -9,11 +9,11 @@
     <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/es/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Us</title>
+      <title>Sobre Nosotros</title>
       <link>http://localhost:1313/es/about/about/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/about/about/</guid>
-      <description>Welcome to TeamFence </description>
+      <description>Nuestra Visión Nuestra visión es crear un mundo donde la concienciación sobre ciberseguridad sea un estándar universal, empoderando a individuos y organizaciones para proteger sus activos digitales con confianza. A medida que la tecnología avanza y las amenazas cibernéticas se vuelven cada vez más sofisticadas, estamos comprometidos a mantenernos a la vanguardia de la innovación, proporcionando soluciones de vanguardia que anticipen y mitiguen los riesgos. Nuestro objetivo es fomentar un enfoque proactivo hacia la ciberseguridad, donde la educación y la concienciación se conviertan en componentes integrales de nuestras vidas digitales.</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Riccardo Brigatti</title>
@@ -42,13 +42,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/team/diego/</guid>
       <description>Diego Omini is a DevOps engineer and software developer from Switzerland, who has been passionate about programming since 2010. He earned a bachelor’s degree in computer science from the BFH of Bienne. Since February 2023, he has been employed at Swisscom AG as a DevOps engineer.&#xA;Diego specializes in developing RESTful backends using Spring Boot and Java, implementing CI/CD pipelines with Jenkins and GitLab, and deploying applications on Kubernetes. His previous experience includes developing a VR application for his bachelor thesis, automating PST mail archive migrations, and managing a network of 800 workstations and servers during his apprenticeship.</description>
-    </item>
-    <item>
-      <title>About Us</title>
-      <link>http://localhost:1313/fr/about/about/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/about/about/</guid>
-      <description>Welcome to TeamFence </description>
     </item>
     <item>
       <title>CTEM par rapport au Red Teaming</title>
@@ -98,6 +91,13 @@
       <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
       <guid>http://localhost:1313/fr/services/websecurity/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>À Propos de Nous</title>
+      <link>http://localhost:1313/fr/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/about/</guid>
+      <description>Notre Vision Notre vision est de créer un monde où la sensibilisation à la cybersécurité est une norme universelle, permettant aux individus et aux organisations de protéger leurs actifs numériques en toute confiance. À mesure que la technologie progresse et que les menaces cybernétiques deviennent de plus en plus sophistiquées, nous nous engageons à rester à l&amp;rsquo;avant-garde de l&amp;rsquo;innovation, en fournissant des solutions de pointe qui anticipent et atténuent les risques.</description>
     </item>
     <item>
       <title>CTEM Details</title>

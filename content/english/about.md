@@ -1,7 +1,7 @@
 ---
 title: "About Us"
+draft: false
 layout: "about"
-url: "/about/"
 ---
 
 ## Our Vision

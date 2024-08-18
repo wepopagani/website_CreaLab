@@ -417,33 +417,6 @@
                 href="http://localhost:1313/de/services/websecurity/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/about/"
-                />
-  </url><url>
     <loc>http://localhost:1313/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -552,7 +525,7 @@
                 href="http://localhost:1313/de/team/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/de/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -561,22 +534,22 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="http://localhost:1313/it/about/about/"
+                href="http://localhost:1313/it/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/about/about/"
+                href="http://localhost:1313/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="http://localhost:1313/es/about/about/"
+                href="http://localhost:1313/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/de/about/"
                 />
   </url>
 </urlset>

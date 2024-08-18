@@ -30,11 +30,11 @@
       <description>Introduzione Nel mondo digitale di oggi, è estremamente facile trovare informazioni online. Spesso utilizziamo motori di ricerca come Google, Bing o DuckDuckGo per aiutarci a trovare ciò che stiamo cercando. Che si tratti di visitare un sito web noto o di scoprire qualcosa di nuovo, i motori di ricerca giocano un ruolo fondamentale nel nostro utilizzo di internet.&#xA;Ma cosa succede quando ci fidiamo troppo di questi motori di ricerca? Immagina di digitare il nome di una famosa azienda su Google e di cliccare su un link che sembra legittimo, ma che in realtà è una truffa.</description>
     </item>
     <item>
-      <title>Lsass Extractor</title>
+      <title>Estrattore di Lsass</title>
       <link>http://localhost:1313/it/posts/lsass-extractor/</link>
       <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
       <guid>http://localhost:1313/it/posts/lsass-extractor/</guid>
-      <description>Introduction In TeamFence, we strongly believe that nowadays it&amp;rsquo;s increasingly important for an offensive operator to understand the details behind the techniques and tools.&#xA;For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us to then re-implement the logic into a tool tailored to our future needs.&#xA;Note: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation workstation.</description>
+      <description>Introduzione In TeamFence, crediamo fermamente che sia sempre più importante per un operatore offensivo comprendere i dettagli delle tecniche e degli strumenti.&#xA;Per questo motivo, in questo post del blog, esploreremo come Mimikatz estrae le credenziali dai dump di lsass, permettendoci di reimplementare la logica in uno strumento su misura per le nostre esigenze future.&#xA;Nota: tutte le analisi condotte durante questo progetto sono state eseguite su una workstation Windows 11 Enterprise Evaluation.</description>
     </item>
   </channel>
 </rss>

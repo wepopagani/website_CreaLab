@@ -44,11 +44,11 @@
       <description>Diego Omini is a DevOps engineer and software developer from Switzerland, who has been passionate about programming since 2010. He earned a bachelor’s degree in computer science from the BFH of Bienne. Since February 2023, he has been employed at Swisscom AG as a DevOps engineer.&#xA;Diego specializes in developing RESTful backends using Spring Boot and Java, implementing CI/CD pipelines with Jenkins and GitLab, and deploying applications on Kubernetes. His previous experience includes developing a VR application for his bachelor thesis, automating PST mail archive migrations, and managing a network of 800 workstations and servers during his apprenticeship.</description>
     </item>
     <item>
-      <title>About Us</title>
-      <link>http://localhost:1313/es/about/about/</link>
+      <title>Sobre Nosotros</title>
+      <link>http://localhost:1313/es/about/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/about/about/</guid>
-      <description>Welcome to TeamFence </description>
+      <guid>http://localhost:1313/es/about/</guid>
+      <description>Nuestra Visión Nuestra visión es crear un mundo donde la concienciación sobre ciberseguridad sea un estándar universal, empoderando a individuos y organizaciones para proteger sus activos digitales con confianza. A medida que la tecnología avanza y las amenazas cibernéticas se vuelven cada vez más sofisticadas, estamos comprometidos a mantenernos a la vanguardia de la innovación, proporcionando soluciones de vanguardia que anticipen y mitiguen los riesgos. Nuestro objetivo es fomentar un enfoque proactivo hacia la ciberseguridad, donde la educación y la concienciación se conviertan en componentes integrales de nuestras vidas digitales.</description>
     </item>
     <item>
       <title>CTEM sobre Red Teaming</title>
@@ -72,11 +72,11 @@
       <description>Introducción En el mundo actual de las computadoras, es muy fácil encontrar cosas en línea. A menudo utilizamos motores de búsqueda como Google, Bing o DuckDuckGo para ayudarnos a encontrar lo que estamos buscando. Ya sea que queramos visitar un sitio web que conocemos o encontrar algo nuevo, los motores de búsqueda son una parte importante de cómo usamos Internet.&#xA;Pero, ¿qué pasa cuando confiamos demasiado en estos motores de búsqueda?</description>
     </item>
     <item>
-      <title>Lsass Extractor</title>
+      <title>Extractor de Lsass</title>
       <link>http://localhost:1313/es/posts/lsass-extractor/</link>
       <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
       <guid>http://localhost:1313/es/posts/lsass-extractor/</guid>
-      <description>Introduction In TeamFence, we strongly believe that nowadays it&amp;rsquo;s increasingly important for an offensive operator to understand the details behind the techniques and tools.&#xA;For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us to then re-implement the logic into a tool tailored to our future needs.&#xA;Note: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation workstation.</description>
+      <description>Introducción En TeamFence, creemos firmemente que hoy en día es cada vez más importante para un operador ofensivo comprender los detalles detrás de las técnicas y herramientas.&#xA;Por esta razón, en esta publicación del blog, profundizaremos en cómo Mimikatz extrae credenciales de los dumps de lsass, lo que nos permitirá reimplementar la lógica en una herramienta adaptada a nuestras necesidades futuras.&#xA;Nota: todos los análisis realizados en este proyecto se han llevado a cabo en una estación de trabajo Windows 11 Enterprise Evaluation.</description>
     </item>
     <item>
       <title>Awareness</title>
@@ -105,6 +105,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ctem-details/</guid>
       <description>This page explains the CTEM framework in detail.</description>
+    </item>
+    <item>
+      <title>Sobre Nosotros</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Nuestra Visión Nuestra visión es crear un mundo donde la concienciación sobre ciberseguridad sea un estándar universal, empoderando a individuos y organizaciones para proteger sus activos digitales con confianza. A medida que la tecnología avanza y las amenazas cibernéticas se vuelven cada vez más sofisticadas, estamos comprometidos a mantenernos a la vanguardia de la innovación, proporcionando soluciones de vanguardia que anticipen y mitiguen los riesgos. Nuestro objetivo es fomentar un enfoque proactivo hacia la ciberseguridad, donde la educación y la concienciación se conviertan en componentes integrales de nuestras vidas digitales.</description>
     </item>
   </channel>
 </rss>

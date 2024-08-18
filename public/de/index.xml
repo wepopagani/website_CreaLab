@@ -65,11 +65,11 @@
       <description>Einführung In der heutigen Computerwelt ist es super einfach, online Dinge zu finden. Wir nutzen oft Suchmaschinen wie Google, Bing oder DuckDuckGo, um uns bei der Suche nach Informationen zu helfen. Egal, ob wir eine bekannte Website besuchen oder etwas Neues entdecken möchten, Suchmaschinen spielen eine große Rolle in unserem Internetgebrauch.&#xA;Aber was passiert, wenn wir diesen Suchmaschinen zu sehr vertrauen? Stellen Sie sich vor, Sie geben den Namen eines berühmten Unternehmens bei Google ein und klicken auf einen Link, der seriös aussieht, aber tatsächlich eine Falle ist.</description>
     </item>
     <item>
-      <title>Lsass Extractor</title>
+      <title>Lsass-Extraktor</title>
       <link>http://localhost:1313/de/posts/lsass-extractor/</link>
       <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
       <guid>http://localhost:1313/de/posts/lsass-extractor/</guid>
-      <description>Introduction In TeamFence, we strongly believe that nowadays it&amp;rsquo;s increasingly important for an offensive operator to understand the details behind the techniques and tools.&#xA;For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us to then re-implement the logic into a tool tailored to our future needs.&#xA;Note: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation workstation.</description>
+      <description>Einführung Bei TeamFence sind wir fest davon überzeugt, dass es für einen Offensiv-Operator heutzutage immer wichtiger ist, die Details hinter den Techniken und Werkzeugen zu verstehen.&#xA;Aus diesem Grund werden wir in diesem Blogbeitrag untersuchen, wie Mimikatz Anmeldeinformationen aus LSASS-Dumps extrahiert und wie wir diese Logik in ein Tool integrieren können, das auf unsere zukünftigen Bedürfnisse zugeschnitten ist.&#xA;Hinweis: Alle Analysen, die im Rahmen dieses Projekts durchgeführt wurden, basieren auf einer Windows 11 Enterprise Evaluation-Workstation.</description>
     </item>
     <item>
       <title>Awareness</title>
@@ -101,10 +101,10 @@
     </item>
     <item>
       <title>Über Uns</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/de/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Unsere Vision Unsere Vision ist es, eine Welt zu schaffen, in der das Bewusstsein für Cybersicherheit ein universeller Standard ist, der Einzelpersonen und Organisationen befähigt, ihre digitalen Vermögenswerte mit Vertrauen zu schützen. Mit dem technologischen Fortschritt und der zunehmenden Raffinesse der Cyberbedrohungen setzen wir uns dafür ein, an der Spitze der Innovation zu bleiben, indem wir fortschrittliche Lösungen anbieten, die Risiken antizipieren und mindern. Wir streben danach, einen proaktiven Ansatz für Cybersicherheit zu fördern, bei dem Bildung und Bewusstsein integraler Bestandteil unseres digitalen Lebens werden.</description>
+      <guid>http://localhost:1313/de/about/</guid>
+      <description>Unsere Vision Unsere Vision ist es, eine Welt zu schaffen, in der das Bewusstsein für Cybersicherheit ein universeller Standard ist und Einzelpersonen und Organisationen befähigt werden, ihre digitalen Vermögenswerte mit Zuversicht zu schützen. Da sich die Technologie weiterentwickelt und Cyberbedrohungen zunehmend komplexer werden, sind wir bestrebt, an der Spitze der Innovation zu bleiben und fortschrittliche Lösungen bereitzustellen, die Risiken antizipieren und mindern. Wir streben danach, einen proaktiven Ansatz zur Cybersicherheit zu fördern, bei dem Bildung und Bewusstsein integrale Bestandteile unseres digitalen Lebens werden.</description>
     </item>
   </channel>
 </rss>
