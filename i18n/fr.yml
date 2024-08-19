@@ -137,3 +137,12 @@
   translation: Nous commençons par comprendre vos mesures de sécurité actuelles et identifier les vulnérabilités potentielles. Cette approche combine des stratégies offensives et défensives (Purple Teaming), ce qui nous permet d'identifier et de réduire les menaces de manière plus efficace. En intégrant notre expertise avec les connaissances de votre équipe, nous créons une stratégie de défense complète, à la fois proactive et adaptative.
 - id: ctem_btn
   translation: En Savoir Plus
+#Websecuirty
+- id: websec_description_1
+  translation_fr: Les tests de sécurité des applications web consistent à simuler des cyberattaques sur un système afin d'évaluer sa sécurité. Ce processus peut être réalisé avec un accès au code source de l'application (approche en boîte blanche) ou sans celui-ci (approche en boîte noire).
+- id: websec_description_2
+  translation_fr: L'objectif est de découvrir des vulnérabilités, d'identifier des exploits potentiels et d'évaluer la posture de sécurité globale. En examinant minutieusement le système cible, ces tests révèlent si des corrections supplémentaires ou des améliorations de sécurité sont nécessaires, servant de contrôle crucial pour garantir l'intégrité et la sécurité du système.
+- id: whitebox_description
+  translation_fr: Les tests de sécurité des applications web avec une approche en boîte blanche impliquent d'examiner le système avec un accès complet au code source. Cette méthode permet une évaluation complète de l'architecture de l'application, en identifiant les vulnérabilités et les exploits potentiels du point de vue d'un initié pour garantir des mesures de sécurité robustes.
+- id: blackbox_description
+  translation_fr: Les tests de sécurité des applications web avec une approche en boîte noire consistent à évaluer le système sans accès au code source. Cette méthode simule une attaque externe, en se concentrant sur l'identification des vulnérabilités et des exploits potentiels du point de vue d'un tiers, afin de s'assurer que les défenses de l'application sont robustes contre les menaces réelles.

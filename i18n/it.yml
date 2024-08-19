@@ -137,3 +137,12 @@
   translation: Iniziamo comprendendo le tue attuali misure di sicurezza e identificando le potenziali vulnerabilità. Questo approccio combina strategie offensive e difensive (Purple Teaming), permettendoci di identificare e mitigare le minacce in modo più efficace. Integrando la nostra esperienza con le intuizioni del tuo team, creiamo una strategia di difesa completa che sia sia proattiva che adattiva.
 - id: ctem_btn
   translation: Leggi di Più
+# Websecuirty
+- id: websec_description_1
+  translation_it: I test di sicurezza delle applicazioni web implicano la simulazione di attacchi informatici su un sistema per valutarne la sicurezza. Questo processo può essere condotto con accesso al codice sorgente dell'applicazione (approccio white box) o senza di esso (approccio black box).
+- id: websec_description_2
+  translation_it: L'obiettivo è scoprire vulnerabilità, identificare potenziali exploit e valutare la postura complessiva di sicurezza. Esaminando a fondo il sistema target, questi test rivelano se sono necessarie ulteriori correzioni o miglioramenti della sicurezza, fungendo da controllo cruciale per garantire l'integrità e la sicurezza del sistema.
+- id: whitebox_description
+  translation_it: I test di sicurezza delle applicazioni web con un approccio white box implicano l'esame del sistema con pieno accesso al codice sorgente. Questo metodo consente una valutazione completa dell'architettura dell'applicazione, identificando vulnerabilità e potenziali exploit dal punto di vista di un insider per garantire misure di sicurezza robuste.
+- id: blackbox_description
+  translation_it: I test di sicurezza delle applicazioni web con un approccio black box implicano la valutazione del sistema senza accesso al codice sorgente. Questo metodo simula un attacco esterno, concentrandosi sull'identificazione di vulnerabilità e potenziali exploit dal punto di vista di un estraneo per garantire che le difese dell'applicazione siano robuste contro le minacce del mondo reale.

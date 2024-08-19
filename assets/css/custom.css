@@ -92,38 +92,36 @@ body .nk-wrap .text-white * {
 .header-navbar .menu-btns select#select-language {
     background-color: #4a00e0; /* Match your theme's button color */
     color: white; /* White text color */
-    border: none; /* Remove default border */
-    padding: 10px 20px; /* Padding similar to buttons */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    margin-left: 10px; /* Space between buttons */
-    cursor: pointer; /* Pointer cursor */
-    appearance: none; /* Remove default arrow */
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin-left: 10px;
+    cursor: pointer; 
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    position: relative; /* Ensure dropdown arrow is correctly positioned */
+    position: relative;
 }
 
 /* Custom dropdown arrow */
 .header-navbar .menu-btns select#select-language::after {
-    content: '▼'; /* Custom arrow */
-    font-size: 12px; /* Arrow size */
-    color: white; /* Arrow color */
+    content: '▼'; 
+    font-size: 12px; 
+    color: white; 
     position: absolute;
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
-    pointer-events: none; /* Make sure the arrow is not clickable */
+    pointer-events: none; 
 }
 
-/* Optional: Style the dropdown options */
 .header-navbar .menu-btns select#select-language option {
-    background-color: #333; /* Dark background for options */
-    color: white; /* White text */
-    padding: 10px; /* Padding inside the options */
+    background-color: #333; 
+    color: white; 
+    padding: 10px; 
 }
 
-/* Hover effect for the dropdown */
 .header-navbar .menu-btns select#select-language:hover {
-    background-color: #6a00e0; /* Slightly lighter on hover */
+    background-color: #6a00e0; 
 }

@@ -74,23 +74,9 @@
     <item>
       <title>Awareness</title>
       <link>http://localhost:1313/it/services/awareness/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/services/awareness/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CTEM Security</title>
-      <link>http://localhost:1313/it/services/ctemsecurity/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/it/services/ctemsecurity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Security</title>
-      <link>http://localhost:1313/it/services/websecurity/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/it/services/websecurity/</guid>
-      <description></description>
+      <description>In TeamFence, il nostro approccio alla consapevolezza sulla sicurezza si basa sulla condivisione della conoscenza e sul miglioramento del personale. Comprendiamo l&amp;rsquo;importanza di dotare gli individui delle competenze e della consapevolezza necessarie per contribuire efficacemente alla sicurezza dell&amp;rsquo;organizzazione.</description>
     </item>
     <item>
       <title>Chi Siamo</title>
@@ -105,6 +91,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ctem-details/</guid>
       <description>Introduzione Nel panorama in continua evoluzione della cybersecurity, le organizzazioni sono costantemente alla ricerca delle migliori strategie per proteggere i propri beni digitali. Due approcci prominenti sono il Continuous Threat Exposure Management (CTEM) e il Penetration Testing. Sebbene entrambi mirino a migliorare la sicurezza, lo fanno in modi distinti.&#xA;Cos&amp;rsquo;è il Continuous Threat Exposure Management (CTEM)? Il Continuous Threat Exposure Management (CTEM) è un framework proattivo e adattivo progettato per gestire e ridurre continuamente la superficie di attacco di un&amp;rsquo;organizzazione.</description>
+    </item>
+    <item>
+      <title>Web Security</title>
+      <link>http://localhost:1313/it/services/websecurity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/services/websecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>What is CTEM?</title>
+      <link>http://localhost:1313/it/services/ctemsecurity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/services/ctemsecurity/</guid>
+      <description>La Continuous Threat Exposure Management (CTEM) è un framework proattivo a cinque fasi progettato per ridurre al minimo l&amp;rsquo;esposizione agli attacchi informatici. Aiuta le organizzazioni a identificare e valutare le vulnerabilità, mappare i potenziali percorsi di attacco, dare priorità ai rischi e monitorare gli sforzi di rimedio.&#xA;Iniziamo comprendendo le tue attuali misure di sicurezza e identificando le potenziali vulnerabilità. Questo approccio combina strategie offensive e difensive (Purple teaming), permettendoci di identificare e mitigare le minacce in modo più efficace.</description>
     </item>
   </channel>
 </rss>

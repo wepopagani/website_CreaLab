@@ -137,3 +137,12 @@
   translation: Wir beginnen damit, Ihre aktuellen Sicherheitsmaßnahmen zu verstehen und potenzielle Schwachstellen zu identifizieren. Dieser Ansatz kombiniert offensive und defensive Strategien (Purple Teaming), wodurch wir Bedrohungen effektiver identifizieren und mindern können. Durch die Integration unserer Expertise mit den Erkenntnissen Ihres Teams schaffen wir eine umfassende Verteidigungsstrategie, die sowohl proaktiv als auch anpassungsfähig ist.
 - id: ctem_btn
   translation: Mehr Erfahren
+# Websecurity
+- id: websec_description_1
+  translation_de: Die Sicherheitstests von Webanwendungen beinhalten die Simulation von Cyberangriffen auf ein System, um dessen Sicherheit zu bewerten. Dieser Prozess kann mit Zugriff auf den Quellcode der Anwendung (White-Box-Ansatz) oder ohne ihn (Black-Box-Ansatz) durchgeführt werden.
+- id: websec_description_2
+  translation_de: Ziel ist es, Schwachstellen aufzudecken, potenzielle Exploits zu identifizieren und die allgemeine Sicherheitslage zu bewerten. Durch die gründliche Untersuchung des Zielsystems zeigen diese Tests, ob weitere Korrekturen oder Sicherheitsverbesserungen erforderlich sind und dienen als wichtiger Check, um die Integrität und Sicherheit des Systems zu gewährleisten.
+- id: whitebox_description
+  translation_de: Webanwendungssicherheitstests mit einem White-Box-Ansatz beinhalten die Untersuchung des Systems mit vollständigem Zugriff auf den Quellcode. Diese Methode ermöglicht eine umfassende Bewertung der Anwendungsarchitektur, indem Schwachstellen und potenzielle Exploits aus der Perspektive eines Insiders identifiziert werden, um robuste Sicherheitsmaßnahmen sicherzustellen.
+- id: blackbox_description
+  translation_de: Webanwendungssicherheitstests mit einem Black-Box-Ansatz beinhalten die Bewertung des Systems ohne Zugriff auf den Quellcode. Diese Methode simuliert einen externen Angriff und konzentriert sich darauf, Schwachstellen und potenzielle Exploits aus der Perspektive eines Außenseiters zu identifizieren, um sicherzustellen, dass die Verteidigungsmaßnahmen der Anwendung gegen reale Bedrohungen robust sind.

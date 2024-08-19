@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="zxx" class="js">
-
+<html lang="it" class="js">
 {{- partial "head.html" . -}}
-
 <body class="nk-body body-wider theme-dark mode-onepage bg-light">
     <div class="nk-wrap">
         <!-- Header Section -->
@@ -21,7 +19,7 @@
                                 <div class="col-xl-6 col-lg-9">
                                     <div class="banner-caption cpn tc-light text-center">
                                         <div class="cpn-head">
-                                            <h1 class="title title-xl-2 title-semibold animated" data-animate="fadeInUp" data-delay="1.35">What is CTEM?</h1>
+                                            <h1 class="title title-xl-2 title-semibold animated" data-animate="fadeInUp" data-delay="1.35">{{ .Title }}</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -43,17 +41,16 @@
                         <div class="row gutter-vr-30px align-items-center">
                             <div class="col-lg-6">
                                 <div class="nk-block-text">
-                                    <h2>{{i18n "ctem_title"}}</h2>
-                                    <p>{{i18n "ctem1"}}</p>
-                                    <p>{{i18n "ctem2"}}</p>
+                                    <h2>{{ .Title }}</h2>
+                                    <p>{{ .Content }}</p>
                                     <div class="pt-4">
-                                        <a href="/ctem-details/" class="btn btn-md btn-grad" data-overlay="bg-theme-grad-alternet">{{i18n "ctem_btn"}}</a>
+                                        <a href="{{ .Params.link }}" class="btn btn-md btn-grad" data-overlay="bg-theme-grad-alternet">{{ .Params.btn_text }}</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="nk-block-video">
-                                    <img src="/images/network.png" alt="CTEM Security">
+                                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
                                 </div>
                             </div>
                         </div>
@@ -62,39 +59,24 @@
 
                     <div class="hr"></div>
 
-                    <!-- Block 2 -->
+                    <!-- Loop through services -->
+                    {{ range .Params.services }}
                     <div class="nk-block nk-block-about">
                         <div class="row gutter-vr-30px align-items-center justify-content-between">
                             <div class="col-md-4 col-lg-3">
                                 <div class="nk-block-text">
-                                    <h2 class="title-lg">Cyber Diagnosis</h2>
+                                    <h2 class="title-lg">{{ .title }}</h2>
                                 </div>
                             </div>
                             <div class="col-md-7 col-lg-8">
                                 <div class="nk-block-text">
-                                    <p>{{i18n "cyber_diagnosis"}}</p>
+                                    <p>{{ .description }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- .nk-block -->
-
-                    <!-- Block 3 -->
-                    <div class="nk-block nk-block-about">
-                        <div class="row gutter-vr-30px align-items-center justify-content-between">
-                            <div class="col-md-4 col-lg-3">
-                                <div class="nk-block-text">
-                                    <h2 class="title-lg">Proactive Risk Advancement</h2>
-                                </div>
-                            </div>
-                            <div class="col-md-7 col-lg-8">
-                                <div class="nk-block-text">
-                                    <p>{{i18n "proactive_risk"}}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .nk-block -->
+                    {{ end }}
                 </div>
             </section>
             <!-- // -->
@@ -105,8 +87,7 @@
 
         <!-- JavaScript and Footer -->
         {{- partial "javascript.html" . -}}
-        {{- partial "footer.html" . -}}
+        {{- partial "footer2.html" . -}}
     </div>
 </body>
-
 </html>

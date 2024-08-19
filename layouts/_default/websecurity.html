@@ -1,85 +1,76 @@
 <!DOCTYPE html>
 <html lang="zxx" class="js">
 {{- partial "head.html" . -}}
-<header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
-    {{- partial "navbar.html" . -}}
-    <!-- Banner @s -->
-    <div class="header-banner">
-        <div class="nk-banner">
-            <div class="banner banner-page">
+<body class="nk-body body-wider theme-dark mode-onepage bg-light">
+    <div class="nk-wrap">
+        <!-- Header Section -->
+        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+            {{- partial "navbar.html" . -}}
+            <div class="nk-ovm shape-a-sm"></div>
+        </header>
+        
+        <!-- Banner Section -->
+        <div class="header-banner bg-blend shape-o shape-contain shape-center-top">
+            <div class="nk-banner">
+                <div class="banner banner-page">
+                    <div class="banner-wrap">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-6 col-lg-9">
+                                    <div class="banner-caption cpn tc-light text-center">
+                                        <div class="cpn-head">
+                                            <h1 class="title title-xl-2 title-semibold animated" data-animate="fadeInUp" data-delay="1.35">{{ .Title }}</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div><!-- .nk-banner -->
-        <div class="nk-ovm shape-a-sm"></div>
-    </div>
-    <!-- .header-banner @e -->
-</header>
-<body class="nk-body body-wider theme-dark mode-onepage">
-<div class="nk-wrap">
-    <main class="nk-pages">
+            <div class="nk-ovm bg-blend before-bottom before-h70 shape-o shape-contain shape-center-top"></div>
+        </div>
+        <!-- .header-banner -->
+        
+        <main class="nk-pages">
+            <!-- About Section -->
+            <section class="section section-about bg-light">
+                <div class="container">
+                    <!-- Loop through services in the front matter -->
+                    {{ range .Params.services }}
+                    <div class="nk-block bg-light">
+                        <div class="row gutter-vr-30px align-items-center">
+                            <div class="col-lg-6">
+                                <div class="nk-block-text bg-light">
+                                    <h2 class="title">{{ .title }}</h2>
+                                    <p>{{ .description }}</p>
+                                    {{ if .description_2 }}
+                                    <p>{{ .description_2 }}</p>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            {{ if .image }}
+                            <div class="col-lg-6">
+                                <div class="nk-block-video bg-light">
+                                    <img src="{{ .image }}" alt="{{ .title }}" style="width: 85%">
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div><!-- .nk-block -->
+                    <div class="hr bg-light"></div>
+                    {{ end }}
+                </div>
+            </section>
+            <!-- // -->
+        </main>
 
-        <section class="section section-about">
-            <div class="container">
-                <!-- Block @s -->
-                <div class="nk-block">
-                    <div class="row gutter-vr-30px align-items-center">
-                        <div class="col-lg-6">
-                            <div class="nk-block-text">
-                                <h2 class="text-white title">Web Security</h2>
-                                <p class="text-white">Web application security testing involves simulating cyber-attacks on a system to evaluate its security. This process can be conducted with access to the application's source code (white box approach) or without it (black box approach). </p>
-                                <p class="text-white">The goal is to uncover vulnerabilities, identify potential exploits, and assess the overall security posture. By thoroughly examining the target system, these tests reveal whether further remediation or security enhancements are needed,q serving as a crucial check-up to ensure the system's integrity and safety.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="nk-block-video">
-                                <img src="/images/security.png" alt="icon" style="width: 85%">
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- .nk-block @e -->
-                <div class="hr"></div>
-                <!-- Block @s -->
-                <div class="nk-block nk-block-about">
-                    <div class="row gutter-vr-30px align-items-center justify-content-between">
-                        <div class="col-md-4 col-lg-3">
-                            <div class="nk-block-text">
-                                <h2 class="title text-white title-lg">White Box</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-lg-8">
-                            <div class="nk-block-text">
-                                <p class = "text-white">Web application security testing with a white box approach involves examining the system with full access to its source code. This method allows for a comprehensive assessment of the application's architecture, identifying vulnerabilities and potential exploits from an insider's perspective to ensure robust security measures are in place.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- .nk-block @e -->
-                <!-- Block @s -->
-                <div class="nk-block nk-block-about">
-                    <div class="row gutter-vr-30px align-items-center justify-content-between">
-                        <div class="col-md-4 col-lg-3">
-                            <div class="nk-block-text">
-                                <h2 class="title text-white">Black Box</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-lg-8">
-                            <div class="nk-block-text">
-                                <p class = "text-white">Web application security testing with a black box approach involves evaluating the system without access to its source code. This method simulates an external attack, focusing on identifying vulnerabilities and potential exploits from an outsider's perspective to ensure the application's defenses are robust against real-world threats.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- .nk-block @e -->
-            </div>
-        </section>
-        <!-- // -->
-    </main>
-    <!-- Preloader -->
-    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand"
-                                                                                         src="/images/logo-white.png"
-                                                                                         alt=""></span></div>
-    <!-- JavaScript -->
-    {{- partial "javascript.html" . -}}
-    {{- partial "footer.html" . -}}
-</div>
+        <!-- Preloader -->
+        <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="/images/logo-white.png" alt="Logo"></span></div>
+
+        <!-- JavaScript and Footer -->
+        {{- partial "javascript.html" . -}}
+        {{- partial "footer2.html" . -}}
+    </div>
 </body>
 </html>

@@ -72,27 +72,6 @@
       <description>Introduction Chez TeamFence, nous croyons fermement qu&amp;rsquo;il est de plus en plus important pour un opérateur offensif de comprendre les détails derrière les techniques et les outils.&#xA;Pour cette raison, dans cet article de blog, nous allons examiner comment Mimikatz extrait les identifiants à partir de dumps de lsass, ce qui nous permettra de réimplémenter la logique dans un outil adapté à nos besoins futurs.&#xA;Remarque : toutes les analyses effectuées au cours de ce projet ont été réalisées sur une station de travail Windows 11 Enterprise Evaluation.</description>
     </item>
     <item>
-      <title>Awareness</title>
-      <link>http://localhost:1313/fr/services/awareness/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/fr/services/awareness/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CTEM Security</title>
-      <link>http://localhost:1313/fr/services/ctemsecurity/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/fr/services/ctemsecurity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Security</title>
-      <link>http://localhost:1313/fr/services/websecurity/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/fr/services/websecurity/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>À Propos de Nous</title>
       <link>http://localhost:1313/fr/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -100,11 +79,32 @@
       <description>Notre Vision Notre vision est de créer un monde où la sensibilisation à la cybersécurité est une norme universelle, permettant aux individus et aux organisations de protéger leurs actifs numériques en toute confiance. À mesure que la technologie progresse et que les menaces cybernétiques deviennent de plus en plus sophistiquées, nous nous engageons à rester à l&amp;rsquo;avant-garde de l&amp;rsquo;innovation, en fournissant des solutions de pointe qui anticipent et atténuent les risques.</description>
     </item>
     <item>
-      <title>CTEM Details</title>
+      <title>Awareness</title>
+      <link>http://localhost:1313/fr/services/awareness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/awareness/</guid>
+      <description>Chez TeamFence, notre approche de la sensibilisation à la sécurité repose sur le partage des connaissances et l&amp;rsquo;amélioration du personnel. Nous comprenons l&amp;rsquo;importance de doter les individus des compétences et de la sensibilisation nécessaires pour contribuer efficacement à la sécurité de l&amp;rsquo;organisation.</description>
+    </item>
+    <item>
+      <title>Détails CTEM</title>
       <link>http://localhost:1313/ctem-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ctem-details/</guid>
-      <description>This page explains the CTEM framework in detail.</description>
+      <description>Introduction Dans le paysage en constante évolution de la cybersécurité, les organisations recherchent constamment les meilleures stratégies pour protéger leurs actifs numériques. Deux approches majeures sont la gestion continue de l&amp;rsquo;exposition aux menaces (CTEM) et les tests de pénétration. Bien que les deux visent à améliorer la sécurité, elles le font de manière distincte.&#xA;Qu&amp;rsquo;est-ce que la gestion continue de l&amp;rsquo;exposition aux menaces (CTEM) ? La gestion continue de l&amp;rsquo;exposition aux menaces (CTEM) est un cadre proactif et adaptatif conçu pour gérer et réduire en continu la surface d&amp;rsquo;attaque d&amp;rsquo;une organisation.</description>
+    </item>
+    <item>
+      <title>Web Security</title>
+      <link>http://localhost:1313/fr/services/websecurity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/websecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>What is CTEM?</title>
+      <link>http://localhost:1313/fr/services/ctemsecurity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/ctemsecurity/</guid>
+      <description>La gestion continue de l&amp;rsquo;exposition aux menaces (CTEM) est un cadre proactif en cinq étapes conçu pour minimiser l&amp;rsquo;exposition aux cyberattaques. Il aide les organisations à identifier et évaluer les vulnérabilités, à cartographier les chemins d&amp;rsquo;attaque potentiels, à prioriser les risques et à suivre les efforts de remédiation.&#xA;Nous commençons par comprendre vos mesures de sécurité actuelles et identifier les vulnérabilités potentielles. Cette approche combine des stratégies offensives et défensives (Purple teaming), nous permettant d&amp;rsquo;identifier et de réduire plus efficacement les menaces.</description>
     </item>
   </channel>
 </rss>

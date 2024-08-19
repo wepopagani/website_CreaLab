@@ -137,3 +137,24 @@
   translation: Comenzamos entendiendo sus medidas de seguridad actuales e identificando posibles vulnerabilidades. Este enfoque combina estrategias ofensivas y defensivas (Purple Teaming), lo que nos permite identificar y mitigar amenazas de manera más efectiva. Al integrar nuestra experiencia con los conocimientos de su equipo, creamos una estrategia de defensa integral que es tanto proactiva como adaptable.
 - id: ctem_btn
   translation: Leer Más
+# Websecurity
+- id: websec_title
+  translation_es: Seguridad Web
+
+- id: websec_description_1
+  translation_es: Las pruebas de seguridad de aplicaciones web implican la simulación de ciberataques en un sistema para evaluar su seguridad. Este proceso puede llevarse a cabo con acceso al código fuente de la aplicación (enfoque de caja blanca) o sin él (enfoque de caja negra).
+
+- id: websec_description_2
+  translation_es: El objetivo es descubrir vulnerabilidades, identificar posibles exploits y evaluar la postura general de seguridad. Al examinar a fondo el sistema objetivo, estas pruebas revelan si se necesitan más correcciones o mejoras de seguridad, sirviendo como un control crucial para garantizar la integridad y seguridad del sistema.
+
+- id: whitebox_title
+  translation_es: Caja Blanca
+
+- id: whitebox_description
+  translation_es: Las pruebas de seguridad de aplicaciones web con un enfoque de caja blanca implican examinar el sistema con acceso completo al código fuente. Este método permite una evaluación completa de la arquitectura de la aplicación, identificando vulnerabilidades y posibles exploits desde la perspectiva de un conocedor para garantizar medidas de seguridad robustas.
+
+- id: blackbox_title
+  translation_es: Caja Negra
+
+- id: blackbox_description
+  translation_es: Las pruebas de seguridad de aplicaciones web con un enfoque de caja negra implican evaluar el sistema sin acceso al código fuente. Este método simula un ataque externo, centrándose en identificar vulnerabilidades y posibles exploits desde la perspectiva de un extraño para garantizar que las defensas de la aplicación sean robustas frente a las amenazas del mundo real.

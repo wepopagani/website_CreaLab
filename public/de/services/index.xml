@@ -6,28 +6,27 @@
     <description>Recent content in Services on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 11 Apr 2022 17:04:31 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/de/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awareness</title>
       <link>http://localhost:1313/de/services/awareness/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/services/awareness/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CTEM Security</title>
-      <link>http://localhost:1313/de/services/ctemsecurity/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/de/services/ctemsecurity/</guid>
-      <description></description>
+      <description>Bei TeamFence basiert unser Ansatz zur Bereitstellung von Sicherheitsbewusstsein auf dem Glauben an Wissensaustausch und Personalverbesserung. Wir verstehen, wie wichtig es ist, Einzelpersonen mit den notwendigen Fähigkeiten und dem Bewusstsein auszustatten, um effektiv zur Sicherheit der Organisation beizutragen.</description>
     </item>
     <item>
       <title>Web Security</title>
       <link>http://localhost:1313/de/services/websecurity/</link>
-      <pubDate>Mon, 11 Apr 2022 17:04:31 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/de/services/websecurity/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>What is CTEM?</title>
+      <link>http://localhost:1313/de/services/ctemsecurity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/services/ctemsecurity/</guid>
+      <description>Das Continuous Threat Exposure Management (CTEM) ist ein proaktiver Fünf-Stufen-Ansatz, der darauf abzielt, die Exposition gegenüber Cyberangriffen zu minimieren. Es hilft Organisationen dabei, Schwachstellen zu identifizieren und zu bewerten, potenzielle Angriffspfade zu kartieren, Risiken zu priorisieren und die Behebungsmaßnahmen zu verfolgen.&#xA;Wir beginnen damit, Ihre aktuellen Sicherheitsmaßnahmen zu verstehen und potenzielle Schwachstellen zu identifizieren. Dieser Ansatz kombiniert offensive und defensive Strategien (Purple Teaming), wodurch wir Bedrohungen effektiver identifizieren und mindern können.</description>
     </item>
   </channel>
 </rss>

@@ -139,3 +139,12 @@
   translation: The final stages involve analyzing and prioritizing exposures based on threat levels and asset importance, validating potential attack methods and security controls, and ensuring all teams understand their roles and track progress to improve overall security posture.
 - id: ctem_btn
   translation: Read More
+##Web Security
+- id: websec_description_1
+  translation: Web application security testing involves simulating cyber-attacks on a system to evaluate its security. This process can be conducted with access to the application's source code (white box approach) or without it (black box approach).
+- id: websec_description_2
+  translation: The goal is to uncover vulnerabilities, identify potential exploits, and assess the overall security posture. By thoroughly examining the target system, these tests reveal whether further remediation or security enhancements are needed, serving as a crucial check-up to ensure the system's integrity and safety.
+- id: whitebox_description
+  translation: Web application security testing with a white box approach involves examining the system with full access to its source code. This method allows for a comprehensive assessment of the application's architecture, identifying vulnerabilities and potential exploits from an insider's perspective to ensure robust security measures are in place.
+- id: blackbox_description
+  translation: Web application security testing with a black box approach involves evaluating the system without access to its source code. This method simulates an external attack, focusing on identifying vulnerabilities and potential exploits from an outsider's perspective to ensure the application's defenses are robust against real-world threats.
