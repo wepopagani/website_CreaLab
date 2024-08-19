@@ -6,6 +6,6 @@ linkedin: "https://www.linkedin.com/in/marco-pagani"
 weight: 4  
 layout: "team"
 ---
-This young entrepreneur is currently graduating with a B.A. in Science of Economics, majoring in Finance. With a keen interest in the internet business, he is actively developing his own enterprise in this dynamic field.
+Este joven emprendedor está a punto de graduarse con una licenciatura en Ciencias Económicas, con especialización en Finanzas. Con un gran interés en el negocio en línea, está desarrollando activamente su propia empresa en este campo dinámico.
 
-His passion for cybersecurity has led him to study IT and digital solutions during his free time. Recently, he showcased his skills by building an entire internet infrastructure, handling everything from hardware setup to device connectivity.
+Su pasión por la ciberseguridad lo ha llevado a estudiar TI y soluciones digitales en su tiempo libre. Recientemente, demostró sus habilidades al construir toda una infraestructura de internet, manejando todo, desde la configuración del hardware hasta la conectividad de los dispositivos.

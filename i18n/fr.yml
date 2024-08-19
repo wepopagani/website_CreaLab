@@ -146,3 +146,5 @@
   translation_fr: Les tests de sécurité des applications web avec une approche en boîte blanche impliquent d'examiner le système avec un accès complet au code source. Cette méthode permet une évaluation complète de l'architecture de l'application, en identifiant les vulnérabilités et les exploits potentiels du point de vue d'un initié pour garantir des mesures de sécurité robustes.
 - id: blackbox_description
   translation_fr: Les tests de sécurité des applications web avec une approche en boîte noire consistent à évaluer le système sans accès au code source. Cette méthode simule une attaque externe, en se concentrant sur l'identification des vulnérabilités et des exploits potentiels du point de vue d'un tiers, afin de s'assurer que les défenses de l'application sont robustes contre les menaces réelles.
+- id: meet_team
+  translation: "Rencontrez l'équipe"

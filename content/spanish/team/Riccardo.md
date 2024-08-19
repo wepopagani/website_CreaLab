@@ -7,6 +7,6 @@ weight: 1
 layout: "team"
 ---
 
-Certified ethical hacker and Software engineer graduated from SUPSI. He has accumulated 6 years of experience in the offensive security sector as a penetration tester and Red Teamer for private companies, working from SMEs to the offensive security team of Novartis.
+Hacker ético certificado e ingeniero de software graduado en SUPSI. Ha acumulado 6 años de experiencia en el sector de la seguridad ofensiva como tester de penetración y Red Teamer para empresas privadas, trabajando desde pymes hasta el equipo de seguridad ofensiva de Novartis.
 
-His advancement in the Swiss army as a non-commissioned officer in the Cyber battalion has improved his technical skills, working with critical infrastructures, and team management. Since January 2024, he has been part of the RED42 sub-detachment, which handles critical offensive operations and advanced training.
+Su ascenso en el ejército suizo como suboficial en el batallón cibernético ha mejorado sus habilidades técnicas, trabajando con infraestructuras críticas y en la gestión de equipos. Desde enero de 2024, forma parte del subdestacamento RED42, que maneja operaciones ofensivas críticas y formación avanzada.

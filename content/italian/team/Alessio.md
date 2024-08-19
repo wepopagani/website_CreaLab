@@ -7,10 +7,10 @@ weight: 3
 layout: "team"
 ---
 
-Alessio Branca is a seasoned entrepreneur and investor with extensive experience in the healthcare sector, particularly in operations related to the Swiss territory. 
+Alessio Branca è un imprenditore e investitore con vasta esperienza nel settore sanitario, in particolare nelle operazioni legate al territorio svizzero.
 
-At the age of 21, Alessio spearheaded a startup in the Medical Devices sector, scaling it from 0 to 3 million in revenue within 2.5 years by efficiently managing operations and structuring the entire Swiss market.
+All'età di 21 anni, Alessio ha guidato una startup nel settore dei dispositivi medici, portandola da 0 a 3 milioni di fatturato in 2,5 anni grazie a una gestione efficiente delle operazioni e alla strutturazione del mercato svizzero.
 
-He has founded and structured two companies in the Health Care sector, achieving a remarkable growth trajectory from 0 to 2 million in revenue in just 2 years.
+Ha fondato e strutturato due aziende nel settore sanitario, raggiungendo una notevole crescita da 0 a 2 milioni di fatturato in soli 2 anni.
 
-With six years of entrepreneurial experience and deep local knowledge, Alessio continues to drive innovation and growth in the healthcare industry.
+Con sei anni di esperienza imprenditoriale e una profonda conoscenza locale, Alessio continua a guidare l'innovazione e la crescita nel settore sanitario.

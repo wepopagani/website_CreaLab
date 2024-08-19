@@ -146,3 +146,5 @@
   translation_de: Webanwendungssicherheitstests mit einem White-Box-Ansatz beinhalten die Untersuchung des Systems mit vollständigem Zugriff auf den Quellcode. Diese Methode ermöglicht eine umfassende Bewertung der Anwendungsarchitektur, indem Schwachstellen und potenzielle Exploits aus der Perspektive eines Insiders identifiziert werden, um robuste Sicherheitsmaßnahmen sicherzustellen.
 - id: blackbox_description
   translation_de: Webanwendungssicherheitstests mit einem Black-Box-Ansatz beinhalten die Bewertung des Systems ohne Zugriff auf den Quellcode. Diese Methode simuliert einen externen Angriff und konzentriert sich darauf, Schwachstellen und potenzielle Exploits aus der Perspektive eines Außenseiters zu identifizieren, um sicherzustellen, dass die Verteidigungsmaßnahmen der Anwendung gegen reale Bedrohungen robust sind.
+- id: meet_team
+  translation: "Lerne das Team kennen"

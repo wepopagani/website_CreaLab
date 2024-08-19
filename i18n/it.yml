@@ -146,3 +146,5 @@
   translation_it: I test di sicurezza delle applicazioni web con un approccio white box implicano l'esame del sistema con pieno accesso al codice sorgente. Questo metodo consente una valutazione completa dell'architettura dell'applicazione, identificando vulnerabilità e potenziali exploit dal punto di vista di un insider per garantire misure di sicurezza robuste.
 - id: blackbox_description
   translation_it: I test di sicurezza delle applicazioni web con un approccio black box implicano la valutazione del sistema senza accesso al codice sorgente. Questo metodo simula un attacco esterno, concentrandosi sull'identificazione di vulnerabilità e potenziali exploit dal punto di vista di un estraneo per garantire che le difese dell'applicazione siano robuste contro le minacce del mondo reale.
+- id: meet_team
+  translation: "Conosci il team"

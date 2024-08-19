@@ -7,6 +7,6 @@ weight: 5
 layout: "team"
 ---
 
-Diego Omini is a DevOps engineer and software developer from Switzerland, who has been passionate about programming since 2010. He earned a bachelor’s degree in computer science from the BFH of Bienne. Since February 2023, he has been employed at Swisscom AG as a DevOps engineer.
+Diego Omini es un ingeniero DevOps y desarrollador de software suizo, apasionado por la programación desde 2010. Obtuvo una licenciatura en informática en la BFH de Bienne. Desde febrero de 2023, trabaja en Swisscom AG como ingeniero DevOps.
 
-Diego specializes in developing RESTful backends using Spring Boot and Java, implementing CI/CD pipelines with Jenkins and GitLab, and deploying applications on Kubernetes. His previous experience includes developing a VR application for his bachelor thesis, automating PST mail archive migrations, and managing a network of 800 workstations and servers during his apprenticeship.
+Diego se especializa en el desarrollo de backends RESTful utilizando Spring Boot y Java, la implementación de pipelines CI/CD con Jenkins y GitLab, y el despliegue de aplicaciones en Kubernetes. Sus experiencias anteriores incluyen el desarrollo de una aplicación de realidad virtual para su tesis de licenciatura, la automatización de migraciones de archivos de correo PST y la gestión de una red de 800 estaciones de trabajo y servidores durante su aprendizaje.

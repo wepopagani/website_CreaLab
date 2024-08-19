@@ -158,3 +158,5 @@
 
 - id: blackbox_description
   translation_es: Las pruebas de seguridad de aplicaciones web con un enfoque de caja negra implican evaluar el sistema sin acceso al código fuente. Este método simula un ataque externo, centrándose en identificar vulnerabilidades y posibles exploits desde la perspectiva de un extraño para garantizar que las defensas de la aplicación sean robustas frente a las amenazas del mundo real.
+- id: meet_team
+  translation: "Conoce al equipo"

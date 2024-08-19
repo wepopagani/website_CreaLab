@@ -6,8 +6,8 @@ linkedin: "https://www.linkedin.com/in/matteo-denicolo"
 weight: 2  
 layout: "team"
 ---
-Matteo Denicolo has successfully raised over 5 million euros by launching three startups and winning an accelerator. His strategic acumen has led to the increase in value of two companies by 2.5x and 6.5x respectively.
+Matteo Denicolo ha recaudado con éxito más de 5 millones de euros lanzando tres startups y ganando un acelerador. Su perspicacia estratégica ha llevado a un aumento del valor de dos empresas en 2,5x y 6,5x respectivamente.
 
-With 3 years of experience as an executive board member across Switzerland, Italy, and the US, Matteo has demonstrated remarkable leadership and growth capabilities. He doubled the number of employees for a company and tripled its client base.
+Con 3 años de experiencia como miembro del consejo ejecutivo en Suiza, Italia y Estados Unidos, Matteo ha demostrado notables capacidades de liderazgo y crecimiento. Duplicó el número de empleados de una empresa y triplicó su base de clientes.
 
-In his role as an executive board member, Matteo managed 70 people indirectly and oversaw 5 departments, showcasing his adeptness in team management and strategic development.
+En su papel como miembro del consejo ejecutivo, Matteo gestionó indirectamente a 70 personas y supervisó 5 departamentos, demostrando su destreza en la gestión de equipos y el desarrollo estratégico.
