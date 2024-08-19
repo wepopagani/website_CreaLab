@@ -77,51 +77,56 @@ section.section {
     font-size: 1.5em; 
     line-height: 1em; 
 }
-/* Global Text White Styling */
+
 .text-white, .text-white * {
     color: #EFF6FF !important;
 }
 
-/* Example for Other Specific Containers */
 body.bg-purple, 
 body .nk-wrap .text-white, 
 body .nk-wrap .text-white * {
     color: #EFF6FF !important;
 }
-/* Align the language selector with the rest of the navbar */
-.header-navbar .menu-btns select#select-language {
-    background-color: #4a00e0; /* Match your theme's button color */
-    color: white; /* White text color */
-    border: none; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    font-size: 16px; 
+
+.language-switcher .toggle-tigger {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
     margin-left: 10px;
-    cursor: pointer; 
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 }
 
-/* Custom dropdown arrow */
-.header-navbar .menu-btns select#select-language::after {
-    content: '▼'; 
-    font-size: 12px; 
-    color: white; 
+.language-switcher .toggle-class {
+    background-color: #4A36D3;
+    border-radius: 5px;
+    margin-top: 10px;
+    list-style: none;
+    padding: 10px;
+    display: none;
     position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none; 
+    z-index: 1000;
 }
 
-.header-navbar .menu-btns select#select-language option {
-    background-color: #333; 
-    color: white; 
-    padding: 10px; 
+.language-switcher:hover .toggle-class {
+    display: block;
 }
 
-.header-navbar .menu-btns select#select-language:hover {
-    background-color: #6a00e0; 
+.language-switcher .toggle-class li {
+    padding: 5px 0;
+}
+
+.language-switcher .toggle-class li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.language-switcher .toggle-class li a:hover {
+    background-color: #6a00e0;
 }
