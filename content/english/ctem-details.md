@@ -1,7 +1,6 @@
 ---
 title: "CTEM Details"
 layout: "ctem-details"
-url: "/ctem-details/"
 ---
 
 ## Introduction

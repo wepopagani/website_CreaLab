@@ -5982,6 +5982,10 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .bg-theme-dark .contact-icon-s3:after { background: #160b6d; }
 
+.section-contact .contact-item {
+  margin-top: 60px;
+}
+
 .bg-theme-dark-alt .contact-icon-s3:after { background: #1d0e8a; }
 
 .bg-theme-accent .contact-icon-s3:after { background: #07bcff; }
