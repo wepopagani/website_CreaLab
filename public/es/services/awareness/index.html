@@ -56,7 +56,7 @@
                         </li>
                         
                         <li class="menu-item">
-                            <a class="menu-link nav-link" href="/es/posts/">Blog</a>
+                            <a class="menu-link nav-link" href="/es/posts">Blog</a>
                         </li>
                         
                         <li class="menu-item">
@@ -223,7 +223,7 @@
                     </div>
                 </div>
             </div>
-            <div id="space-to-color" class="nk-ovm ovm-top ovm-h-50 bg-theme-alt"></div>
+            <div id="space-to-color-2" class="nk-ovm ovm-top ovm-h-50 bg-theme-alt"></div>
         </div>
         <div class="section section-footer section-m tc-light bg-transparent ov-h">
             <div class="container">
@@ -254,6 +254,25 @@
         </div>
     </footer>
 </section>
-</div>
+<script>
+    function changeColorBasedOnURL() {
+        var spaceToColor = document.getElementById('space-to-color-2');
+        var currentURL = window.location.href;
+    
+        if (currentURL.includes("/services")) 
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/about"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/team"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/ctem-details"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.match(/\/posts\/[a-zA-Z0-9_-]+/)) 
+            spaceToColor.id = "space-to-color";
+    }
+    
+    window.onload = changeColorBasedOnURL;
+    </script>
+    </div>
 </body>
 </html>

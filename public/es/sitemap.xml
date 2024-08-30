@@ -165,34 +165,6 @@
                 href="http://localhost:1313/es/posts/ctem/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/</loc>
-    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/posts/</loc>
     <lastmod>2024-07-29T17:04:31+02:00</lastmod>
     <xhtml:link
@@ -219,6 +191,34 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="http://localhost:1313/es/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://localhost:1313/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-it"
+                href="http://localhost:1313/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/es/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/html-smuggling/</loc>
@@ -357,6 +357,33 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="http://localhost:1313/es/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/ctem-details/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/ctem-details/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://localhost:1313/de/ctem-details/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-it"
+                href="http://localhost:1313/it/ctem-details/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/fr/ctem-details/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="http://localhost:1313/es/ctem-details/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/services/</loc>

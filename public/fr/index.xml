@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Team Fence</title>
     <link>http://localhost:1313/fr/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Team Fence</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
@@ -84,6 +84,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/services/awareness/</guid>
       <description>Chez TeamFence, notre approche de la sensibilisation à la sécurité repose sur le partage des connaissances et l&amp;rsquo;amélioration du personnel. Nous comprenons l&amp;rsquo;importance de doter les individus des compétences et de la sensibilisation nécessaires pour contribuer efficacement à la sécurité de l&amp;rsquo;organisation.</description>
+    </item>
+    <item>
+      <title>CTEM Details</title>
+      <link>http://localhost:1313/fr/ctem-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/ctem-details/</guid>
+      <description>title: &amp;ldquo;CTEM Details&amp;rdquo; layout: &amp;ldquo;ctem-details&amp;rdquo; Introduction Dans le paysage en constante évolution de la cybersécurité, les organisations recherchent continuellement les meilleures stratégies pour protéger leurs actifs numériques. Deux approches importantes sont la Gestion Continue de l&amp;rsquo;Exposition aux Menaces (CTEM) et les Tests de Pénétration. Bien que les deux visent à renforcer la sécurité, elles le font de manière distincte.&#xA;Qu&amp;rsquo;est-ce que la Gestion Continue de l&amp;rsquo;Exposition aux Menaces (CTEM) ?</description>
     </item>
     <item>
       <title>Web Security</title>

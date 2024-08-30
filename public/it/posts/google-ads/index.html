@@ -59,7 +59,7 @@
                         </li>
                         
                         <li class="menu-item">
-                            <a class="menu-link nav-link" href="/it/posts/">Blog</a>
+                            <a class="menu-link nav-link" href="/it/posts">Blog</a>
                         </li>
                         
                         <li class="menu-item">
@@ -261,6 +261,25 @@ un&rsquo;<a href="https://www.zscaler.com/blogs/security-research/malvertising-c
         </div>
     </footer>
 </section>
-</div>
+<script>
+    function changeColorBasedOnURL() {
+        var spaceToColor = document.getElementById('space-to-color-2');
+        var currentURL = window.location.href;
+    
+        if (currentURL.includes("/services")) 
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/about"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/team"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/ctem-details"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.match(/\/posts\/[a-zA-Z0-9_-]+/)) 
+            spaceToColor.id = "space-to-color";
+    }
+    
+    window.onload = changeColorBasedOnURL;
+    </script>
+    </div>
 </body>
 </html>

@@ -59,7 +59,7 @@
                         </li>
                         
                         <li class="menu-item">
-                            <a class="menu-link nav-link" href="/posts/">Blog</a>
+                            <a class="menu-link nav-link" href="/posts">Blog</a>
                         </li>
                         
                         <li class="menu-item">
@@ -111,8 +111,10 @@
                                     <div class="cpn-head mt-0">
                                     </div>
                                     <div class="cpn-text cpn-text-center">
-                                        <p class="lead-s2 animated" data-animate="fadeInUp" data-delay="1.45">Defend your company against cyber threats with our proactive approach and ethical hacking expertise.</p>
+                                        <h1>👋 Wave Goodbye to <br> Cyber Threads</h1>
+                                        <h2 class="lead-s2 animated" data-animate="fadeInUp" data-delay="1.45">Defend your company against cyber threats with our proactive approach and ethical hacking expertise.</h2>
                                     </div>
+
                                     <div class="cpn-btns pt-0">
                                         <ul class="btn-grp d-flex justify-content-center animated" data-animate="fadeInUp" data-delay="1.55">
                                             <li><a href="#services" class="btn btn-md btn-grad btn-round">See Our Services</a></li>
@@ -500,32 +502,82 @@
     <div class="container">
         
         <div class="nk-block block-contact">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center gutter-vr-30px">
                 
-                <div class="col-lg-12 text-center">
-                    <div class="d-flex flex-column justify-content-center align-items-center" style="min-height: 500px;">
+                <div class="col-lg-3">
+                    <div class="section-head section-head-sm section-head-s9 tc-light text-center text-lg-start">
+                        <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1">Contact</h6>
+                        <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">Get In Touch</h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".3">Any questions? Reach out to us and we’ll get back to you shortly.</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between h-100">
+                        <ul class="contact-list contact-list-s2">
+                            <li class="animated" data-animate="fadeInUp" data-delay=".5">
+                                <em class="contact-icon fas fa-envelope"></em>
+                                <div class="contact-text">
+                                    <span>info@teamfence.io</span>
+                                </div>
+                            </li>
+                            <li class="animated" data-animate="fadeInUp" data-delay=".6">
+                                <em class="contact-icon fas fa-paper-plane"></em>
+                                <div class="contact-text">
+                                    <span>Follow us on LinkedIn</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="gap-6x d-none d-lg-block"></div>
+                    <div class="gap-4x d-none d-lg-block"></div>
+                    
+                    <form id="contact-form-01" class="contact-form nk-form-submit" action="https://formspree.io/f/mldrjgyn" method="POST">
                         
-                        <div class="section-head section-head-sm section-head-s9 tc-light text-center">
-                            <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1">Contact</h6>
-                            <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">Get In Touch</h2>
-                            <p class="animated" data-animate="fadeInUp" data-delay=".3">Any questions? Reach out to us and we’ll get back to you shortly.</p>
+                        <div class="field-item field-item-s2 animated" data-animate="fadeInUp" data-delay=".7">
+                            <input name="name" type="text" class="input-bordered required" placeholder="Full Name" required>
                         </div>
 
                         
-                        <div class="calendly-inline-widget" data-url="https://calendly.com/radiousipodcast/teamfence" style="min-width:320px;width:100%;max-width:800px;height:630px;margin-top:20px;"></div>
-                        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                        <div class="field-item field-item-s2 animated" data-animate="fadeInUp" data-delay=".8">
+                            <input name="company" type="text" class="input-bordered required" placeholder="Company Name" required>
+                        </div>
 
                         
-                        <div class="d-flex justify-content-center align-items-center mt-4 animated" data-animate="fadeInUp" data-delay=".5" style="margin-top: 50px;">
-                            <div class="contact-item d-flex align-items-center me-3">
-                                <em class="contact-icon fas fa-envelope me-2"></em>
-                                <span>info@teamfence.io</span>
+                        <div class="field-item field-item-s2 animated" data-animate="fadeInUp" data-delay=".9">
+                            <input name="phone" type="tel" class="input-bordered" placeholder="Phone Number" required>
+                        </div>
+
+                        
+                        <div class="field-item field-item-s2 animated" data-animate="fadeInUp" data-delay="1.0">
+                            <input name="email" type="email" class="input-bordered required email" placeholder="Your Email" required>
+                        </div>
+
+                        
+                        <div class="field-item field-item-s2 animated" data-animate="fadeInUp" data-delay="1.1">
+                            <textarea name="message" class="input-bordered input-textarea required" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        
+                        <input type="hidden" name="_subject" value="Contact Form Submission">
+
+                        
+                        <div class="row">
+                            <div class="col-sm-12 animated" data-animate="fadeInUp" data-delay="1.2">
+                                <button type="submit" class="btn btn-s2 btn-md btn-grad">Submit</button>
                             </div>
-                            <div class="contact-item d-flex align-items-center ms-3">
-                                <em class="contact-icon fas fa-paper-plane me-2"></em>
-                                <span>Follow us on LinkedIn</span>
+                            <div class="col-sm-12">
+                                <div class="form-results"></div>
                             </div>
                         </div>
+                    </form>
+                </div>
+
+                
+                <div class="col-lg-4 align-self-center">
+                    <div class="nk-block-img animated" data-animate="fadeInUp" data-delay="1.3">
+                        <img src="/images/contact.png" alt="contact" id="contact-image">
                     </div>
                 </div>
             </div>
@@ -612,6 +664,25 @@
         </div>
     </footer>
 </section>
-</div>
+<script>
+    function changeColorBasedOnURL() {
+        var spaceToColor = document.getElementById('space-to-color-2');
+        var currentURL = window.location.href;
+    
+        if (currentURL.includes("/services")) 
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/about"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/team"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.includes("/ctem-details"))
+            spaceToColor.id = "space-to-color";
+        else if (currentURL.match(/\/posts\/[a-zA-Z0-9_-]+/)) 
+            spaceToColor.id = "space-to-color";
+    }
+    
+    window.onload = changeColorBasedOnURL;
+    </script>
+    </div>
 </body>
 </html>

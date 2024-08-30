@@ -105,6 +105,8 @@
 - id: Subscribe
   translation: Subscribe
 ##header
+- id: header_title
+  translation: Empower your Team Fence your threads
 - id: header_descr
   translation: Defend your company against cyber threats with our proactive approach and ethical hacking expertise.
 - id: header_btn1
