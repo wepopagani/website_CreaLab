@@ -3401,6 +3401,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .nk-circle-animation:before { top: 0; left: 0; bottom: 0; right: 0; border-top-color: #9e1a1a; border-right-color: #9e1a1a; animation: rotatecw 30s linear infinite 0s; }
 
+
 .nk-circle-animation:after { top: 25px; left: 25px; bottom: 25px; right: 25px; border-top-color: #9e1a1a; border-bottom-color: #9e1a1a; animation: rotateacw 24s linear infinite 0s; }
 
 .nk-circle-animation.small:before, .nk-circle-animation.small:after { border-width: 2px; }
