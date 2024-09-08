@@ -1,154 +1,116 @@
-## navbar
+#NAVBAR
 - id: contact
   translation: Contact Us
-## about
+#HEADER
+- id: h1_header
+  translation: Welcome to CreaLab
+- id: h3_header
+  translation: Do you dream of a unique object, a functional prototype, or a hard-to-find spare part? Our cutting-edge 3D printing turns your projects into tangible reality.
+- id: btn1_header
+  translation: Services
+- id: btn2_header
+  translation: Contact Us
+- id: btn3_header
+  translation: Get a QUote
+- id: descr_header
+  translation: Get a Custom Quote within 24-Hours
+#ABOUT
 - id: about_title
-  translation: Our Purpose
-- id: about_subtitle
-  translation: TeamFence
-- id: about_descr1
-  translation: At TeamFence, we see ourselves as expert fencers, ready to duel against the relentless onslaught of malware and cyber threats. Our approach isn't just about building static defenses; it's about engaging in a dynamic, strategic bout, where we anticipate and parry every move of the adversary. Our goal is to sharpen our skills and techniques through continuous security research, ensuring that we remain agile and effective in protecting our clients' digital fortresses against the most sophisticated cyberattacks.
-- id: about_descr2
-  translation: By continually pushing the limits of security research, we bolster the defenses of our clients' organizations, protecting their valuable data and assets from malicious threats. With our expertise and unwavering commitment, we stand as the guardians of our clients' digital domains, ensuring that their cyber strategies remain agile and impenetrable in the face of evolving threats.
-##browserfence
-- id: brows_title
-  translation: Introducing BrowserFence
-- id: brows_description
-  translation: Empower your team with BrowserFence, your comprehensive solution for enhancing browsing security, providing peace of mind and protection against online threats.
-- id: brows_l1
-  translation: Effortlessly incorporate our security extension into your existing systems for enhanced protection.
-- id: brows_l2
-  translation: From malware to phishing attacks, our extension provides robust defense against a wide range of threats.
-- id: brows_l3
-  translation: Protect your systems without compromising on performance or speed.
-- id: brows_l4
-  translation: Stay ahead of the curve with automatic updates and patches, ensuring your security measures are always up-to-date.
-- id: brows_btn
-  translation: Know More
-- id: brows_l5
-  translation: Through years of experience, we've come to recognize the browser as a frequent weak link inan individual's security. It's consistently implicated in various stages of the 'killchain,' the progression of a cyber attack. This is due to its role as a primary gateway forattackers, facilitating the delivery of malicious software and the theft of sensitive dataor credentials. In essence, the browser stands as the primary and most accessiblevulnerability for potential aggressors.
-- id: brows_l6
-  translation: Monitoring this vector effectively enables us to thwart the vast majority of user compromises. Actively surveilling browser activities allows for prompt detection and neutralization of threats, significantly reducing the risk of cybersecurity breaches.
-- id: brows_l7
-  translation: We are still in the early stages of development.
-- id: brows_l8
-  translation: Sign up for the newsletter and stay updated.
-##contact
-- id: contact_title
-  translation: Get In Touch
-- id: contact_l1
-  translation: Any questions? Reach out to us and we’ll get back to you shortly.
+  translation: About Us
+- id: about_header
+  translation: Innovative Solutions Crafted with Precision.
+- id: about_lead
+  translation: At CreaLab, creativity meets professionalism in every project we undertake. Our team of talented designers and engineers thrives on turning your ideas into reality. We approach each project with a fresh perspective, ensuring your vision is brought to life in the most creative and effective way possible. With years of experience in 3D printing and design, we deliver exceptional results with a commitment to quality and precision. Our meticulous attention to detail guarantees that even the most demanding project requirements are met with excellence.
+- id: ico_header
+  translation: Expertise in Design and Material Selection
+- id: ico_lead
+  translation: Tailored 3D Solutions to Meet Your Specific Needs
+- id: ico_text_1
+  translation: CreaLab doesn’t just create designs; we craft solutions. Our skilled designers focus on developing 3D models that prioritize functionality, aesthetics, and manufacturability, ensuring your product’s success. We combine technical expertise with creative ingenuity to deliver innovative solutions that push the boundaries of what’s possible with 3D printing.
+- id: ico_text_2
+  translation: From precision slicing techniques to optimize your models, to offering a wide range of materials tailored to your project's unique needs, CreaLab provides comprehensive services that ensure your prototypes and final products are both visually appealing and functionally flawless.
+#SERVICES
+- id: services_title
+  translation: Services
+- id: services_designing_title
+  translation: 3D Designing
+- id: services_designing_description
+  translation: We’ll work closely with you to understand your vision, refine your design, and create a digital blueprint ready for printing.
+- id: services_printing_title
+  translation: 3D Printing
+- id: services_printing_description
+  translation: We offer top-of-the-line 3D printing services using a variety of materials and finishes to suit your needs.
+- id: services_scanning_title
+  translation: 3D Scanning
+- id: services_scanning_description
+  translation: We offer precise 3D scanning services for objects larger than 10 cubic centimeters.
+#QUOTE
+- id: quote_title
+  translation: GET a QUOTE
+- id: quote_lead
+  translation: Upload your 3D file and get an instant estimate of the cost via email within 24 hours.
+- id: quote_email_label
+  translation: Your E-mail
+- id: quote_file_label
+  translation: Upload here your file
+- id: quote_button
+  translation: Submit & Get a Quote
+- id: quote_alert
+  translation: Please enter your email and upload a file.
+- id: quote_confirmation
+  translation: Thank you! You will receive a quote within 24 hours at the email provided.
+#BLOG
+- id: blog_btn
+  translation: Read More
+#FAQ 
+- id: faqs_title
+  translation: Frequently Asked Questions
+- id: faqs_intro
+  translation: Below we’ve provided some answers to common questions about 3D printing, 3D design, materials, and related topics. If you have any other questions, please get in touch using the contact form below.
+- id: faqs_general
+  translation: General
+- id: faqs_design
+  translation: 3D Design
+- id: faqs_materials
+  translation: Materials
+- id: faqs_printing
+  translation: Printing Process
+- id: faqs_post_processing
+  translation: Post-Processing
+- id: faq1_question
+  translation: What is 3D Printing?
+- id: faq1_answer
+  translation: 3D printing is an additive manufacturing process that creates a physical object from a digital design. By layering material, typically plastic, resin, or metal, it brings your ideas to life with precision.
+- id: faq2_question
+  translation: What types of 3D printers do you use?
+- id: faq2_answer
+  translation: We use a range of 3D printers, including FDM, SLA, and SLS technologies. Each type is suited to different needs, from high-detail prototypes to robust, functional parts.
+- id: faq3_question
+  translation: How can I start a 3D printing project?
+- id: faq3_answer
+  translation: To start a project, simply provide us with your 3D model in STL or OBJ format. If you don't have a model, our design team can assist you in creating one from scratch.
+- id: faq4_question
+  translation: What is the turnaround time for 3D printing?
+- id: faq4_answer
+  translation: Turnaround times vary depending on the size and complexity of the project. Most small to medium-sized projects can be completed within a few days.
+- id: faq5_question
+  translation: What software can I use to create a 3D design?
+- id: faq5_answer
+  translation: Popular 3D design software includes Blender, Autodesk Fusion 360, Tinkercad, and SolidWorks. These tools allow you to create detailed models ready for 3D printing.
+- id: faq6_question
+  translation: Do you offer 3D design services?
+- id: faq6_answer
+  translation: Yes, our team of expert designers can help you create or refine 3D models to ensure they are optimized for printing, achieving the best possible results.
+#CONTACT
+- id: descr_contact
+  translation: Any question? Reach out to us and we’ll get back to you shortly.
 - id: name
-  translation: Full Name
-- id: company
-  translation: Company Name
-- id: phone
-  translation: Phone Number
+  translation: Your Name
 - id: email
   translation: Your Email
 - id: message
   translation: Your Message
-- id: contact_btn
-  translation: Submit
-##faqs
-- id: faqs_subtitle
-  translation: Frequently asked questions
-- id: faqs_description
-  translation: Below we’ve provided a bit of TeamFence. If you have any other questions, please get in touch using the contact form below.
-- id: general_tab
-  translation: General
-- id: browserfence_tab
-  translation: BrowserFence
-- id: question_ctem
-  translation: What is Continuous Threat Exposure Management (CTEM)?
-- id: answer_ctem
-  translation: Continuous Threat Exposure Management (CTEM) is a proactive cybersecurity framework designed to continuously assess, prioritize, and mitigate cyber threats. Unlike traditional penetration testing, which provides a snapshot of your security posture at a single point in time, CTEM offers an ongoing, real-time approach to identifying vulnerabilities, managing exposures, and strengthening your security defenses.
-- id: question_ctem_vs_pen_testing
-  translation: Why should I choose CTEM over standard penetration testing?
-- id: answer_ctem_vs_pen_testing
-  translation: CTEM provides several advantages over standard penetration testing, including
-- id: txt1
-  translation: Continuous monitoring allows you to stay ahead of emerging threats and adapt quickly to new vulnerabilities.
-- id: txt2
-  translation: Prioritized Remediation CTEM helps you focus on the most critical threats first, optimizing your resources and minimizing risk.
-- id: txt3
-  translation: Unlike point-in-time tests, CTEM covers your entire security landscape, ensuring no gaps are left unaddressed.
-- id: question_ctem_integration
-  translation: How does CTEM integrate with my existing security infrastructure?
-- id: answer_ctem_integration
-  translation: CTEM is designed to seamlessly integrate with your existing security tools and processes. It enhances your current defenses by providing continuous visibility into potential threats and exposures. The framework is flexible and can be customized to align with your organization's specific needs, ensuring that it complements rather than disrupts your existing security efforts.
-- id: question_employee_awareness
-  translation: What is employee awareness training, and why is it crucial for my organization?
-- id: answer_employee_awareness
-  translation: Employee awareness training is an educational program designed to inform and educate employees about cybersecurity best practices, policies, and procedures. It is crucial for your organization because human error and negligence are significant contributors to cybersecurity breaches. By educating your employees about potential threats, phishing attacks, password hygiene, and safe browsing practices, you empower them to recognize and mitigate security risks, ultimately strengthening your organization's overall security posture.
-- id: question_browserfence_vs_edr
-  translation: Why should I also consider BrowserFence if I already have an EDR solution?
-- id: answer_browserfence_vs_edr
-  translation: A Browser Defense and Response (BDR) solution complements an Endpoint Detection and Response (EDR) system by focusing specifically on protecting and monitoring web browsers. It enhances security by providing specialized defense against browser-based threats, such as malicious websites, phishing attacks, and HTML smuggling, which may not be adequately addressed by traditional EDR solutions focused on endpoint activities beyond browsers.
-- id: question_browserfence_vs_network_devices
-  translation: What advantages does it give me compared to the protections provided by network devices?
-- id: answer_browserfence_vs_network_devices
-  translation: Network devices, while providing certain protections like DNS filtering, limit themselves to analyzing macro data such as domain and its reputation. BrowserFence analyzes page content, shared resources, and DOM modifications in real time, minimizing installation complexity compared to devices.
-- id: question_browserfence_suitability
-  translation: Is BrowserFence suitable for small or large businesses?
-- id: answer_browserfence_suitability
-  translation: BrowserFence is suitable for both small and large businesses. For small businesses, it offers ease of deployment with no complex installation or network configuration required, while still providing access to AI support for enhanced security measures. Larger businesses can benefit from BrowserFence's Enterprise plan, which provides scalable features and robust security solutions tailored to meet enterprise-level needs.
-- id: question_browserfence_compliance
-  translation: Does BrowserFence help me comply with new laws?
-- id: answer_browserfence_compliance
-  translation: BrowserFence helps compliance with data protection laws such as the Swiss Federal Data Protection Act (LDPA) in Switzerland and the General Data Protection Regulation (GDPR) in Europe by providing robust security measures tailored to safeguarding user data and privacy. Additionally, BrowserFence supports compliance efforts through employee training initiatives, ensuring that personnel are informed and prepared to handle cybersecurity risks.
-##footer
-- id: footer1
-  translation: Don't miss out, Stay updated
-- id: footer2
-  translation: Sign up for updates and market news. Subscribe to our newsletter and receive updates about TeamFence.
-- id: Subscribe
-  translation: Subscribe
-##header
-- id: header_title
-  translation: Empower your Team Fence your threads
-- id: header_descr
-  translation: Defend your company against cyber threats with our proactive approach and ethical hacking expertise.
-- id: header_btn1
-  translation: See Our Services
-- id: header_btn2
-  translation: Contact US
-##blog
-- id: blog_title
-  translation: See Our Latest Posts
-- id: blog_btn
-  translation: Read All Articles
-##services
-- id: services_title
-  translation: Our services
-- id: services_subtitle
-  translation: Trust us, together we can fence your threats.
-- id: ctem_service_description
-  translation: CTEM is a continuous, proactive framework that identifies and addresses cybersecurity vulnerabilities to enhance overall protection.
-- id: web_security_service_description
-  translation: Our web security service identifies vulnerabilities using both black box and white box approaches, ensuring comprehensive protection for your applications.
-- id: security_awareness_service_description
-  translation: Our security awareness service elevates your team's expertise by providing the tools and knowledge needed to proactively identify and prevent cyber threats.
-- id: ctem_title
-  translation: CTEM Security
-- id: ctem1
-  translation: Continuous Threat Exposure Management (CTEM) is a proactive, five-stage framework designed to minimize exposure to cyber attacks. It helps organizations identify and assess vulnerabilities, map potential attack paths, prioritize risks, and track remediation efforts.
-- id: ctem2
-  translation: We start by understanding your current security measures and identifying potential vulnerabilities. This approach combines offensive and defensive strategies (Purple teaming), enabling us to identify and mitigate threats more effectively. By integrating our expertise with your team’s insights, we create a comprehensive defense strategy that is both proactive and adaptive.
-- id: cyber_diagnosis
-  translation: Our Cyber Diagnosis service is designed to provide a comprehensive understanding of your current cybersecurity infrastructure. By thoroughly analyzing your existing technologies, evaluating the scope of your operations, and assessing the risks you face, we deliver actionable insights to enhance your security posture.
-- id: proactive_risk
-  translation: The final stages involve analyzing and prioritizing exposures based on threat levels and asset importance, validating potential attack methods and security controls, and ensuring all teams understand their roles and track progress to improve overall security posture.
-- id: ctem_btn
-  translation: Read More
-##Web Security
-- id: websec_description_1
-  translation: Web application security testing involves simulating cyber-attacks on a system to evaluate its security. This process can be conducted with access to the application's source code (white box approach) or without it (black box approach).
-- id: websec_description_2
-  translation: The goal is to uncover vulnerabilities, identify potential exploits, and assess the overall security posture. By thoroughly examining the target system, these tests reveal whether further remediation or security enhancements are needed, serving as a crucial check-up to ensure the system's integrity and safety.
-- id: whitebox_description
-  translation: Web application security testing with a white box approach involves examining the system with full access to its source code. This method allows for a comprehensive assessment of the application's architecture, identifying vulnerabilities and potential exploits from an insider's perspective to ensure robust security measures are in place.
-- id: blackbox_description
-  translation: Web application security testing with a black box approach involves evaluating the system without access to its source code. This method simulates an external attack, focusing on identifying vulnerabilities and potential exploits from an outsider's perspective to ensure the application's defenses are robust against real-world threats.
-- id: meet_team
-  translation: Meat the Team
+- id: btn_contact
+  translation: submit
+- id: "Contact"
+  translation: Contact Us

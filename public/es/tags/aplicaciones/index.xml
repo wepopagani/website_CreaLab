@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aplicaciones on CreaLab</title>
+    <link>//localhost:1313/es/tags/aplicaciones/</link>
+    <description>Recent content in Aplicaciones on CreaLab</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/es/tags/aplicaciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Materiales para la impresión 3D: Una guía completa</title>
+      <link>//localhost:1313/es/posts/materials/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/es/posts/materials/</guid>
+      <description>La impresión 3D está revolucionando las industrias y transformando la forma en que creamos objetos. Un aspecto crucial de esta tecnología es la amplia gama de materiales disponibles, cada uno con propiedades únicas y aplicaciones específicas. En esta guía, exploraremos los materiales más comunes para la impresión 3D y sus usos.&#xA;Termoplásticos: Versátiles y ampliamente utilizados Los termoplásticos, disponibles en forma de filamento, son los materiales más comunes para la impresión 3D.</description>
+    </item>
+  </channel>
+</rss>

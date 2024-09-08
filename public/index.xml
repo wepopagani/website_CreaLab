@@ -1,110 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Team Fence</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Team Fence</description>
+    <title>CreaLab</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on CreaLab</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Riccardo Brigatti</title>
-      <link>http://localhost:1313/team/riccardo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/riccardo/</guid>
-      <description>Certified ethical hacker and Software engineer graduated from SUPSI. He has accumulated 6 years of experience in the offensive security sector as a penetration tester and Red Teamer for private companies, working from SMEs to the offensive security team of Novartis.&#xA;His advancement in the Swiss army as a non-commissioned officer in the Cyber battalion has improved his technical skills, working with critical infrastructures, and team management. Since January 2024, he has been part of the RED42 sub-detachment, which handles critical offensive operations and advanced training.</description>
-    </item>
-    <item>
-      <title>Matteo Denicolo</title>
-      <link>http://localhost:1313/team/matteo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/matteo/</guid>
-      <description>Matteo Denicolo has successfully raised over 5 million euros by launching three startups and winning an accelerator. His strategic acumen has led to the increase in value of two companies by 2.5x and 6.5x respectively.&#xA;With 3 years of experience as an executive board member across Switzerland, Italy, and the US, Matteo has demonstrated remarkable leadership and growth capabilities. He doubled the number of employees for a company and tripled its client base.</description>
-    </item>
-    <item>
-      <title>Alessio Branca</title>
-      <link>http://localhost:1313/team/alessio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/alessio/</guid>
-      <description>Alessio Branca is a seasoned entrepreneur and investor with extensive experience in the healthcare sector, particularly in operations related to the Swiss territory.&#xA;At the age of 21, Alessio spearheaded a startup in the Medical Devices sector, scaling it from 0 to 3 million in revenue within 2.5 years by efficiently managing operations and structuring the entire Swiss market.&#xA;He has founded and structured two companies in the Health Care sector, achieving a remarkable growth trajectory from 0 to 2 million in revenue in just 2 years.</description>
-    </item>
-    <item>
-      <title>Marco Pagani</title>
-      <link>http://localhost:1313/team/marco/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/marco/</guid>
-      <description>This young entrepreneur is currently graduating with a B.A. in Science of Economics, majoring in Finance. With a keen interest in the internet business, he is actively developing his own enterprise in this dynamic field.&#xA;His passion for cybersecurity has led him to study IT and digital solutions during his free time. Recently, he showcased his skills by building an entire internet infrastructure, handling everything from hardware setup to device connectivity.</description>
-    </item>
-    <item>
-      <title>Diego Omini</title>
-      <link>http://localhost:1313/team/diego/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/diego/</guid>
-      <description>Diego Omini is a DevOps engineer and software developer from Switzerland, who has been passionate about programming since 2010. He earned a bachelor’s degree in computer science from the BFH of Bienne. Since February 2023, he has been employed at Swisscom AG as a DevOps engineer.&#xA;Diego specializes in developing RESTful backends using Spring Boot and Java, implementing CI/CD pipelines with Jenkins and GitLab, and deploying applications on Kubernetes. His previous experience includes developing a VR application for his bachelor thesis, automating PST mail archive migrations, and managing a network of 800 workstations and servers during his apprenticeship.</description>
-    </item>
-    <item>
-      <title>CTEM over Red Teaming</title>
-      <link>http://localhost:1313/posts/ctem/</link>
+      <title>Materials for 3D Printing: A Comprehensive Guide</title>
+      <link>//localhost:1313/posts/materials/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ctem/</guid>
-      <description>Introduction At TeamFence we are always looking for new ways to improve the security posture of our clients. In this blog post, we will discuss the Continuous Threat Exposure Management (CTEM) framework and how it can help organizations minimize exposure to cyber attacks. We will also compare CTEM with Red Teaming and simulated attacks to understand the benefits of adopting a proactive approach to security.&#xA;What is CTEM? Continuous Threat Exposure Management (CTEM) is a dynamic and ongoing five-stage framework designed to minimize exposure to cyber attacks.</description>
+      <guid>//localhost:1313/posts/materials/</guid>
+      <description>3D printing is revolutionizing industries and transforming the way we create objects. A crucial aspect of this technology is the wide range of materials available, each with unique properties and applications. In this guide, we&amp;rsquo;ll explore the most common 3D printing materials and their uses.&#xA;Thermoplastics: Versatile and Widely Used Thermoplastics, available in filament form, are the most common materials for 3D printing. They are heated to a molten state, extruded through a nozzle, and then solidify as they cool.</description>
     </item>
     <item>
-      <title>HTML Smuggling Detection</title>
-      <link>http://localhost:1313/posts/html-smuggling/</link>
-      <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/html-smuggling/</guid>
-      <description>Introduction HTML smuggling is an advanced and stealthy tactic that leverages standard HTML5 and JavaScript features to avoid detection and deliver Remote Access Trojans (RATs), banking malware, and other harmful software. This method is increasingly being adopted by state-sponsored hacking groups and cybercriminals to infiltrate governments, individuals, and businesses. One notable example is the NOBELIUM group, believed to have links to Russia, which has used HTML smuggling to target government and diplomatic organizations worldwide.</description>
-    </item>
-    <item>
-      <title>Malicious Ads</title>
-      <link>http://localhost:1313/posts/google-ads/</link>
+      <title>3D Printing in Gastronomy: A Feast for the Eyes and the Palate</title>
+      <link>//localhost:1313/posts/food/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/posts/google-ads/</guid>
-      <description>Introduction In today&amp;rsquo;s world of computers, it&amp;rsquo;s super easy to find stuff online. We often use search engines like Google, Bing, or DuckDuckGo to help us find what we&amp;rsquo;re looking for. Whether we want to visit a website we know or find something new, search engines are a big part of how we use the internet.&#xA;But what happens when we trust these search engines too much? Picture this: you type the name of a famous company into Google, and you click on a link that looks legit, but it&amp;rsquo;s actually a trick.</description>
+      <guid>//localhost:1313/posts/food/</guid>
+      <description>3D printing, often associated with fields like engineering and medicine, is surprisingly revolutionizing the world of gastronomy. Visionary chefs and food enthusiasts are experimenting with this technology to create unique and surprising dishes that delight both the eyes and the palate.&#xA;Personalized Dishes: Tailored Nutrition Imagine ordering a meal perfectly tailored to your specific nutritional needs and preferences, with the shape and consistency you desire. 3D printing makes it possible! This technology opens up new possibilities for personalized nutrition, enabling the creation of tailor-made diets to improve health and well-being.</description>
     </item>
     <item>
-      <title>Lsass Extractor</title>
-      <link>http://localhost:1313/posts/lsass-extractor/</link>
-      <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
-      <guid>http://localhost:1313/posts/lsass-extractor/</guid>
-      <description>Introduction In TeamFence, we strongly believe that nowadays it&amp;rsquo;s increasingly important for an offensive operator to understand the details behind the techniques and tools.&#xA;For this reason, in this blog post, we will delve into how Mimikatz extracts credentials from lsass dumps, enabling us to then re-implement the logic into a tool tailored to our future needs.&#xA;Note: all the analyses conducted throughout this project have been made on a Windows 11 Enterprise Evaluation workstation.</description>
+      <title>Slicing: The Key to Successful 3D Printing</title>
+      <link>//localhost:1313/posts/slicing/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/posts/slicing/</guid>
+      <description>Slicing: The Unsung Hero of 3D Printing Slicing is a crucial step in the 3D printing process that often goes unnoticed but plays a significant role in the success of your prints. In this post, we&amp;rsquo;ll delve into the world of slicing software, explaining its importance, key features, and tips for achieving optimal results.&#xA;What is Slicing? Slicing is the process of converting a 3D model into a series of thin layers that a 3D printer can understand and execute.</description>
+    </item>
+    <item>
+      <title>3D Object Scanning</title>
+      <link>//localhost:1313/services/scanning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/scanning/</guid>
+      <description>At Crealab, we offer state-of-the-art 3D object scanning services to meet the needs of various industries, from manufacturing and engineering to art and design. Our technology is capable of handling objects of all sizes, ensuring accurate digital models for any application.&#xA;Whether you&amp;rsquo;re looking to scan small components for precision engineering or large objects for digital archiving or replication, we provide reliable results with detailed digital models. Our scanning process is non-invasive and quick, making it a flexible solution for projects of any scale.</description>
+    </item>
+    <item>
+      <title>3D Printing Services</title>
+      <link>//localhost:1313/services/printing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/printing/</guid>
+      <description>At TeamFence, our 3D printing services provide the highest standard of quality and accuracy. With printing precision reaching as fine as 0.05 mm, and the ability to create unique objects up to 30 cubic centimeters, we are capable of producing detailed, custom parts that meet even the most exacting standards.&#xA;Whether you need a single prototype or a custom-manufactured component, we focus on delivering precise, reliable results that meet your specific requirements.</description>
     </item>
     <item>
       <title>About Us</title>
-      <link>http://localhost:1313/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>//localhost:1313/about/</guid>
       <description>Our Vision Our vision is to create a world where cybersecurity awareness is a universal standard, empowering individuals and organizations to protect their digital assets with confidence. As technology advances and cyber threats become increasingly sophisticated, we are committed to staying at the forefront of innovation, providing cutting-edge solutions that anticipate and mitigate risks. We aim to foster a proactive approach to cybersecurity, where education and awareness become integral components of our digital lives.</description>
     </item>
     <item>
-      <title>Awareness</title>
-      <link>http://localhost:1313/services/awareness/</link>
+      <title>THANK YOU!</title>
+      <link>//localhost:1313/thanks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/awareness/</guid>
-      <description>At TeamFence, our approach to delivering security awareness is rooted in the belief of knowledge sharing and personnel improvement. We understand the importance of equipping individuals with the necessary skills and awareness to contribute effectively to the security of the organization.</description>
-    </item>
-    <item>
-      <title>CTEM Details</title>
-      <link>http://localhost:1313/ctem-details/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ctem-details/</guid>
-      <description>Introduction In the ever-evolving landscape of cybersecurity, organizations are constantly seeking the best strategies to protect their digital assets. Two prominent approaches are Continuous Threat Exposure Management (CTEM) and Penetration Testing. While both aim to enhance security, they do so in distinct ways.&#xA;What is Continuous Threat Exposure Management (CTEM)? Continuous Threat Exposure Management (CTEM) is a proactive and adaptive framework designed to continuously manage and reduce an organization&amp;rsquo;s attack surface.</description>
-    </item>
-    <item>
-      <title>Web Security</title>
-      <link>http://localhost:1313/services/websecurity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/websecurity/</guid>
+      <guid>//localhost:1313/thanks/</guid>
       <description></description>
     </item>
     <item>
-      <title>What is CTEM?</title>
-      <link>http://localhost:1313/services/ctemsecurity/</link>
+      <title>What is 3D Modeling?</title>
+      <link>//localhost:1313/services/designing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/ctemsecurity/</guid>
-      <description>Continuous Threat Exposure Management (CTEM) is a proactive, five-stage framework designed to minimize exposure to cyber attacks. It helps organizations identify and assess vulnerabilities, map potential attack paths, prioritize risks, and track remediation efforts.&#xA;We start by understanding your current security measures and identifying potential vulnerabilities. This approach combines offensive and defensive strategies (Purple teaming), enabling us to identify and mitigate threats more effectively. By integrating our expertise with your team’s insights, we create a comprehensive defense strategy that is both proactive and adaptive.</description>
+      <guid>//localhost:1313/services/designing/</guid>
+      <description>At Crealab, our 3D Modeling service is designed to turn your ideas into reality, whether you’re starting from scratch or need to replicate an existing object. We offer a full-service solution that covers concept development, detailed design, and rapid prototyping, ensuring your project is completed with precision and efficiency.&#xA;Our team works with you through every stage of the process, from initial sketches to detailed 3D designs that can be used for manufacturing or 3D printing.</description>
     </item>
   </channel>
 </rss>

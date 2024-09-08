@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Services on Team Fence</title>
-    <link>http://localhost:1313/es/services/</link>
-    <description>Recent content in Services on Team Fence</description>
+    <title>Services on CreaLab</title>
+    <link>//localhost:1313/es/services/</link>
+    <description>Recent content in Services on CreaLab</description>
     <generator>Hugo</generator>
-    <language>es-es</language>
-    <atom:link href="http://localhost:1313/es/services/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language>
+    <atom:link href="//localhost:1313/es/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Awareness</title>
-      <link>http://localhost:1313/es/services/awareness/</link>
+      <title>¿Qué es el Modelado 3D?</title>
+      <link>//localhost:1313/es/services/designing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/services/awareness/</guid>
-      <description>En TeamFence, nuestro enfoque para impartir concienciación sobre seguridad se basa en la creencia en el intercambio de conocimientos y la mejora del personal. Entendemos la importancia de dotar a las personas de las habilidades necesarias y la concienciación para contribuir eficazmente a la seguridad de la organización.</description>
+      <guid>//localhost:1313/es/services/designing/</guid>
+      <description>En Crealab, nuestro servicio de Modelado 3D está diseñado para hacer realidad tus ideas, ya sea que comiences desde cero o necesites replicar un objeto existente. Ofrecemos una solución completa que cubre el desarrollo de conceptos, el diseño detallado y la creación rápida de prototipos, asegurando que tu proyecto se complete con precisión y eficiencia.&#xA;Nuestro equipo trabaja contigo en cada etapa del proceso, desde los bocetos iniciales hasta los diseños 3D detallados que pueden utilizarse para la fabricación o la impresión 3D.</description>
     </item>
     <item>
-      <title>Web Security</title>
-      <link>http://localhost:1313/es/services/websecurity/</link>
+      <title>Escaneo de Objetos 3D</title>
+      <link>//localhost:1313/es/services/scanning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/services/websecurity/</guid>
-      <description></description>
+      <guid>//localhost:1313/es/services/scanning/</guid>
+      <description>En Crealab, ofrecemos servicios de escaneo de objetos 3D de última generación para satisfacer las necesidades de diversas industrias, desde la fabricación y la ingeniería hasta el arte y el diseño. Nuestra tecnología es capaz de manejar objetos de todos los tamaños, asegurando modelos digitales precisos para cualquier aplicación.&#xA;Ya sea que estés buscando escanear pequeños componentes para ingeniería de precisión o grandes objetos para archivo digital o replicación, proporcionamos resultados confiables con modelos digitales detallados.</description>
     </item>
     <item>
-      <title>What is CTEM?</title>
-      <link>http://localhost:1313/es/services/ctemsecurity/</link>
+      <title>Servicios de Impresión 3D</title>
+      <link>//localhost:1313/es/services/printing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/services/ctemsecurity/</guid>
-      <description>La Gestión Continua de la Exposición a Amenazas (CTEM) es un marco proactivo de cinco etapas diseñado para minimizar la exposición a los ciberataques. Ayuda a las organizaciones a identificar y evaluar vulnerabilidades, mapear posibles caminos de ataque, priorizar riesgos y seguir los esfuerzos de remediación.&#xA;Comenzamos comprendiendo sus medidas de seguridad actuales e identificando posibles vulnerabilidades. Este enfoque combina estrategias ofensivas y defensivas (Purple teaming), lo que nos permite identificar y mitigar amenazas de manera más efectiva.</description>
+      <guid>//localhost:1313/es/services/printing/</guid>
+      <description>En TeamFence, nuestros servicios de impresión 3D proporcionan el más alto estándar de calidad y precisión. Con una precisión de impresión que alcanza hasta 0,05 mm y la capacidad de crear objetos únicos de hasta 30 centímetros cúbicos, somos capaces de producir piezas detalladas y personalizadas que cumplen con los estándares más exigentes.&#xA;Ya sea que necesites un solo prototipo o un componente fabricado a medida, nos enfocamos en entregar resultados precisos y confiables que cumplan con tus requisitos específicos.</description>
     </item>
   </channel>
 </rss>

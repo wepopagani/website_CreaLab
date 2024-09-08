@@ -1,10 +1,8 @@
-<section class="section bg-theme tc-light" id="services">
+<section class=" bg-theme-dark tc-light ov-h" id="blog">
     <div class="container">
-        <div class="section-head section-head-s9 wide-sm">
-            <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1">Blog</h6>
-            <h2 class="title title-semibold animated" data-animate="fadeInUp" data-delay=".2">{{i18n "blog_title"}}</h2>
-            <p class="animated" data-animate="fadeInUp" data-delay=".3"></p>
-        </div>
+        <div class="section-head text-center wide-auto-sm">
+            <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="BLOG">BLOG POST</h2>
+        </div><!-- .section-head @e -->
         <div class="nk-block">
             <div class="row g-gs">
                 {{ range where .Paginator.Pages "Section" "posts" | first 3 }}
@@ -16,8 +14,8 @@
                                     <img class="w-100" src="{{ .Params.Image }}" alt="image">
                                 </div>
                             </div>
-                            <div class="news-excerpt" style="background-color: #3d2ac4">
-                                <h5>{{ .Title}}</h5>
+                            <div class="news-excerpt" style="background-color: #10122D">
+                                <h5>{{ .Title }}</h5>
                                 <ul class="news-meta">
                                     <li>{{ .PublishDate.Format "January 2, 2006" }}</li>
                                 </ul>
@@ -30,9 +28,10 @@
             </div>
             <ul class="pt-4 d-flex gaps g-3 justify-content-center  animated" data-animate="fadeInUp" data-delay=".9">
                 <li>
-                    <a href="/posts/" class="btn btn-md btn-grad">{{i18n "blog_btn"}}s</a>
+                    <a href="/posts/" class="btn btn-md btn-grad">{{i18n "blog_btn"}}</a>
                 </li>
             </ul>
         </div>
+        <div id="particles-bg-6" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
     </div>
 </section>

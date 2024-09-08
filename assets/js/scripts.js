@@ -497,6 +497,12 @@ NioApp = function (NioApp, $, window, document) {
 	NioApp.components.docReady.push(NioApp.MainMenu);
 	
 	
+
+
+
+
+
+    
     // OnePageScroll @v1.0
     NioApp.OnePageScroll = function() {
         var _scroll_tigger = '.menu-link';

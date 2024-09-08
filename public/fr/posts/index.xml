@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Team Fence</title>
-    <link>http://localhost:1313/fr/posts/</link>
-    <description>Recent content in Posts on Team Fence</description>
+    <title>Posts on CreaLab</title>
+    <link>//localhost:1313/fr/posts/</link>
+    <description>Recent content in Posts on CreaLab</description>
     <generator>Hugo</generator>
-    <language>fr-fr</language>
+    <language>fr</language>
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/fr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/fr/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CTEM par rapport au Red Teaming</title>
-      <link>http://localhost:1313/fr/posts/ctem/</link>
+      <title>Matériaux pour l&#39;impression 3D : Un guide complet</title>
+      <link>//localhost:1313/fr/posts/materials/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/fr/posts/ctem/</guid>
-      <description>Introduction Chez TeamFence, nous cherchons toujours de nouvelles façons d&amp;rsquo;améliorer la posture de sécurité de nos clients. Dans cet article de blog, nous discuterons du cadre de gestion continue de l&amp;rsquo;exposition aux menaces (CTEM) et de la manière dont il peut aider les organisations à minimiser l&amp;rsquo;exposition aux cyberattaques. Nous comparerons également le CTEM avec le Red Teaming et les attaques simulées pour comprendre les avantages d&amp;rsquo;une approche proactive de la sécurité.</description>
+      <guid>//localhost:1313/fr/posts/materials/</guid>
+      <description>L&amp;rsquo;impression 3D révolutionne les industries et transforme notre manière de créer des objets. Un aspect crucial de cette technologie est la large gamme de matériaux disponibles, chacun avec des propriétés uniques et des applications spécifiques. Dans ce guide, nous allons explorer les matériaux les plus courants pour l&amp;rsquo;impression 3D et leurs usages.&#xA;Thermoplastiques : Polyvalents et largement utilisés Les thermoplastiques, disponibles sous forme de filament, sont les matériaux les plus couramment utilisés pour l&amp;rsquo;impression 3D.</description>
     </item>
     <item>
-      <title>Détection du HTML Smuggling</title>
-      <link>http://localhost:1313/fr/posts/html-smuggling/</link>
-      <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
-      <guid>http://localhost:1313/fr/posts/html-smuggling/</guid>
-      <description>Introduction Le HTML smuggling est une technique avancée et furtive qui exploite les fonctionnalités standard de HTML5 et de JavaScript pour éviter la détection et distribuer des chevaux de Troie d&amp;rsquo;accès à distance (RAT), des malwares bancaires et d&amp;rsquo;autres logiciels malveillants. Cette méthode est de plus en plus adoptée par des groupes de hackers soutenus par des États et des cybercriminels pour infiltrer les gouvernements, les individus et les entreprises. Un exemple notable est le groupe NOBELIUM, que l&amp;rsquo;on pense être lié à la Russie, et qui a utilisé le HTML smuggling pour cibler des organisations gouvernementales et diplomatiques à travers le monde.</description>
-    </item>
-    <item>
-      <title>Annonces Malveillantes</title>
-      <link>http://localhost:1313/fr/posts/google-ads/</link>
+      <title>Impression 3D en gastronomie : un festin pour les yeux et le palais</title>
+      <link>//localhost:1313/fr/posts/food/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/fr/posts/google-ads/</guid>
-      <description>Introduction Dans le monde informatique d&amp;rsquo;aujourd&amp;rsquo;hui, il est très facile de trouver des informations en ligne. Nous utilisons souvent des moteurs de recherche tels que Google, Bing ou DuckDuckGo pour nous aider à trouver ce que nous recherchons. Que nous souhaitions visiter un site Web que nous connaissons ou découvrir quelque chose de nouveau, les moteurs de recherche jouent un rôle important dans notre utilisation d&amp;rsquo;Internet.&#xA;Mais que se passe-t-il lorsque nous faisons trop confiance à ces moteurs de recherche ?</description>
+      <guid>//localhost:1313/fr/posts/food/</guid>
+      <description>L&amp;rsquo;impression 3D, souvent associée à des domaines comme l&amp;rsquo;ingénierie et la médecine, révolutionne de manière surprenante le monde de la gastronomie. Des chefs visionnaires et des passionnés de cuisine expérimentent cette technologie pour créer des plats uniques et surprenants qui ravissent à la fois les yeux et le palais.&#xA;Plats personnalisés : nutrition sur mesure Imaginez commander un repas parfaitement adapté à vos besoins nutritionnels spécifiques et à vos préférences, avec la forme et la consistance souhaitées.</description>
     </item>
     <item>
-      <title>Extracteur de Lsass</title>
-      <link>http://localhost:1313/fr/posts/lsass-extractor/</link>
-      <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
-      <guid>http://localhost:1313/fr/posts/lsass-extractor/</guid>
-      <description>Introduction Chez TeamFence, nous croyons fermement qu&amp;rsquo;il est de plus en plus important pour un opérateur offensif de comprendre les détails derrière les techniques et les outils.&#xA;Pour cette raison, dans cet article de blog, nous allons examiner comment Mimikatz extrait les identifiants à partir de dumps de lsass, ce qui nous permettra de réimplémenter la logique dans un outil adapté à nos besoins futurs.&#xA;Remarque : toutes les analyses effectuées au cours de ce projet ont été réalisées sur une station de travail Windows 11 Enterprise Evaluation.</description>
+      <title>Le découpage : la clé du succès de l&#39;impression 3D</title>
+      <link>//localhost:1313/fr/posts/slicing/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/fr/posts/slicing/</guid>
+      <description>Le découpage : le héros méconnu de l&amp;rsquo;impression 3D Le découpage est une étape cruciale du processus d&amp;rsquo;impression 3D qui passe souvent inaperçue, mais qui joue un rôle déterminant dans le succès de vos impressions. Dans cet article, nous plongerons dans le monde des logiciels de découpage, en expliquant leur importance, leurs fonctionnalités principales et des conseils pour obtenir des résultats optimaux.&#xA;Qu&amp;rsquo;est-ce que le découpage ? Le découpage est le processus qui consiste à convertir un modèle 3D en une série de fines couches qu&amp;rsquo;une imprimante 3D peut comprendre et exécuter.</description>
     </item>
   </channel>
 </rss>

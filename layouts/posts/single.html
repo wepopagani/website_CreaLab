@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="zxx" class="js">
 {{- partial "head.html" . -}}
-<body class="nk-body body-wider theme-light mode-onepage"> 
+<body class="nk-body body-wider theme-dark mode-onepage"> 
 <div class="nk-wrap">
     <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header"> 
         <!-- Header @s -->
         {{- partial "navbar.html" . -}}
         <!-- Banner @s -->
-        <div class="header-banner bg-purple"> 
-            <div class="nk-ovm shape-a-sm"></div>
-        </div>
+            <!-- Banner @s -->
+            <div class="header-banner bg-theme-dark">
+                <div class="nk-banner">
+                    <div class="banner banner-page">
+                        <div class="banner-wrap">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-6 col-lg-9">
+                                        <div class="banner-caption cpn tc-light text-center">
+                                            <div class="cpn-head">
+                                                <h2 class="title ttu">{{ .Title }}</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .nk-banner -->
+                <div class="nk-ovm shape-a-sm"></div>
+                <div id="particles-bg-1" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+
+            </div>
+            <!-- .header-banner @e -->
         <!-- .header-banner @e -->
     </header>
     <main class="nk-pages">
-        <section class="section bg-light">
+        <section class="section section-about bg-dark text-white">
             <div class="container" style="margin-top: -50px">
                 <div class="nk-block nk-block-blog">
                     <div class="row">
@@ -25,17 +46,11 @@
                                             <li><a href="#">{{ .PublishDate.Format "January 2, 2006" }}</a></li>
                                             <li><a href="#">{{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }} read</a></li>
                                         </ul>
+                                        <div class="news-thumb">
+                                             <img class="w-100 pb" src="{{ .Params.Image }}" alt="image">
+                                        </div>
                                         <div class="blog-content">
-                                            <h2 class="title"><a href="#">{{ .Title }}</a></h2>
-                                            <div class="col-xl-10 col-lg-12">
-                                                <div class="blog-featured">
-                                                    <div class="img-wrapper-single">
-                                                        <div class="box box1" id="img-container">
-                                                            <img class="round post-image" src="{{ .Params.Image }}" alt="featured">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                       
                                             <div> 
                                                 {{ .Content }}
                                             </div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innovazione Culinaria on CreaLab</title>
+    <link>//localhost:1313/it/tags/innovazione-culinaria/</link>
+    <description>Recent content in Innovazione Culinaria on CreaLab</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Thu, 11 Apr 2024 17:04:31 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/it/tags/innovazione-culinaria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La stampa 3D in gastronomia: una festa per gli occhi e il palato</title>
+      <link>//localhost:1313/it/posts/food/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/posts/food/</guid>
+      <description>La stampa 3D, spesso associata a campi come l&amp;rsquo;ingegneria e la medicina, sta sorprendentemente rivoluzionando il mondo della gastronomia. Chef visionari e appassionati di cucina stanno sperimentando questa tecnologia per creare piatti unici e sorprendenti che deliziano sia gli occhi che il palato.&#xA;Piatti personalizzati: Nutrizione su misura Immagina di ordinare un pasto perfettamente adattato alle tue specifiche esigenze nutrizionali e preferenze, con la forma e la consistenza che desideri. La stampa 3D lo rende possibile!</description>
+    </item>
+  </channel>
+</rss>

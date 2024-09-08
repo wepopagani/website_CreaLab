@@ -1,25 +1,51 @@
-{{ $data := index site.Data site.Language.Lang }}
-
-<section class="section bg-theme-alt tc-light" id="about">
-    <div class="container">
-        <!-- Block @s -->
-        <div class="nk-block nk-block-features-s2">
-            <div class="row align-items-center flex-row-reverse gutter-vr-30px">
-                <div class="col-lg-5">
-                    <div class="gfx py-4 mx-auto mx-lg-0 animated" data-animate="fadeInUp" data-delay=".1">
-                        <img src="/images/fencing-team.png" alt="gfx">
+<main class="nk-pages">
+    <section class="bg-theme-dark tc-light ov-h" id="about">
+        <div class="section-head text-center wide-auto-sm">
+            <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="ABOUT">{{i18n "about_title"}}</h2>
+        </div><!-- .section-head @e -->
+        <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block nk-block-text-wrap">
+                <div class="row align-items-center justify-content-center justify-content-md-between gutter-vr-30px">
+                    <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5 order-md-last">
+                        <div class="nk-block-img">
+                            <img src="/images/about-1.png" alt="app">
+                        </div>
                     </div>
-                </div><!-- .col -->
-                <div class="col-lg-7">
-                    <!-- Section Head @s -->
-                    <div class="nk-block-text pdb-r">
-                        <h6 class="title title-xs title-s1 tc-primary">{{i18n "about_title"}}</h6>
-                        <h2 class="title title-semibold">{{i18n "about_subtitle"}}</h2>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">{{i18n "about_descr1"}}</p>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".3">{{i18n "about_descr2"}}</p>
-                    </div><!-- .section-head @e -->
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .block @e -->
-    </div>
-</section>
+                    <div class="col-sm-10 col-md-6 text-center text-md-start">
+                        <div class="nk-block-text text-white">
+                            <h2 class="title">{{i18n "about_header"}}</h2>
+                            <p class="lead">{{i18n "about_lead"}}</p>
+                        </div>
+                    </div>
+                </div><!-- .row -->
+            </div><!-- .block @e -->
+        </div>
+        <div id="particles-bg-2" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+    </section>
+
+    <section class="section bg-theme-dark tc-light ov-h" id="ico">
+        <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block nk-block-text-wrap">
+                <div class="row align-items-center gutter-vr-30px justify-content-center justify-content-md-between">
+                    <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5">
+                        <div class="gfx py-4">
+                            <img src="/images/about-2.png" alt="gfx">
+                        </div>
+                    </div><!-- .col -->
+                    <div class="col-sm-10 col-md-6 text-center text-md-start">
+                        <!-- Section Head @s -->
+                        <div class="nk-block-text text-white">
+                            <h4 class="title title-lg">{{i18n "ico_header"}}</h4>
+                            <p class="lead">{{i18n "ico_lead"}}</p>
+                            <p>{{i18n "ico_text_1"}}</p>
+                            <p>{{i18n "ico_text_2"}}</p>
+                        </div>
+                    </div>
+                </div><!-- .row -->
+            </div><!-- .block @e -->
+        </div>
+        <div id="particles-bg-3" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+    </section>
+</main>

@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Team Fence</title>
-    <link>http://localhost:1313/de/posts/</link>
-    <description>Recent content in Posts on Team Fence</description>
+    <title>Posts on CreaLab</title>
+    <link>//localhost:1313/de/posts/</link>
+    <description>Recent content in Posts on CreaLab</description>
     <generator>Hugo</generator>
-    <language>de-de</language>
+    <language>de</language>
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/de/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CTEM über Red Teaming</title>
-      <link>http://localhost:1313/de/posts/ctem/</link>
+      <title>Materialien für den 3D-Druck: Ein umfassender Leitfaden</title>
+      <link>//localhost:1313/de/posts/materials/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/de/posts/ctem/</guid>
-      <description>Einführung Bei TeamFence sind wir stets auf der Suche nach neuen Möglichkeiten, die Sicherheitslage unserer Kunden zu verbessern. In diesem Blogbeitrag werden wir das Continuous Threat Exposure Management (CTEM) Framework diskutieren und aufzeigen, wie es Organisationen dabei helfen kann, die Gefährdung durch Cyberangriffe zu minimieren. Wir werden CTEM auch mit Red Teaming und simulierten Angriffen vergleichen, um die Vorteile eines proaktiven Sicherheitsansatzes zu verstehen.&#xA;Was ist CTEM? Das Continuous Threat Exposure Management (CTEM) ist ein dynamisches und kontinuierliches Fünf-Stufen-Framework, das entwickelt wurde, um die Gefährdung durch Cyberangriffe zu minimieren.</description>
+      <guid>//localhost:1313/de/posts/materials/</guid>
+      <description>Der 3D-Druck revolutioniert die Industrie und verändert die Art und Weise, wie wir Objekte herstellen. Ein entscheidender Aspekt dieser Technologie ist die breite Palette an verfügbaren Materialien, die jeweils über einzigartige Eigenschaften und Anwendungen verfügen. In diesem Leitfaden werden wir die gängigsten 3D-Druckmaterialien und deren Anwendungen untersuchen.&#xA;Thermoplaste: Vielseitig und weit verbreitet Thermoplaste, die in Filamentform vorliegen, sind die am häufigsten verwendeten Materialien für den 3D-Druck. Sie werden erhitzt, durch eine Düse extrudiert und erstarren beim Abkühlen.</description>
     </item>
     <item>
-      <title>HTML-Schmuggel-Erkennung</title>
-      <link>http://localhost:1313/de/posts/html-smuggling/</link>
-      <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
-      <guid>http://localhost:1313/de/posts/html-smuggling/</guid>
-      <description>Einführung HTML-Schmuggel ist eine fortschrittliche und heimliche Taktik, die Standard-HTML5- und JavaScript-Funktionen nutzt, um eine Erkennung zu vermeiden und Remote-Access-Trojaner (RATs), Bank-Malware und andere schädliche Software zu verbreiten. Diese Methode wird zunehmend von staatlich unterstützten Hackergruppen und Cyberkriminellen eingesetzt, um Regierungen, Einzelpersonen und Unternehmen zu infiltrieren. Ein bemerkenswertes Beispiel ist die Gruppe NOBELIUM, die angeblich Verbindungen zu Russland hat und HTML-Schmuggel verwendet hat, um weltweit Regierungs- und diplomatische Organisationen anzugreifen. Microsoft-Forscher haben beobachtet, dass die Gruppe NOBELIUM bösartige HTML-Anhänge in einer Kampagne namens EnvyScout verwendet hat.</description>
-    </item>
-    <item>
-      <title>Bösartige Anzeigen</title>
-      <link>http://localhost:1313/de/posts/google-ads/</link>
+      <title>3D-Druck in der Gastronomie: Ein Fest für die Augen und den Gaumen</title>
+      <link>//localhost:1313/de/posts/food/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/de/posts/google-ads/</guid>
-      <description>Einführung In der heutigen Computerwelt ist es super einfach, online Dinge zu finden. Wir nutzen oft Suchmaschinen wie Google, Bing oder DuckDuckGo, um uns bei der Suche nach Informationen zu helfen. Egal, ob wir eine bekannte Website besuchen oder etwas Neues entdecken möchten, Suchmaschinen spielen eine große Rolle in unserem Internetgebrauch.&#xA;Aber was passiert, wenn wir diesen Suchmaschinen zu sehr vertrauen? Stellen Sie sich vor, Sie geben den Namen eines berühmten Unternehmens bei Google ein und klicken auf einen Link, der seriös aussieht, aber tatsächlich eine Falle ist.</description>
+      <guid>//localhost:1313/de/posts/food/</guid>
+      <description>3D-Druck, der oft mit Bereichen wie Ingenieurwesen und Medizin in Verbindung gebracht wird, revolutioniert überraschenderweise die Welt der Gastronomie. Visionäre Köche und Feinschmecker experimentieren mit dieser Technologie, um einzigartige und überraschende Gerichte zu kreieren, die sowohl die Augen als auch den Gaumen erfreuen.&#xA;Personalisierte Gerichte: Individuelle Ernährung Stellen Sie sich vor, Sie bestellen eine Mahlzeit, die perfekt auf Ihre speziellen Ernährungsbedürfnisse und Vorlieben abgestimmt ist, mit der Form und Konsistenz, die Sie wünschen.</description>
     </item>
     <item>
-      <title>Lsass-Extraktor</title>
-      <link>http://localhost:1313/de/posts/lsass-extractor/</link>
-      <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
-      <guid>http://localhost:1313/de/posts/lsass-extractor/</guid>
-      <description>Einführung Bei TeamFence sind wir fest davon überzeugt, dass es für einen Offensiv-Operator heutzutage immer wichtiger ist, die Details hinter den Techniken und Werkzeugen zu verstehen.&#xA;Aus diesem Grund werden wir in diesem Blogbeitrag untersuchen, wie Mimikatz Anmeldeinformationen aus LSASS-Dumps extrahiert und wie wir diese Logik in ein Tool integrieren können, das auf unsere zukünftigen Bedürfnisse zugeschnitten ist.&#xA;Hinweis: Alle Analysen, die im Rahmen dieses Projekts durchgeführt wurden, basieren auf einer Windows 11 Enterprise Evaluation-Workstation.</description>
+      <title>Slicing: Der Schlüssel zu erfolgreichem 3D-Druck</title>
+      <link>//localhost:1313/de/posts/slicing/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/posts/slicing/</guid>
+      <description>Slicing: Der unscheinbare Held des 3D-Drucks Das Slicing ist ein entscheidender Schritt im 3D-Druckprozess, der oft unbemerkt bleibt, aber eine wichtige Rolle für den Erfolg Ihrer Drucke spielt. In diesem Beitrag tauchen wir in die Welt der Slicing-Software ein, erklären ihre Bedeutung, wichtige Funktionen und geben Tipps für optimale Ergebnisse.&#xA;Was ist Slicing? Slicing ist der Prozess der Umwandlung eines 3D-Modells in eine Reihe dünner Schichten, die ein 3D-Drucker verstehen und ausführen kann.</description>
     </item>
   </channel>
 </rss>

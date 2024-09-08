@@ -661,18 +661,18 @@ progress { vertical-align: baseline; }
 .table-secondary { --bs-table-color: #000; --bs-table-bg: #e2e3e5; --bs-table-border-color: #cbccce; --bs-table-striped-bg: #d7d8da; --bs-table-striped-color: #000; --bs-table-active-bg: #cbccce; --bs-table-active-color: #000; --bs-table-hover-bg: #d1d2d4; --bs-table-hover-color: #000; color: var(--bs-table-color); border-color: var(--bs-table-border-color); }
 
 .text-white{
-  color: #fff !important
+  color: #cfe2ff !important
 }
 /* Global Text White Styling */
 .text-white, .text-white * {
-  color: #EFF6FF !important;
+  color: #cfe2ff !important;
 }
 
 /* Example for Other Specific Containers */
 body.bg-purple, 
 body .nk-wrap .text-white, 
 body .nk-wrap .text-white * {
-  color: #EFF6FF !important;
+  color: #cfe2ff !important;
 }
 .table-success { --bs-table-color: #000; --bs-table-bg: #d7f7e6; --bs-table-border-color: #c2decf; --bs-table-striped-bg: #ccebdb; --bs-table-striped-color: #000; --bs-table-active-bg: #c2decf; --bs-table-active-color: #000; --bs-table-hover-bg: #c7e4d5; --bs-table-hover-color: #000; color: var(--bs-table-color); border-color: var(--bs-table-border-color); }
 

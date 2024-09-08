@@ -2,550 +2,499 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/es/team/riccardo/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/team/riccardo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/team/riccardo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/team/riccardo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/team/riccardo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/team/riccardo/"
-                />
+    <loc>//localhost:1313/es/tags/aplicaciones/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/team/matteo/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/team/matteo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/team/matteo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/team/matteo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/team/matteo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/team/matteo/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/team/alessio/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/team/alessio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/team/alessio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/team/alessio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/team/alessio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/team/alessio/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/team/marco/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/team/marco/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/team/marco/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/team/marco/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/team/marco/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/team/marco/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/team/diego/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/team/diego/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/team/diego/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/team/diego/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/team/diego/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/team/diego/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/posts/ctem/</loc>
+    <loc>//localhost:1313/es/</loc>
     <lastmod>2024-07-29T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/ctem/"
+                href="//localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/posts/ctem/"
+                hreflang="de"
+                href="//localhost:1313/de/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/posts/ctem/"
+                hreflang="fr"
+                href="//localhost:1313/fr/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/posts/ctem/"
+                hreflang="it"
+                href="//localhost:1313/it/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/posts/ctem/"
+                hreflang="es"
+                href="//localhost:1313/es/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/</loc>
+    <loc>//localhost:1313/es/tags/filamento/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/tags/filamento/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/tags/filamento/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/impresi%C3%B3n-3d/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/materiales/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/posts/materials/</loc>
     <lastmod>2024-07-29T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/"
+                href="//localhost:1313/posts/materials/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/posts/"
+                hreflang="de"
+                href="//localhost:1313/de/posts/materials/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/posts/"
+                hreflang="fr"
+                href="//localhost:1313/fr/posts/materials/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/posts/"
+                hreflang="it"
+                href="//localhost:1313/it/posts/materials/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/posts/"
+                hreflang="es"
+                href="//localhost:1313/es/posts/materials/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/</loc>
+    <loc>//localhost:1313/es/tags/metal/</loc>
     <lastmod>2024-07-29T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="//localhost:1313/tags/metal/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/"
+                hreflang="es"
+                href="//localhost:1313/es/tags/metal/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/html-smuggling/</loc>
-    <lastmod>2024-06-21T17:04:20+02:00</lastmod>
+    <loc>//localhost:1313/es/posts/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/html-smuggling/"
+                href="//localhost:1313/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/posts/html-smuggling/"
+                hreflang="de"
+                href="//localhost:1313/de/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/posts/html-smuggling/"
+                hreflang="fr"
+                href="//localhost:1313/fr/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/posts/html-smuggling/"
+                hreflang="it"
+                href="//localhost:1313/it/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/posts/html-smuggling/"
+                hreflang="es"
+                href="//localhost:1313/es/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/google-ads/</loc>
+    <loc>//localhost:1313/es/tags/resina/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/tags/resina/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/tags/resina/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/alimentos-del-futuro/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/alimentos-impresos-en-3d/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/bioprinting/</loc>
     <lastmod>2024-04-11T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/google-ads/"
+                href="//localhost:1313/tags/bioprinting/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/posts/google-ads/"
+                hreflang="de"
+                href="//localhost:1313/de/tags/bioprinting/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/posts/google-ads/"
+                hreflang="fr"
+                href="//localhost:1313/fr/tags/bioprinting/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/posts/google-ads/"
+                hreflang="it"
+                href="//localhost:1313/it/tags/bioprinting/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/posts/google-ads/"
+                hreflang="es"
+                href="//localhost:1313/es/tags/bioprinting/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/lsass-extractor/</loc>
-    <lastmod>2023-09-16T16:39:49+02:00</lastmod>
+    <loc>//localhost:1313/es/posts/slicing/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/lsass-extractor/"
+                href="//localhost:1313/posts/slicing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/posts/lsass-extractor/"
+                hreflang="de"
+                href="//localhost:1313/de/posts/slicing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/posts/lsass-extractor/"
+                hreflang="fr"
+                href="//localhost:1313/fr/posts/slicing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/posts/lsass-extractor/"
+                hreflang="it"
+                href="//localhost:1313/it/posts/slicing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/posts/lsass-extractor/"
+                hreflang="es"
+                href="//localhost:1313/es/posts/slicing/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/services/awareness/</loc>
+    <loc>//localhost:1313/es/tags/futuro/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/tags/futuro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/tags/futuro/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/impresi%C3%B3n/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/impresi%C3%B3n-3d-a-gran-escala/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/impresi%C3%B3n-3d-de-metales/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/impresi%C3%B3n-4d/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/innovaci%C3%B3n/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/innovaci%C3%B3n-culinaria/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/posts/food/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/services/awareness/"
+                href="//localhost:1313/posts/food/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/services/awareness/"
+                hreflang="de"
+                href="//localhost:1313/de/posts/food/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/services/awareness/"
+                hreflang="fr"
+                href="//localhost:1313/fr/posts/food/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/services/awareness/"
+                hreflang="it"
+                href="//localhost:1313/it/posts/food/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/services/awareness/"
+                hreflang="es"
+                href="//localhost:1313/es/posts/food/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/categories/</loc>
+    <loc>//localhost:1313/es/tags/modelos-3d/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/slicing/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="//localhost:1313/tags/slicing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/categories/"
+                hreflang="de"
+                href="//localhost:1313/de/tags/slicing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/categories/"
+                hreflang="it"
+                href="//localhost:1313/it/tags/slicing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/categories/"
+                hreflang="es"
+                href="//localhost:1313/es/tags/slicing/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/ctem-details/</loc>
+    <loc>//localhost:1313/es/tags/software/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/ctem-details/"
+                href="//localhost:1313/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/ctem-details/"
+                hreflang="de"
+                href="//localhost:1313/de/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/ctem-details/"
+                hreflang="it"
+                href="//localhost:1313/it/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/ctem-details/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/ctem-details/"
+                hreflang="es"
+                href="//localhost:1313/es/tags/software/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/services/</loc>
+    <loc>//localhost:1313/es/tags/tecnolog%C3%ADa/</loc>
+    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/services/designing/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/services/"
+                href="//localhost:1313/services/designing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/services/"
+                hreflang="de"
+                href="//localhost:1313/de/services/designing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/services/"
+                hreflang="fr"
+                href="//localhost:1313/fr/services/designing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/services/"
+                hreflang="it"
+                href="//localhost:1313/it/services/designing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/services/"
+                hreflang="es"
+                href="//localhost:1313/es/services/designing/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/about/</loc>
+    <loc>//localhost:1313/es/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="//localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/about/"
+                hreflang="de"
+                href="//localhost:1313/de/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/about/"
+                hreflang="fr"
+                href="//localhost:1313/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/about/"
+                hreflang="it"
+                href="//localhost:1313/it/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/about/"
+                hreflang="es"
+                href="//localhost:1313/es/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
+    <loc>//localhost:1313/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="//localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/tags/"
+                hreflang="de"
+                href="//localhost:1313/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/tags/"
+                hreflang="fr"
+                href="//localhost:1313/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/tags/"
+                hreflang="it"
+                href="//localhost:1313/it/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/tags/"
+                hreflang="es"
+                href="//localhost:1313/es/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/team/</loc>
+    <loc>//localhost:1313/es/services/scanning/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/team/"
+                href="//localhost:1313/services/scanning/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/team/"
+                hreflang="de"
+                href="//localhost:1313/de/services/scanning/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/team/"
+                hreflang="fr"
+                href="//localhost:1313/fr/services/scanning/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/team/"
+                hreflang="it"
+                href="//localhost:1313/it/services/scanning/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/team/"
+                hreflang="es"
+                href="//localhost:1313/es/services/scanning/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/services/websecurity/</loc>
+    <loc>//localhost:1313/es/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/services/websecurity/"
+                href="//localhost:1313/services/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/services/websecurity/"
+                hreflang="de"
+                href="//localhost:1313/de/services/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/services/websecurity/"
+                hreflang="fr"
+                href="//localhost:1313/fr/services/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/services/websecurity/"
+                hreflang="it"
+                href="//localhost:1313/it/services/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/services/websecurity/"
+                hreflang="es"
+                href="//localhost:1313/es/services/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/services/ctemsecurity/</loc>
+    <loc>//localhost:1313/es/services/printing/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/services/ctemsecurity/"
+                href="//localhost:1313/services/printing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de/services/ctemsecurity/"
+                hreflang="de"
+                href="//localhost:1313/de/services/printing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it-it"
-                href="http://localhost:1313/it/services/ctemsecurity/"
+                hreflang="fr"
+                href="//localhost:1313/fr/services/printing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr/services/ctemsecurity/"
+                hreflang="it"
+                href="//localhost:1313/it/services/printing/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="http://localhost:1313/es/services/ctemsecurity/"
+                hreflang="es"
+                href="//localhost:1313/es/services/printing/"
                 />
   </url>
 </urlset>

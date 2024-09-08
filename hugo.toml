@@ -1,6 +1,6 @@
-baseURL = 'https://teamfence.netlify.app/'
+baseURL = 'crealab.blog'
 languageCode = 'en-us'
-title = 'Team Fence'
+title = 'CreaLab'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
@@ -14,158 +14,157 @@ defaultContentLanguageInSubdir = false
 languageName = "English"
 languageCode = "en"
 contentDir = "content/english"
-dataDir = "data/en"
 weight = 1
 
 [[Languages.en.menu.main]]
 name = "Home"
-url = "/"
+url = "#header"
 weight = 1
 
 [[Languages.en.menu.main]]
 name = "Services"
-url = "/#services"
+url = "#services"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Company"
-url = "/#about"
+name = "Quote"
+url = "#quote"
 weight = 3
 
 [[Languages.en.menu.main]]
 name = "Blog"
-url = "/posts"
+url = "#blog"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "About Us"
-url = "/about/"
+name = "FAQs"
+url = "#faqs"
 weight = 5
 
-################################ Deutsche Sprache ########################
+################################ German Language ########################
 [Languages.de]
 languageName = "Deutsch"
-languageCode = "de-de"
+languageCode = "de"
 contentDir = "content/german"
 weight = 2
 
 [[Languages.de.menu.main]]
 name = "Startseite"
-url = "/"
+url = "#header"
 weight = 1
 
 [[Languages.de.menu.main]]
 name = "Dienstleistungen"
-url = "/#services"
+url = "#services"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "Unternehmen"
-url = "/#about"
+name = "Angebot"
+url = "#quote"
 weight = 3
 
 [[Languages.de.menu.main]]
 name = "Blog"
-url = "/posts"
+url = "#blog"
 weight = 4
 
 [[Languages.de.menu.main]]
-name = "Über uns"
-url = "/about/"
+name = "FAQs"
+url = "#faqs"
 weight = 5
 
-################################ Lingua Italiana ########################
-[Languages.it]
-languageName = "Italiano"
-languageCode = "it-it"
-contentDir = "content/italian"
+################################ Spanish Language ########################
+[Languages.es]
+languageName = "Español"
+languageCode = "es"
+contentDir = "content/spanish"
 weight = 3
 
-[[Languages.it.menu.main]]
-name = "Home"
-url = "/"
+[[Languages.es.menu.main]]
+name = "Inicio"
+url = "#header"
 weight = 1
 
-[[Languages.it.menu.main]]
-name = "Servizi"
-url = "/#services"
+[[Languages.es.menu.main]]
+name = "Servicios"
+url = "#services"
 weight = 2
 
-[[Languages.it.menu.main]]
-name = "Azienda"
-url = "/#about"
+[[Languages.es.menu.main]]
+name = "Cotización"
+url = "#quote"
 weight = 3
 
-[[Languages.it.menu.main]]
+[[Languages.es.menu.main]]
 name = "Blog"
-url = "/posts"
+url = "#blog"
 weight = 4
 
-[[Languages.it.menu.main]]
-name = "Chi Siamo"
-url = "/about/"
+[[Languages.es.menu.main]]
+name = "FAQs"
+url = "#faqs"
 weight = 5
 
-################################ Langue Française ########################
+################################ French Language ########################
 [Languages.fr]
 languageName = "Français"
-languageCode = "fr-fr"
+languageCode = "fr"
 contentDir = "content/french"
 weight = 4
 
 [[Languages.fr.menu.main]]
 name = "Accueil"
-url = "/"
+url = "#header"
 weight = 1
 
 [[Languages.fr.menu.main]]
 name = "Services"
-url = "/#services"
+url = "#services"
 weight = 2
 
 [[Languages.fr.menu.main]]
-name = "Entreprise"
-url = "/#about"
+name = "Devis"
+url = "#quote"
 weight = 3
 
 [[Languages.fr.menu.main]]
 name = "Blog"
-url = "/posts"
+url = "#blog"
 weight = 4
 
 [[Languages.fr.menu.main]]
-name = "À propos"
-url = "/about/"
+name = "FAQs"
+url = "#faqs"
 weight = 5
 
-################################ Español ########################
-[Languages.es]
-languageName = "Español"
-languageCode = "es-es"
-contentDir = "content/spanish"
+################################ Italian Language ########################
+[Languages.it]
+languageName = "Italiano"
+languageCode = "it"
+contentDir = "content/italian"
 weight = 5
 
-[[Languages.es.menu.main]]
-name = "Inicio"
-url = "/"
+[[Languages.it.menu.main]]
+name = "Home"
+url = "#header"
 weight = 1
 
-[[Languages.es.menu.main]]
-name = "Servicios"
-url = "/#services"
+[[Languages.it.menu.main]]
+name = "Servizi"
+url = "#services"
 weight = 2
 
-[[Languages.es.menu.main]]
-name = "Empresa"
-url = "/#about"
+[[Languages.it.menu.main]]
+name = "Preventivo"
+url = "#quote"
 weight = 3
 
-[[Languages.es.menu.main]]
+[[Languages.it.menu.main]]
 name = "Blog"
-url = "/posts"
+url = "#blog"
 weight = 4
 
-[[Languages.es.menu.main]]
-name = "Sobre Nosotros"
-url = "/about/"
+[[Languages.it.menu.main]]
+name = "FAQs"
+url = "#faqs"
 weight = 5

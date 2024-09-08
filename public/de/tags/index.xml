@@ -1,11 +1,152 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Team Fence</title>
-    <link>http://localhost:1313/de/tags/</link>
-    <description>Recent content in Tags on Team Fence</description>
+    <title>Tags on CreaLab</title>
+    <link>//localhost:1313/de/tags/</link>
+    <description>Recent content in Tags on CreaLab</description>
     <generator>Hugo</generator>
-    <language>de-de</language>
-    <atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>de</language>
+    <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D-Druck</title>
+      <link>//localhost:1313/de/tags/3d-druck/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/3d-druck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anwendungen</title>
+      <link>//localhost:1313/de/tags/anwendungen/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/anwendungen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filament</title>
+      <link>//localhost:1313/de/tags/filament/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/filament/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harz</title>
+      <link>//localhost:1313/de/tags/harz/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/harz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Materialien</title>
+      <link>//localhost:1313/de/tags/materialien/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/materialien/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metall</title>
+      <link>//localhost:1313/de/tags/metall/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/metall/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3D-Gedrucktes Essen</title>
+      <link>//localhost:1313/de/tags/3d-gedrucktes-essen/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/3d-gedrucktes-essen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3D-Modelle</title>
+      <link>//localhost:1313/de/tags/3d-modelle/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/3d-modelle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>4D-Druck</title>
+      <link>//localhost:1313/de/tags/4d-druck/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/4d-druck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bioprinting</title>
+      <link>//localhost:1313/de/tags/bioprinting/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/bioprinting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Druck</title>
+      <link>//localhost:1313/de/tags/druck/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/druck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Essen Der Zukunft</title>
+      <link>//localhost:1313/de/tags/essen-der-zukunft/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/essen-der-zukunft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Großformat-3D-Druck</title>
+      <link>//localhost:1313/de/tags/gro%C3%9Fformat-3d-druck/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/gro%C3%9Fformat-3d-druck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>//localhost:1313/de/tags/innovation/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kulinarische Innovation</title>
+      <link>//localhost:1313/de/tags/kulinarische-innovation/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/kulinarische-innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metall-3D-Druck</title>
+      <link>//localhost:1313/de/tags/metall-3d-druck/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/metall-3d-druck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slicing</title>
+      <link>//localhost:1313/de/tags/slicing/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/slicing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/de/tags/software/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technologie</title>
+      <link>//localhost:1313/de/tags/technologie/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/technologie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zukunft</title>
+      <link>//localhost:1313/de/tags/zukunft/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/de/tags/zukunft/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

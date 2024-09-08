@@ -1,14 +1,11 @@
 ---
-title: "Sobre Nosotros"
+title: "About Us"
 draft: false
 layout: "about"
 ---
 
-## Nuestra Visión
-Nuestra visión es crear un mundo donde la concienciación sobre ciberseguridad sea un estándar universal, empoderando a individuos y organizaciones para proteger sus activos digitales con confianza. A medida que la tecnología avanza y las amenazas cibernéticas se vuelven cada vez más sofisticadas, estamos comprometidos a mantenernos a la vanguardia de la innovación, proporcionando soluciones de vanguardia que anticipen y mitiguen los riesgos. Nuestro objetivo es fomentar un enfoque proactivo hacia la ciberseguridad, donde la educación y la concienciación se conviertan en componentes integrales de nuestras vidas digitales. Al construir una comunidad colaborativa, nos esforzamos por crear un ecosistema digital seguro y resiliente para las generaciones futuras.
+## Our Vision
+Our vision is to create a world where cybersecurity awareness is a universal standard, empowering individuals and organizations to protect their digital assets with confidence. As technology advances and cyber threats become increasingly sophisticated, we are committed to staying at the forefront of innovation, providing cutting-edge solutions that anticipate and mitigate risks. We aim to foster a proactive approach to cybersecurity, where education and awareness become integral components of our digital lives. By building a collaborative community, we strive to create a secure and resilient digital ecosystem for future generations.
 
-## Nuestra Misión
-A través de la creación de un equipo de excelencia y el estudio e investigación continuos, ofrecemos soluciones de software defensivo y consultoría en purple teaming para proteger a las empresas. TeamFence es capaz de difundir información, habilidades y tecnologías para ayudar a que la sociedad sea más consciente y segura.
-
-## Conoce a Nuestro Equipo
-Nuestro equipo está compuesto por profesionales altamente capacitados, dedicados a ofrecer un servicio excepcional y soluciones innovadoras para satisfacer tus necesidades. Permítenos presentarte a los expertos detrás de nuestro éxito.
+## Our Mission
+Through the creation of a team of excellence and continuous study and research, we offer defensive software solutions and purple teaming consultancy to protect businesses. TeamFence is capable of disseminating information, skills, and technologies helping society become more aware and secure.

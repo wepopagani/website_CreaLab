@@ -1,162 +1,116 @@
-## navbar
+#NAVBAR
 - id: contact
   translation: Contáctanos
-## about
-- id: about_title
-  translation: Nuestro propósito
-- id: about_subtitle
-  translation: TeamFence
-- id: about_descr1
-  translation: En TeamFence nos consideramos expertos en esgrima, listos para enfrentarnos al implacable asalto de malware y amenazas cibernéticas. Nuestro enfoque no se trata solo de construir defensas estáticas; se trata de participar en un duelo dinámico y estratégico, donde anticipamos y neutralizamos cada movimiento del adversario. Nuestro objetivo es perfeccionar nuestras habilidades y técnicas a través de la investigación continua en seguridad, asegurando que permanezcamos ágiles y efectivos en la protección de las fortalezas digitales de nuestros clientes contra los ataques cibernéticos más sofisticados.
-- id: about_descr2
-  translation: Al continuar expandiendo los límites de la investigación en seguridad, fortalecemos las defensas de las organizaciones de nuestros clientes, protegiendo sus valiosos datos y activos de amenazas maliciosas. Con nuestra experiencia y compromiso inquebrantable, nos posicionamos como los guardianes de los dominios digitales de nuestros clientes, asegurando que sus estrategias cibernéticas permanezcan ágiles e impenetrables frente a las amenazas en evolución.
-##browserfence
-- id: brows_title
-  translation: Presentando BrowserFence
-- id: brows_description
-  translation: Mejora la seguridad de tu equipo con BrowserFence, tu solución integral para mejorar la seguridad de la navegación, proporcionando tranquilidad y protección contra las amenazas en línea.
-- id: brows_l1
-  translation: Integra sin esfuerzo nuestra extensión de seguridad en tus sistemas existentes para una mayor protección.
-- id: brows_l2
-  translation: Desde malware hasta ataques de phishing, nuestra extensión ofrece una defensa robusta contra una amplia gama de amenazas.
-- id: brows_l3
-  translation: Protege tus sistemas sin comprometer el rendimiento o la velocidad.
-- id: brows_l4
-  translation: Mantente un paso adelante con actualizaciones y parches automáticos, asegurando que tus medidas de seguridad siempre estén actualizadas.
-- id: brows_btn
-  translation: Saber más
-- id: brows_l5
-  translation: A través de años de experiencia, hemos llegado a reconocer que el navegador es a menudo un eslabón débil en la seguridad individual. Está constantemente implicado en varias etapas de la "cadena de ataque", la progresión de un ataque cibernético. Esto se debe a su papel como puerta de entrada principal para los atacantes, facilitando la entrega de software malicioso y el robo de datos sensibles o credenciales. En esencia, el navegador sigue siendo la vulnerabilidad principal y más accesible para los posibles agresores.
-- id: brows_l6
-  translation: Monitorear este vector de manera efectiva nos permite frustrar la gran mayoría de los compromisos de los usuarios. La vigilancia activa de las actividades del navegador permite la detección y neutralización rápida de amenazas, reduciendo significativamente el riesgo de violaciones de ciberseguridad.
-- id: brows_l7
-  translation: Todavía estamos en las primeras etapas de desarrollo.
-- id: brows_l8
-  translation: Suscríbete al boletín informativo y mantente informado.
-##contact
-- id: contact_title
-  translation: Ponerse en contacto
-- id: contact_l1
-  translation: ¿Tienes alguna pregunta? Contáctanos y te responderemos en breve.
-- id: name
-  translation: Nombre completo
-- id: company
-  translation: Nombre de la empresa
-- id: phone
-  translation: Número de teléfono
-- id: email
-  translation: Tu correo electrónico
-- id: message
-  translation: Tu mensaje
-- id: contact_btn
-  translation: Enviar
-##faqs
-- id: faqs_subtitle
-  translation: Preguntas frecuentes
-- id: faqs_description
-  translation: A continuación, hemos proporcionado un poco de información sobre TeamFence. Si tienes alguna otra pregunta, por favor ponte en contacto con nosotros utilizando el formulario de contacto a continuación.
-- id: general_tab
-  translation: General
-- id: browserfence_tab
-  translation: BrowserFence
-- id: question_ctem
-  translation: ¿Qué es la Gestión Continua de Exposición a Amenazas (CTEM)?
-- id: answer_ctem
-  translation: La Gestión Continua de Exposición a Amenazas (CTEM) es un marco de ciberseguridad proactivo diseñado para evaluar, priorizar y mitigar continuamente las amenazas cibernéticas. A diferencia de las pruebas de penetración tradicionales, que proporcionan una instantánea de tu postura de seguridad en un momento dado, el CTEM ofrece un enfoque continuo y en tiempo real para identificar vulnerabilidades, gestionar exposiciones y fortalecer tus defensas de seguridad.
-- id: question_ctem_vs_pen_testing
-  translation: ¿Por qué debería elegir CTEM en lugar de pruebas de penetración estándar?
-- id: answer_ctem_vs_pen_testing
-  translation: CTEM ofrece varias ventajas sobre las pruebas de penetración estándar, incluyendo
-- id: txt1
-  translation: La vigilancia continua te permite adelantarte a las amenazas emergentes y adaptarte rápidamente a nuevas vulnerabilidades.
-- id: txt2
-  translation: CTEM te ayuda a enfocarte en las amenazas más críticas primero, optimizando tus recursos y minimizando el riesgo.
-- id: txt3
-  translation: A diferencia de las pruebas puntuales, CTEM cubre todo tu panorama de seguridad, asegurando que no queden brechas sin abordar.
-- id: question_ctem_integration
-  translation: ¿Cómo se integra CTEM con mi infraestructura de seguridad existente?
-- id: answer_ctem_integration
-  translation: CTEM está diseñado para integrarse perfectamente con tus herramientas y procesos de seguridad existentes. Mejora tus defensas actuales al proporcionar visibilidad continua de posibles amenazas y exposiciones. El marco es flexible y puede personalizarse para alinearse con las necesidades específicas de tu organización, asegurando que complemente en lugar de interrumpir tus esfuerzos de seguridad existentes.
-- id: question_employee_awareness
-  translation: ¿Qué es la capacitación en concienciación para empleados y por qué es crucial para mi organización?
-- id: answer_employee_awareness
-  translation: La capacitación en concienciación para empleados es un programa educativo diseñado para informar y educar a los empleados sobre las mejores prácticas, políticas y procedimientos de ciberseguridad. Es crucial para tu organización porque el error humano y la negligencia son contribuyentes significativos a las violaciones de ciberseguridad. Al educar a tus empleados sobre amenazas potenciales, ataques de phishing, higiene de contraseñas y prácticas de navegación segura, los capacitas para reconocer y mitigar riesgos de seguridad, fortaleciendo así la postura de seguridad general de tu organización.
-- id: question_browserfence_vs_edr
-  translation: ¿Por qué debería considerar BrowserFence si ya tengo una solución EDR?
-- id: answer_browserfence_vs_edr
-  translation: Una solución de Defensa y Respuesta para Navegadores (BDR) complementa un sistema de Detección y Respuesta de Endpoints (EDR) al enfocarse específicamente en proteger y monitorear los navegadores web. Mejora la seguridad al proporcionar una defensa especializada contra amenazas basadas en navegadores, como sitios web maliciosos, ataques de phishing y contrabando de HTML, que pueden no ser adecuadamente abordados por las soluciones EDR tradicionales enfocadas en actividades de endpoints más allá de los navegadores.
-- id: question_browserfence_vs_network_devices
-  translation: ¿Qué ventajas me ofrece en comparación con las protecciones proporcionadas por dispositivos de red?
-- id: answer_browserfence_vs_network_devices
-  translation: Los dispositivos de red, aunque proporcionan ciertas protecciones como el filtrado DNS, se limitan a analizar datos macro como el dominio y su reputación. BrowserFence analiza en tiempo real el contenido de las páginas, los recursos compartidos y las modificaciones del DOM, minimizando la complejidad de la instalación en comparación con los dispositivos.
-- id: question_browserfence_suitability
-  translation: ¿Es BrowserFence adecuado para pequeñas o grandes empresas?
-- id: answer_browserfence_suitability
-  translation: BrowserFence es adecuado tanto para pequeñas como para grandes empresas. Para las pequeñas empresas, ofrece facilidad de implementación sin una configuración de red compleja, al tiempo que proporciona acceso al soporte de IA para mejorar las medidas de seguridad. Las grandes empresas pueden beneficiarse del plan Enterprise de BrowserFence, que ofrece características escalables y soluciones de seguridad robustas adaptadas a las necesidades de las empresas.
-- id: question_browserfence_compliance
-  translation: ¿BrowserFence me ayuda a cumplir con las nuevas leyes?
-- id: answer_browserfence_compliance
-  translation: BrowserFence ayuda a cumplir con las leyes de protección de datos como la Ley Federal de Protección de Datos de Suiza (LPD) y el Reglamento General de Protección de Datos (GDPR) en Europa al proporcionar medidas de seguridad robustas adaptadas a la protección de los datos y la privacidad del usuario. Además, BrowserFence apoya los esfuerzos de cumplimiento a través de iniciativas de capacitación para empleados, asegurando que el personal esté informado y preparado para manejar los riesgos de ciberseguridad.
-##footer
-- id: footer1
-  translation: No te pierdas nada, mantente actualizado
-- id: footer2
-  translation: Suscríbete para recibir actualizaciones y noticias del mercado. Suscríbete a nuestro boletín y recibe actualizaciones sobre TeamFence.
-- id: Subscribe
-  translation: Suscribirse
-##header
-- id: header_descr
-  translation: Defiende tu empresa contra las amenazas cibernéticas con nuestro enfoque proactivo y experiencia en hacking ético.
-- id: header_btn1
-  translation: Ver nuestros servicios
-- id: header_btn2
+#HEADER
+- id: h1_header
+  translation: Bienvenido a CreaLab
+- id: h3_header
+  translation: ¿Sueñas con un objeto único, un prototipo funcional o una pieza de repuesto difícil de encontrar? Nuestra avanzada impresión 3D convierte tus proyectos en realidad tangible.
+- id: btn1_header
+  translation: Servicios
+- id: btn2_header
   translation: Contáctanos
-##blog
-- id: blog_title
-  translation: Ver nuestras últimas publicaciones
-- id: blog_btn
-  translation: Leer todos los artículos
-##services
+- id: btn3_header
+  translation: Obtener una cotización
+- id: descr_header
+  translation: Obtén una cotización personalizada en 24 horas
+#ABOUT
+- id: about_title
+  translation: Sobre nosotros
+- id: about_header
+  translation: Soluciones innovadoras diseñadas con precisión.
+- id: about_lead
+  translation: En CreaLab, la creatividad se encuentra con la profesionalidad en cada proyecto que llevamos a cabo. Nuestro equipo de diseñadores e ingenieros talentosos se esfuerza por convertir tus ideas en realidad. Abordamos cada proyecto con una perspectiva fresca, asegurando que tu visión se haga realidad de la manera más creativa y efectiva posible. Con años de experiencia en impresión y diseño 3D, entregamos resultados excepcionales con un compromiso con la calidad y precisión. Nuestra atención meticulosa al detalle garantiza que incluso los requisitos más exigentes del proyecto se cumplan con excelencia.
+- id: ico_header
+  translation: Experiencia en diseño y selección de materiales
+- id: ico_lead
+  translation: Soluciones 3D a medida para satisfacer tus necesidades específicas
+- id: ico_text_1
+  translation: CreaLab no solo crea diseños; desarrollamos soluciones. Nuestros diseñadores experimentados se centran en desarrollar modelos 3D que priorizan la funcionalidad, la estética y la capacidad de fabricación, garantizando el éxito de tu producto. Combinamos experiencia técnica con ingenio creativo para ofrecer soluciones innovadoras que amplían los límites de lo que es posible con la impresión 3D.
+- id: ico_text_2
+  translation: Desde técnicas de corte de precisión para optimizar tus modelos, hasta ofrecer una amplia gama de materiales adaptados a las necesidades únicas de tu proyecto, CreaLab proporciona servicios integrales que garantizan que tus prototipos y productos finales sean visualmente atractivos y funcionalmente perfectos.
+#SERVICES
 - id: services_title
-  translation: Nuestros servicios
-- id: services_subtitle
-  translation: Confía en nosotros, juntos podemos proteger tus amenazas.
-- id: ctem_service_description
-  translation: CTEM es un marco continuo y proactivo que identifica y aborda vulnerabilidades de ciberseguridad para mejorar la protección general.
-- id: web_security_service_description
-  translation: Nuestro servicio de seguridad web identifica vulnerabilidades utilizando enfoques de caja negra y caja blanca, garantizando una protección integral para tus aplicaciones.
-- id: security_awareness_service_description
-  translation: Nuestro servicio de concienciación en seguridad eleva la experiencia de tu equipo al proporcionar las herramientas y conocimientos necesarios para identificar y prevenir proactivamente las amenazas cibernéticas.
-- id: cyber_diagnosis
-  translation: Nuestro servicio de Diagnóstico Cibernético está diseñado para proporcionar una comprensión completa de su infraestructura de ciberseguridad actual. Al analizar minuciosamente sus tecnologías existentes, evaluar el alcance de sus operaciones y evaluar los riesgos que enfrenta, brindamos información práctica para mejorar su postura de seguridad.
-- id: proactive_risk
-  translation: Las etapas finales implican analizar y priorizar las exposiciones en función de los niveles de amenaza y la importancia de los activos, validar los posibles métodos de ataque y los controles de seguridad, y asegurarse de que todos los equipos comprendan sus roles y sigan el progreso para mejorar la postura general de seguridad.
-- id: ctem1
-  translation: La Gestión Continua de Exposición a Amenazas (CTEM) es un marco proactivo de cinco etapas diseñado para minimizar la exposición a ataques cibernéticos. Ayuda a las organizaciones a identificar y evaluar vulnerabilidades, mapear posibles caminos de ataque, priorizar riesgos y rastrear los esfuerzos de remediación.
-- id: ctem2
-  translation: Comenzamos entendiendo sus medidas de seguridad actuales e identificando posibles vulnerabilidades. Este enfoque combina estrategias ofensivas y defensivas (Purple Teaming), lo que nos permite identificar y mitigar amenazas de manera más efectiva. Al integrar nuestra experiencia con los conocimientos de su equipo, creamos una estrategia de defensa integral que es tanto proactiva como adaptable.
-- id: ctem_btn
-  translation: Leer Más
-# Websecurity
-- id: websec_title
-  translation_es: Seguridad Web
-
-- id: websec_description_1
-  translation_es: Las pruebas de seguridad de aplicaciones web implican la simulación de ciberataques en un sistema para evaluar su seguridad. Este proceso puede llevarse a cabo con acceso al código fuente de la aplicación (enfoque de caja blanca) o sin él (enfoque de caja negra).
-
-- id: websec_description_2
-  translation_es: El objetivo es descubrir vulnerabilidades, identificar posibles exploits y evaluar la postura general de seguridad. Al examinar a fondo el sistema objetivo, estas pruebas revelan si se necesitan más correcciones o mejoras de seguridad, sirviendo como un control crucial para garantizar la integridad y seguridad del sistema.
-
-- id: whitebox_title
-  translation_es: Caja Blanca
-
-- id: whitebox_description
-  translation_es: Las pruebas de seguridad de aplicaciones web con un enfoque de caja blanca implican examinar el sistema con acceso completo al código fuente. Este método permite una evaluación completa de la arquitectura de la aplicación, identificando vulnerabilidades y posibles exploits desde la perspectiva de un conocedor para garantizar medidas de seguridad robustas.
-
-- id: blackbox_title
-  translation_es: Caja Negra
-
-- id: blackbox_description
-  translation_es: Las pruebas de seguridad de aplicaciones web con un enfoque de caja negra implican evaluar el sistema sin acceso al código fuente. Este método simula un ataque externo, centrándose en identificar vulnerabilidades y posibles exploits desde la perspectiva de un extraño para garantizar que las defensas de la aplicación sean robustas frente a las amenazas del mundo real.
-- id: meet_team
-  translation: "Conoce al equipo"
+  translation: Servicios
+- id: services_designing_title
+  translation: Diseño 3D
+- id: services_designing_description
+  translation: Trabajaremos estrechamente contigo para comprender tu visión, perfeccionar tu diseño y crear un plano digital listo para la impresión.
+- id: services_printing_title
+  translation: Impresión 3D
+- id: services_printing_description
+  translation: Ofrecemos servicios de impresión 3D de primera calidad utilizando una variedad de materiales y acabados para satisfacer tus necesidades.
+- id: services_scanning_title
+  translation: Escaneo 3D
+- id: services_scanning_description
+  translation: Ofrecemos servicios de escaneo 3D precisos para objetos de más de 10 centímetros cúbicos.
+#QUOTE
+- id: quote_title
+  translation: Solicita una cotización
+- id: quote_lead
+  translation: Sube tu archivo 3D y recibe una estimación instantánea del costo por correo electrónico en un plazo de 24 horas.
+- id: quote_email_label
+  translation: Tu correo electrónico
+- id: quote_file_label
+  translation: Sube tu archivo aquí
+- id: quote_button
+  translation: Enviar y obtener una cotización
+- id: quote_alert
+  translation: Por favor, introduce tu correo electrónico y sube un archivo.
+- id: quote_confirmation
+  translation: ¡Gracias! Recibirás una cotización en 24 horas en el correo electrónico proporcionado.
+#BLOG
+- id: blog_btn
+  translation: Leer más
+#FAQ 
+- id: faqs_title
+  translation: Preguntas Frecuentes
+- id: faqs_intro
+  translation: A continuación, hemos proporcionado algunas respuestas a preguntas comunes sobre impresión 3D, diseño 3D, materiales y temas relacionados. Si tienes alguna otra pregunta, no dudes en ponerte en contacto con nosotros utilizando el formulario de contacto a continuación.
+- id: faqs_general
+  translation: General
+- id: faqs_design
+  translation: Diseño 3D
+- id: faqs_materials
+  translation: Materiales
+- id: faqs_printing
+  translation: Proceso de Impresión
+- id: faqs_post_processing
+  translation: Post-procesamiento
+- id: faq1_question
+  translation: ¿Qué es la impresión 3D?
+- id: faq1_answer
+  translation: La impresión 3D es un proceso de fabricación aditiva que crea un objeto físico a partir de un diseño digital. Mediante la superposición de material, generalmente plástico, resina o metal, se da vida a tus ideas con precisión.
+- id: faq2_question
+  translation: ¿Qué tipos de impresoras 3D utilizan?
+- id: faq2_answer
+  translation: Utilizamos una gama de impresoras 3D, incluidas tecnologías FDM, SLA y SLS. Cada tipo es adecuado para diferentes necesidades, desde prototipos de alta precisión hasta piezas funcionales robustas.
+- id: faq3_question
+  translation: ¿Cómo puedo iniciar un proyecto de impresión 3D?
+- id: faq3_answer
+  translation: Para iniciar un proyecto, simplemente proporciona tu modelo 3D en formato STL u OBJ. Si no tienes un modelo, nuestro equipo de diseño puede ayudarte a crear uno desde cero.
+- id: faq4_question
+  translation: ¿Cuál es el tiempo de entrega para la impresión 3D?
+- id: faq4_answer
+  translation: Los tiempos de entrega varían según el tamaño y la complejidad del proyecto. La mayoría de los proyectos pequeños a medianos pueden completarse en unos pocos días.
+- id: faq5_question
+  translation: ¿Qué software puedo usar para crear un diseño 3D?
+- id: faq5_answer
+  translation: Los software populares de diseño 3D incluyen Blender, Autodesk Fusion 360, Tinkercad y SolidWorks. Estas herramientas te permiten crear modelos detallados listos para la impresión 3D.
+- id: faq6_question
+  translation: ¿Ofrecen servicios de diseño 3D?
+- id: faq6_answer
+  translation: Sí, nuestro equipo de diseñadores expertos puede ayudarte a crear o mejorar modelos 3D para garantizar que estén optimizados para la impresión, logrando los mejores resultados posibles.
+#CONTACT
+- id: descr_contact
+  translation: ¿Alguna pregunta? Ponte en contacto con nosotros y te responderemos en breve.
+- id: name
+  translation: Tu Nombre
+- id: email
+  translation: Tu Correo Electrónico
+- id: message
+  translation: Tu Mensaje
+- id: btn_contact
+  translation: Enviar
+- id: "Contact"
+  translation: contáctanos

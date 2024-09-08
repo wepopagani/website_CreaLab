@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alimentation Du Futur on CreaLab</title>
+    <link>//localhost:1313/fr/tags/alimentation-du-futur/</link>
+    <description>Recent content in Alimentation Du Futur on CreaLab</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 11 Apr 2024 17:04:31 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/fr/tags/alimentation-du-futur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Impression 3D en gastronomie : un festin pour les yeux et le palais</title>
+      <link>//localhost:1313/fr/posts/food/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/fr/posts/food/</guid>
+      <description>L&amp;rsquo;impression 3D, souvent associée à des domaines comme l&amp;rsquo;ingénierie et la médecine, révolutionne de manière surprenante le monde de la gastronomie. Des chefs visionnaires et des passionnés de cuisine expérimentent cette technologie pour créer des plats uniques et surprenants qui ravissent à la fois les yeux et le palais.&#xA;Plats personnalisés : nutrition sur mesure Imaginez commander un repas parfaitement adapté à vos besoins nutritionnels spécifiques et à vos préférences, avec la forme et la consistance souhaitées.</description>
+    </item>
+  </channel>
+</rss>

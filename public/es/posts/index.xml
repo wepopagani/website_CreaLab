@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Team Fence</title>
-    <link>http://localhost:1313/es/posts/</link>
-    <description>Recent content in Posts on Team Fence</description>
+    <title>Posts on CreaLab</title>
+    <link>//localhost:1313/es/posts/</link>
+    <description>Recent content in Posts on CreaLab</description>
     <generator>Hugo</generator>
-    <language>es-es</language>
+    <language>es</language>
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CTEM sobre Red Teaming</title>
-      <link>http://localhost:1313/es/posts/ctem/</link>
+      <title>Materiales para la impresión 3D: Una guía completa</title>
+      <link>//localhost:1313/es/posts/materials/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/es/posts/ctem/</guid>
-      <description>Introducción En TeamFence, siempre estamos buscando nuevas formas de mejorar la postura de seguridad de nuestros clientes. En esta publicación de blog, discutiremos el marco de Gestión Continua de la Exposición a Amenazas (CTEM) y cómo puede ayudar a las organizaciones a minimizar la exposición a ciberataques. También compararemos el CTEM con el Red Teaming y los ataques simulados para comprender los beneficios de adoptar un enfoque proactivo de la seguridad.</description>
+      <guid>//localhost:1313/es/posts/materials/</guid>
+      <description>La impresión 3D está revolucionando las industrias y transformando la forma en que creamos objetos. Un aspecto crucial de esta tecnología es la amplia gama de materiales disponibles, cada uno con propiedades únicas y aplicaciones específicas. En esta guía, exploraremos los materiales más comunes para la impresión 3D y sus usos.&#xA;Termoplásticos: Versátiles y ampliamente utilizados Los termoplásticos, disponibles en forma de filamento, son los materiales más comunes para la impresión 3D.</description>
     </item>
     <item>
-      <title>Detección de HTML Smuggling</title>
-      <link>http://localhost:1313/es/posts/html-smuggling/</link>
-      <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
-      <guid>http://localhost:1313/es/posts/html-smuggling/</guid>
-      <description>Introducción El HTML smuggling es una táctica avanzada y sigilosa que aprovecha las características estándar de HTML5 y JavaScript para evitar la detección y distribuir troyanos de acceso remoto (RAT), malware bancario y otro software dañino. Este método está siendo cada vez más adoptado por grupos de hackers patrocinados por el estado y ciberdelincuentes para infiltrarse en gobiernos, individuos y empresas. Un ejemplo notable es el grupo NOBELIUM, que se cree que tiene vínculos con Rusia, y que ha utilizado HTML smuggling para atacar organizaciones gubernamentales y diplomáticas en todo el mundo.</description>
-    </item>
-    <item>
-      <title>Anuncios Maliciosos</title>
-      <link>http://localhost:1313/es/posts/google-ads/</link>
+      <title>El &#39;Slicing&#39;: La clave del éxito en la impresión 3D</title>
+      <link>//localhost:1313/es/posts/slicing/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/es/posts/google-ads/</guid>
-      <description>Introducción En el mundo actual de las computadoras, es muy fácil encontrar cosas en línea. A menudo utilizamos motores de búsqueda como Google, Bing o DuckDuckGo para ayudarnos a encontrar lo que estamos buscando. Ya sea que queramos visitar un sitio web que conocemos o encontrar algo nuevo, los motores de búsqueda son una parte importante de cómo usamos Internet.&#xA;Pero, ¿qué pasa cuando confiamos demasiado en estos motores de búsqueda?</description>
+      <guid>//localhost:1313/es/posts/slicing/</guid>
+      <description>El &amp;lsquo;Slicing&amp;rsquo;: El héroe desconocido de la impresión 3D El slicing es un paso crucial en el proceso de impresión 3D que a menudo pasa desapercibido, pero juega un papel significativo en el éxito de tus impresiones. En esta publicación, profundizaremos en el mundo del software de slicing, explicando su importancia, características clave y consejos para lograr resultados óptimos.&#xA;¿Qué es el slicing? El slicing es el proceso de convertir un modelo 3D en una serie de capas delgadas que una impresora 3D puede entender y ejecutar.</description>
     </item>
     <item>
-      <title>Extractor de Lsass</title>
-      <link>http://localhost:1313/es/posts/lsass-extractor/</link>
-      <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
-      <guid>http://localhost:1313/es/posts/lsass-extractor/</guid>
-      <description>Introducción En TeamFence, creemos firmemente que hoy en día es cada vez más importante para un operador ofensivo comprender los detalles detrás de las técnicas y herramientas.&#xA;Por esta razón, en esta publicación del blog, profundizaremos en cómo Mimikatz extrae credenciales de los dumps de lsass, lo que nos permitirá reimplementar la lógica en una herramienta adaptada a nuestras necesidades futuras.&#xA;Nota: todos los análisis realizados en este proyecto se han llevado a cabo en una estación de trabajo Windows 11 Enterprise Evaluation.</description>
+      <title>La impresión 3D en gastronomía: una fiesta para los ojos y el paladar</title>
+      <link>//localhost:1313/es/posts/food/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/es/posts/food/</guid>
+      <description>La impresión 3D, a menudo asociada a campos como la ingeniería y la medicina, está sorprendentemente revolucionando el mundo de la gastronomía. Chefs visionarios y entusiastas de la comida están experimentando con esta tecnología para crear platos únicos y sorprendentes que deleitan tanto a la vista como al paladar.&#xA;Platos personalizados: Nutrición a medida Imagina pedir una comida perfectamente adaptada a tus necesidades nutricionales y preferencias, con la forma y la consistencia que deseas.</description>
     </item>
   </channel>
 </rss>

@@ -1,110 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Team Fence</title>
-    <link>http://localhost:1313/es/</link>
-    <description>Recent content on Team Fence</description>
+    <title>CreaLab</title>
+    <link>//localhost:1313/es/</link>
+    <description>Recent content on CreaLab</description>
     <generator>Hugo</generator>
-    <language>es-es</language>
+    <language>es</language>
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Riccardo Brigatti</title>
-      <link>http://localhost:1313/es/team/riccardo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/team/riccardo/</guid>
-      <description>Hacker ético certificado e ingeniero de software graduado en SUPSI. Ha acumulado 6 años de experiencia en el sector de la seguridad ofensiva como tester de penetración y Red Teamer para empresas privadas, trabajando desde pymes hasta el equipo de seguridad ofensiva de Novartis.&#xA;Su ascenso en el ejército suizo como suboficial en el batallón cibernético ha mejorado sus habilidades técnicas, trabajando con infraestructuras críticas y en la gestión de equipos.</description>
-    </item>
-    <item>
-      <title>Matteo Denicolo</title>
-      <link>http://localhost:1313/es/team/matteo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/team/matteo/</guid>
-      <description>Matteo Denicolo ha recaudado con éxito más de 5 millones de euros lanzando tres startups y ganando un acelerador. Su perspicacia estratégica ha llevado a un aumento del valor de dos empresas en 2,5x y 6,5x respectivamente.&#xA;Con 3 años de experiencia como miembro del consejo ejecutivo en Suiza, Italia y Estados Unidos, Matteo ha demostrado notables capacidades de liderazgo y crecimiento. Duplicó el número de empleados de una empresa y triplicó su base de clientes.</description>
-    </item>
-    <item>
-      <title>Alessio Branca</title>
-      <link>http://localhost:1313/es/team/alessio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/team/alessio/</guid>
-      <description>Alessio Branca es un empresario e inversor experimentado con amplia experiencia en el sector de la salud, especialmente en operaciones relacionadas con el territorio suizo.&#xA;A los 21 años, Alessio lideró una startup en el sector de dispositivos médicos, escalándola de 0 a 3 millones en ingresos en 2,5 años, gestionando eficientemente las operaciones y estructurando todo el mercado suizo.&#xA;Ha fundado y estructurado dos empresas en el sector de la salud, logrando un crecimiento notable de 0 a 2 millones en ingresos en solo 2 años.</description>
-    </item>
-    <item>
-      <title>Marco Pagani</title>
-      <link>http://localhost:1313/es/team/marco/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/team/marco/</guid>
-      <description>Este joven emprendedor está a punto de graduarse con una licenciatura en Ciencias Económicas, con especialización en Finanzas. Con un gran interés en el negocio en línea, está desarrollando activamente su propia empresa en este campo dinámico.&#xA;Su pasión por la ciberseguridad lo ha llevado a estudiar TI y soluciones digitales en su tiempo libre. Recientemente, demostró sus habilidades al construir toda una infraestructura de internet, manejando todo, desde la configuración del hardware hasta la conectividad de los dispositivos.</description>
-    </item>
-    <item>
-      <title>Diego Omini</title>
-      <link>http://localhost:1313/es/team/diego/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/team/diego/</guid>
-      <description>Diego Omini es un ingeniero DevOps y desarrollador de software suizo, apasionado por la programación desde 2010. Obtuvo una licenciatura en informática en la BFH de Bienne. Desde febrero de 2023, trabaja en Swisscom AG como ingeniero DevOps.&#xA;Diego se especializa en el desarrollo de backends RESTful utilizando Spring Boot y Java, la implementación de pipelines CI/CD con Jenkins y GitLab, y el despliegue de aplicaciones en Kubernetes. Sus experiencias anteriores incluyen el desarrollo de una aplicación de realidad virtual para su tesis de licenciatura, la automatización de migraciones de archivos de correo PST y la gestión de una red de 800 estaciones de trabajo y servidores durante su aprendizaje.</description>
-    </item>
-    <item>
-      <title>CTEM sobre Red Teaming</title>
-      <link>http://localhost:1313/es/posts/ctem/</link>
+      <title>Materiales para la impresión 3D: Una guía completa</title>
+      <link>//localhost:1313/es/posts/materials/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/es/posts/ctem/</guid>
-      <description>Introducción En TeamFence, siempre estamos buscando nuevas formas de mejorar la postura de seguridad de nuestros clientes. En esta publicación de blog, discutiremos el marco de Gestión Continua de la Exposición a Amenazas (CTEM) y cómo puede ayudar a las organizaciones a minimizar la exposición a ciberataques. También compararemos el CTEM con el Red Teaming y los ataques simulados para comprender los beneficios de adoptar un enfoque proactivo de la seguridad.</description>
+      <guid>//localhost:1313/es/posts/materials/</guid>
+      <description>La impresión 3D está revolucionando las industrias y transformando la forma en que creamos objetos. Un aspecto crucial de esta tecnología es la amplia gama de materiales disponibles, cada uno con propiedades únicas y aplicaciones específicas. En esta guía, exploraremos los materiales más comunes para la impresión 3D y sus usos.&#xA;Termoplásticos: Versátiles y ampliamente utilizados Los termoplásticos, disponibles en forma de filamento, son los materiales más comunes para la impresión 3D.</description>
     </item>
     <item>
-      <title>Detección de HTML Smuggling</title>
-      <link>http://localhost:1313/es/posts/html-smuggling/</link>
-      <pubDate>Fri, 21 Jun 2024 17:04:20 +0200</pubDate>
-      <guid>http://localhost:1313/es/posts/html-smuggling/</guid>
-      <description>Introducción El HTML smuggling es una táctica avanzada y sigilosa que aprovecha las características estándar de HTML5 y JavaScript para evitar la detección y distribuir troyanos de acceso remoto (RAT), malware bancario y otro software dañino. Este método está siendo cada vez más adoptado por grupos de hackers patrocinados por el estado y ciberdelincuentes para infiltrarse en gobiernos, individuos y empresas. Un ejemplo notable es el grupo NOBELIUM, que se cree que tiene vínculos con Rusia, y que ha utilizado HTML smuggling para atacar organizaciones gubernamentales y diplomáticas en todo el mundo.</description>
-    </item>
-    <item>
-      <title>Anuncios Maliciosos</title>
-      <link>http://localhost:1313/es/posts/google-ads/</link>
+      <title>El &#39;Slicing&#39;: La clave del éxito en la impresión 3D</title>
+      <link>//localhost:1313/es/posts/slicing/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
-      <guid>http://localhost:1313/es/posts/google-ads/</guid>
-      <description>Introducción En el mundo actual de las computadoras, es muy fácil encontrar cosas en línea. A menudo utilizamos motores de búsqueda como Google, Bing o DuckDuckGo para ayudarnos a encontrar lo que estamos buscando. Ya sea que queramos visitar un sitio web que conocemos o encontrar algo nuevo, los motores de búsqueda son una parte importante de cómo usamos Internet.&#xA;Pero, ¿qué pasa cuando confiamos demasiado en estos motores de búsqueda?</description>
+      <guid>//localhost:1313/es/posts/slicing/</guid>
+      <description>El &amp;lsquo;Slicing&amp;rsquo;: El héroe desconocido de la impresión 3D El slicing es un paso crucial en el proceso de impresión 3D que a menudo pasa desapercibido, pero juega un papel significativo en el éxito de tus impresiones. En esta publicación, profundizaremos en el mundo del software de slicing, explicando su importancia, características clave y consejos para lograr resultados óptimos.&#xA;¿Qué es el slicing? El slicing es el proceso de convertir un modelo 3D en una serie de capas delgadas que una impresora 3D puede entender y ejecutar.</description>
     </item>
     <item>
-      <title>Extractor de Lsass</title>
-      <link>http://localhost:1313/es/posts/lsass-extractor/</link>
-      <pubDate>Sat, 16 Sep 2023 16:39:49 +0200</pubDate>
-      <guid>http://localhost:1313/es/posts/lsass-extractor/</guid>
-      <description>Introducción En TeamFence, creemos firmemente que hoy en día es cada vez más importante para un operador ofensivo comprender los detalles detrás de las técnicas y herramientas.&#xA;Por esta razón, en esta publicación del blog, profundizaremos en cómo Mimikatz extrae credenciales de los dumps de lsass, lo que nos permitirá reimplementar la lógica en una herramienta adaptada a nuestras necesidades futuras.&#xA;Nota: todos los análisis realizados en este proyecto se han llevado a cabo en una estación de trabajo Windows 11 Enterprise Evaluation.</description>
+      <title>La impresión 3D en gastronomía: una fiesta para los ojos y el paladar</title>
+      <link>//localhost:1313/es/posts/food/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/es/posts/food/</guid>
+      <description>La impresión 3D, a menudo asociada a campos como la ingeniería y la medicina, está sorprendentemente revolucionando el mundo de la gastronomía. Chefs visionarios y entusiastas de la comida están experimentando con esta tecnología para crear platos únicos y sorprendentes que deleitan tanto a la vista como al paladar.&#xA;Platos personalizados: Nutrición a medida Imagina pedir una comida perfectamente adaptada a tus necesidades nutricionales y preferencias, con la forma y la consistencia que deseas.</description>
     </item>
     <item>
-      <title>Awareness</title>
-      <link>http://localhost:1313/es/services/awareness/</link>
+      <title>¿Qué es el Modelado 3D?</title>
+      <link>//localhost:1313/es/services/designing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/services/awareness/</guid>
-      <description>En TeamFence, nuestro enfoque para impartir concienciación sobre seguridad se basa en la creencia en el intercambio de conocimientos y la mejora del personal. Entendemos la importancia de dotar a las personas de las habilidades necesarias y la concienciación para contribuir eficazmente a la seguridad de la organización.</description>
+      <guid>//localhost:1313/es/services/designing/</guid>
+      <description>En Crealab, nuestro servicio de Modelado 3D está diseñado para hacer realidad tus ideas, ya sea que comiences desde cero o necesites replicar un objeto existente. Ofrecemos una solución completa que cubre el desarrollo de conceptos, el diseño detallado y la creación rápida de prototipos, asegurando que tu proyecto se complete con precisión y eficiencia.&#xA;Nuestro equipo trabaja contigo en cada etapa del proceso, desde los bocetos iniciales hasta los diseños 3D detallados que pueden utilizarse para la fabricación o la impresión 3D.</description>
     </item>
     <item>
-      <title>Detalles de CTEM</title>
-      <link>http://localhost:1313/es/ctem-details/</link>
+      <title>About Us</title>
+      <link>//localhost:1313/es/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/ctem-details/</guid>
-      <description>Introducción En el panorama en constante evolución de la ciberseguridad, las organizaciones buscan constantemente las mejores estrategias para proteger sus activos digitales. Dos enfoques prominentes son la Gestión Continua de Exposición a Amenazas (CTEM) y las Pruebas de Penetración. Aunque ambos tienen como objetivo mejorar la seguridad, lo hacen de maneras distintas.&#xA;¿Qué es la Gestión Continua de Exposición a Amenazas (CTEM)? La Gestión Continua de Exposición a Amenazas (CTEM) es un marco proactivo y adaptativo diseñado para gestionar y reducir continuamente la superficie de ataque de una organización.</description>
+      <guid>//localhost:1313/es/about/</guid>
+      <description>Our Vision Our vision is to create a world where cybersecurity awareness is a universal standard, empowering individuals and organizations to protect their digital assets with confidence. As technology advances and cyber threats become increasingly sophisticated, we are committed to staying at the forefront of innovation, providing cutting-edge solutions that anticipate and mitigate risks. We aim to foster a proactive approach to cybersecurity, where education and awareness become integral components of our digital lives.</description>
     </item>
     <item>
-      <title>Sobre Nosotros</title>
-      <link>http://localhost:1313/es/about/</link>
+      <title>Escaneo de Objetos 3D</title>
+      <link>//localhost:1313/es/services/scanning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/about/</guid>
-      <description>Nuestra Visión Nuestra visión es crear un mundo donde la concienciación sobre ciberseguridad sea un estándar universal, empoderando a individuos y organizaciones para proteger sus activos digitales con confianza. A medida que la tecnología avanza y las amenazas cibernéticas se vuelven cada vez más sofisticadas, estamos comprometidos a mantenernos a la vanguardia de la innovación, proporcionando soluciones de vanguardia que anticipen y mitiguen los riesgos. Nuestro objetivo es fomentar un enfoque proactivo hacia la ciberseguridad, donde la educación y la concienciación se conviertan en componentes integrales de nuestras vidas digitales.</description>
+      <guid>//localhost:1313/es/services/scanning/</guid>
+      <description>En Crealab, ofrecemos servicios de escaneo de objetos 3D de última generación para satisfacer las necesidades de diversas industrias, desde la fabricación y la ingeniería hasta el arte y el diseño. Nuestra tecnología es capaz de manejar objetos de todos los tamaños, asegurando modelos digitales precisos para cualquier aplicación.&#xA;Ya sea que estés buscando escanear pequeños componentes para ingeniería de precisión o grandes objetos para archivo digital o replicación, proporcionamos resultados confiables con modelos digitales detallados.</description>
     </item>
     <item>
-      <title>Web Security</title>
-      <link>http://localhost:1313/es/services/websecurity/</link>
+      <title>Servicios de Impresión 3D</title>
+      <link>//localhost:1313/es/services/printing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/services/websecurity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>What is CTEM?</title>
-      <link>http://localhost:1313/es/services/ctemsecurity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/services/ctemsecurity/</guid>
-      <description>La Gestión Continua de la Exposición a Amenazas (CTEM) es un marco proactivo de cinco etapas diseñado para minimizar la exposición a los ciberataques. Ayuda a las organizaciones a identificar y evaluar vulnerabilidades, mapear posibles caminos de ataque, priorizar riesgos y seguir los esfuerzos de remediación.&#xA;Comenzamos comprendiendo sus medidas de seguridad actuales e identificando posibles vulnerabilidades. Este enfoque combina estrategias ofensivas y defensivas (Purple teaming), lo que nos permite identificar y mitigar amenazas de manera más efectiva.</description>
+      <guid>//localhost:1313/es/services/printing/</guid>
+      <description>En TeamFence, nuestros servicios de impresión 3D proporcionan el más alto estándar de calidad y precisión. Con una precisión de impresión que alcanza hasta 0,05 mm y la capacidad de crear objetos únicos de hasta 30 centímetros cúbicos, somos capaces de producir piezas detalladas y personalizadas que cumplen con los estándares más exigentes.&#xA;Ya sea que necesites un solo prototipo o un componente fabricado a medida, nos enfocamos en entregar resultados precisos y confiables que cumplan con tus requisitos específicos.</description>
     </item>
   </channel>
 </rss>

@@ -1,11 +1,152 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Team Fence</title>
-    <link>http://localhost:1313/it/tags/</link>
-    <description>Recent content in Tags on Team Fence</description>
+    <title>Tags on CreaLab</title>
+    <link>//localhost:1313/it/tags/</link>
+    <description>Recent content in Tags on CreaLab</description>
     <generator>Hugo</generator>
-    <language>it-it</language>
-    <atom:link href="http://localhost:1313/it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>it</language>
+    <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applicazioni</title>
+      <link>//localhost:1313/it/tags/applicazioni/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/applicazioni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filamento</title>
+      <link>//localhost:1313/it/tags/filamento/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/filamento/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Materiali</title>
+      <link>//localhost:1313/it/tags/materiali/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/materiali/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metallo</title>
+      <link>//localhost:1313/it/tags/metallo/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/metallo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resina</title>
+      <link>//localhost:1313/it/tags/resina/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/resina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stampa 3D</title>
+      <link>//localhost:1313/it/tags/stampa-3d/</link>
+      <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/stampa-3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bioprinting</title>
+      <link>//localhost:1313/it/tags/bioprinting/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/bioprinting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cibo Del Futuro</title>
+      <link>//localhost:1313/it/tags/cibo-del-futuro/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/cibo-del-futuro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cibo Stampato in 3D</title>
+      <link>//localhost:1313/it/tags/cibo-stampato-in-3d/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/cibo-stampato-in-3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Futuro</title>
+      <link>//localhost:1313/it/tags/futuro/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/futuro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovazione</title>
+      <link>//localhost:1313/it/tags/innovazione/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/innovazione/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovazione Culinaria</title>
+      <link>//localhost:1313/it/tags/innovazione-culinaria/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/innovazione-culinaria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modelli 3D</title>
+      <link>//localhost:1313/it/tags/modelli-3d/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/modelli-3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slicing</title>
+      <link>//localhost:1313/it/tags/slicing/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/slicing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/it/tags/software/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stampa</title>
+      <link>//localhost:1313/it/tags/stampa/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/stampa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stampa 3D in Metallo</title>
+      <link>//localhost:1313/it/tags/stampa-3d-in-metallo/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/stampa-3d-in-metallo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stampa 3D Su Larga Scala</title>
+      <link>//localhost:1313/it/tags/stampa-3d-su-larga-scala/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/stampa-3d-su-larga-scala/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stampa 4D</title>
+      <link>//localhost:1313/it/tags/stampa-4d/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/stampa-4d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tecnologia</title>
+      <link>//localhost:1313/it/tags/tecnologia/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/it/tags/tecnologia/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Services on Team Fence</title>
-    <link>http://localhost:1313/de/services/</link>
-    <description>Recent content in Services on Team Fence</description>
+    <title>Services on CreaLab</title>
+    <link>//localhost:1313/de/services/</link>
+    <description>Recent content in Services on CreaLab</description>
     <generator>Hugo</generator>
-    <language>de-de</language>
-    <atom:link href="http://localhost:1313/de/services/index.xml" rel="self" type="application/rss+xml" />
+    <language>de</language>
+    <atom:link href="//localhost:1313/de/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Awareness</title>
-      <link>http://localhost:1313/de/services/awareness/</link>
+      <title>3D-Druck-Dienstleistungen</title>
+      <link>//localhost:1313/de/services/printing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/de/services/awareness/</guid>
-      <description>Bei TeamFence basiert unser Ansatz zur Bereitstellung von Sicherheitsbewusstsein auf dem Glauben an Wissensaustausch und Personalverbesserung. Wir verstehen, wie wichtig es ist, Einzelpersonen mit den notwendigen Fähigkeiten und dem Bewusstsein auszustatten, um effektiv zur Sicherheit der Organisation beizutragen.</description>
+      <guid>//localhost:1313/de/services/printing/</guid>
+      <description>Bei TeamFence bieten unsere 3D-Druck-Dienstleistungen höchste Qualität und Genauigkeit. Mit einer Druckpräzision von bis zu 0,05 mm und der Möglichkeit, einzigartige Objekte bis zu 30 Kubikzentimetern herzustellen, können wir detaillierte, maßgeschneiderte Teile produzieren, die auch den höchsten Anforderungen gerecht werden.&#xA;Egal, ob Sie einen einzelnen Prototyp oder eine maßgeschneiderte Komponente benötigen, wir legen Wert darauf, präzise und zuverlässige Ergebnisse zu liefern, die Ihren spezifischen Anforderungen entsprechen. Vom Konzept bis zum Endprodukt sorgen wir dafür, dass jeder Druck mit höchster Präzision und Sorgfalt behandelt wird.</description>
     </item>
     <item>
-      <title>Web Security</title>
-      <link>http://localhost:1313/de/services/websecurity/</link>
+      <title>3D-Objekt-Scanning</title>
+      <link>//localhost:1313/de/services/scanning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/de/services/websecurity/</guid>
-      <description></description>
+      <guid>//localhost:1313/de/services/scanning/</guid>
+      <description>Bei Crealab bieten wir hochmoderne 3D-Objekt-Scanning-Dienstleistungen an, um den Bedürfnissen verschiedener Branchen gerecht zu werden, von der Fertigung und Technik bis hin zur Kunst und Design. Unsere Technologie ist in der Lage, Objekte jeder Größe zu scannen und dabei genaue digitale Modelle für jede Anwendung zu erstellen.&#xA;Ob Sie kleine Komponenten für präzises Engineering oder große Objekte für die digitale Archivierung oder Replikation scannen möchten, wir liefern zuverlässige Ergebnisse mit detaillierten digitalen Modellen.</description>
     </item>
     <item>
-      <title>What is CTEM?</title>
-      <link>http://localhost:1313/de/services/ctemsecurity/</link>
+      <title>Was ist 3D-Modellierung?</title>
+      <link>//localhost:1313/de/services/designing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/de/services/ctemsecurity/</guid>
-      <description>Das Continuous Threat Exposure Management (CTEM) ist ein proaktiver Fünf-Stufen-Ansatz, der darauf abzielt, die Exposition gegenüber Cyberangriffen zu minimieren. Es hilft Organisationen dabei, Schwachstellen zu identifizieren und zu bewerten, potenzielle Angriffspfade zu kartieren, Risiken zu priorisieren und die Behebungsmaßnahmen zu verfolgen.&#xA;Wir beginnen damit, Ihre aktuellen Sicherheitsmaßnahmen zu verstehen und potenzielle Schwachstellen zu identifizieren. Dieser Ansatz kombiniert offensive und defensive Strategien (Purple Teaming), wodurch wir Bedrohungen effektiver identifizieren und mindern können.</description>
+      <guid>//localhost:1313/de/services/designing/</guid>
+      <description>Bei Crealab ist unser 3D-Modellierungsdienst darauf ausgelegt, Ihre Ideen in die Realität umzusetzen, egal ob Sie von Grund auf beginnen oder ein bestehendes Objekt replizieren müssen. Wir bieten eine Komplettlösung an, die Konzeptentwicklung, detailliertes Design und schnelles Prototyping abdeckt, sodass Ihr Projekt präzise und effizient abgeschlossen wird.&#xA;Unser Team begleitet Sie durch jeden Schritt des Prozesses, von den ersten Skizzen bis hin zu detaillierten 3D-Entwürfen, die für die Fertigung oder den 3D-Druck verwendet werden können.</description>
     </item>
   </channel>
 </rss>
