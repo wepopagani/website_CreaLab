@@ -1,25 +1,29 @@
-.pb {
-    padding-bottom: 40px;
-}
-.upload-box {
-    border: 2px dashed #ffffff;
-    border-radius: 10px;
-    padding: 50px;
-    color: #ffffff;
+.file-upload-label {
+    display: block;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%; /* Imposta la larghezza massima */
-    height: 250px; /* Altezza fissa, puoi regolarla in base alle tue esigenze */
+}
+
+.upload-placeholder {
+    width: 100%;
+    height: 200px;
+    border: 2px dashed #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
-.upload-box:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+.plus-icon {
+    font-size: 4rem;
+    color: #fff;
 }
 
-.upload-text {
-    font-size: 18px;
-    font-weight: bold;
+.file-input {
+    display: none;
+}
+.form-group {
+margin-bottom: 20px; 
+}
+#file-names {
+margin: 50px; 
 }

@@ -262,72 +262,34 @@
         
         <div class="nk-block nk-block-text-wrap">
             <div class="row align-items-center justify-content-center gutter-vr-30px">
-                
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="nk-block-text text-center">
                         <p class="lead">Carica il tuo file 3D e ricevi un preventivo istantaneo via email entro 24 ore.</p>
+                        
                         <form id="quote-form" action="https://formspree.io/f/xqazjjza" method="POST" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label>
+                                    La tua E-mail:
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </label>
+                            </div>
+                            <br />
                             <div class="form-group">
                                 <label>
                                     Carica qui il tuo file:
                                     <input type="file" id="file-upload" name="upload" accept=".stl,.obj,.3mf" class="form-control" required>
                                 </label>
                             </div>
+                            <br />
+                            <button type="submit" class="btn btn-md btn-grad">Invia &amp; Richiedi un preventivo</button>
                         </form>
-                    </div>
-                </div>
-
-                
-                <div class="col-md-6">
-                    <div class="nk-block-text">
-                        <div class="form-group">
-                            <label for="email">La tua E-mail:</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
                         
-                        <div class="form-group">
-                            <label for="material">Material:</label>
-                            <select id="material" name="material" class="form-control" required>
-                                <option value="plastic">Plastic</option>
-                                <option value="metal">Metal</option>
-                                <option value="ceramic">Ceramic</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="finish">Finish:</label>
-                            <select id="finish" name="finish" class="form-control" required>
-                                <option value="matte">Matte</option>
-                                <option value="glossy">Glossy</option>
-                                <option value="satin">Satin</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="density">Density:</label>
-                            <select id="density" name="density" class="form-control" required>
-                                <option value="low">Low</option>
-                                <option value="medium">Medium</option>
-                                <option value="high">High</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="color">Color:</label>
-                            <select id="color" name="color" class="form-control" required>
-                                <option value="red">Red</option>
-                                <option value="blue">Blue</option>
-                                <option value="green">Green</option>
-                            </select>
-                        </div>
-
-                        <button type="submit" class="btn btn-md btn-grad">Invia &amp; Richiedi un preventivo</button>
+                        <div id="quote-result" style="margin-top: 20px;"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="quote-result" style="margin-top: 20px;"></div>
     <div id="particles-bg-5" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
 </section>
 
@@ -339,7 +301,7 @@
 
         
         if (document.getElementById('file-upload').files.length === 0 || !document.getElementById('email').value) {
-            alert("Please enter your email, select options, and upload a file.");
+            alert("Please enter your email and upload a file.");
             return;
         }
 
@@ -373,6 +335,11 @@
         });
     });
 </script>
+
+
+
+
+
 
 <section class=" bg-theme-dark tc-light ov-h" id="blog">
     <div class="container">
@@ -535,7 +502,7 @@
     </div>
 </section>
 
-<div class="bg-dark ov-h text-white">
+<section class="section bg-theme-dark tc-light ov-h" id="contact">
     <div class="container">
         
         <div class="nk-block nk-block-contact">
@@ -600,8 +567,7 @@
         </div>
     </div>
     <div id="particles-bg-8" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
-
-</div>
+</section>
 
     </main>
     

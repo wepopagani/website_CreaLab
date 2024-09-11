@@ -48,7 +48,7 @@
 - id: quote_title
   translation: GET a QUOTE
 - id: quote_lead
-  translation: Upload your 3D file and get an instant estimate of the cost via email within 24 hours.
+  translation: Upload your 3D file and get an estimate of the cost via email within 24 hours.
 - id: quote_email_label
   translation: Your E-mail
 - id: quote_file_label
