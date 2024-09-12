@@ -46,19 +46,29 @@
   translation: Wir bieten präzise 3D-Scandienstleistungen für Objekte an, die größer als 10 Kubikzentimeter sind.
 #QUOTE
 - id: quote_title
-  translation: Angebot einholen
+  translation: "ANGEBOT EINHOLEN"
 - id: quote_lead
-  translation: Laden Sie Ihre 3D-Datei hoch und erhalten Sie eine sofortige Kostenschätzung per E-Mail innerhalb von 24 Stunden.
+  translation: "Laden Sie Ihre 3D-Datei hoch und erhalten Sie eine Kostenschätzung innerhalb von 24 Stunden per E-Mail."
 - id: quote_email_label
-  translation: Ihre E-Mail
+  translation: "Ihre E-Mail"
 - id: quote_file_label
-  translation: Laden Sie hier Ihre Datei hoch
+  translation: "Laden Sie hier Ihre Datei hoch"
 - id: quote_button
-  translation: Senden & Angebot erhalten
+  translation: "Einreichen & Angebot erhalten"
 - id: quote_alert
-  translation: Bitte geben Sie Ihre E-Mail-Adresse ein und laden Sie eine Datei hoch.
+  translation: "Bitte geben Sie Ihre E-Mail ein und laden Sie eine Datei hoch."
 - id: quote_confirmation
-  translation: Vielen Dank! Sie erhalten innerhalb von 24 Stunden ein Angebot an die angegebene E-Mail-Adresse.
+  translation: "Danke! Sie erhalten innerhalb von 24 Stunden ein Angebot an die angegebene E-Mail-Adresse."
+- id: quote_message
+  translation: "Keine Datei ausgewählt"
+- id: quote_material
+  translation: "Material"
+- id: quote_quality
+  translation: "Qualität"
+- id: quote_infill
+  translation: "Füllung"
+- id: quote_quantity
+  translation: "Menge"
 #BLOG
 - id: blog_btn
   translation: Mehr lesen

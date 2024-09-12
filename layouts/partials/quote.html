@@ -21,13 +21,13 @@
                                         <input type="file" id="file-upload" name="upload[]" accept=".stl,.obj,.3mf" class="file-input" multiple required>
                                     </label>
                                     <!-- Placeholder for showing the file name -->
-                                    <p id="file-names" style="color: white; margin-top: 10px;">No file selected</p>
+                                    <p id="file-names" style="color: white; margin-top: 10px;">{{i18n "quote_message"}}</p>
                                 </div>
                                 <!-- Right side: Select options -->
                                 <div class="col-md-6">
                                     <div class="row">
                                         <div class="col-md-6 form-group">
-                                            <label>Material:
+                                            <label>{{i18n "quote_material"}}:
                                                 <select id="Materiale" name="Materiale" class="form-control">
                                                     <option value="PLA" di>PLA</option>
                                                     <option value="TPU">TPU</option>
@@ -37,7 +37,7 @@
                                             </label>
                                         </div>
                                         <div class="col-md-6 form-group">
-                                            <label>Quality:
+                                            <label>{{i18n "quote_quality"}}:
                                                 <select id="QUALITÁ" name="Qualità" class="form-control">
                                                     <option value="0.2" >Medium (0.2mm)</option>
                                                     <option value="0.25">low (0.25 mm) </option>
@@ -47,7 +47,7 @@
                                             </label>
                                         </div>
                                         <div class="col-md-6 form-group">
-                                            <label>Infill:
+                                            <label>{{i18n "quote_infill"}}:
                                                 <select id="RIEMPIMENTO" name="Riempimento" class="form-control">
                                                     <option value="20%" >Medium (20%)</option>
                                                     <option value="5%">Ultra-Soft (5%)</option>
@@ -59,7 +59,7 @@
                                         </div>
 
                                         <div class="col-md-6 text-center">
-                                            <label>Quantity:</label>
+                                            <label>{{i18n "quote_quantity"}}:</label>
                                             <div class="quantity-selector">
                                                 <input type="number" id="quantity" name="quantity" class="form-control" value="1" min="1" style="width: 80px; display: inline-block; text-align: center;">
                                             </div>

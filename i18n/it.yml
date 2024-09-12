@@ -44,21 +44,31 @@
   translation: Scansione 3D
 - id: services_scanning_description
   translation: Offriamo servizi di scansione 3D precisi per oggetti più grandi di 10 centimetri cubi.
-#QUOTE
+#QUOTE (Italian)
 - id: quote_title
-  translation: Richiedi un preventivo
+  translation: "RICHIEDI UN PREVENTIVO"
 - id: quote_lead
-  translation: Carica il tuo file 3D e ricevi un preventivo istantaneo via email entro 24 ore.
+  translation: "Carica il tuo file 3D e ricevi una stima dei costi via e-mail entro 24 ore."
 - id: quote_email_label
-  translation: La tua E-mail
+  translation: "La tua e-mail"
 - id: quote_file_label
-  translation: Carica qui il tuo file
+  translation: "Carica qui il tuo file"
 - id: quote_button
-  translation: Invia & Richiedi un preventivo
+  translation: "Invia & Richiedi un preventivo"
 - id: quote_alert
-  translation: Inserisci la tua email e carica un file.
+  translation: "Inserisci la tua e-mail e carica un file, per favore."
 - id: quote_confirmation
-  translation: Grazie! Riceverai un preventivo entro 24 ore all'indirizzo email fornito.
+  translation: "Grazie! Riceverai un preventivo entro 24 ore all'e-mail fornita."
+- id: quote_message
+  translation: "Nessun file selezionato"
+- id: quote_material
+  translation: "Materiale"
+- id: quote_quality
+  translation: "Qualità"
+- id: quote_infill
+  translation: "Riempimento"
+- id: quote_quantity
+  translation: "Quantità"
 #BLOG
 - id: blog_btn
   translation: Leggi di più

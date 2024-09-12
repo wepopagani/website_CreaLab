@@ -59,6 +59,16 @@
   translation: Please enter your email and upload a file.
 - id: quote_confirmation
   translation: Thank you! You will receive a quote within 24 hours at the email provided.
+- id: quote_message
+  translation: No file selected
+- id: quote_material
+  translation: Material
+- id: quote_quality
+  translation: Quality
+- id: quote_infill
+  translation: Infill
+- id: quote_quantity
+  translation: Quantity
 #BLOG
 - id: blog_btn
   translation: Read More

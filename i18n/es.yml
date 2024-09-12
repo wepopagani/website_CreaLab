@@ -44,21 +44,31 @@
   translation: Escaneo 3D
 - id: services_scanning_description
   translation: Ofrecemos servicios de escaneo 3D precisos para objetos de más de 10 centímetros cúbicos.
-#QUOTE
+#QUOTE 
 - id: quote_title
-  translation: Solicita una cotización
+  translation: "OBTENER UN PRESUPUESTO"
 - id: quote_lead
-  translation: Sube tu archivo 3D y recibe una estimación instantánea del costo por correo electrónico en un plazo de 24 horas.
+  translation: "Sube tu archivo 3D y obtén una estimación del costo por correo electrónico en 24 horas."
 - id: quote_email_label
-  translation: Tu correo electrónico
+  translation: "Tu correo electrónico"
 - id: quote_file_label
-  translation: Sube tu archivo aquí
+  translation: "Sube tu archivo aquí"
 - id: quote_button
-  translation: Enviar y obtener una cotización
+  translation: "Enviar & Obtener un presupuesto"
 - id: quote_alert
-  translation: Por favor, introduce tu correo electrónico y sube un archivo.
+  translation: "Por favor ingresa tu correo electrónico y sube un archivo."
 - id: quote_confirmation
-  translation: ¡Gracias! Recibirás una cotización en 24 horas en el correo electrónico proporcionado.
+  translation: "¡Gracias! Recibirás un presupuesto en las próximas 24 horas en el correo proporcionado."
+- id: quote_message
+  translation: "Ningún archivo seleccionado"
+- id: quote_material
+  translation: "Material"
+- id: quote_quality
+  translation: "Calidad"
+- id: quote_infill
+  translation: "Relleno"
+- id: quote_quantity
+  translation: "Cantidad"
 #BLOG
 - id: blog_btn
   translation: Leer más

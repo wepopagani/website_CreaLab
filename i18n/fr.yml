@@ -46,17 +46,29 @@
   translation: Nous offrons des services de scannage 3D précis pour des objets de plus de 10 centimètres cubes.
 #QUOTE
 - id: quote_title
-  translation: Demander un devis
+  translation: "OBTENIR UN DEVIS"
 - id: quote_lead
-  translation: Téléchargez votre fichier 3D et obtenez une estimation instantanée du coût par email sous 24 heures.
+  translation: "Téléchargez votre fichier 3D et recevez une estimation du coût par e-mail sous 24 heures."
 - id: quote_email_label
-  translation: Votre e-mail
+  translation: "Votre e-mail"
+- id: quote_file_label
+  translation: "Téléchargez votre fichier ici"
 - id: quote_button
-  translation: Soumettre et obtenir un devis
+  translation: "Soumettre & Obtenir un devis"
 - id: quote_alert
-  translation: Veuillez entrer votre e-mail et télécharger un fichier.
+  translation: "Veuillez entrer votre e-mail et télécharger un fichier."
 - id: quote_confirmation
-  translation: Merci ! Vous recevrez un devis sous 24 heures à l'adresse e-mail fournie.
+  translation: "Merci ! Vous recevrez un devis dans les 24 heures à l'e-mail fourni."
+- id: quote_message
+  translation: "Aucun fichier sélectionné"
+- id: quote_material
+  translation: "Matériau"
+- id: quote_quality
+  translation: "Qualité"
+- id: quote_infill
+  translation: "Remplissage"
+- id: quote_quantity
+  translation: "Quantité"
 #BLOG
 - id: blog_btn
   translation: Lire la suite

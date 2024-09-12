@@ -267,17 +267,67 @@
                         <p class="lead">Sube tu archivo 3D y recibe una estimación instantánea del costo por correo electrónico en un plazo de 24 horas.</p>
                         
                         <form id="quote-form" action="https://formspree.io/f/xqazjjza" method="POST" enctype="multipart/form-data">
-                            <div class="form-group">
-                                <label>
-                                    Tu correo electrónico:
-                                    <input type="email" id="email" name="email" class="form-control" required>
-                                </label>
+                            <div class="row">
+                                
+                                <div class="col-md-6 text-center">
+                                    <label for="file-upload" class="file-upload-label">
+                                        <div class="upload-placeholder">
+                                            <span class="plus-icon">+</span>
+                                        </div>
+                                        <input type="file" id="file-upload" name="upload[]" accept=".stl,.obj,.3mf" class="file-input" multiple required>
+                                    </label>
+                                    
+                                    <p id="file-names" style="color: white; margin-top: 10px;">No file selected</p>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <label>Material:
+                                                <select id="Materiale" name="Materiale" class="form-control">
+                                                    <option value="PLA" di>PLA</option>
+                                                    <option value="TPU">TPU</option>
+                                                    <option value="PETG">PETG</option>
+                                                    <option value="ASA">ASA</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <label>Quality:
+                                                <select id="QUALITÁ" name="Qualità" class="form-control">
+                                                    <option value="0.2" >Medium (0.2mm)</option>
+                                                    <option value="0.25">low (0.25 mm) </option>
+                                                    <option value="0.15">High (0.15 mm)</option>
+                                                    <option value="0.08">TOP (0.08 mm)</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <label>Infill:
+                                                <select id="RIEMPIMENTO" name="Riempimento" class="form-control">
+                                                    <option value="20%" >Medium (20%)</option>
+                                                    <option value="5%">Ultra-Soft (5%)</option>
+                                                    <option value="10%">Soft (10%)</option>
+                                                    <option value="30%">Hard (30%)</option>
+                                                    <option value="40%">Ultra-Hard (40%)</option>
+                                                </select>
+                                            </label>
+                                        </div>
+
+                                        <div class="col-md-6 text-center">
+                                            <label>Quantity:</label>
+                                            <div class="quantity-selector">
+                                                <input type="number" id="quantity" name="quantity" class="form-control" value="1" min="1" style="width: 80px; display: inline-block; text-align: center;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
                             </div>
-                            <br />
+                            
                             <div class="form-group">
-                                <label>
-                                    Sube tu archivo aquí:
-                                    <input type="file" id="file-upload" name="upload" accept=".stl,.obj,.3mf" class="form-control" required>
+                                <label>Tu correo electrónico:
+                                    <input type="email" id="email" name="email" class="form-control" required>
                                 </label>
                             </div>
                             <br />
@@ -294,6 +344,22 @@
 </section>
 
 <script>
+    document.getElementById('file-upload').addEventListener('change', function() {
+        var fileInput = document.getElementById('file-upload');
+        var fileNames = document.getElementById('file-names');
+
+        
+        if (fileInput.files.length > 0) {
+            var names = [];
+            for (var i = 0; i < fileInput.files.length; i++) {
+                names.push(fileInput.files[i].name);
+            }
+            fileNames.textContent = names.join(', ');
+        } else {
+            fileNames.textContent = 'No file selected';
+        }
+    });
+
     document.getElementById('quote-form').addEventListener('submit', function(event) {
         event.preventDefault();
 
@@ -306,6 +372,9 @@
         }
 
         
+        var formData = new FormData(form);
+
+        
         document.getElementById('quote-result').innerHTML = `
             <p>Thank you! You will receive a quote within 24 hours at the email provided.</p>
         `;
@@ -313,7 +382,7 @@
         
         fetch('https://formspree.io/f/xqazjjza', {
             method: 'POST',
-            body: new FormData(form),
+            body: formData,
             headers: {
                 'Accept': 'application/json'
             }
@@ -323,6 +392,7 @@
                     <p>Thank you! Your file was successfully uploaded, and you will receive a quote soon.</p>
                 `;
                 form.reset();  
+                document.getElementById('file-names').textContent = 'No file selected'; 
             } else {
                 document.getElementById('quote-result').innerHTML = `
                     <p>There was an issue with your submission. Please try again.</p>
@@ -335,11 +405,6 @@
         });
     });
 </script>
-
-
-
-
-
 
 <section class=" bg-theme-dark tc-light ov-h" id="blog">
     <div class="container">
