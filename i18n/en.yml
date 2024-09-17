@@ -124,3 +124,10 @@
   translation: submit
 - id: "Contact"
   translation: Contact Us
+#THANKS
+- id: thanks_title
+  translation: THANKS FOR CONTACTING US!
+- id: thanks_1
+  translation: We have received your message.
+- id: thanks_1
+  translation: We'll reach you immediately!

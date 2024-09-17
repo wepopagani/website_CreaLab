@@ -124,3 +124,11 @@
   translation: Senden
 - id: "Contact"
   translation: Kontaktieren Sie uns
+#THANKS
+- id: thanks_title
+  translation: DANKE FÜR IHRE KONTAKTAUFNAHME!
+- id: thanks_1
+  translation: Wir haben Ihre Nachricht erhalten.
+- id: thanks_2
+  translation: Wir werden uns umgehend bei Ihnen melden!
+

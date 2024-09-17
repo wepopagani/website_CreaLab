@@ -124,3 +124,10 @@
   translation: Soumettre
 - id: "Contact"
   translation: Contactez-nous
+#THANKS
+- id: thanks_title
+  translation: MERCI DE NOUS AVOIR CONTACTÉS!
+- id: thanks_1
+  translation: Nous avons bien reçu votre message.
+- id: thanks_2
+  translation: Nous vous contacterons immédiatement !
