@@ -24,6 +24,7 @@
 <body class="nk-body body-wider theme-dark mode-onepage">
 <div class="nk-wrap"><header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
     <div class="header-main">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <div class="header-container container">
         <div class="header-wrap">
             
@@ -72,6 +73,7 @@
                         <li><a href="#contact" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round">
                             <span>Contáctanos</span></a>
                         </li>
+                        
                         
                         <li class="menu-item">
                             <div class="language-switcher language-switcher-s toggle-wrap">
@@ -256,7 +258,7 @@
 
 <section class="section bg-theme-dark tc-light ov-h" id="quote">
     <div class="text-center wide-auto-sm">
-        <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="QUOTE">Solicita una cotización</h2>
+        <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="QUOTE">OBTENER UN PRESUPUESTO</h2>
     </div>
     <div class="container">
         
@@ -264,7 +266,7 @@
             <div class="row align-items-center justify-content-center gutter-vr-30px">
                 <div class="col-md-8">
                     <div class="nk-block-text text-center">
-                        <p class="lead">Sube tu archivo 3D y recibe una estimación instantánea del costo por correo electrónico en un plazo de 24 horas.</p>
+                        <p class="lead">Sube tu archivo 3D y obtén una estimación del costo por correo electrónico en 24 horas.</p>
                         
                         <form id="quote-form" action="https://formspree.io/f/xqazjjza" method="POST" enctype="multipart/form-data">
                             <div class="row">
@@ -277,7 +279,7 @@
                                         <input type="file" id="file-upload" name="upload[]" accept=".stl,.obj,.3mf" class="file-input" multiple required>
                                     </label>
                                     
-                                    <p id="file-names" style="color: white; margin-top: 10px;">No file selected</p>
+                                    <p id="file-names" style="color: white; margin-top: 10px;">Ningún archivo seleccionado</p>
                                 </div>
                                 
                                 <div class="col-md-6">
@@ -293,7 +295,7 @@
                                             </label>
                                         </div>
                                         <div class="col-md-6 form-group">
-                                            <label>Quality:
+                                            <label>Calidad:
                                                 <select id="QUALITÁ" name="Qualità" class="form-control">
                                                     <option value="0.2" >Medium (0.2mm)</option>
                                                     <option value="0.25">low (0.25 mm) </option>
@@ -303,7 +305,7 @@
                                             </label>
                                         </div>
                                         <div class="col-md-6 form-group">
-                                            <label>Infill:
+                                            <label>Relleno:
                                                 <select id="RIEMPIMENTO" name="Riempimento" class="form-control">
                                                     <option value="20%" >Medium (20%)</option>
                                                     <option value="5%">Ultra-Soft (5%)</option>
@@ -315,7 +317,7 @@
                                         </div>
 
                                         <div class="col-md-6 text-center">
-                                            <label>Quantity:</label>
+                                            <label>Cantidad:</label>
                                             <div class="quantity-selector">
                                                 <input type="number" id="quantity" name="quantity" class="form-control" value="1" min="1" style="width: 80px; display: inline-block; text-align: center;">
                                             </div>
@@ -331,7 +333,7 @@
                                 </label>
                             </div>
                             <br />
-                            <button type="submit" class="btn btn-md btn-grad">Enviar y obtener una cotización</button>
+                            <button type="submit" class="btn btn-md btn-grad">Enviar &amp; Obtener un presupuesto</button>
                         </form>
                         
                         <div id="quote-result" style="margin-top: 20px;"></div>
@@ -572,7 +574,7 @@
         
         <div class="nk-block nk-block-contact">
             <div class="section-head text-center wide-auto-sm">
-                <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="CONTACT">Contáctanos</h2>
+                <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1">Contáctanos</h2>
             </div>
             <div class="row justify-content-between align-items-center gutter-vr-50px">
                 <div class="col-lg">
@@ -580,27 +582,31 @@
                         <div class="nk-block-text-head">
                             <p class="animated" data-animate="fadeInUp" data-delay=".2">¿Alguna pregunta? Ponte en contacto con nosotros y te responderemos en breve.</p>
                         </div>
-                        <form id="contact-form" class="contact-form nk-form-submit" action="https://formspree.io/f/mgvwelzz" method="post">                            
+
+                        
+                        <form name="contact" method="POST" data-netlify="true" action="/thanks">
                             <div class="field-item field-item-center animated" data-animate="fadeInUp" data-delay=".6">
-                                <textarea name="contact-name" type="text" class="input-line required"></textarea>
+                                <textarea name="name" class="input-line required"></textarea>
                                 <label class="field-label field-label-line">Tu Nombre</label>
                             </div>
                             <div class="field-item field-item-center animated" data-animate="fadeInUp" data-delay=".6">
-                                <textarea name="contact-name" type="email" class="input-line required"></textarea>
+                                <textarea name="email" type="email" class="input-line required"></textarea>
                                 <label class="field-label field-label-line">Tu Correo Electrónico</label>
                             </div>
                             <div class="field-item field-item-center animated" data-animate="fadeInUp" data-delay=".6">
-                                <textarea name="contact-message" type="message" class="input-line input-line-center input-textarea required"></textarea>
+                                <textarea name="message" class="input-line input-line-center input-textarea required"></textarea>
                                 <label class="field-label field-label-line">Tu Mensaje</label>
                             </div>
 
+                            
                             <input type="text" class="d-none" name="form-anti-honeypot" value="">
                             <div class="field-wrap animated" data-animate="fadeInUp" data-delay=".9">
                                 <button type="submit" class="btn btn-round btn-lg btn-grad">Enviar</button>
                                 <div class="form-results"></div>
                             </div>
-
                         </form>
+                        
+
                     </div>
                 </div>
                 <div class="col-lg-5 text-center order-lg-first">
@@ -633,6 +639,7 @@
     </div>
     <div id="particles-bg-8" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
 </section>
+
 
     </main>
     

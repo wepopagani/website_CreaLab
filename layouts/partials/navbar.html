@@ -1,4 +1,5 @@
 <div class="header-main">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <div class="header-container container">
         <div class="header-wrap">
             <!-- Logo @s -->
@@ -31,6 +32,11 @@
                         <li><a href="#contact" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round">
                             <span>{{ i18n "contact" }}</span></a>
                         </li>
+                       <!--
+                        <li>
+                           <a href="#" data-netlify-identity-button class="btn btn-rg btn-auto text-white-real btn-outline btn-grad on-bg-theme btn-round"></a>
+                       </li>
+                        --> 
                         <!-- Simple Language Switcher -->
                         <li class="menu-item">
                             {{- if site.IsMultiLingual }}

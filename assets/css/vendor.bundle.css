@@ -668,6 +668,10 @@ progress { vertical-align: baseline; }
   color: #cfe2ff !important;
 }
 
+.text-white-real{
+  color: #fff !important;
+}
+
 /* Example for Other Specific Containers */
 body.bg-purple, 
 body .nk-wrap .text-white, 
