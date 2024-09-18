@@ -256,77 +256,122 @@
     </div>
 </section>
 
-<form id="quote-form" name="quote-form" method="POST" data-netlify="true" enctype="multipart/form-data">
-    <input type="hidden" name="form-name" value="quote-form">
+<section class="section bg-theme-dark tc-light ov-h" id="quote">
+    <div class="text-center wide-auto-sm">
+        <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="QUOTE">OBTENIR UN DEVIS</h2>
+    </div>
+    <div class="container">
+        
+        <div class="nk-block nk-block-text-wrap">
+            <div class="row align-items-center justify-content-center gutter-vr-30px">
+                <div class="col-md-8">
+                    <div class="nk-block-text text-center">
+                        <p class="lead">Téléchargez votre fichier 3D et recevez une estimation du coût par e-mail sous 24 heures.</p>
 
-    <div class="row">
-        
-        <div class="col-md-6 text-center">
-            <label for="file-upload" class="file-upload-label">
-                <div class="upload-placeholder">
-                    <span class="plus-icon">+</span>
-                </div>
-                <input type="file" id="file-upload" name="upload[]" accept=".stl,.obj,.3mf" class="file-input" multiple required>
-            </label>
-            
-            <p id="file-names" style="color: white; margin-top: 10px;">Aucun fichier sélectionné</p>
-        </div>
-        
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-md-6 form-group">
-                    <label>Matériau:
-                        <select id="Materiale" name="Materiale" class="form-control">
-                            <option value="PLA">PLA</option>
-                            <option value="TPU">TPU</option>
-                            <option value="PETG">PETG</option>
-                            <option value="ASA">ASA</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="col-md-6 form-group">
-                    <label>Qualité:
-                        <select id="QUALITÁ" name="Qualità" class="form-control">
-                            <option value="0.2">Medium (0.2mm)</option>
-                            <option value="0.25">Low (0.25 mm)</option>
-                            <option value="0.15">High (0.15 mm)</option>
-                            <option value="0.08">TOP (0.08 mm)</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="col-md-6 form-group">
-                    <label>Remplissage:
-                        <select id="RIEMPIMENTO" name="Riempimento" class="form-control">
-                            <option value="20%">Medium (20%)</option>
-                            <option value="5%">Ultra-Soft (5%)</option>
-                            <option value="10%">Soft (10%)</option>
-                            <option value="30%">Hard (30%)</option>
-                            <option value="40%">Ultra-Hard (40%)</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="col-md-6 text-center">
-                    <label>Quantité:</label>
-                    <div class="quantity-selector">
-                        <input type="number" id="quantity" name="quantity" class="form-control" value="1" min="1" style="width: 80px; display: inline-block; text-align: center;">
+                        
+                        <form id="quote-form" name="quote-form" method="POST" data-netlify="true" enctype="multipart/form-data" action="/thanks">
+                            <input type="hidden" name="form-name" value="quote-form">
+
+                            <div class="row">
+                                
+                                <div class="col-md-6 text-center">
+                                    <label for="file-upload" class="file-upload-label">
+                                        <div class="upload-placeholder">
+                                            <span class="plus-icon">+</span>
+                                        </div>
+                                        <input type="file" id="file-upload" name="upload[]" accept=".stl,.obj,.3mf" class="file-input" multiple required>
+                                    </label>
+                                    
+                                    <p id="file-names" style="color: white; margin-top: 10px;">Aucun fichier sélectionné</p>
+                                </div>
+                                
+                                
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <label>Matériau:
+                                                <select id="Materiale" name="Materiale" class="form-control">
+                                                    <option value="PLA">PLA</option>
+                                                    <option value="TPU">TPU</option>
+                                                    <option value="PETG">PETG</option>
+                                                    <option value="ASA">ASA</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <label>Qualité:
+                                                <select id="QUALITÁ" name="Qualità" class="form-control">
+                                                    <option value="0.2">Medium (0.2mm)</option>
+                                                    <option value="0.25">Low (0.25 mm)</option>
+                                                    <option value="0.15">High (0.15 mm)</option>
+                                                    <option value="0.08">TOP (0.08 mm)</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <label>Remplissage:
+                                                <select id="RIEMPIMENTO" name="Riempimento" class="form-control">
+                                                    <option value="20%">Medium (20%)</option>
+                                                    <option value="5%">Ultra-Soft (5%)</option>
+                                                    <option value="10%">Soft (10%)</option>
+                                                    <option value="30%">Hard (30%)</option>
+                                                    <option value="40%">Ultra-Hard (40%)</option>
+                                                </select>
+                                            </label>
+                                        </div>
+
+                                        <div class="col-md-6 text-center">
+                                            <label>Quantité:</label>
+                                            <div class="quantity-selector">
+                                                <input type="number" id="quantity" name="quantity" class="form-control" value="1" min="1" style="width: 80px; display: inline-block; text-align: center;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="form-group">
+                                <label>Votre e-mail:
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </label>
+                            </div>
+                            <br />
+                            <button type="submit" class="btn btn-md btn-grad">Soumettre &amp; Obtenir un devis</button>
+                        </form>
+                        
+                        
+                        <div id="quote-result" style="margin-top: 20px;"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    <div class="form-group">
-        <label>Votre e-mail:
-            <input type="email" id="email" name="email" class="form-control" required>
-        </label>
-    </div>
-    <br />
-    <button type="submit" class="btn btn-md btn-grad">Soumettre &amp; Obtenir un devis</button>
-</form>
 
+    
+    <div id="particles-bg-5" class="particles-container particles-bg" 
+        data-pt-base="#a83232" data-pt-base-op=".7" 
+        data-pt-line="#b84545" data-pt-line-op=".7" 
+        data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+</section>
 
-<div id="quote-result" style="margin-top: 20px;"></div>
+<script>
+    
+    document.getElementById('file-upload').addEventListener('change', function() {
+        var fileInput = document.getElementById('file-upload');
+        var fileNames = document.getElementById('file-names');
+
+        if (fileInput.files.length > 0) {
+            var names = [];
+            for (var i = 0; i < fileInput.files.length; i++) {
+                names.push(fileInput.files[i].name);
+            }
+            fileNames.textContent = names.join(', ');
+        } else {
+            fileNames.textContent = 'No file selected';
+        }
+    });
+</script>
 
 <section class=" bg-theme-dark tc-light ov-h" id="blog">
     <div class="container">

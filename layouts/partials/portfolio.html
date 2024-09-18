@@ -1,0 +1,190 @@
+<section class="section bg-theme-dark tc-light ov-h" id="portfolio">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="section-head text-center wide-auto-sm">
+            <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="PORTFOLIO">PORTFOLIO</h2>
+        </div><!-- .section-head @e -->
+
+        <!-- Portfolio Grid with Arrows -->
+        <div class="nk-block position-relative">
+            <!-- Left Arrow -->
+            <div class="portfolio-arrow left-arrow" id="left-arrow">&#9664;</div>
+            
+            <!-- Portfolio Scrollable Area -->
+            <div class="portfolio-container" id="portfolio-container">
+                <div class="portfolio-wrapper">
+                    <!-- Image 1 -->
+                    <div class="portfolio-item animated" data-animate="fadeInUp" data-delay=".2">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/ironman.png" alt="Image 1" class="img-fluid">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5 class="portfolio-title">IronMan Helmet</h5>
+                        </div>
+                    </div>
+                    <!-- Image 2 -->
+                    <div class="portfolio-item animated" data-animate="fadeInUp" data-delay=".3">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/deadpool.png" alt="Image 2" class="img-fluid">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5 class="portfolio-title">Deadpool Helmet</h5>
+                        </div>
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="portfolio-item animated" data-animate="fadeInUp" data-delay=".4">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/venom.png" alt="Image 3" class="img-fluid">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5 class="portfolio-title">Venom Helmet</h5>
+                        </div>
+                    </div>
+                    <!-- Image 4 -->
+                    <div class="portfolio-item animated" data-animate="fadeInUp" data-delay=".5">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/bp.png" alt="Image 4" class="img-fluid">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5 class="portfolio-title">Black Panther Helmet</h5>
+                        </div>
+                    </div>
+                    <!-- Image 5 -->
+                    <div class="portfolio-item animated" data-animate="fadeInUp" data-delay=".6">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/wolverine.png" alt="Image 5" class="img-fluid">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5 class="portfolio-title">Wolverin Helmet</h5>
+                        </div>
+                    </div>
+                    <!-- Image 6 -->
+                    <div class="portfolio-item animated" data-animate="fadeInUp" data-delay=".6">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/ven.png" alt="Image 5" class="img-fluid">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5 class="portfolio-title">Venom Statuette</h5>
+                        </div>
+                    </div>
+                    <!-- Image t -->
+                    <div class="portfolio-item animated" data-animate="fadeInUp" data-delay=".6">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/cigno.png" alt="Image 5" class="img-fluid">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5 class="portfolio-title">Baloons Swan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Arrow -->
+            <div class="portfolio-arrow right-arrow" id="right-arrow">&#9654;</div>
+        </div>
+        <div id="particles-bg-7" class="particles-container particles-bg" 
+        data-pt-base="#a83232" data-pt-base-op=".7" 
+        data-pt-line="#b84545" data-pt-line-op=".7" 
+        data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+    </div>
+</section>
+
+<!-- CSS per Portfolio con Scrolling -->
+<style>
+    .portfolio-container {
+        overflow-x: scroll;
+        display: flex;
+        scroll-behavior: smooth;
+    }
+
+    .portfolio-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .portfolio-item {
+        min-width: 300px; /* Larghezza minima di ciascun elemento per tenerne tre visibili */
+        margin-right: 15px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+    .portfolio-item:hover {
+        transform: scale(1.05);
+    }
+
+    .portfolio-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+    }
+
+    .portfolio-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 0.3s ease;
+    }
+
+    .portfolio-item:hover .portfolio-overlay {
+        opacity: 1;
+    }
+
+    .portfolio-title {
+        color: #fff;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* Arrows */
+    .portfolio-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .left-arrow {
+        left: -50px;
+    }
+
+    .right-arrow {
+        right: -50px;
+    }
+</style>
+
+<!-- JavaScript per lo Scrolling -->
+<script>
+    const portfolioContainer = document.getElementById('portfolio-container');
+    const leftArrow = document.getElementById('left-arrow');
+    const rightArrow = document.getElementById('right-arrow');
+
+    // Scroll left when the left arrow is clicked
+    leftArrow.addEventListener('click', () => {
+        portfolioContainer.scrollBy({
+            left: -300, // Scorre di 300px a sinistra
+            behavior: 'smooth'
+        });
+    });
+
+    // Scroll right when the right arrow is clicked
+    rightArrow.addEventListener('click', () => {
+        portfolioContainer.scrollBy({
+            left: 300, // Scorre di 300px a destra
+            behavior: 'smooth'
+        });
+    });
+</script>
