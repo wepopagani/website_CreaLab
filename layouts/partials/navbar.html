@@ -1,58 +1,112 @@
 <div class="header-main">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <div class="header-container container">
-        <div class="header-wrap">
-            <!-- Logo @s -->
-            <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
-                <a href="/" class="logo-link">
-                    <img class="logo-dark" src="/images/logo.png" srcset="/images/logo.png" alt="logo">
-                    <img class="logo-light" src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo">
-                </a>
-            </div>
-            <!-- Menu Toggle @s -->
-            <div class="header-nav-toggle">
-                <a href="/" class="navbar-toggle" data-menu-toggle="example-menu-04">
-                    <div class="toggle-line">
-                        <span></span>
-                    </div>
-                </a>
-            </div>
-            <!-- Menu @s -->
-            <div class="header-navbar header-navbar-s1">
-                <nav class="header-menu" id="example-menu-04">
-                    <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
-                        {{ range .Site.Menus.main }}
-                        <li class="menu-item">
-                            <a class="menu-link nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                    <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
-                        <!-- Contact Us Button -->
-                        <li><a href="#contact" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round">
-                            <span>{{ i18n "contact" }}</span></a>
-                        </li>
-                       <!--
-                        <li>
-                           <a href="#" data-netlify-identity-button class="btn btn-rg btn-auto text-white-real btn-outline btn-grad on-bg-theme btn-round"></a>
-                       </li>
-                        --> 
-                        <!-- Simple Language Switcher -->
-                        <li class="menu-item">
-                            {{- if site.IsMultiLingual }}
-                            <div class="language-switcher language-switcher-s toggle-wrap">
-                                <a class="toggle-tigger" href="#">{{ .Page.Language.LanguageName }}</a>
-                                <ul class="toggle-class toggle-drop text-center drop-list drop-list-xs">
-                                    {{ range .Translations }}
-                                    <li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
-                                    {{ end }}
-                                </ul>
-                            </div>
-                            {{ end }}
-                        </li>
-                    </ul>
-                </nav>
-            </div><!-- .header-navbar @e -->
-        </div>
-    </div>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <div class="header-container container">
+      <div class="header-wrap">
+          <!-- Logo @s -->
+          <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+              <a href="/" class="logo-link">
+                  <img class="logo-dark" src="/images/logo.png" srcset="/images/logo.png" alt="logo">
+                  <img class="logo-light" src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo">
+              </a>
+          </div>
+          <!-- Menu Toggle @s -->
+          <div class="header-nav-toggle">
+              <a href="/" class="navbar-toggle" data-menu-toggle="example-menu-04">
+                  <div class="toggle-line">
+                      <span></span>
+                  </div>
+              </a>
+          </div>
+          <!-- Menu @s -->
+          <div class="header-navbar header-navbar-s1">
+              <nav class="header-menu" id="example-menu-04">
+                  <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
+                      {{ range .Site.Menus.main }}
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                      </li>
+                      {{ end }}
+                  </ul>
+                  <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
+                      <!-- Contact Us Button -->
+                      <li>
+                          <a href="#contact" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round">
+                              <span>{{ i18n "contact" }}</span>
+                          </a>
+                      </li>
+                     
+                      <!-- Sign In / Sign Out Button -->
+                      <li>
+                          <a href="#" id="auth-button" class="btn btn-rg btn-auto text-white-real btn-outline btn-grad on-bg-theme btn-round">
+                              Sign In
+                          </a>
+                      </li>
+                      
+                      <!-- Simple Language Switcher -->
+                      <li class="menu-item">
+                          {{- if site.IsMultiLingual }}
+                          <div class="language-switcher language-switcher-s toggle-wrap">
+                              <a class="toggle-tigger" href="#">{{ .Page.Language.LanguageName }}</a>
+                              <ul class="toggle-class toggle-drop text-center drop-list drop-list-xs">
+                                  {{ range .Translations }}
+                                  <li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+                                  {{ end }}
+                              </ul>
+                          </div>
+                          {{ end }}
+                      </li>
+                  </ul>
+              </nav>
+          </div><!-- .header-navbar @e -->
+      </div>
+  </div>
 </div><!-- .header-main @e -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.netlifyIdentity) {
+    initNetlifyIdentity();
+  } else {
+    document.addEventListener('netlifyIdentityWidgetReady', initNetlifyIdentity);
+  }
+
+  function initNetlifyIdentity() {
+    // Initialize the widget and update the button based on the user's login status
+    window.netlifyIdentity.on("init", user => {
+      updateAuthButton(user);
+    });
+
+    // When the user logs in, change the button to "Sign Out" and redirect to dashboard
+    window.netlifyIdentity.on("login", user => {
+      updateAuthButton(user);
+      if (user) {
+        window.location.href = "/dashboard";  // Redirect to dashboard after login
+      }
+    });
+
+    // When the user logs out, change the button back to "Sign In" and redirect to homepage
+    window.netlifyIdentity.on("logout", () => {
+      updateAuthButton(null);
+      window.location.href = "/";  // Redirect to homepage after logout
+    });
+
+    // Function to update the Sign In / Sign Out button based on user state
+    function updateAuthButton(user) {
+      const authButton = document.getElementById('auth-button');
+      if (authButton) {
+        if (user) {
+          authButton.innerHTML = "Sign Out";
+          authButton.onclick = () => {
+            window.netlifyIdentity.logout();
+          };
+        } else {
+          authButton.innerHTML = "Sign In";
+          authButton.onclick = () => {
+            window.netlifyIdentity.open();
+          };
+        }
+      }
+    }
+  }
+});
+</script>

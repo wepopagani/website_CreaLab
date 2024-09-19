@@ -13,7 +13,7 @@
       <link>//localhost:1313/posts/slicing/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>//localhost:1313/posts/slicing/</guid>
-      <description>Slicing: The Unsung Hero of 3D Printing Slicing is a crucial step in the 3D printing process that often goes unnoticed but plays a significant role in the success of your prints. In this post, we&amp;rsquo;ll delve into the world of slicing software, explaining its importance, key features, and tips for achieving optimal results.&#xA;What is Slicing? Slicing is the process of converting a 3D model into a series of thin layers that a 3D printer can understand and execute.</description>
+      <description>&lt;p&gt;Slicing: The Unsung Hero of 3D Printing&#xA;Slicing is a crucial step in the 3D printing process that often goes unnoticed but plays a significant role in the success of your prints. In this post, we&amp;rsquo;ll delve into the world of slicing software, explaining its importance, key features, and tips for achieving optimal results.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-slicing&#34;&gt;What is Slicing?&lt;/h2&gt;&#xA;&lt;p&gt;Slicing is the process of converting a 3D model into a series of thin layers that a 3D printer can understand and execute.  Specialized software, known as slicers, analyzes the 3D model and generates G-code instructions, which tell the printer how to move, where to deposit material, and at what temperature to operate.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

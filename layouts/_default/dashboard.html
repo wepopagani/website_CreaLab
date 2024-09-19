@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+{{- partial "head.html" . -}}
+<body class="nk-body body-wider theme-dark mode-onepage">
+<div class="nk-wrap">
+    <!-- Header -->
+    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+        {{- partial "navbar.html" . -}}
+        <div class="header-banner bg-theme-grad">
+            <div class="nk-banner">
+                <div class="banner banner-page">
+                    <!-- User Info -->
+                    <div class="container">
+                        <h1 class="title title-xl tc-light">Dashboard</h1>
+                        <h3 id="user-name" class="subtitle tc-light">Welcome, User</h3>
+                    </div>
+                </div>
+            </div><!-- .nk-banner -->
+            <div class="nk-ovm shape-a-sm"></div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="nk-pages">
+        <div class="container">
+            <div class="row">
+                <!-- Sidebar -->
+                <aside class="col-lg-3">
+                    <div class="nk-block nk-block-side bg-theme-dark-alt tc-light">
+                        <ul class="sidebar-menu">
+                            <li><a href="/dashboard/overview">Overview</a></li>
+                            <li><a href="/dashboard/settings">Settings</a></li>
+                            <li><a href="/dashboard/orders">Orders</a></li>
+                            <li><a href="#" id="logout-button">Logout</a></li>
+                        </ul>
+                    </div>
+                </aside>
+                
+                <!-- Main Dashboard Area -->
+                <section class="col-lg-9">
+                    <div class="nk-block nk-block-blog bg-theme-dark-alt tc-light">
+                        <h2 class="title">Your Content</h2>
+                        <p>Here you can show your content dynamically.</p>
+                        
+                        <!-- Example Blog Entries (or dynamic content) -->
+                        <div class="row">
+                            {{ range .Pages }}
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="blog">
+                                    <div class="blog-photo">
+                                        <div class="img-wrapper-home">
+                                            <div class="box box1">
+                                                <img src="{{ .Params.image }}" alt="blog-thumb">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog-text">
+                                        <h4 class="title title-sm"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                                        <p>{{ slicestr .Summary 0 100 }}...</p>
+                                    </div>
+                                </div><!-- .blog -->
+                            </div><!-- .col -->
+                            {{ end }}
+                        </div><!-- .row -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Preloader -->
+    <div class="preloader preloader-alt no-split">
+        <span class="spinner spinner-alt">
+            <img class="spinner-brand" src="/images/logo-white.png" alt="">
+        </span>
+    </div>
+
+    <!-- Footer and JS -->
+    {{- partial "javascript.html" . -}}
+    {{- partial "footer.html" . -}}
+</div>
+
+<!-- Netlify Identity Script for User Info and Logout -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (window.netlifyIdentity) {
+            // When the user is logged in, update the user name
+            window.netlifyIdentity.on("init", user => {
+                if (user) {
+                    updateUserName(user);
+                }
+            });
+
+            window.netlifyIdentity.on("login", user => {
+                updateUserName(user);
+                window.location.href = "/dashboard";  // Redirect to dashboard after login
+            });
+
+            window.netlifyIdentity.on("logout", () => {
+                window.location.href = "/";  // Redirect to homepage after logout
+            });
+
+            // Update the user name in the header
+            function updateUserName(user) {
+                const userNameElement = document.getElementById('user-name');
+                userNameElement.innerHTML = `Welcome, ${user.user_metadata.full_name}`;
+            }
+
+            // Logout button functionality
+            const logoutButton = document.getElementById('logout-button');
+            if (logoutButton) {
+                logoutButton.addEventListener("click", function () {
+                    window.netlifyIdentity.logout();
+                });
+            }
+        }
+    });
+</script>
+</body>
+</html>

@@ -13,42 +13,49 @@
       <link>//localhost:1313/posts/materials/</link>
       <pubDate>Mon, 29 Jul 2024 17:04:31 +0200</pubDate>
       <guid>//localhost:1313/posts/materials/</guid>
-      <description>3D printing is revolutionizing industries and transforming the way we create objects. A crucial aspect of this technology is the wide range of materials available, each with unique properties and applications. In this guide, we&amp;rsquo;ll explore the most common 3D printing materials and their uses.&#xA;Thermoplastics: Versatile and Widely Used Thermoplastics, available in filament form, are the most common materials for 3D printing. They are heated to a molten state, extruded through a nozzle, and then solidify as they cool.</description>
+      <description>&lt;p&gt;3D printing is revolutionizing industries and transforming the way we create objects. A crucial aspect of this technology is the wide range of materials available, each with unique properties and applications. In this guide, we&amp;rsquo;ll explore the most common 3D printing materials and their uses.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thermoplastics-versatile-and-widely-used&#34;&gt;Thermoplastics: Versatile and Widely Used&lt;/h2&gt;&#xA;&lt;p&gt;Thermoplastics, available in filament form, are the most common materials for 3D printing. They are heated to a molten state, extruded through a nozzle, and then solidify as they cool.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D Printing in Gastronomy: A Feast for the Eyes and the Palate</title>
       <link>//localhost:1313/posts/food/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>//localhost:1313/posts/food/</guid>
-      <description>3D printing, often associated with fields like engineering and medicine, is surprisingly revolutionizing the world of gastronomy. Visionary chefs and food enthusiasts are experimenting with this technology to create unique and surprising dishes that delight both the eyes and the palate.&#xA;Personalized Dishes: Tailored Nutrition Imagine ordering a meal perfectly tailored to your specific nutritional needs and preferences, with the shape and consistency you desire. 3D printing makes it possible! This technology opens up new possibilities for personalized nutrition, enabling the creation of tailor-made diets to improve health and well-being.</description>
+      <description>&lt;p&gt;3D printing, often associated with fields like engineering and medicine, is surprisingly revolutionizing the world of gastronomy. Visionary chefs and food enthusiasts are experimenting with this technology to create unique and surprising dishes that delight both the eyes and the palate.&lt;/p&gt;&#xA;&lt;h2 id=&#34;personalized-dishes-tailored-nutrition&#34;&gt;Personalized Dishes: Tailored Nutrition&lt;/h2&gt;&#xA;&lt;p&gt;Imagine ordering a meal perfectly tailored to your specific nutritional needs and preferences, with the shape and consistency you desire. 3D printing makes it possible! This technology opens up new possibilities for personalized nutrition, enabling the creation of tailor-made diets to improve health and well-being.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Slicing: The Key to Successful 3D Printing</title>
       <link>//localhost:1313/posts/slicing/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>//localhost:1313/posts/slicing/</guid>
-      <description>Slicing: The Unsung Hero of 3D Printing Slicing is a crucial step in the 3D printing process that often goes unnoticed but plays a significant role in the success of your prints. In this post, we&amp;rsquo;ll delve into the world of slicing software, explaining its importance, key features, and tips for achieving optimal results.&#xA;What is Slicing? Slicing is the process of converting a 3D model into a series of thin layers that a 3D printer can understand and execute.</description>
+      <description>&lt;p&gt;Slicing: The Unsung Hero of 3D Printing&#xA;Slicing is a crucial step in the 3D printing process that often goes unnoticed but plays a significant role in the success of your prints. In this post, we&amp;rsquo;ll delve into the world of slicing software, explaining its importance, key features, and tips for achieving optimal results.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-slicing&#34;&gt;What is Slicing?&lt;/h2&gt;&#xA;&lt;p&gt;Slicing is the process of converting a 3D model into a series of thin layers that a 3D printer can understand and execute.  Specialized software, known as slicers, analyzes the 3D model and generates G-code instructions, which tell the printer how to move, where to deposit material, and at what temperature to operate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D Object Scanning</title>
       <link>//localhost:1313/services/scanning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/services/scanning/</guid>
-      <description>At Crealab, we offer state-of-the-art 3D object scanning services to meet the needs of various industries, from manufacturing and engineering to art and design. Our technology is capable of handling objects of all sizes, ensuring accurate digital models for any application.&#xA;Whether you&amp;rsquo;re looking to scan small components for precision engineering or large objects for digital archiving or replication, we provide reliable results with detailed digital models. Our scanning process is non-invasive and quick, making it a flexible solution for projects of any scale.</description>
+      <description>&lt;p&gt;At &lt;strong&gt;Crealab&lt;/strong&gt;, we offer state-of-the-art 3D object scanning services to meet the needs of various industries, from manufacturing and engineering to art and design. Our technology is capable of handling objects of all sizes, ensuring accurate digital models for any application.&lt;/p&gt;&#xA;&lt;p&gt;Whether you&amp;rsquo;re looking to scan small components for precision engineering or large objects for digital archiving or replication, we provide reliable results with detailed digital models. Our scanning process is non-invasive and quick, making it a flexible solution for projects of any scale.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D Printing Services</title>
       <link>//localhost:1313/services/printing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/services/printing/</guid>
-      <description>At TeamFence, our 3D printing services provide the highest standard of quality and accuracy. With printing precision reaching as fine as 0.05 mm, and the ability to create unique objects up to 30 cubic centimeters, we are capable of producing detailed, custom parts that meet even the most exacting standards.&#xA;Whether you need a single prototype or a custom-manufactured component, we focus on delivering precise, reliable results that meet your specific requirements.</description>
+      <description>&lt;p&gt;At &lt;strong&gt;TeamFence&lt;/strong&gt;, our 3D printing services provide the highest standard of quality and accuracy. With printing precision reaching as fine as 0.05 mm, and the ability to create unique objects up to 30 cubic centimeters, we are capable of producing detailed, custom parts that meet even the most exacting standards.&lt;/p&gt;&#xA;&lt;p&gt;Whether you need a single prototype or a custom-manufactured component, we focus on delivering precise, reliable results that meet your specific requirements. From concept to final product, we ensure every print is handled with precision and care.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Us</title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>Our Vision Our vision is to create a world where cybersecurity awareness is a universal standard, empowering individuals and organizations to protect their digital assets with confidence. As technology advances and cyber threats become increasingly sophisticated, we are committed to staying at the forefront of innovation, providing cutting-edge solutions that anticipate and mitigate risks. We aim to foster a proactive approach to cybersecurity, where education and awareness become integral components of our digital lives.</description>
+      <description>&lt;h2 id=&#34;our-vision&#34;&gt;Our Vision&lt;/h2&gt;&#xA;&lt;p&gt;Our vision is to create a world where cybersecurity awareness is a universal standard, empowering individuals and organizations to protect their digital assets with confidence. As technology advances and cyber threats become increasingly sophisticated, we are committed to staying at the forefront of innovation, providing cutting-edge solutions that anticipate and mitigate risks. We aim to foster a proactive approach to cybersecurity, where education and awareness become integral components of our digital lives. By building a collaborative community, we strive to create a secure and resilient digital ecosystem for future generations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dashboard</title>
+      <link>//localhost:1313/dashbaord/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/dashbaord/</guid>
+      <description></description>
     </item>
     <item>
       <title>THANK YOU!</title>
@@ -62,7 +69,7 @@
       <link>//localhost:1313/services/designing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/services/designing/</guid>
-      <description>At Crealab, our 3D Modeling service is designed to turn your ideas into reality, whether you’re starting from scratch or need to replicate an existing object. We offer a full-service solution that covers concept development, detailed design, and rapid prototyping, ensuring your project is completed with precision and efficiency.&#xA;Our team works with you through every stage of the process, from initial sketches to detailed 3D designs that can be used for manufacturing or 3D printing.</description>
+      <description>&lt;p&gt;At &lt;strong&gt;Crealab&lt;/strong&gt;, our 3D Modeling service is designed to turn your ideas into reality, whether you’re starting from scratch or need to replicate an existing object. We offer a full-service solution that covers concept development, detailed design, and rapid prototyping, ensuring your project is completed with precision and efficiency.&lt;/p&gt;&#xA;&lt;p&gt;Our team works with you through every stage of the process, from initial sketches to detailed 3D designs that can be used for manufacturing or 3D printing. Whether it’s a unique piece or an exact replica, our technology and expertise allow for unparalleled accuracy and flexibility in design.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

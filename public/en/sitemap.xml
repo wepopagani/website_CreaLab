@@ -453,6 +453,8 @@
                 href="//localhost:1313/categories/"
                 />
   </url><url>
+    <loc>//localhost:1313/dashbaord/</loc>
+  </url><url>
     <loc>//localhost:1313/services/</loc>
     <xhtml:link
                 rel="alternate"

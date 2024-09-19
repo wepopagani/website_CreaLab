@@ -13,7 +13,7 @@
       <link>//localhost:1313/it/posts/slicing/</link>
       <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
       <guid>//localhost:1313/it/posts/slicing/</guid>
-      <description>Slicing: L&amp;rsquo;eroe sconosciuto della stampa 3D Lo slicing è un passaggio fondamentale nel processo di stampa 3D che spesso passa inosservato, ma gioca un ruolo importante nel successo delle tue stampe. In questo post, approfondiremo il mondo del software di slicing, spiegandone l&amp;rsquo;importanza, le caratteristiche chiave e fornendo suggerimenti per ottenere risultati ottimali.&#xA;Cos&amp;rsquo;è lo slicing? Lo slicing è il processo di conversione di un modello 3D in una serie di sottili strati che una stampante 3D può comprendere ed eseguire.</description>
+      <description>&lt;p&gt;Slicing: L&amp;rsquo;eroe sconosciuto della stampa 3D&#xA;Lo slicing è un passaggio fondamentale nel processo di stampa 3D che spesso passa inosservato, ma gioca un ruolo importante nel successo delle tue stampe. In questo post, approfondiremo il mondo del software di slicing, spiegandone l&amp;rsquo;importanza, le caratteristiche chiave e fornendo suggerimenti per ottenere risultati ottimali.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cosè-lo-slicing&#34;&gt;Cos&amp;rsquo;è lo slicing?&lt;/h2&gt;&#xA;&lt;p&gt;Lo slicing è il processo di conversione di un modello 3D in una serie di sottili strati che una stampante 3D può comprendere ed eseguire. Il software specializzato, noto come slicer, analizza il modello 3D e genera istruzioni G-code, che indicano alla stampante come muoversi, dove depositare il materiale e a quale temperatura operare.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
