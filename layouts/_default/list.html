@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="zxx" class="js">
 {{- partial "head.html" . -}}
-<body class="nk-body body-wider theme-dark mode-onepage">
+<body class="nk-body body-wider bg-theme-dark mode-onepage">
 <div class="nk-wrap">
     <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
-        <!-- Header @s -->
-        {{- partial "navbar.html" . -}}
         <!-- Banner @s -->
-        <div class="header-banner bg-theme-grad">
-            <div class="nk-banner">
-                <div class="banner banner-page">
-                </div>
-            </div><!-- .nk-banner -->
-            <div class="nk-ovm shape-a-sm"></div>
-        </div>
+        {{- partial "navbar.html" . -}}
+
+
         <!-- .header-banner @e -->
     </header>
+    
     <main class="nk-pages">
-        <section class="section bg-theme-dark-alt tc-light" id="services">
+        <section class="section bg-theme-dark tc-light" id="services">
             <div class="container">
+                <div class="section-head text-center wide-auto-sm">
+                    <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="POSTS">POSTS</h2>
+                </div><!-- .section-head @e -->
                 <div class="nk-block nk-block-blog ">
                     <div class="row">
                         {{ range .Pages }}
@@ -64,16 +62,22 @@
                     </nav>
                     -->
                 </div><!-- .nk-block -->
+                <div id="particles-bg-8" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+
             </div><!-- .container -->
+
         </section><!-- .section -->
     </main><!-- .nk-pages -->
     <!-- Preloader -->
     <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand"
                                                                                          src="/images/logo-white.png"
                                                                                          alt=""></span></div>
-    <!-- JavaScript -->
+    
+                                                                                         <!-- JavaScript -->
     {{- partial "javascript.html" . -}}
     {{- partial "footer.html" . -}}
+
 </div>
+
 </body>
 </html>
