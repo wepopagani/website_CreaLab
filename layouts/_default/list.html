@@ -48,11 +48,6 @@
                                         {{ end }}
                                     </ul>
                                     <h4 class="title title-sm"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                                    {{ if gt (len .Summary) 100 }}
-                                    <p>{{slicestr .Summary 0 100}}...</p>
-                                    {{ else }}
-                                    <p>{{slicestr .Summary}}...</p>
-                                    {{ end }}
                                 </div>
                             </div><!-- .blog -->
                         </div><!-- .col -->

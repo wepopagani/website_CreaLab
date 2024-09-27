@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/it/tags/applicazioni/</loc>
-    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/it/</loc>
-    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -32,6 +29,198 @@
                 hreflang="it"
                 href="//localhost:1313/it/"
                 />
+  </url><url>
+    <loc>//localhost:1313/it/tags/creativit%C3%A0/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/it/tags/cults3d/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/cults3d/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/tags/cults3d/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/tags/cults3d/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/tags/cults3d/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/tags/cults3d/"
+                />
+  </url><url>
+    <loc>//localhost:1313/it/tags/download-modelli/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/it/posts/websites/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/posts/websites/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/posts/websites/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/posts/websites/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/posts/websites/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/posts/websites/"
+                />
+  </url><url>
+    <loc>//localhost:1313/it/tags/modellazione-3d/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/it/tags/modelli-3d/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/it/posts/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/posts/"
+                />
+  </url><url>
+    <loc>//localhost:1313/it/tags/printables/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/printables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/tags/printables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/tags/printables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/tags/printables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/tags/printables/"
+                />
+  </url><url>
+    <loc>//localhost:1313/it/tags/prototipazione/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/it/tags/stampa-3d/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/it/tags/stampa-3d-gratis/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/it/tags/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/it/tags/thingiverse/</loc>
+    <lastmod>2024-09-27T17:04:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/thingiverse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/tags/thingiverse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/tags/thingiverse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/tags/thingiverse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/tags/thingiverse/"
+                />
+  </url><url>
+    <loc>//localhost:1313/it/tags/applicazioni/</loc>
+    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/it/tags/filamento/</loc>
     <lastmod>2024-07-29T17:04:31+02:00</lastmod>
@@ -80,34 +269,6 @@
     <loc>//localhost:1313/it/tags/metallo/</loc>
     <lastmod>2024-07-29T17:04:31+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/it/posts/</loc>
-    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="//localhost:1313/de/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/es/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/it/posts/"
-                />
-  </url><url>
     <loc>//localhost:1313/it/tags/resina/</loc>
     <lastmod>2024-07-29T17:04:31+02:00</lastmod>
     <xhtml:link
@@ -119,37 +280,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="//localhost:1313/it/tags/resina/"
-                />
-  </url><url>
-    <loc>//localhost:1313/it/tags/stampa-3d/</loc>
-    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/tags/</loc>
-    <lastmod>2024-07-29T17:04:31+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="//localhost:1313/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/it/tags/"
                 />
   </url><url>
     <loc>//localhost:1313/it/tags/bioprinting/</loc>
@@ -232,9 +362,6 @@
                 hreflang="it"
                 href="//localhost:1313/it/posts/food/"
                 />
-  </url><url>
-    <loc>//localhost:1313/it/tags/modelli-3d/</loc>
-    <lastmod>2024-04-11T17:04:31+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/it/tags/slicing/</loc>
     <lastmod>2024-04-11T17:04:31+02:00</lastmod>

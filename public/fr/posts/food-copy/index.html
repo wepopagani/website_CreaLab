@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    
+    <link rel="shortcut icon" href="/images/fav.png">
+    
+    <title>CreaLab</title>
+    
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href='/css/vendor.bundle.min.css?ver=210'>
+    <link rel="stylesheet" href='/css/style-lungwort.min.css?ver=210'>
+    
+    <link rel="stylesheet" href='/css/theme.min.css?ver=210'>
+    <link rel="stylesheet" href='/css/custom.min.css?ver=210'>
+</head>
+<body class="nk-body body-wider theme-dark mode-onepage"> 
+<div class="nk-wrap">
+    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header"> 
+        <div class="header-main">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <div class="header-container container">
+      <div class="header-wrap">
+          
+          <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+              <a href="/" class="logo-link">
+                  <img class="logo-dark" src="/images/logo.png" srcset="/images/logo.png" alt="logo">
+                  <img class="logo-light" src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo">
+              </a>
+          </div>
+          
+          <div class="header-nav-toggle">
+              <a href="/" class="navbar-toggle" data-menu-toggle="example-menu-04">
+                  <div class="toggle-line">
+                      <span></span>
+                  </div>
+              </a>
+          </div>
+          
+          <div class="header-navbar header-navbar-s1">
+              <nav class="header-menu" id="example-menu-04">
+                  <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/fr/#header">Accueil</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/fr/#services">Services</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/fr/#quote">Devis</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/fr/#blog">Blog</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/fr/#faqs">FAQs</a>
+                      </li>
+                      
+                  </ul>
+                  <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
+                      
+                      <li>
+                          <a href="#contact" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round">
+                              <span>Contactez-nous</span>
+                          </a>
+                      </li>
+                     
+                      
+                      <li>
+                          <a href="#" id="auth-button" class="btn btn-rg btn-auto text-white-real btn-outline btn-grad on-bg-theme btn-round">
+                              Sign In
+                          </a>
+                      </li>
+                      
+                      
+                      <li class="menu-item">
+                          <div class="language-switcher language-switcher-s toggle-wrap">
+                              <a class="toggle-tigger" href="#">Français</a>
+                              <ul class="toggle-class toggle-drop text-center drop-list drop-list-xs">
+                                  
+                              </ul>
+                          </div>
+                          
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.netlifyIdentity) {
+    initNetlifyIdentity();
+  } else {
+    document.addEventListener('netlifyIdentityWidgetReady', initNetlifyIdentity);
+  }
+
+  function initNetlifyIdentity() {
+    
+    window.netlifyIdentity.on("init", user => {
+      updateAuthButton(user);
+    });
+
+    
+    window.netlifyIdentity.on("login", user => {
+      updateAuthButton(user);
+      if (user) {
+        window.location.href = "/dashboard";  
+      }
+    });
+
+    
+    window.netlifyIdentity.on("logout", () => {
+      updateAuthButton(null);
+      window.location.href = "/";  
+    });
+
+    
+    function updateAuthButton(user) {
+      const authButton = document.getElementById('auth-button');
+      if (authButton) {
+        if (user) {
+          authButton.innerHTML = "Sign Out";
+          authButton.onclick = () => {
+            window.netlifyIdentity.logout();
+          };
+        } else {
+          authButton.innerHTML = "Sign In";
+          authButton.onclick = () => {
+            window.netlifyIdentity.open();
+          };
+        }
+      }
+    }
+  }
+});
+</script>
+
+            
+            <div class="header-banner bg-theme-dark">
+                <div class="nk-banner">
+                    <div class="banner banner-page">
+                        <div class="banner-wrap">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-6 col-lg-9">
+                                        <div class="banner-caption cpn tc-light text-center">
+                                            <div class="cpn-head">
+                                                <h2 class="title ttu">Impression 3D en gastronomie : un festin pour les yeux et le palais</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-ovm shape-a-sm"></div>
+                <div id="particles-bg-1" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+
+            </div>
+            
+        
+    </header>
+    <main class="nk-pages">
+        <section class="section section-about bg-dark text-white">
+            <div class="container" style="margin-top: -50px">
+                <div class="nk-block nk-block-blog">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="blog-details">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8 col-lg-10">
+                                        <ul class="blog-meta">
+                                            <li><a href="#">April 11, 2024</a></li>
+                                            <li><a href="#">2  minutes  read</a></li>
+                                        </ul>
+                                        <div class="news-thumb">
+                                             <img class="w-100 pb" src="/posts/food/static/food.png" alt="image">
+                                        </div>
+                                        <div class="blog-content">
+                       
+                                            <div> 
+                                                <p>L&rsquo;impression 3D, souvent associée à des domaines comme l&rsquo;ingénierie et la médecine, révolutionne de manière surprenante le monde de la gastronomie. Des chefs visionnaires et des passionnés de cuisine expérimentent cette technologie pour créer des plats uniques et surprenants qui ravissent à la fois les yeux et le palais.</p>
+<h2 id="plats-personnalisés--nutrition-sur-mesure">Plats personnalisés : nutrition sur mesure</h2>
+<p>Imaginez commander un repas parfaitement adapté à vos besoins nutritionnels spécifiques et à vos préférences, avec la forme et la consistance souhaitées. L&rsquo;impression 3D le rend possible ! Cette technologie ouvre de nouvelles possibilités pour la nutrition personnalisée, permettant la création de régimes sur mesure pour améliorer la santé et le bien-être.</p>
+<h2 id="formes-et-structures-complexes--lart-dans-lassiette">Formes et structures complexes : l&rsquo;art dans l&rsquo;assiette</h2>
+<p>Avec l&rsquo;impression 3D, les chefs peuvent libérer leur créativité et concevoir des formes géométriques complexes, des structures délicates et des détails étonnants, impossibles à réaliser avec des techniques traditionnelles. La nourriture devient une toile pour l&rsquo;art culinaire, transformant chaque plat en une œuvre d&rsquo;art comestible.</p>
+<h2 id="expérimentation-avec-de-nouveaux-ingrédients--un-monde-de-saveurs-à-explorer">Expérimentation avec de nouveaux ingrédients : un monde de saveurs à explorer</h2>
+<p>L&rsquo;impression 3D ne se limite pas à reproduire des formes existantes ; elle permet également d&rsquo;expérimenter de nouveaux ingrédients et des combinaisons de saveurs. Des ingrédients inhabituels comme les algues, les insectes comestibles ou même les cellules végétales peuvent être utilisés pour créer des plats innovants et surprenants. L&rsquo;impression 3D ouvre un monde de possibilités pour découvrir de nouvelles saveurs et textures.</p>
+<h2 id="production-alimentaire-de-masse--efficacité-et-personnalisation">Production alimentaire de masse : efficacité et personnalisation</h2>
+<p>L&rsquo;impression 3D pourrait révolutionner l&rsquo;industrie alimentaire en permettant la production de masse d&rsquo;aliments avec des formes et des textures personnalisées. Cela pourrait conduire à une augmentation de l&rsquo;efficacité de la production, à une réduction des déchets et des coûts. De plus, la personnalisation de masse pourrait permettre aux consommateurs de commander des aliments adaptés à leurs besoins et préférences, créant une expérience culinaire unique et engageante.</p>
+<h2 id="défis-et-opportunités--lavenir-de-limpression-3d-en-cuisine">Défis et opportunités : l&rsquo;avenir de l&rsquo;impression 3D en cuisine</h2>
+<p>Malgré son potentiel, l&rsquo;impression 3D en cuisine doit encore relever des défis tels que la sécurité alimentaire et l&rsquo;acceptation par les consommateurs. Cependant, les opportunités sont vastes. Avec les progrès technologiques et une prise de conscience croissante de ses avantages, l&rsquo;impression 3D pourrait bientôt devenir un outil courant dans les cuisines du monde entier.</p>
+<p><strong>Restez à l&rsquo;écoute de CreaLab pour les dernières mises à jour sur le monde en constante évolution de l&rsquo;impression 3D !</strong></p>
+
+                                            </div>
+                                        </div>
+                                        <ul class="blog-tags"> 
+                                            
+                                            
+                                            <ul class="tags__list">
+                                                
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">impression 3D</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">innovation</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">technologie</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">futur</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">impression 4D</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">bioprinting</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">impression 3D métal</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">impression 3D à grande échelle</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">nourriture imprimée en 3D</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">innovation culinaire</a> 
+                                                </li>
+                                                <li class="tag__item">
+                                                    <a class="tag__link" href="javascript:void(0)">alimentation du futur</a> 
+                                                </li></ul>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div class="preloader preloader-alt no-split">
+        <span class="spinner spinner-alt">
+            <img class="spinner-brand" src="/images/logo-white.png" alt=""> 
+        </span>
+    </div>
+    
+
+
+
+
+
+<script defer  src='/js/jquery.bundle.min.dccc8878a6fb23e26225a1867ad551925c0df68c6d3166c074cd584d4d1de3b432288129c42fddc5324cd656a40d69f132fbb0b6406bcf2921cd8ad146577d18.js?ver=210'></script>
+<script defer  src='/js/scripts.min.810c4e3229f07102e6da786e19bada1559816724bfcb53aaffc206384b0935134d42df8a0048ea62bbe01e23993b85f12897baf4e45862d5e767c65a878cbd61.js?ver=210'></script>
+<script defer  src='/js/charts.min.233bec70385379d36087ce327911a0880e9f24394a47f3ac96262f2ab5ec6e6abcd23516c1250b6b9686a39298686089a91247237a53dfcdc082554f810b8cad.js?ver=210'></script>
+<script defer  src='/js/toastr.examples.min.8db0f69b90e47bd433705b43acc2ffcc16aeaa78f06edd02fdc97e67abad460d09fe0135f2e92bc5b30ad986d87467ca3e33d470592d4c1d181554fdd8791fc6.js?ver=210'></script>
+<section id="section footer">
+    <footer class="nk-footer bg-theme-dark">
+
+        <div class="section section-footer section-m tc-light bg-transparent ov-h">
+            <div class="container">
+                <div class="nk-block block-footer">
+                    <div class="row">
+                        <div class="col">
+                            <div class="wgs wgs-text text-center mb-3">
+
+                                <a href="./" class="footer-logo">
+                                    <img src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo" style="width: 25%">
+                                </a>
+                                <div class="copyright-text copyright-text-s3 pdt-m">
+                                    <p><span class="d-sm-block">Copyright © 2024, CreaLab</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="particles-bg-9" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+
+        </div>
+    </footer>
+</section>
+</div>
+</body>
+</html>

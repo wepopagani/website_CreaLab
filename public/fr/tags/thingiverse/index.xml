@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thingiverse on CreaLab</title>
+    <link>//localhost:1313/fr/tags/thingiverse/</link>
+    <description>Recent content in Thingiverse on CreaLab</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 27 Sep 2024 17:04:31 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/fr/tags/thingiverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les Meilleurs Sites pour Télécharger des Modèles 3D Gratuits et Payants</title>
+      <link>//localhost:1313/fr/posts/websites/</link>
+      <pubDate>Fri, 27 Sep 2024 17:04:31 +0200</pubDate>
+      <guid>//localhost:1313/fr/posts/websites/</guid>
+      <description>&lt;p&gt;L&amp;rsquo;impression 3D devient de plus en plus accessible, et une des questions les plus fréquemment posées est : où puis-je trouver des modèles 3D prêts à imprimer ? Heureusement, il existe de nombreuses plateformes en ligne qui offrent une grande variété de modèles 3D, gratuits et payants, idéaux pour les amateurs, les designers et les professionnels. Voici une liste des meilleurs sites pour trouver le modèle parfait pour votre prochain projet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

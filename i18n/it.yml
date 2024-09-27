@@ -44,7 +44,7 @@
   translation: Scansione 3D
 - id: services_scanning_description
   translation: Offriamo servizi di scansione 3D precisi per oggetti più grandi di 10 centimetri cubi.
-#QUOTE (Italian)
+#QUOTE 
 - id: quote_title
   translation: "RICHIEDI UN PREVENTIVO"
 - id: quote_lead

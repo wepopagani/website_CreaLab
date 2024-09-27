@@ -7,7 +7,7 @@ description = "Esplora il ruolo cruciale del software di slicing nella stampa 3D
 tags=  ["stampa 3D", "slicing", "software", "modelli 3D", "stampa"]
 +++
 
-Slicing: L'eroe sconosciuto della stampa 3D
+Slicing: L\'eroe sconosciuto della stampa 3D
 Lo slicing è un passaggio fondamentale nel processo di stampa 3D che spesso passa inosservato, ma gioca un ruolo importante nel successo delle tue stampe. In questo post, approfondiremo il mondo del software di slicing, spiegandone l'importanza, le caratteristiche chiave e fornendo suggerimenti per ottenere risultati ottimali.
 
 ## Cos'è lo slicing?

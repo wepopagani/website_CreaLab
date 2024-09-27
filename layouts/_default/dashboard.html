@@ -1,120 +1,71 @@
 <!DOCTYPE html>
-<html lang="zxx" class="js">
-{{- partial "head.html" . -}}
-<body class="nk-body body-wider theme-dark mode-onepage">
-<div class="nk-wrap">
-    <!-- Header -->
-    <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
-        {{- partial "navbar.html" . -}}
-        <div class="header-banner bg-theme-grad">
-            <div class="nk-banner">
-                <div class="banner banner-page">
-                    <!-- User Info -->
-                    <div class="container">
-                        <h1 class="title title-xl tc-light">Dashboard</h1>
-                        <h3 id="user-name" class="subtitle tc-light">Welcome, User</h3>
-                    </div>
-                </div>
-            </div><!-- .nk-banner -->
-            <div class="nk-ovm shape-a-sm"></div>
-        </div>
-    </header>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body class="nk-body body-wider theme-dark mode-onepage">
+    <div class="nk-wrap">
+      <!-- Header -->
+      {{ partial "navbar.html" . }}
 
-    <!-- Main Content -->
-    <main class="nk-pages">
+      <!-- Main Content -->
+      <main class="nk-pages">
         <div class="container">
-            <div class="row">
-                <!-- Sidebar -->
-                <aside class="col-lg-3">
-                    <div class="nk-block nk-block-side bg-theme-dark-alt tc-light">
-                        <ul class="sidebar-menu">
-                            <li><a href="/dashboard/overview">Overview</a></li>
-                            <li><a href="/dashboard/settings">Settings</a></li>
-                            <li><a href="/dashboard/orders">Orders</a></li>
-                            <li><a href="#" id="logout-button">Logout</a></li>
-                        </ul>
-                    </div>
-                </aside>
-                
-                <!-- Main Dashboard Area -->
-                <section class="col-lg-9">
-                    <div class="nk-block nk-block-blog bg-theme-dark-alt tc-light">
-                        <h2 class="title">Your Content</h2>
-                        <p>Here you can show your content dynamically.</p>
-                        
-                        <!-- Example Blog Entries (or dynamic content) -->
-                        <div class="row">
-                            {{ range .Pages }}
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="blog">
-                                    <div class="blog-photo">
-                                        <div class="img-wrapper-home">
-                                            <div class="box box1">
-                                                <img src="{{ .Params.image }}" alt="blog-thumb">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="blog-text">
-                                        <h4 class="title title-sm"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                                        <p>{{ slicestr .Summary 0 100 }}...</p>
-                                    </div>
-                                </div><!-- .blog -->
-                            </div><!-- .col -->
-                            {{ end }}
-                        </div><!-- .row -->
-                    </div>
-                </section>
-            </div>
+          <h1 class="title title-xl tc-light">Welcome to your Dashboard</h1>
+          <h3 id="user-name" class="subtitle tc-light">Hello, User</h3>
+
+          <!-- Dashboard Content -->
+          <div class="dashboard-content">
+            <p>This is your dashboard where you can manage your account, view your data, and more.</p>
+          </div>
         </div>
-    </main>
-    
-    <!-- Preloader -->
-    <div class="preloader preloader-alt no-split">
-        <span class="spinner spinner-alt">
-            <img class="spinner-brand" src="/images/logo-white.png" alt="">
-        </span>
-    </div>
+        <!-- Particles Background -->
+        <div id="particles-bg" class="particles-container particles-bg" 
+             data-pt-base="#a83232" 
+             data-pt-base-op=".7" 
+             data-pt-line="#b84545" 
+             data-pt-line-op=".7" 
+             data-pt-shape="#8b1f1f" 
+             data-pt-shape-op=".5">
+        </div>
+      </main>
 
-    <!-- Footer and JS -->
-    {{- partial "javascript.html" . -}}
-    {{- partial "footer.html" . -}}
-</div>
+      <!-- Footer -->
+      {{ partial "footer.html" . }}
 
-<!-- Netlify Identity Script for User Info and Logout -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        if (window.netlifyIdentity) {
-            // When the user is logged in, update the user name
+      <!-- Scripts -->
+      {{ partial "javascript.html" . }}
+
+      <!-- Netlify Identity Script -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          if (window.netlifyIdentity) {
+            initNetlifyIdentity();
+          } else {
+            document.addEventListener('netlifyIdentityWidgetReady', initNetlifyIdentity);
+          }
+
+          function initNetlifyIdentity() {
+            // Check the current user status
             window.netlifyIdentity.on("init", user => {
-                if (user) {
-                    updateUserName(user);
-                }
+              updateUserName(user);
             });
 
+            // When the user logs in
             window.netlifyIdentity.on("login", user => {
-                updateUserName(user);
-                window.location.href = "/dashboard";  // Redirect to dashboard after login
+              updateUserName(user);
             });
 
-            window.netlifyIdentity.on("logout", () => {
-                window.location.href = "/";  // Redirect to homepage after logout
-            });
-
-            // Update the user name in the header
+            // Update the user's name on the dashboard
             function updateUserName(user) {
-                const userNameElement = document.getElementById('user-name');
-                userNameElement.innerHTML = `Welcome, ${user.user_metadata.full_name}`;
+              const userNameElement = document.getElementById('user-name');
+              if (user && user.user_metadata) {
+                userNameElement.innerHTML = `Hello, ${user.user_metadata.full_name}`;
+              } else {
+                userNameElement.innerHTML = "Hello, Guest";
+              }
             }
-
-            // Logout button functionality
-            const logoutButton = document.getElementById('logout-button');
-            if (logoutButton) {
-                logoutButton.addEventListener("click", function () {
-                    window.netlifyIdentity.logout();
-                });
-            }
-        }
-    });
-</script>
-</body>
+          }
+        });
+      </script>
+    </div>
+  </body>
 </html>

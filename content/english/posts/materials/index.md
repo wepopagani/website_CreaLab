@@ -11,7 +11,7 @@ tags= ["3D printing", "materials", "filament", "resin", "metal", "applications"]
 
 ## Thermoplastics: Versatile and Widely Used
 
-Thermoplastics, available in filament form, are the most common materials for 3D printing. They are heated to a molten state, extruded through a nozzle, and then solidify as they cool. 
+Thermoplastics, available in filament form, are the most common materials for 3D printing. They are heated to a molten state, extruded through a nozzle, and then solidify as they cool.
 
 * **PLA (Polylactic Acid):** Biodegradable and easy to print, PLA is ideal for beginners and general-purpose prototyping.
 * **ABS (Acrylonitrile Butadiene Styrene):** Stronger and more heat-resistant than PLA, ABS is suitable for functional parts and outdoor applications.

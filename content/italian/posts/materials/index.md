@@ -7,7 +7,7 @@ image = '/posts/materials/static/materials.png'
 tags= ["stampa 3D", "materiali", "filamento", "resina", "metallo", "applicazioni"]
 +++
 
-La stampa 3D sta rivoluzionando l'industria e trasformando il modo in cui creiamo oggetti. Un aspetto cruciale di questa tecnologia è la vasta gamma di materiali disponibili, ognuno con proprietà uniche e applicazioni specifiche. In questa guida esploreremo i materiali per la stampa 3D più comuni e i loro usi.
+La stampa 3D sta rivoluzionando l\'industria e trasformando il modo in cui creiamo oggetti. Un aspetto cruciale di questa tecnologia è la vasta gamma di materiali disponibili, ognuno con proprietà uniche e applicazioni specifiche. In questa guida esploreremo i materiali per la stampa 3D più comuni e i loro usi.
 
 ## Termoplastici: Versatili e ampiamente utilizzati
 

@@ -7,7 +7,7 @@ description= "Scopri come la stampa 3D sta rivoluzionando la gastronomia, dai pi
 tags= ["stampa 3D", "innovazione", "tecnologia", "futuro", "stampa 4D", "bioprinting", "stampa 3D in metallo", "stampa 3D su larga scala", "cibo stampato in 3D", "innovazione culinaria", "cibo del futuro"] 
 +++
 
-La stampa 3D, spesso associata a campi come l'ingegneria e la medicina, sta sorprendentemente rivoluzionando il mondo della gastronomia. Chef visionari e appassionati di cucina stanno sperimentando questa tecnologia per creare piatti unici e sorprendenti che deliziano sia gli occhi che il palato.
+La stampa 3D, spesso associata a campi come l\'ingegneria e la medicina, sta sorprendentemente rivoluzionando il mondo della gastronomia. Chef visionari e appassionati di cucina stanno sperimentando questa tecnologia per creare piatti unici e sorprendenti che deliziano sia gli occhi che il palato.
 
 ## Piatti personalizzati: Nutrizione su misura
 
