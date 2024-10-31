@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Materiali on CreaLab</title>
+    <title>Materiali on 3DMakes</title>
     <link>//localhost:1313/it/tags/materiali/</link>
-    <description>Recent content in Materiali on CreaLab</description>
+    <description>Recent content in Materiali on 3DMakes</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Mon, 29 Jul 2024 17:04:31 +0200</lastBuildDate>

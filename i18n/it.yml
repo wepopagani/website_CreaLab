@@ -3,9 +3,9 @@
   translation: Contattaci
 #HEADER
 - id: h1_header
-  translation: Benvenuto in CreaLab
+  translation: Benvenuti in 3DMakes
 - id: h3_header
-  translation: Sogni un oggetto unico, un prototipo funzionale o un pezzo di ricambio difficile da trovare? La nostra stampa 3D all'avanguardia trasforma i tuoi progetti in realtà tangibile.
+  translation: Sogni un oggetto unico, un prototipo funzionale o un pezzo di ricambio difficile da trovare? La nostra tecnologia di stampa 3D avanzata rende i tuoi progetti una realtà tangibile.
 - id: btn1_header
   translation: Servizi
 - id: btn2_header
@@ -13,121 +13,121 @@
 - id: btn3_header
   translation: Richiedi un preventivo
 - id: descr_header
-  translation: Ottieni un preventivo personalizzato entro 24 ore
+  translation: Richiedi un preventivo personalizzato entro 24 ore
 #ABOUT
 - id: about_title
-  translation: Chi siamo
+  translation: Chi Siamo
 - id: about_header
   translation: Soluzioni innovative realizzate con precisione.
 - id: about_lead
-  translation: In CreaLab, creatività e professionalità si incontrano in ogni progetto che realizziamo. Il nostro team di designer e ingegneri talentuosi ama trasformare le tue idee in realtà. Affrontiamo ogni progetto con una nuova prospettiva, assicurandoci che la tua visione prenda vita nel modo più creativo ed efficace possibile. Con anni di esperienza nella stampa 3D e nel design, offriamo risultati eccezionali con un impegno verso qualità e precisione. La nostra attenzione meticolosa ai dettagli garantisce che anche i requisiti più esigenti vengano soddisfatti con eccellenza.
+  translation: In 3DMakes, la creatività incontra la professionalità in ogni progetto che realizziamo. Il nostro team di designer e ingegneri talentuosi si impegna a dare vita alle tue idee con una nuova prospettiva, garantendo risultati eccezionali. Con anni di esperienza nella stampa 3D e nel design, offriamo prodotti di alta qualità con un impegno per la precisione e l’eccellenza.
 - id: ico_header
-  translation: Esperienza nella progettazione e nella selezione dei materiali
+  translation: Competenza nel Design e nella Selezione dei Materiali
 - id: ico_lead
-  translation: Soluzioni 3D personalizzate per soddisfare le tue esigenze specifiche.
+  translation: Soluzioni 3D su Misura per Soddisfare le Tue Esigenze Specifiche
 - id: ico_text_1
-  translation: CreaLab non si limita a creare design; sviluppiamo soluzioni. I nostri designer si concentrano sulla creazione di modelli 3D che privilegiano la funzionalità, l'estetica e la fabbricabilità, garantendo il successo del tuo prodotto.
+  translation: 3DMakes non si limita a creare design; sviluppiamo soluzioni. I nostri designer esperti si concentrano sulla creazione di modelli 3D che privilegiano funzionalità, estetica e fabbricabilità, garantendo il successo del tuo prodotto.
 - id: ico_text_2
-  translation: Dalla tecnica di slicing di precisione per ottimizzare i tuoi modelli, all'offerta di una vasta gamma di materiali su misura per le esigenze uniche del tuo progetto, CreaLab fornisce servizi completi per garantire che i tuoi prototipi e prodotti finali siano sia esteticamente attraenti che perfettamente funzionanti.
+  translation: Dalle tecniche di slicing di precisione per ottimizzare i tuoi modelli, alla vasta gamma di materiali adatti alle esigenze uniche del tuo progetto, 3DMakes offre servizi completi per assicurare che i tuoi prototipi e prodotti finali siano sia visivamente attraenti che funzionalmente impeccabili.
 #SERVICES
 - id: services_title
   translation: Servizi
 - id: services_designing_title
   translation: Progettazione 3D
 - id: services_designing_description
-  translation: Lavoreremo a stretto contatto con te per comprendere la tua visione, perfezionare il design e creare un blueprint digitale pronto per la stampa.
+  translation: Lavoreremo a stretto contatto con te per comprendere la tua visione, affinare il tuo design e creare un progetto digitale pronto per la stampa.
 - id: services_printing_title
   translation: Stampa 3D
 - id: services_printing_description
-  translation: Offriamo servizi di stampa 3D all'avanguardia utilizzando una varietà di materiali e finiture per soddisfare le tue esigenze.
+  translation: Offriamo servizi di stampa 3D di alta qualità con una varietà di materiali e finiture per soddisfare le tue esigenze.
 - id: services_scanning_title
   translation: Scansione 3D
 - id: services_scanning_description
   translation: Offriamo servizi di scansione 3D precisi per oggetti più grandi di 10 centimetri cubi.
-#QUOTE 
+#QUOTE
 - id: quote_title
-  translation: "RICHIEDI UN PREVENTIVO"
+  translation: RICHIEDI UN PREVENTIVO
 - id: quote_lead
-  translation: "Carica il tuo file 3D e ricevi una stima dei costi via e-mail entro 24 ore."
+  translation: Carica il tuo file 3D e ricevi una stima del costo via email entro 24 ore.
 - id: quote_email_label
-  translation: "La tua e-mail"
+  translation: La tua E-mail
 - id: quote_file_label
-  translation: "Carica qui il tuo file"
+  translation: Carica qui il tuo file
 - id: quote_button
-  translation: "Invia & Richiedi un preventivo"
+  translation: Invia & Richiedi un Preventivo
 - id: quote_alert
-  translation: "Inserisci la tua e-mail e carica un file, per favore."
+  translation: Inserisci la tua email e carica un file.
 - id: quote_confirmation
-  translation: "Grazie! Riceverai un preventivo entro 24 ore all'e-mail fornita."
+  translation: Grazie! Riceverai un preventivo entro 24 ore all’indirizzo email fornito.
 - id: quote_message
-  translation: "Nessun file selezionato"
+  translation: Nessun file selezionato
 - id: quote_material
-  translation: "Materiale"
+  translation: Materiale
 - id: quote_quality
-  translation: "Qualità"
+  translation: Qualità
 - id: quote_infill
-  translation: "Riempimento"
+  translation: Riempimento
 - id: quote_quantity
-  translation: "Quantità"
+  translation: Quantità
 #BLOG
 - id: blog_btn
   translation: Leggi di più
 #FAQ 
 - id: faqs_title
-  translation: Domande frequenti
+  translation: Domande Frequenti
 - id: faqs_intro
-  translation: Di seguito abbiamo fornito alcune risposte alle domande più comuni sulla stampa 3D, il design 3D, i materiali e altri argomenti correlati. Se hai altre domande, contattaci utilizzando il modulo sottostante.
+  translation: Di seguito abbiamo risposto ad alcune domande comuni sulla stampa 3D, la progettazione 3D, i materiali e argomenti correlati. Se hai altre domande, contattaci utilizzando il modulo qui sotto.
 - id: faqs_general
   translation: Generale
 - id: faqs_design
-  translation: Design 3D
+  translation: Progettazione 3D
 - id: faqs_materials
   translation: Materiali
 - id: faqs_printing
-  translation: Processo di stampa
+  translation: Processo di Stampa
 - id: faqs_post_processing
-  translation: Post-elaborazione
+  translation: Post-Produzione
 - id: faq1_question
   translation: Cos'è la stampa 3D?
 - id: faq1_answer
-  translation: La stampa 3D è un processo di produzione additiva che crea un oggetto fisico da un design digitale. Stratificando il materiale, tipicamente plastica, resina o metallo, trasforma le tue idee in realtà con precisione.
+  translation: La stampa 3D è un processo di produzione additiva che crea un oggetto fisico a partire da un design digitale. Sovrapponendo strati di materiale, solitamente plastica, resina o metallo, trasforma le tue idee in realtà con precisione.
 - id: faq2_question
-  translation: Che tipo di stampanti 3D utilizzate?
+  translation: Quali tipi di stampanti 3D usate?
 - id: faq2_answer
-  translation: Utilizziamo una gamma di stampanti 3D, tra cui tecnologie FDM, SLA e SLS. Ogni tipo è adatto a esigenze diverse, dai prototipi ad alta precisione a parti robuste e funzionali.
+  translation: Usiamo una gamma di stampanti 3D, incluse le tecnologie FDM, SLA e SLS, ciascuna adatta a diverse esigenze, dai prototipi ad alta definizione a parti robuste e funzionali.
 - id: faq3_question
-  translation: Come posso iniziare un progetto di stampa 3D?
+  translation: Come posso avviare un progetto di stampa 3D?
 - id: faq3_answer
-  translation: Per iniziare un progetto, basta fornirci il tuo modello 3D in formato STL o OBJ. Se non hai un modello, il nostro team di progettazione può aiutarti a crearne uno da zero.
+  translation: Per avviare un progetto, basta fornirci il tuo modello 3D in formato STL o OBJ. Se non hai un modello, il nostro team di progettazione può aiutarti a crearne uno da zero.
 - id: faq4_question
-  translation: Quali sono i tempi di consegna per la stampa 3D?
+  translation: Quali sono i tempi di realizzazione per la stampa 3D?
 - id: faq4_answer
-  translation: I tempi di consegna variano in base alla dimensione e alla complessità del progetto. La maggior parte dei progetti di piccole e medie dimensioni può essere completata in pochi giorni.
+  translation: I tempi di realizzazione variano in base alla dimensione e alla complessità del progetto. La maggior parte dei progetti di piccole e medie dimensioni può essere completata in pochi giorni.
 - id: faq5_question
   translation: Quale software posso usare per creare un design 3D?
 - id: faq5_answer
-  translation: I software di progettazione 3D più popolari includono Blender, Autodesk Fusion 360, Tinkercad e SolidWorks. Questi strumenti ti consentono di creare modelli dettagliati pronti per la stampa 3D.
+  translation: I software di progettazione 3D più popolari includono Blender, Autodesk Fusion 360, Tinkercad e SolidWorks. Questi strumenti consentono di creare modelli dettagliati pronti per la stampa 3D.
 - id: faq6_question
   translation: Offrite servizi di progettazione 3D?
 - id: faq6_answer
-  translation: Sì, il nostro team di esperti designer può aiutarti a creare o migliorare modelli 3D per garantire che siano ottimizzati per la stampa, ottenendo i migliori risultati possibili.
+  translation: Sì, il nostro team di esperti designer può aiutarti a creare o perfezionare modelli 3D per garantire che siano ottimizzati per la stampa e raggiungere i migliori risultati possibili.
 #CONTACT
 - id: descr_contact
-  translation: Hai una domanda? Contattaci e ti risponderemo al più presto.
+  translation: Hai domande? Contattaci e ti risponderemo al più presto.
 - id: name
-  translation: Il tuo nome
+  translation: Il Tuo Nome
 - id: email
-  translation: La tua email
+  translation: La Tua Email
 - id: message
-  translation: Il tuo messaggio
+  translation: Il Tuo Messaggio
 - id: btn_contact
   translation: Invia
 - id: "Contact"
-  translation: Contacttaci
+  translation: Contattaci
 #THANKS
 - id: thanks_title
   translation: GRAZIE PER AVERCI CONTATTATO!
 - id: thanks_1
   translation: Abbiamo ricevuto il tuo messaggio.
 - id: thanks_2
-  translation: Ti contatteremo subito!
+  translation: Ti risponderemo il prima possibile!

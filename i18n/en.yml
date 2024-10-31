@@ -3,7 +3,7 @@
   translation: Contact Us
 #HEADER
 - id: h1_header
-  translation: Welcome to CreaLab
+  translation: Welcome to 3DMakes
 - id: h3_header
   translation: Do you dream of a unique object, a functional prototype, or a hard-to-find spare part? Our cutting-edge 3D printing turns your projects into tangible reality.
 - id: btn1_header
@@ -20,15 +20,15 @@
 - id: about_header
   translation: Innovative Solutions Crafted with Precision.
 - id: about_lead
-  translation: At CreaLab, creativity meets professionalism in every project we undertake. Our team of talented designers and engineers thrives on turning your ideas into reality. We approach each project with a fresh perspective, ensuring your vision is brought to life in the most creative and effective way possible. With years of experience in 3D printing and design, we deliver exceptional results with a commitment to quality and precision. Our meticulous attention to detail guarantees that even the most demanding project requirements are met with excellence.
+  translation: At 3DMakes, creativity meets professionalism in every project we undertake. Our team of talented designers and engineers thrives on turning your ideas into reality. We approach each project with a fresh perspective, ensuring your vision is brought to life in the most creative and effective way possible. With years of experience in 3D printing and design, we deliver exceptional results with a commitment to quality and precision. Our meticulous attention to detail guarantees that even the most demanding project requirements are met with excellence.
 - id: ico_header
   translation: Expertise in Design and Material Selection
 - id: ico_lead
   translation: Tailored 3D Solutions to Meet Your Specific Needs
 - id: ico_text_1
-  translation: CreaLab doesn’t just create designs; we craft solutions. Our skilled designers focus on developing 3D models that prioritize functionality, aesthetics, and manufacturability, ensuring your product’s success. We combine technical expertise with creative ingenuity to deliver innovative solutions that push the boundaries of what’s possible with 3D printing.
+  translation: 3DMakes doesn’t just create designs; we craft solutions. Our skilled designers focus on developing 3D models that prioritize functionality, aesthetics, and manufacturability, ensuring your product’s success. We combine technical expertise with creative ingenuity to deliver innovative solutions that push the boundaries of what’s possible with 3D printing.
 - id: ico_text_2
-  translation: From precision slicing techniques to optimize your models, to offering a wide range of materials tailored to your project's unique needs, CreaLab provides comprehensive services that ensure your prototypes and final products are both visually appealing and functionally flawless.
+  translation: From precision slicing techniques to optimize your models, to offering a wide range of materials tailored to your project's unique needs, 3DMakes provides comprehensive services that ensure your prototypes and final products are both visually appealing and functionally flawless.
 #SERVICES
 - id: services_title
   translation: Services
@@ -121,7 +121,7 @@
 - id: message
   translation: Your Message
 - id: btn_contact
-  translation: submit
+  translation: Submit
 - id: "Contact"
   translation: Contact Us
 #THANKS

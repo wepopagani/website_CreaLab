@@ -1,6 +1,6 @@
-baseURL = 'crealab.blog'
+baseURL = '3dmakes.ch'
 languageCode = 'en-us'
-title = 'CreaLab'
+title = '3DMakes'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 

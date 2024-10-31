@@ -1,82 +1,82 @@
 #NAVBAR
 - id: contact
-  translation: Kontaktieren Sie uns
+  translation: Kontakt
 #HEADER
 - id: h1_header
-  translation: Willkommen bei CreaLab
+  translation: Willkommen bei 3DMakes
 - id: h3_header
-  translation: Träumen Sie von einem einzigartigen Objekt, einem funktionalen Prototyp oder einem schwer zu findenden Ersatzteil? Unser fortschrittlicher 3D-Druck macht Ihre Projekte greifbar.
+  translation: Träumen Sie von einem einzigartigen Objekt, einem funktionalen Prototyp oder einem schwer auffindbaren Ersatzteil? Unser modernes 3D-Druckverfahren macht Ihre Projekte zur greifbaren Realität.
 - id: btn1_header
   translation: Dienstleistungen
 - id: btn2_header
   translation: Kontaktieren Sie uns
 - id: btn3_header
-  translation: Angebot einholen
+  translation: Angebot anfordern
 - id: descr_header
-  translation: Erhalten Sie ein individuelles Angebot innerhalb von 24 Stunden
+  translation: Holen Sie sich ein individuelles Angebot innerhalb von 24 Stunden
 #ABOUT
 - id: about_title
-  translation: Über uns
+  translation: Über Uns
 - id: about_header
-  translation: Innovative Lösungen, präzise gefertigt.
+  translation: Innovative Lösungen, mit Präzision gefertigt.
 - id: about_lead
-  translation: Bei CreaLab treffen Kreativität und Professionalität in jedem Projekt aufeinander. Unser talentiertes Team von Designern und Ingenieuren lebt davon, Ihre Ideen in die Realität umzusetzen. Wir gehen jedes Projekt mit einer frischen Perspektive an und stellen sicher, dass Ihre Vision auf die kreativste und effektivste Weise verwirklicht wird. Mit jahrelanger Erfahrung im 3D-Druck und Design liefern wir außergewöhnliche Ergebnisse, die sich durch Qualität und Präzision auszeichnen. Unsere akribische Aufmerksamkeit zum Detail gewährleistet, dass auch die anspruchsvollsten Projektanforderungen mit Exzellenz erfüllt werden.
+  translation: Bei 3DMakes trifft Kreativität auf Professionalität in jedem Projekt, das wir annehmen. Unser talentiertes Team aus Designern und Ingenieuren setzt alles daran, Ihre Ideen Wirklichkeit werden zu lassen. Wir betrachten jedes Projekt aus einer neuen Perspektive und stellen sicher, dass Ihre Vision auf die kreativste und effektivste Weise zum Leben erweckt wird. Mit jahrelanger Erfahrung im 3D-Druck und Design liefern wir außergewöhnliche Ergebnisse mit einem Engagement für Qualität und Präzision.
 - id: ico_header
-  translation: Fachwissen in Design und Materialauswahl
+  translation: Expertise in Design und Materialauswahl
 - id: ico_lead
-  translation: Maßgeschneiderte 3D-Lösungen, um Ihre spezifischen Bedürfnisse zu erfüllen.
+  translation: Maßgeschneiderte 3D-Lösungen für Ihre spezifischen Bedürfnisse
 - id: ico_text_1
-  translation: CreaLab entwickelt nicht nur Designs; wir schaffen Lösungen. Unsere talentierten Designer konzentrieren sich darauf, 3D-Modelle zu entwickeln, die Funktionalität, Ästhetik und Fertigungsfähigkeit priorisieren, um den Erfolg Ihres Produkts zu gewährleisten. Wir kombinieren technisches Know-how mit kreativer Genialität, um innovative Lösungen zu bieten, die die Grenzen des Möglichen im 3D-Druck erweitern.
+  translation: 3DMakes erstellt nicht nur Designs, sondern wir entwickeln Lösungen. Unsere erfahrenen Designer konzentrieren sich auf die Entwicklung von 3D-Modellen, die Funktionalität, Ästhetik und Herstellbarkeit priorisieren und so den Erfolg Ihres Produkts gewährleisten.
 - id: ico_text_2
-  translation: Von präzisen Schneidetechniken zur Optimierung Ihrer Modelle bis hin zu einer breiten Palette von Materialien, die auf die einzigartigen Anforderungen Ihres Projekts zugeschnitten sind, bietet CreaLab umfassende Dienstleistungen, die sicherstellen, dass Ihre Prototypen und Endprodukte sowohl optisch ansprechend als auch funktional einwandfrei sind.
+  translation: Von präzisen Schneidtechniken zur Optimierung Ihrer Modelle bis hin zu einer Vielzahl von Materialien, die speziell auf die Bedürfnisse Ihres Projekts zugeschnitten sind, bietet 3DMakes umfassende Dienstleistungen, die sicherstellen, dass Ihre Prototypen und Endprodukte sowohl optisch ansprechend als auch funktional einwandfrei sind.
 #SERVICES
 - id: services_title
   translation: Dienstleistungen
 - id: services_designing_title
   translation: 3D-Design
 - id: services_designing_description
-  translation: Wir arbeiten eng mit Ihnen zusammen, um Ihre Vision zu verstehen, Ihr Design zu verfeinern und eine digitale Blaupause zu erstellen, die druckbereit ist.
+  translation: Wir arbeiten eng mit Ihnen zusammen, um Ihre Vision zu verstehen, Ihr Design zu verfeinern und eine druckfertige digitale Blaupause zu erstellen.
 - id: services_printing_title
   translation: 3D-Druck
 - id: services_printing_description
-  translation: Wir bieten erstklassige 3D-Druckdienstleistungen unter Verwendung einer Vielzahl von Materialien und Oberflächen an, die Ihren Bedürfnissen entsprechen.
+  translation: Wir bieten erstklassige 3D-Druckdienste mit einer Vielzahl von Materialien und Oberflächen, die Ihren Anforderungen entsprechen.
 - id: services_scanning_title
   translation: 3D-Scan
 - id: services_scanning_description
-  translation: Wir bieten präzise 3D-Scandienstleistungen für Objekte an, die größer als 10 Kubikzentimeter sind.
+  translation: Wir bieten präzise 3D-Scandienste für Objekte größer als 10 Kubikzentimeter.
 #QUOTE
 - id: quote_title
-  translation: "ANGEBOT EINHOLEN"
+  translation: ANGEBOT EINHOLEN
 - id: quote_lead
-  translation: "Laden Sie Ihre 3D-Datei hoch und erhalten Sie eine Kostenschätzung innerhalb von 24 Stunden per E-Mail."
+  translation: Laden Sie Ihre 3D-Datei hoch und erhalten Sie innerhalb von 24 Stunden eine Kostenschätzung per E-Mail.
 - id: quote_email_label
-  translation: "Ihre E-Mail"
+  translation: Ihre E-Mail
 - id: quote_file_label
-  translation: "Laden Sie hier Ihre Datei hoch"
+  translation: Laden Sie hier Ihre Datei hoch
 - id: quote_button
-  translation: "Einreichen & Angebot erhalten"
+  translation: Absenden & Angebot erhalten
 - id: quote_alert
-  translation: "Bitte geben Sie Ihre E-Mail ein und laden Sie eine Datei hoch."
+  translation: Bitte geben Sie Ihre E-Mail ein und laden Sie eine Datei hoch.
 - id: quote_confirmation
-  translation: "Danke! Sie erhalten innerhalb von 24 Stunden ein Angebot an die angegebene E-Mail-Adresse."
+  translation: Danke! Sie erhalten innerhalb von 24 Stunden ein Angebot an die angegebene E-Mail-Adresse.
 - id: quote_message
-  translation: "Keine Datei ausgewählt"
+  translation: Keine Datei ausgewählt
 - id: quote_material
-  translation: "Material"
+  translation: Material
 - id: quote_quality
-  translation: "Qualität"
+  translation: Qualität
 - id: quote_infill
-  translation: "Füllung"
+  translation: Füllung
 - id: quote_quantity
-  translation: "Menge"
+  translation: Menge
 #BLOG
 - id: blog_btn
-  translation: Mehr lesen
-#FAQ
+  translation: Mehr erfahren
+#FAQ 
 - id: faqs_title
   translation: Häufig gestellte Fragen
 - id: faqs_intro
-  translation: Nachfolgend finden Sie Antworten auf häufige Fragen zu 3D-Druck, 3D-Design, Materialien und verwandten Themen. Wenn Sie weitere Fragen haben, kontaktieren Sie uns bitte über das untenstehende Kontaktformular.
+  translation: Im Folgenden haben wir Antworten auf häufig gestellte Fragen zum 3D-Druck, 3D-Design, zu Materialien und verwandten Themen zusammengestellt. Wenn Sie weitere Fragen haben, wenden Sie sich bitte über das Kontaktformular unten an uns.
 - id: faqs_general
   translation: Allgemein
 - id: faqs_design
@@ -90,30 +90,30 @@
 - id: faq1_question
   translation: Was ist 3D-Druck?
 - id: faq1_answer
-  translation: 3D-Druck ist ein additives Fertigungsverfahren, das ein physisches Objekt aus einem digitalen Design erstellt. Durch das Schichten von Material, in der Regel Kunststoff, Harz oder Metall, werden Ihre Ideen präzise zum Leben erweckt.
+  translation: 3D-Druck ist ein additives Fertigungsverfahren, das ein physisches Objekt aus einem digitalen Design erstellt. Durch das Schichten von Material, typischerweise Kunststoff, Harz oder Metall, werden Ihre Ideen präzise zum Leben erweckt.
 - id: faq2_question
   translation: Welche Arten von 3D-Druckern verwenden Sie?
 - id: faq2_answer
-  translation: Wir verwenden eine Vielzahl von 3D-Druckern, darunter FDM-, SLA- und SLS-Technologien. Jede Art eignet sich für unterschiedliche Anforderungen, von hochpräzisen Prototypen bis hin zu robusten, funktionalen Teilen.
+  translation: Wir verwenden eine Reihe von 3D-Druckern, einschließlich FDM-, SLA- und SLS-Technologien. Jede Art eignet sich für unterschiedliche Anforderungen, von detaillierten Prototypen bis hin zu robusten, funktionalen Teilen.
 - id: faq3_question
   translation: Wie kann ich ein 3D-Druckprojekt starten?
 - id: faq3_answer
-  translation: Um ein Projekt zu starten, senden Sie uns einfach Ihr 3D-Modell im STL- oder OBJ-Format. Wenn Sie kein Modell haben, kann Ihnen unser Designteam bei der Erstellung eines Modells von Grund auf helfen.
+  translation: Um ein Projekt zu starten, senden Sie uns einfach Ihr 3D-Modell im STL- oder OBJ-Format. Wenn Sie kein Modell haben, kann unser Designteam Ihnen dabei helfen, eines von Grund auf zu erstellen.
 - id: faq4_question
-  translation: Wie lange dauert der 3D-Druck?
+  translation: Wie lange dauert die Bearbeitung für den 3D-Druck?
 - id: faq4_answer
-  translation: Die Bearbeitungszeit variiert je nach Größe und Komplexität des Projekts. Die meisten kleinen bis mittelgroßen Projekte können innerhalb weniger Tage abgeschlossen werden.
+  translation: Die Bearbeitungszeiten variieren je nach Größe und Komplexität des Projekts. Die meisten kleinen bis mittelgroßen Projekte können innerhalb weniger Tage abgeschlossen werden.
 - id: faq5_question
   translation: Welche Software kann ich verwenden, um ein 3D-Design zu erstellen?
 - id: faq5_answer
-  translation: Beliebte 3D-Design-Software umfasst Blender, Autodesk Fusion 360, Tinkercad und SolidWorks. Diese Tools ermöglichen es Ihnen, detaillierte Modelle zu erstellen, die druckbereit sind.
+  translation: Beliebte 3D-Designsoftware umfasst Blender, Autodesk Fusion 360, Tinkercad und SolidWorks. Mit diesen Tools können Sie detaillierte Modelle erstellen, die für den 3D-Druck bereit sind.
 - id: faq6_question
   translation: Bieten Sie 3D-Design-Dienstleistungen an?
 - id: faq6_answer
-  translation: Ja, unser Team von Experten kann Ihnen helfen, 3D-Modelle zu erstellen oder zu verfeinern, um sicherzustellen, dass sie für den Druck optimiert sind und die bestmöglichen Ergebnisse erzielen.
+  translation: Ja, unser Team aus erfahrenen Designern kann Ihnen helfen, 3D-Modelle zu erstellen oder zu optimieren, um sicherzustellen, dass sie für den Druck geeignet sind und die besten Ergebnisse erzielen.
 #CONTACT
 - id: descr_contact
-  translation: Haben Sie Fragen? Kontaktieren Sie uns, und wir werden uns in Kürze bei Ihnen melden.
+  translation: Haben Sie eine Frage? Kontaktieren Sie uns, und wir melden uns umgehend bei Ihnen.
 - id: name
   translation: Ihr Name
 - id: email
@@ -121,14 +121,13 @@
 - id: message
   translation: Ihre Nachricht
 - id: btn_contact
-  translation: Senden
+  translation: Absenden
 - id: "Contact"
-  translation: Kontaktieren Sie uns
+  translation: Kontakt
 #THANKS
 - id: thanks_title
-  translation: DANKE FÜR IHRE KONTAKTAUFNAHME!
+  translation: VIELEN DANK FÜR IHRE KONTAKTAUFNAHME!
 - id: thanks_1
   translation: Wir haben Ihre Nachricht erhalten.
 - id: thanks_2
   translation: Wir werden uns umgehend bei Ihnen melden!
-
