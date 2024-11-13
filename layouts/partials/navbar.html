@@ -46,7 +46,7 @@
 
                       <!-- Simple Language Switcher -->
                       <li class="menu-item">
-                          {{- if site.IsMultiLingual }}
+                        {{ if hugo.IsMultilingual }}
                           <div class="language-switcher language-switcher-s toggle-wrap">
                               <a class="toggle-tigger" href="#">{{ .Page.Language.LanguageName }}</a>
                               <ul class="toggle-class toggle-drop text-center drop-list drop-list-xs">

@@ -28,7 +28,7 @@ weight = 2
 
 [[Languages.en.menu.main]]
 name = "Shop"
-url = "#shop"
+url = "/store/"
 weight = 3
 
 [[Languages.en.menu.main]]
@@ -65,7 +65,7 @@ weight = 2
 
 [[Languages.de.menu.main]]
 name = "Shop"
-url = "#shop"
+url = "/store/"
 weight = 3
 
 [[Languages.de.menu.main]]
@@ -102,7 +102,7 @@ weight = 2
 
 [[Languages.es.menu.main]]
 name = "Shop"
-url = "#shop"
+url = "/store/"
 weight = 3
 
 [[Languages.es.menu.main]]
@@ -139,7 +139,7 @@ weight = 2
 
 [[Languages.fr.menu.main]]
 name = "Shop"
-url = "#shop"
+url = "/store/"
 weight = 3
 
 [[Languages.fr.menu.main]]
@@ -176,7 +176,7 @@ weight = 2
 
 [[Languages.it.menu.main]]
 name = "Shop"
-url = "#shop"
+url = "/store/"
 weight = 3
 
 [[Languages.it.menu.main]]

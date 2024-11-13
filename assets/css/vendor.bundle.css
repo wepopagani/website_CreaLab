@@ -2764,6 +2764,12 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .pt-6 { padding-top: 3rem !important; }
 
+.pt-8 { padding-top: 4rem !important; }
+
+.pt-10 { padding-top: 100px !important; }
+
+.pt-12 { padding-top: 6rem !important; }
+
 .pt-gs { padding-top: 1.875rem !important; }
 
 .pe-0 { padding-right: 0 !important; }

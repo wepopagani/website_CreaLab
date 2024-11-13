@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body class="bg-theme-dark tc-light">
+    <div class="nk-wrap">
+        <!-- Header -->
+        <header class="nk-header page-header">
+            {{ partial "navbar.html" . }}
+        </header>
+
+        <!-- Main Content -->
+        <main class="nk-pages">
+            <section class="section">
+                <div class="container">
+                    <!-- Titolo della Pagina -->
+                    <div class="section-head text-center wide-auto-sm">
+                        <h1 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1">{{ .Title }}</h1>
+                    </div>
+
+                    <!-- Contenuto della Pagina -->
+                    <div class="content">
+                        {{ .Content }}
+                    </div>
+                </div>
+                <div id="particles-bg-2" class="particles-container" 
+                data-pt-base="#a83232" data-pt-base-op=".7" 
+                data-pt-line="#b84545" data-pt-line-op=".7" 
+                data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div> 
+            </section>
+        </main>
+
+        <!-- Footer -->
+        {{ partial "footer.html" . }}
+    </div>
+
+    {{ partial "javascript.html" . }}
+</body>
+</html>

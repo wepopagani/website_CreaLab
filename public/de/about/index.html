@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    
+    <link rel="shortcut icon" href="/images/fav.png">
+    
+    <title>3DMakes</title>
+    
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href='/css/vendor.bundle.min.css?ver=210'>
+    <link rel="stylesheet" href='/css/style-lungwort.min.css?ver=210'>
+    
+    <link rel="stylesheet" href='/css/theme.min.css?ver=210'>
+    <link rel="stylesheet" href='/css/custom.min.css?ver=210'>
+</head>
+
+</head>
+<body class="bg-theme-dark tc-light">
+    <div class="nk-wrap">
+        
+        <header class="nk-header page-header">
+            <div class="header-main">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <div class="header-container container">
+      <div class="header-wrap">
+          
+          <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+              <a href="/" class="logo-link">
+                  <img class="logo-dark" src="/images/logo.png" srcset="/images/logo.png" alt="logo">
+                  <img class="logo-light" src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo">
+              </a>
+          </div>
+          
+          <div class="header-nav-toggle">
+              <a href="/" class="navbar-toggle" data-menu-toggle="example-menu-04">
+                  <div class="toggle-line">
+                      <span></span>
+                  </div>
+              </a>
+          </div>
+          
+          <div class="header-navbar header-navbar-s1">
+              <nav class="header-menu" id="example-menu-04">
+                  <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/de/#header">Startseite</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/de/#services">Dienstleistungen</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/de/store/">Shop</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/de/#quote">Angebot</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/de/#blog">Blog</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                          <a class="menu-link nav-link" href="/de/#faqs">FAQs</a>
+                      </li>
+                      
+                  </ul>
+                  <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
+                      
+                      <li>
+                          <a href="#contact" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round">
+                              <span>Kontakt</span>
+                          </a>
+                      </li>
+                    
+                      
+                      <li>
+                        <button class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round snipcart-checkout">
+                            <img src="/images/cart.png" alt="Cart" width="24" />
+                            <span class="snipcart-items-count"></span>
+                        </button>
+                      </li>
+                      
+
+                      
+                      <li class="menu-item">
+                        
+                          <div class="language-switcher language-switcher-s toggle-wrap">
+                              <a class="toggle-tigger" href="#">Deutsch</a>
+                              <ul class="toggle-class toggle-drop text-center drop-list drop-list-xs">
+                                  
+                                  <li><a href="http://localhost:1313/about/">en</a></li>
+                                  
+                                  <li><a href="http://localhost:1313/es/about/">es</a></li>
+                                  
+                                  <li><a href="http://localhost:1313/fr/about/">fr</a></li>
+                                  
+                                  <li><a href="http://localhost:1313/it/about/">it</a></li>
+                                  
+                              </ul>
+                          </div>
+                          
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.netlifyIdentity) {
+    initNetlifyIdentity();
+  } else {
+    document.addEventListener('netlifyIdentityWidgetReady', initNetlifyIdentity);
+  }
+
+  function initNetlifyIdentity() {
+    
+    window.netlifyIdentity.on("init", user => {
+      updateAuthButton(user);
+    });
+
+    
+    window.netlifyIdentity.on("login", user => {
+      updateAuthButton(user);
+      if (user) {
+        window.location.href = "/dashboard";  
+      }
+    });
+
+    
+    window.netlifyIdentity.on("logout", () => {
+      updateAuthButton(null);
+      window.location.href = "/";  
+    });
+
+    
+    function updateAuthButton(user) {
+      const authButton = document.getElementById('auth-button');
+      if (authButton) {
+        if (user) {
+          authButton.innerHTML = "Sign Out";
+          authButton.onclick = () => {
+            window.netlifyIdentity.logout();
+          };
+        } else {
+          authButton.innerHTML = "Sign In";
+          authButton.onclick = () => {
+            window.netlifyIdentity.open();
+          };
+        }
+      }
+    }
+  }
+});
+</script>
+
+        </header>
+
+        
+        <main class="nk-pages">
+            <section class="section">
+                <div class="container">
+                    
+                    <div class="section-head text-center wide-auto-sm">
+                        <h1 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1">About Us</h1>
+                    </div>
+
+                    
+                    <div class="content">
+                        <h2 id="our-vision">Our Vision</h2>
+<p>Our vision is to create a world where cybersecurity awareness is a universal standard, empowering individuals and organizations to protect their digital assets with confidence. As technology advances and cyber threats become increasingly sophisticated, we are committed to staying at the forefront of innovation, providing cutting-edge solutions that anticipate and mitigate risks. We aim to foster a proactive approach to cybersecurity, where education and awareness become integral components of our digital lives. By building a collaborative community, we strive to create a secure and resilient digital ecosystem for future generations.</p>
+<h2 id="our-mission">Our Mission</h2>
+<p>Through the creation of a team of excellence and continuous study and research, we offer defensive software solutions and purple teaming consultancy to protect businesses. TeamFence is capable of disseminating information, skills, and technologies helping society become more aware and secure.</p>
+
+                    </div>
+                </div>
+                <div id="particles-bg-2" class="particles-container" 
+                data-pt-base="#a83232" data-pt-base-op=".7" 
+                data-pt-line="#b84545" data-pt-line-op=".7" 
+                data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div> 
+            </section>
+        </main>
+
+        
+        <section id="section footer">
+    <footer class="section nk-header page-header is-transparent is-sticky is-shrink is-dark tc-light ov-h">
+
+        <div class="section section-footer section-m tc-light bg-transparent ov-h">
+            <div class="container">
+                <div class="nk-block block-footer">
+                    <div class="row">
+                        <div class="col">
+                            <div class="wgs wgs-text text-center mb-3">
+
+                                <a href="./" class="footer-logo">
+                                    <img src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo" style="width: 25%">
+                                </a>
+                                <div class="copyright-text copyright-text-s3 pdt-m">
+                                    <p><span class="d-sm-block">Copyright © 2024, 3DMakes</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="particles-bg-11" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+
+        </div>
+    </footer>
+</section>
+
+    </div>
+
+    
+
+
+
+
+
+<script defer  src='/js/jquery.bundle.min.dccc8878a6fb23e26225a1867ad551925c0df68c6d3166c074cd584d4d1de3b432288129c42fddc5324cd656a40d69f132fbb0b6406bcf2921cd8ad146577d18.js?ver=210'></script>
+<script defer  src='/js/scripts.min.810c4e3229f07102e6da786e19bada1559816724bfcb53aaffc206384b0935134d42df8a0048ea62bbe01e23993b85f12897baf4e45862d5e767c65a878cbd61.js?ver=210'></script>
+<script defer  src='/js/charts.min.233bec70385379d36087ce327911a0880e9f24394a47f3ac96262f2ab5ec6e6abcd23516c1250b6b9686a39298686089a91247237a53dfcdc082554f810b8cad.js?ver=210'></script>
+<script defer  src='/js/toastr.examples.min.8db0f69b90e47bd433705b43acc2ffcc16aeaa78f06edd02fdc97e67abad460d09fe0135f2e92bc5b30ad986d87467ca3e33d470592d4c1d181554fdd8791fc6.js?ver=210'></script>
+
+</body>
+</html>

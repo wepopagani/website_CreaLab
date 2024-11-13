@@ -1,11 +1,17 @@
-<section class="bg-theme-dark tc-light ov-h" id="store">
+<section class="pb-8 bg-theme-dark tc-light ov-h" id="shop">
     <div class="container">
         <div class="pt-6 section-head text-center wide-auto-sm">
-            <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="SHOP">SHOP</h2>
+            <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="PRODUCTS">PRODUCTS</h2>
         </div>
-        <div class="nk-block">
-            <div class="product-scroll-container" style="overflow-x: auto; white-space: nowrap;">
-                {{ range first 3 .Site.Data.products }}
+
+        <!-- Container con Frecce -->
+        <div class="mb-5 position-relative">
+            <!-- Freccia Sinistra -->
+            <div class="product-arrow left-arrow" id="store-left-arrow">&#9664;</div>
+
+            <!-- Area Scrollabile -->
+            <div class="product-scroll-container" id="product-scroll-container">
+                {{ range .Site.Data.products }}
                 <div class="product-item" style="display: inline-block; width: 300px; margin-right: 20px;">
                     <a href="/store/{{ .id }}">
                         <div class="product-item animated" data-animate="fadeInUp" data-delay=".6">
@@ -32,27 +38,91 @@
                 </div>
                 {{ end }}
             </div>
-            <ul class="pt-4 d-flex gaps g-3 justify-content-center animated" data-animate="fadeInUp" data-delay=".9">
-                <li>
-                    <a href="/store/" class="btn btn-md btn-grad">{{i18n "shop_btn"}}</a>
-                </li>
-            </ul>
+
+            <!-- Freccia Destra -->
+            <div class="product-arrow right-arrow" id="store-right-arrow">&#9654;</div>
         </div>
-        <div id="particles-bg-5" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+
+
+
+        <div id="particles-bg-5" class="particles-container particles-bg" 
+            data-pt-base="#a83232" data-pt-base-op=".7" 
+            data-pt-line="#b84545" data-pt-line-op=".7" 
+            data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
     </div>
 </section>
-<style>
-    .product-thumb img {
-        border-radius: 15px;
-    }
 
-    /* Aggiungi uno stile per il container di scroll */
+<!-- CSS per il container di prodotti con scrolling -->
+<style>
     .product-scroll-container {
         display: flex;
-        overflow-x: auto;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
         padding: 10px 0;
     }
+
     .product-item {
         margin-right: 20px;
+        min-width: 300px; /* Mantiene la larghezza del prodotto */
+        border-radius: 8px;
+        position: relative;
+        transition: transform 0.3s ease;
+    }
+
+    .product-item:hover {
+        transform: scale(1.05);
+    }
+
+    .product-thumb img {
+        border-radius: 15px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Arrows */
+    .product-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .left-arrow {
+        left: -50px;
+    }
+
+    .right-arrow {
+        right: -50px;
+    }
+
+    .mb-5 {
+        margin-bottom: 20%;
     }
 </style>
+
+<!-- JavaScript per lo Scrolling con le Frecce -->
+<script>
+    const productScrollContainer = document.getElementById('product-scroll-container');
+    const storeLeftArrow = document.getElementById('store-left-arrow');
+    const storeRightArrow = document.getElementById('store-right-arrow');
+
+    // Scorri a sinistra quando viene cliccata la freccia sinistra
+    storeLeftArrow.addEventListener('click', () => {
+        productScrollContainer.scrollBy({
+            left: -300, // Scorre di 300px a sinistra
+            behavior: 'smooth'
+        });
+    });
+
+    // Scorri a destra quando viene cliccata la freccia destra
+    storeRightArrow.addEventListener('click', () => {
+        productScrollContainer.scrollBy({
+            left: 300, // Scorre di 300px a destra
+            behavior: 'smooth'
+        });
+    });
+</script>

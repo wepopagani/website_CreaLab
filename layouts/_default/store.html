@@ -1,55 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    {{ partial "head.html" . }}
-    {{ partial "navbar.html" . }}
-
-    <style>
-        /* Stili specifici per la pagina dello store */
-        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        .product-item { background-color: #1a1a1a; border: 1px solid #3a3a3a; padding: 20px; border-radius: 10px; text-align: center; }
-        .product-thumb img { border-radius: 8px; width: 100%; height: auto; }
-        .product-excerpt h5 { color: #fff; margin: 10px 0; }
-        .product-excerpt p { color: #4CAF50; }
-    </style>
-</head>
+<html lang="zxx" class="js">
+{{- partial "head.html" . -}}
 <body class="nk-body body-wider bg-theme-dark mode-onepage">
-    <div class="nk-wrap">
-        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
-            {{ partial "navbar.html" . }}
-        </header>
-
-        <main class="nk-pages">
-            <section class="section bg-theme-dark tc-light" id="store">
-                <div class="container">
-                    <div class="section-head text-center wide-auto-sm">
-                        <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="STORE">STORE</h2>
-                    </div>
-                    <div class="product-grid">
-                        {{ range first 4 .Site.Data.products }}
-                        <div class="product-item">
-                            <h5>{{ .name }}</h5>
-                            <p>{{ .description }}</p>
-                            <p>CHF {{ .price }}</p>
-                            <img src="{{ .image }}" alt="{{ .name }}">
-                            <button class="snipcart-add-item" 
-                                    data-item-id="{{ .id }}" 
-                                    data-item-name="{{ .name }}" 
-                                    data-item-price="{{ .price }}" 
-                                    data-item-url="/products/{{ .id }}" 
-                                    data-item-description="{{ .description }}" 
-                                    data-item-image="{{ .image }}">
-                                Add to Cart
-                            </button>
-                    
+<div class="nk-wrap">
+<header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+        {{- partial "navbar.html" . -}}
+    </header>
+    
+    <main class="pt-10 nk-pages">
+        <section class=" bg-theme-dark tc-light" id="store">
+            <div class="container">
+                <div class="section-head text-center wide-auto-sm">
+                    <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="SHOP">SHOP</h2>
+                </div>
+                <div class="nk-block nk-block-blog">
+                    <div class="row">
+                        {{ range .Site.Data.products }}
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="product-item" style="display: inline-block; width: 300px; margin-right: 20px;">
+                                <a href="/store/{{ .id }}">
+                                    <div class="product-item animated" data-animate="fadeInUp" data-delay=".6">
+                                        <div class="product-thumb">
+                                            <div class="img-wrapper-home">
+                                                <img class="w-100 h-100 pb-10" src="{{ .image }}" alt="product image">
+                                            </div>
+                                        </div>
+                                        <div class="product-excerpt">
+                                            <h5>{{ .name }}</h5>
+                                            <p>CHF {{ .price }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="add-tp-cart-btn btn btn-md btn-grad snipcart-add-item"
+                                        data-item-id="{{ .id }}"
+                                        data-item-name="{{ .name }}"
+                                        data-item-price="{{ .price }}"
+                                        data-item-url="/store/{{ .id }}"
+                                        data-item-description="{{ .description }}"
+                                        data-item-image="{{ .image }}">
+                                    Add to Cart
+                                </button>
+                            </div>
                         </div>
-                    {{ end }}
-                    
+                        {{ end }}
                     </div>
                 </div>
-            </section>
-        </main>
-        {{ partial "footer.html" . }}
+                <div id="particles-bg-8" class="particles-container particles-bg" 
+                     data-pt-base="#a83232" data-pt-base-op=".7" 
+                     data-pt-line="#b84545" data-pt-line-op=".7" 
+                     data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+            </div>
+        </section>
+    </main>
+
+    <div class="preloader preloader-alt no-split">
+        <span class="spinner spinner-alt">
+            <img class="spinner-brand" src="/images/logo-white.png" alt="">
+        </span>
     </div>
+    
+    {{- partial "javascript.html" . -}}
+    {{- partial "footer.html" . -}}
+</div>
+<script async src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"></script>
+<div hidden id="snipcart" data-api-key="Y2JhMjgxOWUtMGU1ZC00M2FlLWE5YmYtYzdhOTU0ZjU4YWYxNjM4NTU5NDM2ODkxNzA4NTE0"></div>
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css" />
+
 </body>
 </html>
+<style>
+    .product-thumb img {
+        border-radius: 15px;
+    }
+</style>
