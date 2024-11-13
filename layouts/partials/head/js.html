@@ -10,3 +10,18 @@
     {{- end }}
   {{- end }}
 {{- end }}
+
+<!-- Snipcart Integration -->
+<script>
+  window.SnipcartSettings = {
+    publicApiKey: "ZTZjMDBkZDEtMjkwOS00MzNiLTg0MWUtOGY2N2ZiNTZjNTI0NjM4NTU5NDM2ODkxNzA4NTE0",  // Sostituisci con la tua chiave API pubblica di Snipcart
+    loadStrategy: "on-user-interaction",
+    modalStyle: "side",
+    currency: "CHF"
+  };
+</script>
+<!-- Snipcart Script -->
+<script src="https://cdn.snipcart.com/themes/v3.0.34/default/snipcart.js"></script>
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.34/default/snipcart.css" />
+
+<div hidden id="snipcart" data-config-modal-style="side"></div>

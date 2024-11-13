@@ -1,7 +1,6 @@
 ---
 title: "About Us"
 draft: false
-layout: "about"
 ---
 
 ## Our Vision

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+    {{ partial "navbar.html" . }}
+
+    <style>
+        /* Stili specifici per la pagina dello store */
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .product-item { background-color: #1a1a1a; border: 1px solid #3a3a3a; padding: 20px; border-radius: 10px; text-align: center; }
+        .product-thumb img { border-radius: 8px; width: 100%; height: auto; }
+        .product-excerpt h5 { color: #fff; margin: 10px 0; }
+        .product-excerpt p { color: #4CAF50; }
+    </style>
+</head>
+<body class="nk-body body-wider bg-theme-dark mode-onepage">
+    <div class="nk-wrap">
+        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+            {{ partial "navbar.html" . }}
+        </header>
+
+        <main class="nk-pages">
+            <section class="section bg-theme-dark tc-light" id="store">
+                <div class="container">
+                    <div class="section-head text-center wide-auto-sm">
+                        <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="STORE">STORE</h2>
+                    </div>
+                    <div class="product-grid">
+                        {{ range first 4 .Site.Data.products }}
+                        <div class="product-item">
+                            <h5>{{ .name }}</h5>
+                            <p>{{ .description }}</p>
+                            <p>CHF {{ .price }}</p>
+                            <img src="{{ .image }}" alt="{{ .name }}">
+                            <button class="snipcart-add-item" 
+                                    data-item-id="{{ .id }}" 
+                                    data-item-name="{{ .name }}" 
+                                    data-item-price="{{ .price }}" 
+                                    data-item-url="/products/{{ .id }}" 
+                                    data-item-description="{{ .description }}" 
+                                    data-item-image="{{ .image }}">
+                                Add to Cart
+                            </button>
+                    
+                        </div>
+                    {{ end }}
+                    
+                    </div>
+                </div>
+            </section>
+        </main>
+        {{ partial "footer.html" . }}
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<section class="bg-theme-dark tc-light ov-h" id="store">
+    <div class="container">
+        <div class="pt-6 section-head text-center wide-auto-sm">
+            <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="SHOP">SHOP</h2>
+        </div>
+        <div class="nk-block">
+            <div class="product-scroll-container" style="overflow-x: auto; white-space: nowrap;">
+                {{ range first 3 .Site.Data.products }}
+                <div class="product-item" style="display: inline-block; width: 300px; margin-right: 20px;">
+                    <a href="/store/{{ .id }}">
+                        <div class="product-item animated" data-animate="fadeInUp" data-delay=".6">
+                            <div class="product-thumb">
+                                <div class="img-wrapper-home">
+                                    <img class="w-100 h-100 pb-10" src="{{ .image }}" alt="product image">
+                                </div>
+                            </div>
+                            <div class="product-excerpt">
+                                <h5>{{ .name }}</h5>
+                                <p>CHF {{ .price }}</p>
+                            </div>
+                        </div>
+                    </a>
+                    <button class="add-tp-cart-btn btn btn-md btn-grad snipcart-add-item"
+                            data-item-id="{{ .id }}"
+                            data-item-name="{{ .name }}"
+                            data-item-price="{{ .price }}"
+                            data-item-url="/store/{{ .id }}"
+                            data-item-description="{{ .description }}"
+                            data-item-image="{{ .image }}">
+                        Add to Cart
+                    </button>
+                </div>
+                {{ end }}
+            </div>
+            <ul class="pt-4 d-flex gaps g-3 justify-content-center animated" data-animate="fadeInUp" data-delay=".9">
+                <li>
+                    <a href="/store/" class="btn btn-md btn-grad">{{i18n "shop_btn"}}</a>
+                </li>
+            </ul>
+        </div>
+        <div id="particles-bg-5" class="particles-container particles-bg" data-pt-base="#a83232" data-pt-base-op=".7" data-pt-line="#b84545" data-pt-line-op=".7" data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
+    </div>
+</section>
+<style>
+    .product-thumb img {
+        border-radius: 15px;
+    }
+
+    /* Aggiungi uno stile per il container di scroll */
+    .product-scroll-container {
+        display: flex;
+        overflow-x: auto;
+        padding: 10px 0;
+    }
+    .product-item {
+        margin-right: 20px;
+    }
+</style>

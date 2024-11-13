@@ -1,4 +1,4 @@
-baseURL = '3dmakes.ch'
+baseURL = 'https://3dmakes.ch'
 languageCode = 'en-us'
 title = '3DMakes'
 defaultContentLanguage = "en"
@@ -27,19 +27,24 @@ url = "#services"
 weight = 2
 
 [[Languages.en.menu.main]]
+name = "Shop"
+url = "#shop"
+weight = 3
+
+[[Languages.en.menu.main]]
 name = "Quote"
 url = "#quote"
-weight = 3
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "Blog"
 url = "#blog"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.main]]
 name = "FAQs"
 url = "#faqs"
-weight = 5
+weight = 6
 
 ################################ German Language ########################
 [Languages.de]
@@ -59,19 +64,24 @@ url = "#services"
 weight = 2
 
 [[Languages.de.menu.main]]
+name = "Shop"
+url = "#shop"
+weight = 3
+
+[[Languages.de.menu.main]]
 name = "Angebot"
 url = "#quote"
-weight = 3
+weight = 4
 
 [[Languages.de.menu.main]]
 name = "Blog"
 url = "#blog"
-weight = 4
+weight = 5
 
 [[Languages.de.menu.main]]
 name = "FAQs"
 url = "#faqs"
-weight = 5
+weight = 6
 
 ################################ Spanish Language ########################
 [Languages.es]
@@ -91,19 +101,24 @@ url = "#services"
 weight = 2
 
 [[Languages.es.menu.main]]
+name = "Shop"
+url = "#shop"
+weight = 3
+
+[[Languages.es.menu.main]]
 name = "Cotización"
 url = "#quote"
-weight = 3
+weight = 4
 
 [[Languages.es.menu.main]]
 name = "Blog"
 url = "#blog"
-weight = 4
+weight = 5
 
 [[Languages.es.menu.main]]
 name = "FAQs"
 url = "#faqs"
-weight = 5
+weight = 6
 
 ################################ French Language ########################
 [Languages.fr]
@@ -123,19 +138,24 @@ url = "#services"
 weight = 2
 
 [[Languages.fr.menu.main]]
+name = "Shop"
+url = "#shop"
+weight = 3
+
+[[Languages.fr.menu.main]]
 name = "Devis"
 url = "#quote"
-weight = 3
+weight = 4
 
 [[Languages.fr.menu.main]]
 name = "Blog"
 url = "#blog"
-weight = 4
+weight = 5
 
 [[Languages.fr.menu.main]]
 name = "FAQs"
 url = "#faqs"
-weight = 5
+weight = 6
 
 ################################ Italian Language ########################
 [Languages.it]
@@ -155,16 +175,21 @@ url = "#services"
 weight = 2
 
 [[Languages.it.menu.main]]
+name = "Shop"
+url = "#shop"
+weight = 3
+
+[[Languages.it.menu.main]]
 name = "Preventivo"
 url = "#quote"
-weight = 3
+weight = 4
 
 [[Languages.it.menu.main]]
 name = "Blog"
 url = "#blog"
-weight = 4
+weight = 5
 
 [[Languages.it.menu.main]]
 name = "FAQs"
 url = "#faqs"
-weight = 5
+weight = 6

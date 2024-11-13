@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ski-rack",
+    "name": "Wall Ski Rack",
+    "description": "Wall-mounted ski rack for organizing skis, available in STL and STEP formats for 3D printing.",
+    "price": 20.00,
+    "image": "/images/store/ski-rack.png"
+  },
+  {
+    "id": "cube-piggy-bank",
+    "name": "Cube Piggy Bank",
+    "description": "A customizable and openable piggy bank in the shape of a cube, ideal for personalizing with unique designs.",
+    "price": 15.00,
+    "image": "/images/store/salvadanaio.png"
+  },
+  {
+    "id": "customizable-jar",
+    "name": "Customizable Jar",
+    "description": "A fully customizable jar, perfect for personalizing in size and engraved text.",
+    "price": 18.00,
+    "image": "/images/store/barattolo.png"
+  }
+]

@@ -34,14 +34,16 @@
                               <span>{{ i18n "contact" }}</span>
                           </a>
                       </li>
-                     
-                      <!-- Sign In / Sign Out Button -->
+                    
+                      <!-- Carrello Snipcart -->
                       <li>
-                          <a href="#" id="auth-button" class="btn btn-rg btn-auto text-white-real btn-outline btn-grad on-bg-theme btn-round">
-                              Sign In
-                          </a>
+                        <button class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round snipcart-checkout">
+                            <img src="/images/cart.png" alt="Cart" width="24" />
+                            <span class="snipcart-items-count"></span>
+                        </button>
                       </li>
                       
+
                       <!-- Simple Language Switcher -->
                       <li class="menu-item">
                           {{- if site.IsMultiLingual }}

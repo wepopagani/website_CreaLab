@@ -131,3 +131,5 @@
   translation: Nous avons bien reçu votre message.
 - id: thanks_2
   translation: Nous vous répondrons dans les plus brefs délais !
+- id: shop_btn
+  translation: Voir plus
