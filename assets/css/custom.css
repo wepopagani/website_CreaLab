@@ -37,19 +37,3 @@ margin: 50px;
 .pt-10 { padding-top: 100px !important; }
 .pt-12 { padding-top: 120px !important; }
 .pt-14 { padding-top: 140px !important; }
-
-/* Colore di sfondo nero per la navbar */
-.header-main {
-    background-color: #080A1B !important; /* Colore nero */
-}
-
-/* Imposta un colore di sfondo fisso per la navbar */
-.header-navbar {
-    background-color: #080A1B !important;
-    color: #fff; /* Colore testo bianco per leggibilità */
-}
-
-/* Colore del testo e degli elementi all'interno della navbar */
-.header-navbar a {
-    color: #fff !important; /* Colore testo bianco per i link */
-}

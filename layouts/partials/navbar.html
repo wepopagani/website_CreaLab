@@ -18,7 +18,7 @@
           </div>
           <!-- Menu @s -->
           <div class="header-navbar header-navbar-s1">
-              <nav class="header-menu" id="example-menu-04">
+              <nav class="header-menu" id="example-menu-05">
                   <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
                       {{ range .Site.Menus.main }}
                       <li class="menu-item">
@@ -35,30 +35,28 @@
                       </li>
                     
                       <!-- Carrello Snipcart -->
+
                       <li>
-                        <button class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round snipcart-checkout">
-                            <img src="/images/cart.png" alt="Cart" width="24" />
-                            <span class="snipcart-items-count"></span>
-                        </button>
+                          <button id="cart-button" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round snipcart-checkout">
+                              <img src="/images/cart.png" alt="Cart" width="24" />
+                              <span class="snipcart-items-count"></span>
+                          </button>
                       </li>
                       
-
-                      <!-- Simple Language Switcher -->
-                      <li class="menu-item">
-                        {{ if hugo.IsMultilingual }}
-                          <div class="language-switcher language-switcher-s toggle-wrap">
-                              <a class="toggle-tigger" href="#">{{ .Page.Language.LanguageName }}</a>
-                              <ul class="toggle-class toggle-drop text-center drop-list drop-list-xs">
-                                  {{ range .Translations }}
-                                  <li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
-                                  {{ end }}
-                              </ul>
-                          </div>
-                          {{ end }}
-                      </li>
-                  </ul>
-              </nav>
-          </div><!-- .header-navbar @e -->
-      </div>
-  </div>
-</div><!-- .header-main @e -->
+                      <script>
+                          let cartOpened = false;
+                          
+                          document.getElementById('cart-button').addEventListener('click', function(event) {
+                              event.preventDefault(); // Previene il comportamento predefinito del bottone
+                              
+                              if (!cartOpened) {
+                                  // Apre il carrello Snipcart
+                                  window.Snipcart.api.theme.cart.open();
+                                  cartOpened = true;
+                              } else {
+                                  // Chiude il carrello e torna alla home
+                                  window.location.href = '/';
+                              }
+                          });
+                      
+                          // Aggiu
