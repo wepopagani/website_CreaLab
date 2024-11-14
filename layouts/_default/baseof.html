@@ -6,9 +6,7 @@
     <!-- CSS di Snipcart -->
     <link rel="stylesheet" href="https://app.snipcart.com/themes/base/snipcart.css">
 
-    <!-- CSS Personalizzato di Snipcart -->
-    {{ $snipcartCSS := resources.Get "css/snipcart.css" | resources.ToCSS | resources.Minify }}
-    <link rel="stylesheet" href="{{ $snipcartCSS.RelPermalink }}">
+
 </head>
 <body class="nk-body body-wider theme-dark mode-onepage snipcart-overwrite">
     <!-- Codice Snipcart -->

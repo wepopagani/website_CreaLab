@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slicing on 3DMakes</title>
+    <link>http://localhost:1313/es/tags/slicing/</link>
+    <description>Recent content in Slicing on 3DMakes</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 11 Apr 2024 17:04:31 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/slicing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El &#39;Slicing&#39;: La clave del éxito en la impresión 3D</title>
+      <link>http://localhost:1313/es/posts/slicing/</link>
+      <pubDate>Thu, 11 Apr 2024 17:04:31 +0200</pubDate>
+      <guid>http://localhost:1313/es/posts/slicing/</guid>
+      <description>&lt;p&gt;El &amp;lsquo;Slicing&amp;rsquo;: El héroe desconocido de la impresión 3D&#xA;El slicing es un paso crucial en el proceso de impresión 3D que a menudo pasa desapercibido, pero juega un papel significativo en el éxito de tus impresiones. En esta publicación, profundizaremos en el mundo del software de slicing, explicando su importancia, características clave y consejos para lograr resultados óptimos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;qué-es-el-slicing&#34;&gt;¿Qué es el slicing?&lt;/h2&gt;&#xA;&lt;p&gt;El slicing es el proceso de convertir un modelo 3D en una serie de capas delgadas que una impresora 3D puede entender y ejecutar. El software especializado, conocido como slicer, analiza el modelo 3D y genera instrucciones en G-code que indican a la impresora cómo moverse, dónde depositar el material y a qué temperatura operar.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
