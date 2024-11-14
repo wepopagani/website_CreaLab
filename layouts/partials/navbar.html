@@ -1,17 +1,16 @@
 <div class="header-main">
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <div class="header-container container">
       <div class="header-wrap">
           <!-- Logo @s -->
           <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
               <a href="/" class="logo-link">
-                  <img class="logo-dark" src="/images/logo.png" srcset="/images/logo.png" alt="logo">
                   <img class="logo-light" src="/images/logo-white.png" srcset="/images/logo-white.png" alt="logo">
               </a>
           </div>
           <!-- Menu Toggle @s -->
           <div class="header-nav-toggle">
-              <a href="/" class="navbar-toggle" data-menu-toggle="example-menu-04">
+              <a href="/" class="navbar-toggle" data-menu-toggle="example-menu-05
+              ">
                   <div class="toggle-line">
                       <span></span>
                   </div>
@@ -63,52 +62,3 @@
       </div>
   </div>
 </div><!-- .header-main @e -->
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  if (window.netlifyIdentity) {
-    initNetlifyIdentity();
-  } else {
-    document.addEventListener('netlifyIdentityWidgetReady', initNetlifyIdentity);
-  }
-
-  function initNetlifyIdentity() {
-    // Initialize the widget and update the button based on the user's login status
-    window.netlifyIdentity.on("init", user => {
-      updateAuthButton(user);
-    });
-
-    // When the user logs in, change the button to "Sign Out" and redirect to dashboard
-    window.netlifyIdentity.on("login", user => {
-      updateAuthButton(user);
-      if (user) {
-        window.location.href = "/dashboard";  // Redirect to dashboard after login
-      }
-    });
-
-    // When the user logs out, change the button back to "Sign In" and redirect to homepage
-    window.netlifyIdentity.on("logout", () => {
-      updateAuthButton(null);
-      window.location.href = "/";  // Redirect to homepage after logout
-    });
-
-    // Function to update the Sign In / Sign Out button based on user state
-    function updateAuthButton(user) {
-      const authButton = document.getElementById('auth-button');
-      if (authButton) {
-        if (user) {
-          authButton.innerHTML = "Sign Out";
-          authButton.onclick = () => {
-            window.netlifyIdentity.logout();
-          };
-        } else {
-          authButton.innerHTML = "Sign In";
-          authButton.onclick = () => {
-            window.netlifyIdentity.open();
-          };
-        }
-      }
-    }
-  }
-});
-</script>
