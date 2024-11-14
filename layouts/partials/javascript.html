@@ -8,3 +8,25 @@
 <script defer  src='{{ printf "%s" $version |printf "%s%s" $js2.RelPermalink | printf "%s"  }}'></script>
 <script defer  src='{{ printf "%s" $version |printf "%s%s" $js3.RelPermalink | printf "%s"  }}'></script>
 <script defer  src='{{ printf "%s" $version |printf "%s%s" $js4.RelPermalink | printf "%s"  }}'></script>
+                      
+<script>
+    let cartOpened = false;
+    
+    document.getElementById('cart-button').addEventListener('click', function(event) {
+        event.preventDefault(); // Previene il comportamento predefinito del bottone
+        
+        if (!cartOpened) {
+            // Apre il carrello Snipcart
+            window.Snipcart.api.theme.cart.open();
+            cartOpened = true;
+        } else {
+            // Chiude il carrello e torna alla home
+            window.location.href = '/';
+        }
+    });
+
+    // Aggiungi un listener all'evento di chiusura del carrello Snipcart
+    document.addEventListener('snipcart.closed', function() {
+        cartOpened = false;
+    });
+</script>

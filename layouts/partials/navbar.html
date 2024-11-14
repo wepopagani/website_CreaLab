@@ -42,21 +42,26 @@
                               <span class="snipcart-items-count"></span>
                           </button>
                       </li>
+
+
                       
-                      <script>
-                          let cartOpened = false;
-                          
-                          document.getElementById('cart-button').addEventListener('click', function(event) {
-                              event.preventDefault(); // Previene il comportamento predefinito del bottone
-                              
-                              if (!cartOpened) {
-                                  // Apre il carrello Snipcart
-                                  window.Snipcart.api.theme.cart.open();
-                                  cartOpened = true;
-                              } else {
-                                  // Chiude il carrello e torna alla home
-                                  window.location.href = '/';
-                              }
-                          });
-                      
-                          // Aggiu
+
+                      <!-- Simple Language Switcher -->
+                      <li class="menu-item">
+                        {{ if hugo.IsMultilingual }}
+                          <div class="language-switcher language-switcher-s toggle-wrap">
+                              <a class="toggle-tigger" href="#">{{ .Page.Language.LanguageName }}</a>
+                              <ul class="toggle-class toggle-drop text-center drop-list drop-list-xs">
+                                  {{ range .Translations }}
+                                  <li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+                                  {{ end }}
+                              </ul>
+                          </div>
+                          {{ end }}
+                      </li>
+                  </ul>
+              </nav>
+          </div><!-- .header-navbar @e -->
+      </div>
+  </div>
+</div><!-- .header-main @e -->
