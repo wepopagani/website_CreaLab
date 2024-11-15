@@ -1,7 +1,7 @@
 ---
 title: "Cube Piggy Bank"
 description: "A customizable and openable piggy bank in the shape of a cube, ideal for personalizing with unique designs."
-price: "15.00"
+price: "20.00"
 image: "/images/store/salvadanaio.png"
 layout: "product"
 draft: false

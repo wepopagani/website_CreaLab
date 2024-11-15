@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ski-rack",
+    "name": "Support de Ski Mural",
+    "description": "Support mural pour organiser les skis, disponible en formats STL et STEP pour impression 3D.",
+    "price": 30.00,
+    "image": "/images/store/ski-rack.png"
+  },
+  {
+    "id": "cube-piggy-bank",
+    "name": "Tirelire Cube",
+    "description": "Une tirelire personnalisable et ouvrable en forme de cube, idéale pour la personnalisation avec des motifs uniques.",
+    "price": 20.00,
+    "image": "/images/store/salvadanaio.png"
+  },
+  {
+    "id": "customizable-jar",
+    "name": "Pot Personnalisable",
+    "description": "Un pot entièrement personnalisable, parfait pour personnaliser en taille et en texte gravé.",
+    "price": 10.00,
+    "image": "/images/store/barattolo.png"
+  },
+  {
+    "id": "wifi-qr-stand",
+    "name": "Support QR WiFi",
+    "description": "Un support pratique avec code QR pour une connexion rapide au WiFi.",
+    "price": 15.00,
+    "image": "/images/store/wifi.png"
+  },
+  {
+    "id": "kaws-watch-holder",
+    "name": "Support de Montre Style KAWS",
+    "description": "Un support de montre au style KAWS, pour organiser vos montres avec une touche artistique.",
+    "price": 25.00,
+    "image": "/images/store/kaws-watch.png"
+  },
+  {
+    "id": "cattelan-middle-finger-replica",
+    "name": "Réplique du Doigt d'Honneur de Cattelan",
+    "description": "Une réplique artistique du célèbre doigt d'honneur de Maurizio Cattelan, une pièce provocatrice et unique.",
+    "price": 30.00,
+    "image": "/images/store/fuck.png"
+  }
+]

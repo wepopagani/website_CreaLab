@@ -11,13 +11,17 @@
 
             <!-- Area Scrollabile -->
             <div class="product-scroll-container" id="product-scroll-container">
-                {{ range .Site.Data.products }}
+                <!-- Caricamento prodotti dinamici -->
+                {{ $lang := .Site.Params.lang | default "en" }}
+                {{ $products := index .Site.Data (print $lang "products") }}
+
+                {{ range $products }}
                 <div class="product-item" style="display: inline-block; width: 300px; margin-right: 20px;">
                     <a href="/store/{{ .id }}">
                         <div class="product-item animated" data-animate="fadeInUp" data-delay=".6">
                             <div class="product-thumb">
                                 <div class="img-wrapper-home">
-                                    <img class="w-100 h-100 pb-10" src="{{ .image }}" alt="product image">
+                                    <img class="w-100 h-100 pb-4" src="{{ .image }}" alt="product image">
                                 </div>
                             </div>
                             <div class="product-excerpt">
@@ -43,8 +47,6 @@
             <div class="product-arrow right-arrow" id="store-right-arrow">&#9654;</div>
         </div>
 
-
-
         <div id="particles-bg-5" class="particles-container particles-bg" 
             data-pt-base="#a83232" data-pt-base-op=".7" 
             data-pt-line="#b84545" data-pt-line-op=".7" 
@@ -52,8 +54,13 @@
     </div>
 </section>
 
+
 <!-- CSS per il container di prodotti con scrolling -->
 <style>
+    .add-tp-cart-btn {
+        display: block;
+        margin: 10px auto 0 auto; /* Centra il pulsante e riduci la distanza */
+    }
     .product-scroll-container {
         display: flex;
         overflow-x: scroll;
@@ -101,6 +108,14 @@
 
     .mb-5 {
         margin-bottom: 20%;
+    }
+    .product-excerpt {
+        margin-top: 5px !important; /* Riduci lo spazio tra immagine e dettagli */
+        text-align: center;
+    }
+
+    .product-excerpt h5 {
+        margin-bottom: 5px; /* Riduci la distanza sotto il titolo */
     }
 </style>
 

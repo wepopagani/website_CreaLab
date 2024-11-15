@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ski-rack",
+    "name": "Wand-Ski-Rack",
+    "description": "Wandmontierter Skiständer zur Organisation von Skiern, verfügbar in STL- und STEP-Formaten für den 3D-Druck.",
+    "price": 30.00,
+    "image": "/images/store/ski-rack.png"
+  },
+  {
+    "id": "cube-piggy-bank",
+    "name": "Würfel-Spardose",
+    "description": "Eine anpassbare und aufklappbare Spardose in Form eines Würfels, ideal zum Personalisieren mit einzigartigen Designs.",
+    "price": 20.00,
+    "image": "/images/store/salvadanaio.png"
+  },
+  {
+    "id": "customizable-jar",
+    "name": "Anpassbares Glas",
+    "description": "Ein vollständig anpassbares Glas, perfekt zum Personalisieren in Größe und Gravurtext.",
+    "price": 10.00,
+    "image": "/images/store/barattolo.png"
+  },
+  {
+    "id": "wifi-qr-stand",
+    "name": "WiFi QR-Ständer",
+    "description": "Ein praktischer Ständer mit QR-Code für eine schnelle WLAN-Verbindung.",
+    "price": 15.00,
+    "image": "/images/store/wifi.png"
+  },
+  {
+    "id": "kaws-watch-holder",
+    "name": "KAWS Stil Uhrenhalter",
+    "description": "Ein Uhrenhalter im KAWS-Stil, um Ihre Uhren mit einem künstlerischen Touch zu organisieren.",
+    "price": 25.00,
+    "image": "/images/store/kaws-watch.png"
+  },
+  {
+    "id": "cattelan-middle-finger-replica",
+    "name": "Cattelan Mittelfinger Replik",
+    "description": "Eine künstlerische Replik des berühmten Mittelfingers von Maurizio Cattelan, ein provokantes und einzigartiges Stück.",
+    "price": 30.00,
+    "image": "/images/store/fuck.png"
+  }
+]

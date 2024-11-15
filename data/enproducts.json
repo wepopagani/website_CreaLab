@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ski-rack",
+    "name": "Wall Ski Rack",
+    "description": "Wall-mounted ski rack for organizing skis, available in STL and STEP formats for 3D printing.",
+    "price": 30.00,
+    "image": "/images/store/ski-rack.png"
+  },
+  {
+    "id": "cube-piggy-bank",
+    "name": "Cube Piggy Bank",
+    "description": "A customizable and openable piggy bank in the shape of a cube, ideal for personalizing with unique designs.",
+    "price": 20.00,
+    "image": "/images/store/salvadanaio.png"
+  },
+  {
+    "id": "customizable-jar",
+    "name": "Customizable Jar",
+    "description": "A fully customizable jar, perfect for personalizing in size and engraved text.",
+    "price": 10.00,
+    "image": "/images/store/barattolo.png"
+  },
+  {
+    "id": "wifi-qr-stand",
+    "name": "WiFi QR Stand",
+    "description": "A convenient stand with QR code for quick WiFi connection.",
+    "price": 15.00,
+    "image": "/images/store/wifi.png"
+  },
+  {
+    "id": "kaws-watch-holder",
+    "name": "KAWS Style Watch Holder",
+    "description": "A KAWS-style watch holder for organizing your watches with an artistic touch.",
+    "price": 25.00,
+    "image": "/images/store/kaws-watch.png"
+  },
+  {
+    "id": "cattelan-middle-finger-replica",
+    "name": "Cattelan Middle Finger Replica",
+    "description": "An artistic replica of Maurizio Cattelan's famous middle finger, a provocative and unique piece.",
+    "price": 30.00,
+    "image": "/images/store/fuck.png"
+  }
+]

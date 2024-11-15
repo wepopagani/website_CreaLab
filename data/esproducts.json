@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ski-rack",
+    "name": "Soporte de Esquí de Pared",
+    "description": "Soporte de pared para esquís, disponible en formatos STL y STEP para impresión 3D.",
+    "price": 30.00,
+    "image": "/images/store/ski-rack.png"
+  },
+  {
+    "id": "cube-piggy-bank",
+    "name": "Hucha en Forma de Cubo",
+    "description": "Una hucha personalizable y abierta en forma de cubo, ideal para personalizar con diseños únicos.",
+    "price": 20.00,
+    "image": "/images/store/salvadanaio.png"
+  },
+  {
+    "id": "customizable-jar",
+    "name": "Tarro Personalizable",
+    "description": "Un tarro totalmente personalizable, perfecto para personalizar en tamaño y texto grabado.",
+    "price": 10.00,
+    "image": "/images/store/barattolo.png"
+  },
+  {
+    "id": "wifi-qr-stand",
+    "name": "Soporte QR para WiFi",
+    "description": "Un soporte práctico con código QR para permitir la conexión rápida a la red WiFi.",
+    "price": 15.00,
+    "image": "/images/store/wifi.png"
+  },
+  {
+    "id": "kaws-watch-holder",
+    "name": "Soporte para Relojes Estilo KAWS",
+    "description": "Un soporte para relojes de estilo KAWS, para organizar tus relojes con un toque artístico.",
+    "price": 25.00,
+    "image": "/images/store/kaws-watch.png"
+  },
+  {
+    "id": "cattelan-middle-finger-replica",
+    "name": "Réplica del Dedo Medio de Cattelan",
+    "description": "Una réplica artística del famoso dedo medio de Maurizio Cattelan, una pieza provocadora y única.",
+    "price": 30.00,
+    "image": "/images/store/fuck.png"
+  }
+]

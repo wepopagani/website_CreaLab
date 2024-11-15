@@ -4,17 +4,16 @@
     {{ partial "head.html" . }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <style>
-        /* Stili specifici per la pagina del prodotto */
         .product-container { 
             max-width: 800px; 
             margin: 0 auto; 
             padding: 40px 20px; 
             color: #e0e0e0;
+            text-align: center;
         }
         .product-title { 
             font-size: 2.5em; 
             color: #ffffff; 
-            text-align: center; 
             margin-bottom: 20px; 
         }
         .product-image { 
@@ -32,21 +31,18 @@
             font-size: 1.5em; 
             color: #fff; 
             margin-bottom: 20px; 
-            text-align: center;
         }
-        .add-to-cart-btn { 
-            display: block; 
-            text-align: center; 
-            padding: 10px 20px; 
-            background-color: #4CAF50; 
-            color: #fff; 
-            font-size: 1.2em; 
-            border-radius: 5px; 
-            text-decoration: none; 
+        .add-to-cart-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            text-align: center;
             margin-top: 20px;
         }
-
-        /* Stili per la navbar mobile */
         .navbar-toggle {
             display: none;
         }
@@ -63,34 +59,32 @@
         }
     </style>
 </head>
-<body class="nk-body body-wider bg-theme-dark mode-onepage">
+<body class="pt-10 nk-body body-wider bg-theme-dark mode-onepage">
     <div class="nk-wrap">
         <!-- Navbar -->
-        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+        <header class="nk-header page-header is-transparent is-sticky is-dark" id="header">
             {{ partial "navbar.html" . }}
         </header>
 
         <main class="nk-pages">
-            <!-- Contenitore del prodotto -->
+            <!-- Contenitore del singolo prodotto -->
             <div class="product-container">
                 <!-- Titolo del prodotto -->
                 <h1 class="product-title">{{ .Title }}</h1>
-
+            
                 <!-- Immagine del prodotto -->
-                {{ with .Params.image }}
-                    <img src="{{ . }}" alt="{{ $.Title }}" class="product-image">
-                {{ end }}
-
+                <img src="{{ .Params.image }}" alt="{{ .Title }}" class="product-image">
+            
                 <!-- Prezzo del prodotto -->
                 <p class="product-price">CHF {{ .Params.price }}</p>
-
+            
                 <!-- Descrizione del prodotto -->
                 <div class="product-description">
                     {{ .Content }}
                 </div>
-
+            
                 <!-- Pulsante per aggiungere al carrello -->
-                <button class="btn btn-grad add-to-cart-btn snipcart-add-item"
+                <button class="btn-grad add-to-cart-btn snipcart-add-item"
                         data-item-id="{{ .File.BaseFileName }}"
                         data-item-name="{{ .Title }}"
                         data-item-price="{{ .Params.price }}"
@@ -99,14 +93,11 @@
                     Add to Cart
                 </button>
             </div>
+            
 
-            <!-- Background con particelle -->
-            <div id="particles-bg-12" class="particles-container particles-bg" 
-                data-pt-base="#a83232" data-pt-base-op=".7" 
-                data-pt-line="#b84545" data-pt-line-op=".7" 
-                data-pt-shape="#8b1f1f" data-pt-shape-op=".5"></div>
         </main>
 
+        <!-- Footer -->
         {{ partial "footer.html" . }}
     </div>
 
@@ -121,5 +112,10 @@
         });
     });
     </script>
+    <script async src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"></script>
+    <div hidden id="snipcart" data-api-key="Y2JhMjgxOWUtMGU1ZC00M2FlLWE5YmYtYzdhOTU0ZjU4YWYxNjM4NTU5NDM2ODkxNzA4NTE0"></div>
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css" />
+    
 </body>
 </html>
+

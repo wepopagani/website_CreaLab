@@ -1,7 +1,7 @@
 ---
 title: "Customizable Jar"
 description: "A fully customizable jar, perfect for personalizing in size and engraved text."
-price: "18.00"
+price: "10.00"
 image: "/images/store/barattolo.png"
 layout: "product"
 draft: false

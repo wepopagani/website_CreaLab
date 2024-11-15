@@ -1,7 +1,7 @@
 ---
 title: "Wall Ski Rack"
 description: "Wall-mounted ski rack for organizing skis, available in STL and STEP formats for 3D printing."
-price: "20.00"
+price: "30.00"
 image: "/images/store/ski-rack.png" 
 layout: "product"
 draft: false
