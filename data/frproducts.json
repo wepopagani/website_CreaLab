@@ -47,6 +47,54 @@
     "description": "Un magnifique ornement en forme de flocon de neige, parfait pour décorer votre maison ou votre sapin de Noël pendant les fêtes.",
     "price": 5.00,
     "image": "/images/store/snowflake.png"
-}
-
+  },
+  {
+    "id": "black-panther-mask",
+    "name": "Masque Black Panther",
+    "description": "Une réplique soigneusement conçue du masque de Black Panther, parfaite pour le cosplay ou l'exposition.",
+    "price": 250.00,
+    "image": "/images/store/blackpanther-mask.png"
+  },
+  {
+    "id": "deadpool-mask",
+    "name": "Masque Deadpool",
+    "description": "Une réplique vibrante du masque iconique de Deadpool, mêlant humour et héroïsme.",
+    "price": 250.00,
+    "image": "/images/store/deadpool-mask.png"
+  },
+  {
+    "id": "iron-man-mask",
+    "name": "Masque Iron Man",
+    "description": "Une réplique impressionnante du casque d'Iron Man, un incontournable pour tout fan de Marvel.",
+    "price": 250.00,
+    "image": "/images/store/ironman-mask.png"
+  },
+  {
+    "id": "wolverine-mask",
+    "name": "Masque Wolverine",
+    "description": "Une réplique féroce du masque de Wolverine, idéale pour les fans de ce mutant emblématique.",
+    "price": 175.00,
+    "image": "/images/store/wolverine-mask.png"
+  },
+  {
+    "id": "venom-statue",
+    "name": "Statue de Venom",
+    "description": "Une statue minutieusement détaillée de Venom, mettant en valeur la forme menaçante du symbiote.",
+    "price": 75.00,
+    "image": "/images/store/venom.png"
+  },
+  {
+    "id": "deadpool-bust",
+    "name": "Buste de Deadpool",
+    "description": "Un buste dynamique de Deadpool, mettant en valeur le charme iconique du mercenaire.",
+    "price": 60.00,
+    "image": "/images/store/deadpool.png"
+  },
+  {
+    "id": "venom-mask",
+    "name": "Masque Venom",
+    "description": "Une réplique fidèle du masque de Venom, capturant l'essence inquiétante du symbiote.",
+    "price": 250.00,
+    "image": "/images/store/venom-mask.png"
+  }
 ]

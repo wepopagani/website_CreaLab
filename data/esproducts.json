@@ -47,6 +47,54 @@
     "description": "Un adorno de copo de nieve bellamente diseñado, perfecto para decorar tu hogar o árbol de Navidad durante la temporada navideña.",
     "price": 5.00,
     "image": "/images/store/snowflake.png"
-}
-
+  },
+  {
+    "id": "black-panther-mask",
+    "name": "Máscara de Black Panther",
+    "description": "Una réplica exquisitamente diseñada de la máscara de Black Panther, perfecta para cosplay o exhibición.",
+    "price": 250.00,
+    "image": "/images/store/blackpanther-mask.png"
+  },
+  {
+    "id": "deadpool-mask",
+    "name": "Máscara de Deadpool",
+    "description": "Una vibrante réplica de la icónica máscara de Deadpool, que mezcla humor y heroísmo.",
+    "price": 250.00,
+    "image": "/images/store/deadpool-mask.png"
+  },
+  {
+    "id": "iron-man-mask",
+    "name": "Máscara de Iron Man",
+    "description": "Una impresionante réplica del casco de Iron Man, imprescindible para cualquier fan de Marvel.",
+    "price": 250.00,
+    "image": "/images/store/ironman-mask.png"
+  },
+  {
+    "id": "wolverine-mask",
+    "name": "Máscara de Wolverine",
+    "description": "Una feroz réplica de la máscara de Wolverine, ideal para los fanáticos del icónico mutante.",
+    "price": 175.00,
+    "image": "/images/store/wolverine-mask.png"
+  },
+  {
+    "id": "venom-statue",
+    "name": "Estatua de Venom",
+    "description": "Una estatua intrincadamente detallada de Venom, que muestra la forma amenazante del simbionte.",
+    "price": 75.00,
+    "image": "/images/store/venom.png"
+  },
+  {
+    "id": "deadpool-bust",
+    "name": "Busto de Deadpool",
+    "description": "Un dinámico busto de Deadpool, que muestra el icónico encanto del mercenario.",
+    "price": 60.00,
+    "image": "/images/store/deadpool.png"
+  },
+  {
+    "id": "venom-mask",
+    "name": "Máscara de Venom",
+    "description": "Una réplica fiel de la máscara de Venom, que captura la inquietante esencia del simbionte.",
+    "price": 250.00,
+    "image": "/images/store/venom-mask.png"
+  }
 ]
