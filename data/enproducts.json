@@ -40,5 +40,12 @@
     "description": "An artistic replica of Maurizio Cattelan's famous middle finger, a provocative and unique piece.",
     "price": 30.00,
     "image": "/images/store/fuck.png"
+  },
+  {
+    "id": "snowflake-decoration",
+    "name": "Snowflake Ornament",
+    "description": "A beautifully designed snowflake ornament, perfect for decorating your home or Christmas tree during the holiday season.",
+    "price": 5.00,
+    "image": "/images/store/snowflake.png"
   }
 ]

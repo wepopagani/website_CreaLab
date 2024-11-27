@@ -40,5 +40,13 @@
     "description": "Eine künstlerische Replik des berühmten Mittelfingers von Maurizio Cattelan, ein provokantes und einzigartiges Stück.",
     "price": 30.00,
     "image": "/images/store/fuck.png"
-  }
+  },
+  {
+    "id": "snowflake-decoration",
+    "name": "Schneeflocken-Ornament",
+    "description": "Ein wunderschön gestaltetes Schneeflocken-Ornament, perfekt zum Dekorieren Ihres Zuhauses oder Weihnachtsbaums während der Feiertage.",
+    "price": 5.00,
+    "image": "/images/store/snowflake.png"
+}
+
 ]

@@ -40,5 +40,13 @@
     "description": "Une réplique artistique du célèbre doigt d'honneur de Maurizio Cattelan, une pièce provocatrice et unique.",
     "price": 30.00,
     "image": "/images/store/fuck.png"
-  }
+  },
+  {
+    "id": "snowflake-decoration",
+    "name": "Ornement Flocon de Neige",
+    "description": "Un magnifique ornement en forme de flocon de neige, parfait pour décorer votre maison ou votre sapin de Noël pendant les fêtes.",
+    "price": 5.00,
+    "image": "/images/store/snowflake.png"
+}
+
 ]

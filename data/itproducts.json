@@ -40,5 +40,13 @@
     "description": "Una replica artistica del famoso dito medio di Maurizio Cattelan, un'opera provocatoria e unica.",
     "price": 30.00,
     "image": "/images/store/fuck.png"
-  }
+  },
+  {
+    "id": "snowflake-decoration",
+    "name": "Fiocco di Neve Decorativo",
+    "description": "Un bellissimo fiocco di neve decorativo, perfetto per abbellire la tua casa o l'albero di Natale durante le festività.",
+    "price": 5.00,
+    "image": "/images/store/snowflake.png"
+}
+
 ]

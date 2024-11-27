@@ -86,6 +86,13 @@
       <description>&lt;p&gt;This unique watch holder is inspired by the iconic KAWS style, adding a modern art touch to your watch collection. With a sturdy design and wide base, it provides a secure stand for your favorite watches, keeping your space organized and original. Ideal for lovers of contemporary design and collectible items.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Snowflake Ornament</title>
+      <link>http://localhost:1313/store/snowflake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/store/snowflake/</guid>
+      <description>&lt;p&gt;This snowflake ornament is ideal for adding a touch of elegance to your Christmas tree or home decorations during the holiday season. Carefully crafted, it is lightweight and easy to hang, yet durable enough to be used year after year. Its detailed design makes it a unique decoration, perfect for creating a magical and welcoming atmosphere.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>store</title>
       <link>http://localhost:1313/store/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -118,7 +125,7 @@
       <link>http://localhost:1313/store/wifi-qr-stand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/store/wifi-qr-stand/</guid>
-      <description>&lt;p&gt;Questo stand per QR code è perfetto per bar, ristoranti o ambienti di lavoro, consentendo agli ospiti di connettersi facilmente al WiFi. Basta scansionare il QR per accedere alla rete senza dover digitare la password. Realizzato in materiale resistente, è elegante e discreto, ideale per qualsiasi ambiente.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This QR code stand is perfect for bars, restaurants, or work environments, allowing guests to easily connect to WiFi. Simply scan the QR code to access the network without needing to type the password. Made from durable material, it is both elegant and discreet, ideal for any setting.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

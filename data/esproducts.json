@@ -40,5 +40,13 @@
     "description": "Una réplica artística del famoso dedo medio de Maurizio Cattelan, una pieza provocadora y única.",
     "price": 30.00,
     "image": "/images/store/fuck.png"
-  }
+  },
+  {
+    "id": "snowflake-decoration",
+    "name": "Adorno de Copo de Nieve",
+    "description": "Un adorno de copo de nieve bellamente diseñado, perfecto para decorar tu hogar o árbol de Navidad durante la temporada navideña.",
+    "price": 5.00,
+    "image": "/images/store/snowflake.png"
+}
+
 ]
