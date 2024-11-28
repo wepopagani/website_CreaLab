@@ -42,56 +42,56 @@
     "image": "/images/store/fuck.png"
   },
   {
-    "id": "snowflake-decoration",
+    "id": "snowflake",
     "name": "Snowflake Ornament",
     "description": "A beautifully designed snowflake ornament, perfect for decorating your home or Christmas tree during the holiday season.",
     "price": 5.00,
     "image": "/images/store/snowflake.png"
   },
   {
-    "id": "black-panther-mask",
+    "id": "blackpanther-mask",
     "name": "Black Panther Mask",
     "description": "An exquisitely designed replica of the Black Panther mask, perfect for cosplay or display.",
     "price": 250.00,
     "image": "/images/store/blackpanther-mask.png"
   },
   {
-    "id": "deadpool-mask",
+    "id": "deadpool-helmet",
     "name": "Deadpool Mask",
     "description": "A vibrant replica of Deadpool's iconic mask, blending humor and heroism.",
     "price": 250.00,
     "image": "/images/store/deadpool-mask.png"
   },
   {
-    "id": "iron-man-mask",
+    "id": "ironman-helmet",
     "name": "Iron Man Mask",
     "description": "A stunning replica of Iron Man's helmet, a must-have for any Marvel fan.",
     "price": 250.00,
     "image": "/images/store/ironman-mask.png"
   },
   {
-    "id": "wolverine-mask",
+    "id": "wolverine-helmet",
     "name": "Wolverine Mask",
     "description": "A fierce replica of Wolverine's mask, ideal for fans of the iconic mutant.",
     "price": 175.00,
     "image": "/images/store/wolverine-mask.png"
   },
   {
-    "id": "venom-statue",
+    "id": "venom-statuette",
     "name": "Venom Statue",
     "description": "An intricately detailed statue of Venom, showcasing the symbiote's menacing form.",
     "price": 75.00,
     "image": "/images/store/venom.png"
   },
   {
-    "id": "deadpool-bust",
+    "id": "deadpool-statuette",
     "name": "Deadpool Bust",
     "description": "A dynamic bust of Deadpool, showcasing the mercenary's iconic charm.",
     "price": 60.00,
     "image": "/images/store/deadpool.png"
   },
   {
-    "id": "venom-mask",
+    "id": "venom-helmet",
     "name": "Venom Mask",
     "description": "A faithful replica of Venom's mask, capturing the symbiote's eerie essence.",
     "price": 250.00,
